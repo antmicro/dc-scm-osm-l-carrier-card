@@ -1,0 +1,34 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "404a36f3-0e23-4fbf-960a-1eef8a3f3716")
+	(paper "A3")
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(hierarchical_label "USB1{USB}"
+		(shape input)
+		(at 90.17 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c5a861c-9106-4b34-b86a-51eef1860f43")
+	)
+	(hierarchical_label "USB0{USB}"
+		(shape input)
+		(at 90.17 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa8b64ee-0126-49d2-8fec-52152679bb21")
+	)
+)

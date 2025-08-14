@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6ef1a07c-cc31-481e-882a-ba31fdf83f94")
+	(paper "A3")
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+)

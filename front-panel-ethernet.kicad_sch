@@ -1,0 +1,23 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dcbe0844-0783-4f11-adcd-518db4caec47")
+	(paper "A3")
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(hierarchical_label "ETHERNET{ETHERNET}"
+		(shape bidirectional)
+		(at 82.55 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7adfad57-e7d2-4636-af15-c5c4d3d85271")
+	)
+)

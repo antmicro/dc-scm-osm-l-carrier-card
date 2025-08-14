@@ -1,0 +1,23 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5ac84f69-9879-4fa6-8b0e-14f7ab659d21")
+	(paper "A3")
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(hierarchical_label "TPM_SPI{SPI}"
+		(shape bidirectional)
+		(at 53.34 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a09c25b4-768b-4e89-93ac-158cffb8d6d0")
+	)
+)

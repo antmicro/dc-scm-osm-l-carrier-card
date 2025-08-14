@@ -1,0 +1,23 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3cc391a4-8c4f-4c90-8c98-ebf32aebbf1b")
+	(paper "A3")
+	(lib_symbols)
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(rev "1.0.0")
+	)
+	(hierarchical_label "DP{DP}"
+		(shape output)
+		(at 66.04 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cd84c07-22de-4cd7-8def-08efaa021350")
+	)
+)
