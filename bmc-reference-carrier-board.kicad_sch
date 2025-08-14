@@ -11,8 +11,500 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 83.82 99.06)
-		(size 21.59 27.94)
+		(at 119.38 82.55)
+		(size 30.48 142.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0308a015-04c7-4144-996d-883c1c8852e3")
+		(property "Sheetname" "OSM L Low speed+Power"
+			(at 119.38 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l.kicad_sch"
+			(at 119.38 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_UART_A{UART}" bidirectional
+			(at 119.38 87.63 180)
+			(uuid "22120047-45ae-4fea-a406-7e9a447f0ba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_UART_B{UART}" bidirectional
+			(at 119.38 90.17 180)
+			(uuid "15a37e18-fdf8-4452-8ae1-8b29d65bb8e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_UART_C{UART}" bidirectional
+			(at 119.38 105.41 180)
+			(uuid "62aae0b0-5f66-4c0b-8fce-396eb79321f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_SPI_A{QSPI}" bidirectional
+			(at 119.38 151.13 180)
+			(uuid "8d87b121-6c8c-4af3-8236-6491779807ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_SPI_B{SPI}" bidirectional
+			(at 119.38 153.67 180)
+			(uuid "bcafe38f-c617-4d2b-8a22-f989059f0886")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_SPI_C{SPI}" bidirectional
+			(at 119.38 92.71 180)
+			(uuid "c3e46aeb-8ef9-4539-8243-f782d1f1a588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_I2C_A{I2C}" bidirectional
+			(at 119.38 156.21 180)
+			(uuid "9da9f8a8-1334-4b23-a4c2-1cb8523f5c17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_I2C_B{I2C}" bidirectional
+			(at 119.38 163.83 180)
+			(uuid "db218ebd-a7a1-412b-8460-bea6cdcbb22d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_JTAG{JTAG}" bidirectional
+			(at 119.38 127 180)
+			(uuid "34273a20-eb6a-46c6-9c10-f1f2b59010d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_UART_CON{UART}" bidirectional
+			(at 119.38 85.09 180)
+			(uuid "ac071f70-8ac2-44ff-b458-845219a4ece3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 133.35)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "399a1a51-73d9-444e-a942-9b76d9f74553")
+		(property "Sheetname" "OSM L Ethernet"
+			(at 193.04 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_ethernet.kicad_sch"
+			(at 193.04 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_ETH_A{RGMII}" bidirectional
+			(at 223.52 135.89 0)
+			(uuid "50bfdb8c-4817-41cc-a3a9-d61d85bd1ba8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_ETH_B{NC-SI}" bidirectional
+			(at 223.52 138.43 0)
+			(uuid "f8f0c9b0-1eae-49e5-83fa-96f31306476f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_ETH_C{SGMII}" bidirectional
+			(at 223.52 140.97 0)
+			(uuid "427b2757-ed1c-4f77-89f5-9738b3205c7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 179.07)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b11a08b-6c14-40a1-afda-248395cbd753")
+		(property "Sheetname" "OSM L LVDS+SDIO+UFS"
+			(at 193.04 178.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_lvds_sdio_ufs.kicad_sch"
+			(at 193.04 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_SDIO_A{SDIO}" bidirectional
+			(at 223.52 181.61 0)
+			(uuid "d1a008d6-c2a3-46f3-916b-e3507665e4b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 77.47)
+		(size 30.48 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66916577-745b-49eb-8914-4c364a90ec7d")
+		(property "Sheetname" "OSM L PCIe"
+			(at 193.04 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_pcie.kicad_sch"
+			(at 193.04 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{PCIe_CLKREQ}" input
+			(at 223.52 95.25 0)
+			(uuid "246e6e5d-2855-49a5-9aac-d822f7c286dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIe_SM_ALERT}" input
+			(at 223.52 97.79 0)
+			(uuid "fa3ce2d2-b0ce-4d74-b7f9-3027049b9be9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIe_WAKE}" input
+			(at 223.52 100.33 0)
+			(uuid "697eb217-83c7-4f8f-afdc-e7619c4df79c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK_{REFIN}{PCIeREFCLK}" output
+			(at 223.52 90.17 0)
+			(uuid "9f47b395-cb0f-47c1-b846-c5ae995cbb24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK_{REFOUT}{PCIeREFCLK}" input
+			(at 223.52 87.63 0)
+			(uuid "5802581b-4d80-4bba-b1fa-fb732c361b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_PCIe_A{PCIE}" bidirectional
+			(at 223.52 80.01 0)
+			(uuid "d1c77a11-5a56-4f31-8e9e-5d15c96d0dd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_PCIe_B{PCIE}" bidirectional
+			(at 223.52 82.55 0)
+			(uuid "2cbc7ce0-f18c-465d-8df8-a8ef65459bb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 158.75)
+		(size 30.48 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a868d6c-b9bc-4c36-9b63-5874c35f0cf4")
+		(property "Sheetname" "OSM L Cam+Video"
+			(at 193.04 158.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_cam_vid.kicad_sch"
+			(at 193.04 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_DSI{DSI}" input
+			(at 223.52 161.29 0)
+			(uuid "2010720a-1180-4e9a-bbf1-f314530ecf72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 110.49)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b70ae044-8357-4920-9f48-8262422cc81c")
+		(property "Sheetname" "OSM L USB"
+			(at 193.04 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_usb.kicad_sch"
+			(at 193.04 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_USB_A{USB}" bidirectional
+			(at 223.52 113.03 0)
+			(uuid "fa3c83c4-8d17-4242-8595-b9950da24604")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_USB_C_SS{USBSS}" bidirectional
+			(at 223.52 115.57 0)
+			(uuid "3aea020d-38fb-4e63-ac3f-ecf07c818f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 250.19)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +519,7 @@
 		)
 		(uuid "ca214ec5-42cf-4efd-9251-fb98a8d45893")
 		(property "Sheetname" "DC-SCM 2.1 connector"
-			(at 83.82 98.3484 0)
+			(at 25.4 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +528,7 @@
 			)
 		)
 		(property "Sheetfile" "dc-scm-connector.kicad_sch"
-			(at 83.82 127.5846 0)
+			(at 25.4 276.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
