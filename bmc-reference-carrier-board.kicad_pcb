@@ -2878,5 +2878,38 @@
 		(layer "Edge.Cuts")
 		(uuid "fef61453-95e4-4569-beba-7b7c76ff46c1")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "Edge.Cuts")
+		(uuid "512cb1d3-d4b4-4db3-978e-83631fd7331b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/DC-SCM 2.1 connector/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 215.45 43.758) (xy 102 43.75) (xy 102 55) (xy 102 128.25) (xy 215.45 128.25) (xy 215.45 131)
+				(xy 95.05 131) (xy 95.05 41) (xy 215.45 41)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
