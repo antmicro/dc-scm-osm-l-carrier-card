@@ -12403,7 +12403,7 @@
 		(uuid "451dfca0-9f87-4cfc-ba70-05c056c3b3f1")
 	)
 	(hierarchical_label "CLK_{REFOUT}{PCIeREFCLK}"
-		(shape input)
+		(shape output)
 		(at 158.75 120.65 180)
 		(effects
 			(font
@@ -12458,7 +12458,7 @@
 		(uuid "cfe39896-4b0d-4f3f-b697-b6573b1a9cff")
 	)
 	(hierarchical_label "CLK_{REFIN}{PCIeREFCLK}"
-		(shape output)
+		(shape input)
 		(at 158.75 123.19 180)
 		(effects
 			(font

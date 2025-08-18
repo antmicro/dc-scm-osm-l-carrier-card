@@ -9,4 +9,15 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(hierarchical_label "SDIO{SDIO}"
+		(shape bidirectional)
+		(at 142.24 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "431c9e98-0961-4d57-84f3-0460dcbd3283")
+	)
 )

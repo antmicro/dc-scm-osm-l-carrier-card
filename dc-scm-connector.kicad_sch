@@ -6829,6 +6829,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 86.36) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed75e3c-53ff-4b6c-9db9-90799351e892")
+	)
+	(wire
+		(pts
 			(xy 71.12 91.44) (xy 69.85 91.44)
 		)
 		(stroke
@@ -6890,6 +6900,17 @@
 			(justify right)
 		)
 		(uuid "1cfd0080-ef6c-4712-9d57-2d093c24eb80")
+	)
+	(hierarchical_label "DC-SCM_PCIe1{PCIE}"
+		(shape bidirectional)
+		(at 342.9 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27202882-a57c-42a1-9d9f-f71d57954139")
 	)
 	(hierarchical_label "DC_SCM_I2C14{I2C}"
 		(shape bidirectional)
@@ -7034,6 +7055,17 @@
 		)
 		(uuid "60f3ad17-7aad-47d3-bcdc-17d44b64ed50")
 	)
+	(hierarchical_label "DC-SCM_PCIE_CLK_S5{PCIeREFCLK}"
+		(shape input)
+		(at 342.9 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68387519-6d6f-4e78-ae0a-a16aa6736ad2")
+	)
 	(hierarchical_label "DC_SCM_UART{UART}"
 		(shape bidirectional)
 		(at 138.43 68.58 0)
@@ -7045,6 +7077,17 @@
 		)
 		(uuid "6d69a7ed-4d90-48d2-8502-21f267532b0a")
 	)
+	(hierarchical_label "DC-SCM_PCIe{slash}USB_SCMROOT{PCIE}"
+		(shape bidirectional)
+		(at 342.9 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a5225f7-fa8a-46c4-b972-8c2ec85522d1")
+	)
 	(hierarchical_label "DC_SCM_12V_AUX"
 		(shape output)
 		(at 59.69 48.26 180)
@@ -7055,6 +7098,17 @@
 			(justify right)
 		)
 		(uuid "7c5d59c0-ec81-4e47-be14-93d2b1323207")
+	)
+	(hierarchical_label "DC_SCM_INTRUSION_N"
+		(shape output)
+		(at 59.69 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "837b9566-37ef-4f7b-956e-cdc35089203d")
 	)
 	(hierarchical_label "DC_SCM_TPM_SPI{SPI}"
 		(shape bidirectional)
@@ -7122,6 +7176,17 @@
 		)
 		(uuid "a01249e7-b7d5-4fb5-9ff9-990a67a0e2f1")
 	)
+	(hierarchical_label "DC-SCM_PCIe0{PCIE}"
+		(shape bidirectional)
+		(at 342.9 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3d0f1fc-95aa-411f-848b-0bc7ab6ceec1")
+	)
 	(hierarchical_label "DC_SCM_I2C15{I2C}"
 		(shape bidirectional)
 		(at 140.97 148.59 0)
@@ -7166,7 +7231,7 @@
 		)
 		(uuid "c222566c-f3b1-442a-aca4-a4373caa6cb8")
 	)
-	(hierarchical_label "DC_SCM_NCSI{NCSI}"
+	(hierarchical_label "DC_SCM_NC-SI{NC-SI}"
 		(shape bidirectional)
 		(at 262.89 205.74 180)
 		(effects
@@ -7187,6 +7252,17 @@
 			(justify right)
 		)
 		(uuid "d432e7df-0f93-46a9-8a0c-00a78074d36c")
+	)
+	(hierarchical_label "DC-SCM_PCIE_CLK_S0{PCIeREFCLK}"
+		(shape output)
+		(at 342.9 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4bc1688-7c22-403a-a940-54342f590df7")
 	)
 	(hierarchical_label "DC_SCM_SPI_SCMCNTRL{SPI}"
 		(shape bidirectional)
@@ -7556,6 +7632,7 @@
 		)
 		(pin "A68"
 			(uuid "e7b0c772-1eb4-44db-aded-f0341eff3e5c")
+			(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DN")
 		)
 		(pin "B25"
 			(uuid "51a20989-a87c-410c-8a67-e457a5ca7081")
@@ -7577,6 +7654,7 @@
 		)
 		(pin "A69"
 			(uuid "3d7dcf4d-f1d6-47a9-8e6e-9f68802dbeb3")
+			(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DP")
 		)
 		(pin "OB1"
 			(uuid "b0afc661-528d-4a7e-abcb-54e0b5920bae")

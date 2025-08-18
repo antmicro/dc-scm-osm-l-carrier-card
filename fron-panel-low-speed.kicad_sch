@@ -9,4 +9,70 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(hierarchical_label "JTAG{JTAG}"
+		(shape bidirectional)
+		(at 121.92 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48aaa7e1-0d50-4843-8eac-3ac22366bcc5")
+	)
+	(hierarchical_label "UART1{UART}"
+		(shape bidirectional)
+		(at 121.92 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4203c6a-8fe6-410b-99b2-4a1538d5209b")
+	)
+	(hierarchical_label "LED0"
+		(shape input)
+		(at 121.92 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c21dffe0-bd3b-4008-90bf-0330dd27e06e")
+	)
+	(hierarchical_label "UART0{UART}"
+		(shape bidirectional)
+		(at 121.92 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0a1c695-ef4d-45a1-b2cc-9fe91a3b1ae6")
+	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 121.92 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0ec1584-808f-4e0d-aee3-02e2d4f504c5")
+	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 121.92 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f729a923-dcb4-4c04-9513-89f47f978dbe")
+	)
 )
