@@ -12339,6 +12339,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 166.37 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b0f296-ed75-4888-8163-29c4ae99af2d")
+	)
 	(hierarchical_label "OSM_UART_B{UART}"
 		(shape bidirectional)
 		(at 363.22 86.36 0)
@@ -12404,6 +12414,17 @@
 			(justify left)
 		)
 		(uuid "ac9dc903-ecee-4332-a00c-aba8b3faa7ab")
+	)
+	(hierarchical_label "OSM_RTC_PWR"
+		(shape input)
+		(at 166.37 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b07ba1b3-e1ac-4867-ac31-0ac542157239")
 	)
 	(hierarchical_label "OSM_SPI_B{SPI}"
 		(shape bidirectional)
