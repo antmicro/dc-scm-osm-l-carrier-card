@@ -973,7 +973,7 @@
 			)
 		)
 		(pin "~{PCIe_CLKREQ}" input
-			(at 147.32 132.08 180)
+			(at 147.32 135.89 180)
 			(uuid "246e6e5d-2855-49a5-9aac-d822f7c286dd")
 			(effects
 				(font
@@ -983,7 +983,7 @@
 			)
 		)
 		(pin "~{PCIe_SM_ALERT}" input
-			(at 147.32 134.62 180)
+			(at 147.32 138.43 180)
 			(uuid "fa3ce2d2-b0ce-4d74-b7f9-3027049b9be9")
 			(effects
 				(font
@@ -993,7 +993,7 @@
 			)
 		)
 		(pin "~{PCIe_WAKE}" input
-			(at 147.32 137.16 180)
+			(at 147.32 140.97 180)
 			(uuid "697eb217-83c7-4f8f-afdc-e7619c4df79c")
 			(effects
 				(font
@@ -1003,7 +1003,7 @@
 			)
 		)
 		(pin "CLK_{REFIN}{PCIeREFCLK}" output
-			(at 147.32 128.27 180)
+			(at 147.32 132.08 180)
 			(uuid "9f47b395-cb0f-47c1-b846-c5ae995cbb24")
 			(effects
 				(font
@@ -1013,7 +1013,7 @@
 			)
 		)
 		(pin "CLK_{REFOUT}{PCIeREFCLK}" input
-			(at 147.32 125.73 180)
+			(at 147.32 129.54 180)
 			(uuid "5802581b-4d80-4bba-b1fa-fb732c361b50")
 			(effects
 				(font
@@ -1035,6 +1035,26 @@
 		(pin "OSM_PCIe_B{PCIE}" bidirectional
 			(at 147.32 121.92 180)
 			(uuid "2cbc7ce0-f18c-465d-8df8-a8ef65459bb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_PCIe_C{PCIE}" bidirectional
+			(at 147.32 124.46 180)
+			(uuid "ef313187-c955-4a62-b104-8a442aef9785")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_PCIe_D{PCIE}" bidirectional
+			(at 147.32 127 180)
+			(uuid "7bb3721b-55b2-4809-beaf-c1f70d0f4ab8")
 			(effects
 				(font
 					(size 1.27 1.27)

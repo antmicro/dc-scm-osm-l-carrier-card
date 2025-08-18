@@ -12369,6 +12369,28 @@
 		)
 		(uuid "e83b0918-dadf-4e4f-9dda-be5f222db2da")
 	)
+	(hierarchical_label "OSM_PCIe_C{PCIE}"
+		(shape bidirectional)
+		(at 330.2 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "183b7c3f-99bc-437b-abb8-e9c08355b1b8")
+	)
+	(hierarchical_label "OSM_PCIe_D{PCIE}"
+		(shape bidirectional)
+		(at 330.2 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2517bc66-94b8-4833-8a1e-f737393a0de4")
+	)
 	(hierarchical_label "OSM_PCIe_A{PCIE}"
 		(shape bidirectional)
 		(at 177.8 128.27 180)
