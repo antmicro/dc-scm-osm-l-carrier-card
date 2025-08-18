@@ -6891,7 +6891,7 @@
 		)
 		(uuid "1cfd0080-ef6c-4712-9d57-2d093c24eb80")
 	)
-	(hierarchical_label "DC_SCM_I2C2{I2C}"
+	(hierarchical_label "DC_SCM_I2C14{I2C}"
 		(shape bidirectional)
 		(at 140.97 142.24 0)
 		(effects
@@ -6967,6 +6967,17 @@
 			(justify right)
 		)
 		(uuid "55bb7bdb-3d0e-4432-aa98-4fb7641b4588")
+	)
+	(hierarchical_label "DC_SCM_I2C16{I2C}"
+		(shape bidirectional)
+		(at 140.97 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59d86827-fcb2-45c4-bb94-2fdd6c4c0450")
 	)
 	(hierarchical_label "DC_SCM_ESPI{ESPI}"
 		(shape bidirectional)
@@ -7078,6 +7089,17 @@
 		)
 		(uuid "94a54e00-81a4-4a11-a53c-e86aebddfc90")
 	)
+	(hierarchical_label "DC_SCM_I2C17{I2C}"
+		(shape bidirectional)
+		(at 140.97 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9518bf71-f7ec-41ff-a9d6-24fe0c7b2435")
+	)
 	(hierarchical_label "DC_SCM_I2C9{I2C}"
 		(shape bidirectional)
 		(at 54.61 186.69 180)
@@ -7089,6 +7111,28 @@
 		)
 		(uuid "974f4335-8c3b-4e48-ac5a-f502043dbfe9")
 	)
+	(hierarchical_label "DC_SCM_I2C18{I2C}"
+		(shape bidirectional)
+		(at 140.97 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a01249e7-b7d5-4fb5-9ff9-990a67a0e2f1")
+	)
+	(hierarchical_label "DC_SCM_I2C15{I2C}"
+		(shape bidirectional)
+		(at 140.97 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2fa64dc-6f2b-487f-8974-5b760ae032d0")
+	)
 	(hierarchical_label "DC_SCM_PECI{PECI}"
 		(shape bidirectional)
 		(at 138.43 53.34 0)
@@ -7099,6 +7143,17 @@
 			(justify left)
 		)
 		(uuid "be33d9d3-66e2-4ee7-b91c-a242f78c7f3f")
+	)
+	(hierarchical_label "DC_SCM_I2C19{I2C}"
+		(shape bidirectional)
+		(at 140.97 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf57a21b-e097-461f-9a02-23894fa6a351")
 	)
 	(hierarchical_label "DC_SCM_I2C8{I2C}"
 		(shape bidirectional)
@@ -7135,7 +7190,7 @@
 	)
 	(hierarchical_label "DC_SCM_SPI_SCMCNTRL{SPI}"
 		(shape bidirectional)
-		(at 151.13 195.58 0)
+		(at 139.7 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9281,6 +9336,7 @@
 		)
 		(pin "B56"
 			(uuid "6a881b0d-b83c-4ba0-93fb-6ee12bedc3c4")
+			(alternate "UART1_SCM_HPM_DATA_")
 		)
 		(pin "B60"
 			(uuid "d42c4015-0b3b-4ec9-80b7-e321b4ca0ecd")
@@ -9528,6 +9584,7 @@
 		)
 		(pin "B57"
 			(uuid "4580aeb9-8d4c-4c2f-a560-8a947b6e07c4")
+			(alternate "UART1_HPM_SCM_DATA_")
 		)
 		(pin "A56"
 			(uuid "2dc516e9-58e4-49ac-9ac6-55c939b1865a")

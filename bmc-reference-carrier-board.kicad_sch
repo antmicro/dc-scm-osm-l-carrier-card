@@ -321,7 +321,7 @@
 		(uuid "fc3c4cdc-28e2-4b80-acb7-dc314e0c34a3")
 	)
 	(sheet
-		(at 74.93 93.98)
+		(at 91.44 106.68)
 		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -337,7 +337,7 @@
 		)
 		(uuid "02dc288a-88ee-45fa-83b7-00b3500b0ccd")
 		(property "Sheetname" "PCIe - USB Mux"
-			(at 74.93 93.2684 0)
+			(at 91.44 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +346,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-usb-mux.kicad_sch"
-			(at 74.93 109.8046 0)
+			(at 91.44 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1447,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C13{I2C}" bidirectional
-			(at 58.42 160.02 0)
+			(at 58.42 140.97 0)
 			(uuid "c313ae88-d218-4dae-a7ff-564ab3bc33e1")
 			(effects
 				(font
@@ -1457,7 +1457,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C5{I2C}" bidirectional
-			(at 58.42 143.51 0)
+			(at 58.42 124.46 0)
 			(uuid "87328b3f-d684-40f2-bcec-d1faf2df991e")
 			(effects
 				(font
@@ -1467,7 +1467,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C6{I2C}" bidirectional
-			(at 58.42 146.05 0)
+			(at 58.42 127 0)
 			(uuid "f9db5c3a-5c96-4e8a-81be-65c90555ede1")
 			(effects
 				(font
@@ -1497,7 +1497,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C2{I2C}" bidirectional
-			(at 58.42 135.89 0)
+			(at 58.42 116.84 0)
 			(uuid "7f8caf86-3f7d-4193-b610-f0aa07313de1")
 			(effects
 				(font
@@ -1527,7 +1527,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C0{I2C}" bidirectional
-			(at 58.42 130.81 0)
+			(at 58.42 111.76 0)
 			(uuid "3a7e599e-ce28-435f-ac51-b09eb607e3d6")
 			(effects
 				(font
@@ -1537,7 +1537,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C1{I2C}" bidirectional
-			(at 58.42 133.35 0)
+			(at 58.42 114.3 0)
 			(uuid "d8d53f66-ac64-47bb-be93-9763cb40de43")
 			(effects
 				(font
@@ -1547,7 +1547,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C8{I2C}" bidirectional
-			(at 58.42 151.13 0)
+			(at 58.42 132.08 0)
 			(uuid "8d1775c4-8845-4cef-85e2-c7e499b47304")
 			(effects
 				(font
@@ -1557,7 +1557,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C9{I2C}" bidirectional
-			(at 58.42 153.67 0)
+			(at 58.42 134.62 0)
 			(uuid "25d6403a-53f5-4b1d-9e05-1ae495fa31af")
 			(effects
 				(font
@@ -1567,7 +1567,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C4{I2C}" bidirectional
-			(at 58.42 140.97 0)
+			(at 58.42 121.92 0)
 			(uuid "ea765616-bdca-435e-a9c5-e3f07386dd65")
 			(effects
 				(font
@@ -1577,7 +1577,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C3{I2C}" bidirectional
-			(at 58.42 138.43 0)
+			(at 58.42 119.38 0)
 			(uuid "e7a9c941-e505-4596-b120-9daffc4a1ea0")
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C7{I2C}" bidirectional
-			(at 58.42 148.59 0)
+			(at 58.42 129.54 0)
 			(uuid "b549a94e-fea2-4fd0-856f-861a1687cb8d")
 			(effects
 				(font
@@ -1607,7 +1607,7 @@
 			)
 		)
 		(pin "DC_SCM_I2C12{I2C}" bidirectional
-			(at 58.42 157.48 0)
+			(at 58.42 138.43 0)
 			(uuid "403d1393-f79f-4f24-ad0f-a62252b4295d")
 			(effects
 				(font
@@ -1729,6 +1729,66 @@
 		(pin "DC_SCM_SPI_SCMCNTRL{SPI}" bidirectional
 			(at 58.42 208.28 0)
 			(uuid "c4360e40-6052-4c24-8062-70f58d68ca9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C14{I2C}" bidirectional
+			(at 58.42 143.51 0)
+			(uuid "c4c43a1d-09b1-4825-a86f-25d0a8d77345")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C15{I2C}" bidirectional
+			(at 58.42 146.05 0)
+			(uuid "14e07aa4-d43d-41fc-8ccc-7fea65a7b6d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C16{I2C}" bidirectional
+			(at 58.42 148.59 0)
+			(uuid "4f76d89d-87ac-4128-bd96-4b5c377ea515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C17{I2C}" bidirectional
+			(at 58.42 151.13 0)
+			(uuid "35bb29ee-7d4e-418a-a7d4-b56c24d63552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C18{I2C}" bidirectional
+			(at 58.42 153.67 0)
+			(uuid "fdef8758-2935-4428-960e-4e2b46056b0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C19{I2C}" bidirectional
+			(at 58.42 156.21 0)
+			(uuid "06f91e55-f44e-4bd8-9845-337d9475a19c")
 			(effects
 				(font
 					(size 1.27 1.27)
