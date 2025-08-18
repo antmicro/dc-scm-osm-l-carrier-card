@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7036e6d2-57df-43b8-95f5-a4dcb614f48e")
+	(paper "A3")
+	(lib_symbols)
+	(hierarchical_label "QSPI{QSPI}"
+		(shape bidirectional)
+		(at 140.97 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28f61c9f-82cd-4bc1-b494-1a110fc012a1")
+	)
+	(hierarchical_label "e{slash}QSPI{QSPI}"
+		(shape bidirectional)
+		(at 176.53 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71e7b13e-a69b-4366-a103-26de6c8f5690")
+	)
+	(hierarchical_label "eSPI_ALERT"
+		(shape bidirectional)
+		(at 176.53 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d33fbed-cf3e-455b-a14f-a2c113914251")
+	)
+	(hierarchical_label "ESPI{ESPI}"
+		(shape bidirectional)
+		(at 140.97 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b11a6baa-cf0d-4e3d-bd95-40004599f3c5")
+	)
+)

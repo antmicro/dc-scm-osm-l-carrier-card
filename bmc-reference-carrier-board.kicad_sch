@@ -82,6 +82,16 @@
 	)
 	(bus
 		(pts
+			(xy 58.42 194.31) (xy 77.47 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd074f5-a5f9-4ca2-8769-6a60d4553378")
+	)
+	(bus
+		(pts
 			(xy 58.42 208.28) (xy 146.05 208.28)
 		)
 		(stroke
@@ -220,6 +230,16 @@
 		)
 		(uuid "94a61d32-e542-4488-b705-9b730ad24dde")
 	)
+	(bus
+		(pts
+			(xy 111.76 194.31) (xy 146.05 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ff9c26-a0ab-4ab8-9c88-a33fb55e955c")
+	)
 	(wire
 		(pts
 			(xy 63.5 261.62) (xy 58.42 261.62)
@@ -289,6 +309,16 @@
 			(type default)
 		)
 		(uuid "e05a1178-2f95-4b8d-a799-8e5b70f91032")
+	)
+	(bus
+		(pts
+			(xy 58.42 196.85) (xy 77.47 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1be87b2-827b-4d85-8b13-47eab2927f53")
 	)
 	(wire
 		(pts
@@ -427,7 +457,7 @@
 			)
 		)
 		(pin "OSM_SPI_A{QSPI}" bidirectional
-			(at 146.05 199.39 180)
+			(at 146.05 194.31 180)
 			(uuid "8d87b121-6c8c-4af3-8236-6491779807ce")
 			(effects
 				(font
@@ -457,7 +487,7 @@
 			)
 		)
 		(pin "OSM_I2C_A{I2C}" bidirectional
-			(at 146.05 191.77 180)
+			(at 146.05 184.15 180)
 			(uuid "9da9f8a8-1334-4b23-a4c2-1cb8523f5c17")
 			(effects
 				(font
@@ -467,7 +497,7 @@
 			)
 		)
 		(pin "OSM_I2C_B{I2C}" bidirectional
-			(at 146.05 195.58 180)
+			(at 146.05 187.96 180)
 			(uuid "db218ebd-a7a1-412b-8460-bea6cdcbb22d")
 			(effects
 				(font
@@ -1437,7 +1467,7 @@
 			)
 		)
 		(pin "DC_SCM_QSPI{QSPI}" bidirectional
-			(at 58.42 254 0)
+			(at 58.42 196.85 0)
 			(uuid "d8a70b55-03da-467d-bf44-c5b865a02cd2")
 			(effects
 				(font
@@ -1637,7 +1667,7 @@
 			)
 		)
 		(pin "DC_SCM_ESPI{ESPI}" bidirectional
-			(at 58.42 182.88 0)
+			(at 58.42 194.31 0)
 			(uuid "ffce6497-caf9-4b7e-88bf-88ad29429dc6")
 			(effects
 				(font
@@ -1800,6 +1830,88 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 191.77)
+		(size 34.29 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e532ae7c-55b4-427b-a317-9e407e1b3e94")
+		(property "Sheetname" "eSPI - QSPI Mux"
+			(at 77.47 191.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "espi-qspi-mux.kicad_sch"
+			(at 77.47 199.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESPI{ESPI}" bidirectional
+			(at 77.47 194.31 180)
+			(uuid "f2279452-6a82-4466-a516-33f8fcba08c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "e{slash}QSPI{QSPI}" bidirectional
+			(at 111.76 194.31 0)
+			(uuid "2bd3c3bd-64a5-470a-bdb9-c5d20eb00779")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QSPI{QSPI}" bidirectional
+			(at 77.47 196.85 180)
+			(uuid "4cdb82ee-a483-4a14-9e93-bc84ede384b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "eSPI_ALERT" bidirectional
+			(at 111.76 196.85 0)
+			(uuid "b59fadd3-4d1b-4bea-a7af-19681df37f17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "20")
 				)
 			)
 		)

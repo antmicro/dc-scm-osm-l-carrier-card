@@ -714,6 +714,10 @@
     [
       "3d29c412-58cb-45c0-928a-e05b1352002d",
       "Power"
+    ],
+    [
+      "e532ae7c-55b4-427b-a317-9e407e1b3e94",
+      "eSPI - QSPI Mux"
     ]
   ],
   "text_variables": {}
