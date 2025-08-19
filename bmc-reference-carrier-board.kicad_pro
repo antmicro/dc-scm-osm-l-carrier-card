@@ -648,30 +648,6 @@
       "DC-SCM 2.1 connector"
     ],
     [
-      "a304a820-6391-4aaf-b855-bef367190c9a",
-      "OSM L Cam+Video"
-    ],
-    [
-      "e8b6d898-ef66-4c95-abe9-8940cdc9dfd0",
-      "OSM L Ethernet"
-    ],
-    [
-      "e5eeca5b-d031-4f3e-a886-378a925b0489",
-      "OSM L LVDS+SDIO+UFS"
-    ],
-    [
-      "eaf5b3db-0c48-4beb-85fc-c1ca4ece6f2e",
-      "OSM L Low speed+Power"
-    ],
-    [
-      "3372280d-f553-4a28-bfe2-8d561041155e",
-      "OSM L PCIe"
-    ],
-    [
-      "05296e06-ecea-4255-8227-d9368d470732",
-      "OSM L USB"
-    ],
-    [
       "0aea98e3-a768-49a4-b182-70f437391ac4",
       "USB Hub"
     ],

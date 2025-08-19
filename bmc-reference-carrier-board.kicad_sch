@@ -965,7 +965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "osm_l.kicad_sch"
+		(property "Sheetfile" "osm-l.kicad_sch"
 			(at 176.53 269.8246 0)
 			(effects
 				(font
