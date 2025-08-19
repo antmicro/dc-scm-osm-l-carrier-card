@@ -707,7 +707,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fron-panel-usb.kicad_sch"
+		(property "Sheetfile" "front-panel-usb.kicad_sch"
 			(at 355.6 64.0846 0)
 			(effects
 				(font
@@ -873,7 +873,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fron-panel-low-speed.kicad_sch"
+		(property "Sheetfile" "front-panel-low-speed.kicad_sch"
 			(at 355.6 216.4846 0)
 			(effects
 				(font
