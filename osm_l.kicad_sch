@@ -1,0 +1,1164 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8949227b-99b8-4456-8722-cc01a9db1417")
+	(paper "A3")
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(date "2025-08-14")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 157.48 44.45)
+		(end 246.38 243.84)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d9fd3261-2f2b-4d7a-ba3a-5cd52378a899)
+	)
+	(text "OSM L"
+		(exclude_from_sim no)
+		(at 202.184 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb2e3793-2b0b-478e-9cb9-081f43a7bced")
+	)
+	(bus
+		(pts
+			(xy 198.12 76.2) (xy 198.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0413128d-1290-436f-a631-ce18f978a9d2")
+	)
+	(bus
+		(pts
+			(xy 240.03 153.67) (xy 257.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b8895f-cdf6-4ff4-9d28-5b74e6864c23")
+	)
+	(bus
+		(pts
+			(xy 201.93 60.96) (xy 209.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a955a8-717e-46d4-b221-11ee72f3b8d2")
+	)
+	(bus
+		(pts
+			(xy 146.05 52.07) (xy 162.56 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15fb393f-2a58-441a-a5d6-ba86b763e77c")
+	)
+	(bus
+		(pts
+			(xy 146.05 153.67) (xy 163.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adf3217-bd60-4e4e-a622-8eaee75fae00")
+	)
+	(bus
+		(pts
+			(xy 146.05 80.01) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e85a44b-56fb-4731-a397-06459b8079e9")
+	)
+	(bus
+		(pts
+			(xy 146.05 54.61) (xy 162.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d5fc01-66e7-4619-91cb-dfba20d100f6")
+	)
+	(bus
+		(pts
+			(xy 146.05 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2355a967-53c9-4644-935e-2bd90fa2471f")
+	)
+	(bus
+		(pts
+			(xy 146.05 195.58) (xy 163.83 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba682f1-6217-468c-9e8f-051213456fc8")
+	)
+	(bus
+		(pts
+			(xy 146.05 120.65) (xy 163.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b5f4b6-7bc6-4c69-aacd-f68c6ef81483")
+	)
+	(bus
+		(pts
+			(xy 240.03 116.84) (xy 257.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740f0379-e89c-4fff-a94e-b608361f5aee")
+	)
+	(wire
+		(pts
+			(xy 146.05 135.89) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74177ef4-439b-4bdf-8a46-134cc145eb03")
+	)
+	(bus
+		(pts
+			(xy 198.12 57.15) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805702aa-acf5-402c-87a9-6026fe354dff")
+	)
+	(bus
+		(pts
+			(xy 146.05 187.96) (xy 163.83 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8071f245-2a75-4e03-966d-86f1c602743a")
+	)
+	(wire
+		(pts
+			(xy 146.05 113.03) (xy 163.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8128101c-b31c-4286-bf9d-c283d83b9223")
+	)
+	(bus
+		(pts
+			(xy 146.05 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899b9605-a4e9-4646-a8cd-de69e4892745")
+	)
+	(bus
+		(pts
+			(xy 146.05 118.11) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce24569-738b-4863-b839-953ed759716c")
+	)
+	(bus
+		(pts
+			(xy 146.05 157.48) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de6ff82-6d65-454e-8830-5ef15cfad580")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 163.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18a7201-6515-49c4-90d9-1a899ff50fb4")
+	)
+	(bus
+		(pts
+			(xy 146.05 93.98) (xy 163.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f8fa80-94c4-4e80-a8bd-cf189d819158")
+	)
+	(bus
+		(pts
+			(xy 240.03 97.79) (xy 257.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a840a4aa-770e-439a-9b69-5c4f1fc169f3")
+	)
+	(bus
+		(pts
+			(xy 146.05 76.2) (xy 198.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8944348-3302-45b3-b49a-882e1ac393bb")
+	)
+	(bus
+		(pts
+			(xy 146.05 199.39) (xy 163.83 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc8238c-ffe9-4ca1-b854-bd5fd7078dea")
+	)
+	(bus
+		(pts
+			(xy 240.03 52.07) (xy 257.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf50c1d5-c206-4232-aae1-caede7b54798")
+	)
+	(bus
+		(pts
+			(xy 146.05 143.51) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e203bc-c226-4b3a-9db3-d6dc1cd2642d")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 163.83 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c816e12b-1962-48eb-b421-2152638aa500")
+	)
+	(bus
+		(pts
+			(xy 146.05 182.88) (xy 163.83 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c05013-09db-40ad-88a8-50a28470759f")
+	)
+	(bus
+		(pts
+			(xy 146.05 96.52) (xy 163.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf48cd26-efb5-473a-bff2-3c9f7670a1f2")
+	)
+	(bus
+		(pts
+			(xy 146.05 190.5) (xy 163.83 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d033e0b6-7427-491a-b3d5-08e510f2b5c1")
+	)
+	(bus
+		(pts
+			(xy 201.93 80.01) (xy 201.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df51a87c-9b6b-45b1-89bc-e905f136bd58")
+	)
+	(bus
+		(pts
+			(xy 240.03 156.21) (xy 257.81 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effb6960-0b2b-44c7-9dff-8e5c9af8b7e6")
+	)
+	(hierarchical_label "OSM_UART_C{UART}"
+		(shape bidirectional)
+		(at 146.05 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03cf3a44-191f-4399-ae81-4826dcd3deea")
+	)
+	(hierarchical_label "OSM_ETH_B{NC-SI}"
+		(shape bidirectional)
+		(at 146.05 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0690eef8-5602-4553-9fc2-8644205765fa")
+	)
+	(hierarchical_label "OSM_RTC_PWR"
+		(shape input)
+		(at 146.05 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08d6ea0e-95ef-4439-b2d7-4f02689a010a")
+	)
+	(hierarchical_label "OSM_SPI_A{QSPI}"
+		(shape bidirectional)
+		(at 146.05 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d1f52f3-cf43-48ed-acdb-54df823c1495")
+	)
+	(hierarchical_label "OSM_UART_CON{UART}"
+		(shape bidirectional)
+		(at 257.81 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e160c39-60cd-4e6a-8416-bc9f9a793804")
+	)
+	(hierarchical_label "OSM_ETH_C{SGMII}"
+		(shape bidirectional)
+		(at 146.05 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f48a981-80fb-4f37-b8b0-bd5f6125c4c5")
+	)
+	(hierarchical_label "OSM_UART_A{UART}"
+		(shape bidirectional)
+		(at 146.05 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ac9a0ec-e6b5-4e55-b92b-9f1525e5802c")
+	)
+	(hierarchical_label "OSM_USB_A{USB}"
+		(shape bidirectional)
+		(at 146.05 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31ede03a-1772-475e-98a2-cf930e22d1b1")
+	)
+	(hierarchical_label "OSM_I2C_A{I2C}"
+		(shape bidirectional)
+		(at 146.05 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a88907b-a4e4-43c0-8af0-27ad0b9f47eb")
+	)
+	(hierarchical_label "~{PCIe_SM_ALERT}"
+		(shape input)
+		(at 146.05 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61693a29-507f-40c9-8f36-7f530fadede8")
+	)
+	(hierarchical_label "OSM_SDIO_A{SDIO}"
+		(shape bidirectional)
+		(at 257.81 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6285fd27-e3aa-4a6b-967a-123832ab05f3")
+	)
+	(hierarchical_label "CLK_{REFIN}{PCIeREFCLK}"
+		(shape input)
+		(at 146.05 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63cb85ad-d2e6-49b7-86fd-de7e1594d5e2")
+	)
+	(hierarchical_label "OSM_PCIe_C{PCIE}"
+		(shape bidirectional)
+		(at 146.05 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "679aae8b-7335-4a07-af6e-329f2c8c16e7")
+	)
+	(hierarchical_label "OSM_I2C_B{I2C}"
+		(shape bidirectional)
+		(at 146.05 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ec3e3ce-4ca1-4ea6-a2ec-24191e2f980f")
+	)
+	(hierarchical_label "~{PCIe_WAKE}"
+		(shape input)
+		(at 146.05 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82ffb335-1898-411e-a0ef-e810f49e15d5")
+	)
+	(hierarchical_label "OSM_JTAG{JTAG}"
+		(shape bidirectional)
+		(at 146.05 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cefad1a-c1ba-4a87-ad60-dda4b14097d9")
+	)
+	(hierarchical_label "~{PCIe_CLKREQ}"
+		(shape input)
+		(at 146.05 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97429e77-9a96-46fa-a3d0-1e6aa577a252")
+	)
+	(hierarchical_label "OSM_UART_B{UART}"
+		(shape bidirectional)
+		(at 257.81 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98f86851-4377-495a-bc6e-2dcda1772f84")
+	)
+	(hierarchical_label "OSM_SPI_C{SPI}"
+		(shape bidirectional)
+		(at 146.05 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ad02b5e-f923-4c5c-8678-6ba0ab1e561f")
+	)
+	(hierarchical_label "OSM_SPI_B{SPI}"
+		(shape bidirectional)
+		(at 146.05 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c78644f-d36c-4cea-886a-7d2d6f0f2967")
+	)
+	(hierarchical_label "OSM_PCIe_B{PCIE}"
+		(shape bidirectional)
+		(at 146.05 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a14ad7eb-016c-47ff-84d9-aa1e5b1fdfa4")
+	)
+	(hierarchical_label "OSM_ETH_A{RGMII}"
+		(shape bidirectional)
+		(at 257.81 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be4984f1-7e9b-44fe-b262-9569101f7bd9")
+	)
+	(hierarchical_label "OSM_PCIe_D{PCIE}"
+		(shape bidirectional)
+		(at 146.05 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2f63fd9-d435-425b-af2f-def1f95eb3b8")
+	)
+	(hierarchical_label "OSM_DSI{DSI}"
+		(shape input)
+		(at 257.81 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccf99846-d13b-420d-bd84-29029cae8017")
+	)
+	(hierarchical_label "OSM_PCIe_A{PCIE}"
+		(shape bidirectional)
+		(at 146.05 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea9951e8-f55c-45d6-98f2-8a995cc90131")
+	)
+	(hierarchical_label "OSM_USB_C_SS{USBSS}"
+		(shape bidirectional)
+		(at 146.05 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0de071e-f2f9-4c70-8dbb-d14615464345")
+	)
+	(hierarchical_label "CLK_{REFOUT}{PCIeREFCLK}"
+		(shape output)
+		(at 146.05 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8c6d28b-0f7f-40f7-a7c6-8645b638a517")
+	)
+	(sheet
+		(at 162.56 49.53)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05296e06-ecea-4255-8227-d9368d470732")
+		(property "Sheetname" "OSM L USB"
+			(at 162.56 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_usb.kicad_sch"
+			(at 162.56 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_USB_A{USB}" bidirectional
+			(at 162.56 52.07 180)
+			(uuid "9e8f8490-deaf-40f6-a5ec-d9b0e66ad45f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_USB_C_SS{USBSS}" bidirectional
+			(at 162.56 54.61 180)
+			(uuid "f8f87426-7355-4040-8baa-175c7cfc3f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 91.44)
+		(size 30.48 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3372280d-f553-4a28-bfe2-8d561041155e")
+		(property "Sheetname" "OSM L PCIe"
+			(at 163.83 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_pcie.kicad_sch"
+			(at 163.83 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{PCIe_CLKREQ}" input
+			(at 163.83 110.49 180)
+			(uuid "47fab1a0-753d-4a8b-90f6-c2fc79d9eddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIe_SM_ALERT}" input
+			(at 163.83 113.03 180)
+			(uuid "45262738-e5e2-4ab6-9046-0715df8f07fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIe_WAKE}" input
+			(at 163.83 115.57 180)
+			(uuid "f0c1ee88-50eb-4245-aac6-584324a71e9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_{REFIN}{PCIeREFCLK}" input
+			(at 163.83 104.14 180)
+			(uuid "055270da-2b2c-421a-b603-346c06cc3abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_{REFOUT}{PCIeREFCLK}" output
+			(at 163.83 101.6 180)
+			(uuid "0214c778-b7fb-4b87-a7ef-e1296d7cdd0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_PCIe_A{PCIE}" bidirectional
+			(at 163.83 93.98 180)
+			(uuid "27f62b25-8e35-460e-8592-49a515511e6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_PCIe_B{PCIE}" bidirectional
+			(at 163.83 96.52 180)
+			(uuid "c956f8ec-a8f9-4b66-aa69-6a471f50d1fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_PCIe_C{PCIE}" bidirectional
+			(at 163.83 120.65 180)
+			(uuid "da00d069-e37a-4086-af6a-35ccf5d75f1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_PCIe_D{PCIE}" bidirectional
+			(at 163.83 118.11 180)
+			(uuid "f0f471f8-5690-48c7-87e1-0b36078b4afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 110.49)
+		(size 30.48 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a304a820-6391-4aaf-b855-bef367190c9a")
+		(property "Sheetname" "OSM L Cam+Video"
+			(at 209.55 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_cam_vid.kicad_sch"
+			(at 209.55 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_DSI{DSI}" input
+			(at 240.03 116.84 0)
+			(uuid "27af6bba-38b8-4ae5-b0ce-a2973f48291e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 91.44)
+		(size 30.48 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5eeca5b-d031-4f3e-a886-378a925b0489")
+		(property "Sheetname" "OSM L LVDS+SDIO+UFS"
+			(at 209.55 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_lvds_sdio_ufs.kicad_sch"
+			(at 209.55 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_SDIO_A{SDIO}" bidirectional
+			(at 240.03 97.79 0)
+			(uuid "bd1d5057-4bfd-45fd-acc1-0e5c9fe94fbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 49.53)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8b6d898-ef66-4c95-abe9-8940cdc9dfd0")
+		(property "Sheetname" "OSM L Ethernet"
+			(at 209.55 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_ethernet.kicad_sch"
+			(at 209.55 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_ETH_A{RGMII}" bidirectional
+			(at 240.03 52.07 0)
+			(uuid "c2d8ad31-be63-44fa-a0a0-8468435c535c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_ETH_B{NC-SI}" bidirectional
+			(at 209.55 60.96 180)
+			(uuid "6aff9764-0412-4380-8a0f-ddf7a56cadfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_ETH_C{SGMII}" bidirectional
+			(at 209.55 57.15 180)
+			(uuid "c4096c24-0997-4a0f-b7cd-ed983c36665f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 133.35)
+		(size 76.2 105.41)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eaf5b3db-0c48-4beb-85fc-c1ca4ece6f2e")
+		(property "Sheetname" "OSM L Low speed+Power"
+			(at 163.83 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osm_l_lowspeed_power.kicad_sch"
+			(at 163.83 239.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSM_UART_A{UART}" bidirectional
+			(at 163.83 182.88 180)
+			(uuid "86c779bd-ccb3-4dcc-8e1e-ea74c965bf3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_UART_B{UART}" bidirectional
+			(at 240.03 156.21 0)
+			(uuid "e3fbfa8c-0616-48e6-b823-bc7b488f9409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_UART_C{UART}" bidirectional
+			(at 163.83 190.5 180)
+			(uuid "f371ef20-7c66-4d5a-8ed2-65a7b2668dc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_SPI_A{QSPI}" bidirectional
+			(at 163.83 143.51 180)
+			(uuid "54c764c1-9e36-4ed0-a548-12d7687e5da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_SPI_B{SPI}" bidirectional
+			(at 163.83 153.67 180)
+			(uuid "b8e2dc32-b37f-440f-b2a3-2a41bc274655")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_SPI_C{SPI}" bidirectional
+			(at 163.83 187.96 180)
+			(uuid "3a4232e9-3033-48de-9f15-1ed199757df8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_I2C_A{I2C}" bidirectional
+			(at 163.83 195.58 180)
+			(uuid "79bf2c18-1ae9-461c-9129-4f5858c7b3fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_I2C_B{I2C}" bidirectional
+			(at 163.83 199.39 180)
+			(uuid "59046e77-440e-4d96-aeaf-2ea02845ebe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_JTAG{JTAG}" bidirectional
+			(at 163.83 157.48 180)
+			(uuid "c6a998e3-d489-4c0a-b3be-d6e1370216c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_UART_CON{UART}" bidirectional
+			(at 240.03 153.67 0)
+			(uuid "9a73afe2-631f-4b02-971f-267d152caecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_RTC_PWR" input
+			(at 163.83 135.89 180)
+			(uuid "6c8944a1-6ee5-466d-ac47-068c8f8c8558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(page "6")
+				)
+			)
+		)
+	)
+)

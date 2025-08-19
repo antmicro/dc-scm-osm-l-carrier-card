@@ -648,27 +648,27 @@
       "DC-SCM 2.1 connector"
     ],
     [
-      "7a868d6c-b9bc-4c36-9b63-5874c35f0cf4",
+      "a304a820-6391-4aaf-b855-bef367190c9a",
       "OSM L Cam+Video"
     ],
     [
-      "399a1a51-73d9-444e-a942-9b76d9f74553",
+      "e8b6d898-ef66-4c95-abe9-8940cdc9dfd0",
       "OSM L Ethernet"
     ],
     [
-      "4b11a08b-6c14-40a1-afda-248395cbd753",
+      "e5eeca5b-d031-4f3e-a886-378a925b0489",
       "OSM L LVDS+SDIO+UFS"
     ],
     [
-      "0308a015-04c7-4144-996d-883c1c8852e3",
+      "eaf5b3db-0c48-4beb-85fc-c1ca4ece6f2e",
       "OSM L Low speed+Power"
     ],
     [
-      "66916577-745b-49eb-8914-4c364a90ec7d",
+      "3372280d-f553-4a28-bfe2-8d561041155e",
       "OSM L PCIe"
     ],
     [
-      "b70ae044-8357-4920-9f48-8262422cc81c",
+      "05296e06-ecea-4255-8227-d9368d470732",
       "OSM L USB"
     ],
     [
@@ -726,6 +726,10 @@
     [
       "945730c0-5d04-4966-88eb-4ee840f8c440",
       "PCIe x4 Connector"
+    ],
+    [
+      "626fa623-3c57-4093-88cf-23d76305ad93",
+      "OSM L"
     ]
   ],
   "text_variables": {}

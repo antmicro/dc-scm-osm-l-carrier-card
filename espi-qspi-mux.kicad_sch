@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "7036e6d2-57df-43b8-95f5-a4dcb614f48e")
 	(paper "A3")
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(date "2025-08-14")
+		(rev "1.0.0")
+	)
 	(lib_symbols)
 	(hierarchical_label "QSPI{QSPI}"
 		(shape bidirectional)
