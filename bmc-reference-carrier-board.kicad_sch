@@ -10,30 +10,6 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
-	(rectangle
-		(start 146.05 111.76)
-		(end 196.85 129.54)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 129 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9b5c75d7-4765-48be-961a-08e550d14943)
-	)
-	(text "Note: \nneed to confirm \nwith i.MX94 datasheet"
-		(exclude_from_sim no)
-		(at 147.066 117.856 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd2a22ca-a50a-4d21-8cbe-01915f22a317")
-	)
 	(text "FRU_EEPROM"
 		(exclude_from_sim no)
 		(at 30.734 212.344 0)
