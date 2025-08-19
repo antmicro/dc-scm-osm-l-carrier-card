@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.05,
+        "board_outline_line_width": 0.1,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -30,7 +30,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.1,
+        "other_line_width": 0.15,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -41,17 +41,23 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,22 +123,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.125,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.125,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_text_height": 0.6,
+        "min_text_thickness": 0.0,
+        "min_through_hole_diameter": 0.1,
+        "min_track_width": 0.125,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +186,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.125,
+        0.13,
+        0.155,
+        0.16,
+        0.2,
+        0.3,
+        0.5,
+        1.4,
+        4.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +224,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.1
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -616,6 +646,74 @@
     [
       "ca214ec5-42cf-4efd-9251-fb98a8d45893",
       "DC-SCM 2.1 connector"
+    ],
+    [
+      "7a868d6c-b9bc-4c36-9b63-5874c35f0cf4",
+      "OSM L Cam+Video"
+    ],
+    [
+      "399a1a51-73d9-444e-a942-9b76d9f74553",
+      "OSM L Ethernet"
+    ],
+    [
+      "4b11a08b-6c14-40a1-afda-248395cbd753",
+      "OSM L LVDS+SDIO+UFS"
+    ],
+    [
+      "0308a015-04c7-4144-996d-883c1c8852e3",
+      "OSM L Low speed+Power"
+    ],
+    [
+      "66916577-745b-49eb-8914-4c364a90ec7d",
+      "OSM L PCIe"
+    ],
+    [
+      "b70ae044-8357-4920-9f48-8262422cc81c",
+      "OSM L USB"
+    ],
+    [
+      "0aea98e3-a768-49a4-b182-70f437391ac4",
+      "USB Hub"
+    ],
+    [
+      "02dc288a-88ee-45fa-83b7-00b3500b0ccd",
+      "PCIe - USB Mux"
+    ],
+    [
+      "757bd70a-5179-4368-9172-3adb38876975",
+      "TPM"
+    ],
+    [
+      "fd4de79a-afa0-4171-b9b9-995c5758b8f0",
+      "Ethernet PHY"
+    ],
+    [
+      "af9b114c-dfa4-427f-a7c0-6a1753518223",
+      "EMMC"
+    ],
+    [
+      "1d9765f7-f475-4be6-a940-c0038af0d26c",
+      "Front panel USB"
+    ],
+    [
+      "9da0fa42-de01-45ef-a25f-792bb7803b7a",
+      "Front panel Ethernet"
+    ],
+    [
+      "5e66e366-8a13-4c54-9cdc-0840861bb6c1",
+      "Front panel Low Speed"
+    ],
+    [
+      "32de8c9e-be2b-4d78-9d5d-f4e694f2d2e7",
+      "Front panel Video"
+    ],
+    [
+      "8b9a8008-1846-45f3-9c02-8213595344f6",
+      "DSI to DP converter"
+    ],
+    [
+      "3d29c412-58cb-45c0-928a-e05b1352002d",
+      "Power"
     ]
   ],
   "text_variables": {}
