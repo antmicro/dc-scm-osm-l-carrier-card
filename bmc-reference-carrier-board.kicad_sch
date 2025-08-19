@@ -701,7 +701,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "osm_l.kicad_sch"
+		(property "Sheetfile" "osm_l_lowspeed_power.kicad_sch"
 			(at 175.26 273.6346 0)
 			(effects
 				(font

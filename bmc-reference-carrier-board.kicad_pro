@@ -714,6 +714,18 @@
     [
       "3d29c412-58cb-45c0-928a-e05b1352002d",
       "Power"
+    ],
+    [
+      "e532ae7c-55b4-427b-a317-9e407e1b3e94",
+      "eSPI - QSPI Mux"
+    ],
+    [
+      "a7bc3767-9865-4aca-836f-d553fd54a28f",
+      "PCIe - SGMII Mux"
+    ],
+    [
+      "945730c0-5d04-4966-88eb-4ee840f8c440",
+      "PCIe x4 Connector"
     ]
   ],
   "text_variables": {}

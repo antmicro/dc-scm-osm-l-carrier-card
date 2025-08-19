@@ -14563,7 +14563,7 @@
 			(uuid "0b471153-a582-4bef-bbec-e4769a77c89b")
 		)
 		(instances
-			(project ""
+			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/0308a015-04c7-4144-996d-883c1c8852e3"
 					(reference "U2")
 					(unit 1)
@@ -16665,7 +16665,7 @@
 			(uuid "0b471153-a582-4bef-bbec-e4769a77c89c")
 		)
 		(instances
-			(project ""
+			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/0308a015-04c7-4144-996d-883c1c8852e3"
 					(reference "U2")
 					(unit 2)
@@ -18766,7 +18766,7 @@
 			(uuid "0b471153-a582-4bef-bbec-e4769a77c89d")
 		)
 		(instances
-			(project ""
+			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/0308a015-04c7-4144-996d-883c1c8852e3"
 					(reference "U2")
 					(unit 9)
