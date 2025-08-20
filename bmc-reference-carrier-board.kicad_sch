@@ -13,6 +13,9 @@
 	(bus_alias "ETHERNET"
 		(members "MDI0-" "MDI0+" "MDI1-" "MDI1+" "MDI2-" "MDI2+" "MDI3-" "MDI3+")
 	)
+	(bus_alias "USB"
+		(members "D+" "D-")
+	)
 	(text "TODO: verify we're using correct clocks"
 		(exclude_from_sim no)
 		(at 81.28 130.175 0)
