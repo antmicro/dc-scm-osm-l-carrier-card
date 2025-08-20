@@ -1558,12 +1558,6 @@
 		(uuid "b292bc73-aabe-4807-b789-2ca932b48f2d")
 	)
 	(junction
-		(at 209.55 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d707fb70-ed39-4db6-bcbc-39b509089212")
-	)
-	(junction
 		(at 186.69 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1809,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 140.97) (xy 220.98 139.7)
+			(xy 217.17 140.97) (xy 217.17 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1829,27 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 147.32) (xy 220.98 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d554f4-5b9c-4a7c-89b7-b4921cf1bab5")
-	)
-	(wire
-		(pts
-			(xy 209.55 147.32) (xy 209.55 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e31c34-01eb-4c3a-b209-29ff3a08990e")
-	)
-	(wire
-		(pts
-			(xy 220.98 139.7) (xy 209.55 139.7)
+			(xy 217.17 139.7) (xy 209.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 147.32) (xy 220.98 146.05)
+			(xy 217.17 146.05) (xy 217.17 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2223,15 +2197,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 209.55 148.59 0)
+		(at 217.17 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2691a38b-4e24-45cd-8270-95ca917e2ac3")
-		(property "Reference" "#PWR03"
-			(at 218.44 151.13 0)
+		(uuid "251cc48b-a72f-4aa9-92ac-4ea0ebf1a529")
+		(property "Reference" "#PWR012"
+			(at 226.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 152.4 0)
+			(at 217.17 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 156.21 0)
+			(at 226.06 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 161.29 0)
+			(at 226.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 148.59 0)
+			(at 217.17 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2256,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 218.44 156.21 0)
+			(at 226.06 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2267,101 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 218.44 158.75 0)
+			(at 226.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c4720d2-4677-4050-a11e-508443abb433")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/9da0fa42-de01-45ef-a25f-792bb7803b7a"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 209.55 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2691a38b-4e24-45cd-8270-95ca917e2ac3")
+		(property "Reference" "#PWR03"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 218.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2629,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 220.98 140.97 270)
+		(at 217.17 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2569,7 +2637,7 @@
 		(dnp no)
 		(uuid "61cd3610-10b7-4307-9737-895ebe092577")
 		(property "Reference" "R1"
-			(at 222.25 142.24 90)
+			(at 218.44 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2647,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 208.28 161.29 0)
+			(at 204.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2658,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 205.74 161.29 0)
+			(at 201.93 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 203.2 161.29 0)
+			(at 199.39 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2680,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 220.98 140.97 0)
+			(at 217.17 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2689,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 200.66 161.29 0)
+			(at 196.85 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2700,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 198.12 161.29 0)
+			(at 194.31 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2711,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 195.58 161.29 0)
+			(at 191.77 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2722,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 193.04 161.29 0)
+			(at 189.23 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2733,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 222.25 144.78 90)
+			(at 218.44 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2743,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 210.82 161.29 0)
+			(at 207.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2753,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 190.5 161.29 0)
+			(at 186.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
