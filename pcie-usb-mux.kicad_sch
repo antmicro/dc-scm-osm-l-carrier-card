@@ -10,17 +10,6 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
-	(hierarchical_label "PCIE{PCIE}"
-		(shape bidirectional)
-		(at 175.26 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5fd68e1b-1ee1-444e-8d22-516bf690c16a")
-	)
 	(hierarchical_label "PCIe{slash}USB{PCIE}"
 		(shape bidirectional)
 		(at 128.27 113.03 180)
@@ -30,7 +19,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7bf87896-e961-4481-a745-a406e38a0f3c")
+		(uuid "2b8f8647-944d-42a1-8fd8-910f8f0bb773")
 	)
 	(hierarchical_label "USB{USBSS}"
 		(shape bidirectional)
@@ -41,6 +30,17 @@
 			)
 			(justify left)
 		)
-		(uuid "91d2a98f-1927-42a8-a51c-8e094838e783")
+		(uuid "2e972037-7442-454f-8e23-bb5f0113631a")
+	)
+	(hierarchical_label "PCIE{PCIE}"
+		(shape bidirectional)
+		(at 175.26 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fd68e1b-1ee1-444e-8d22-516bf690c16a")
 	)
 )
