@@ -22,7 +22,9 @@
 		(members "TCK" "TDI" "TDO" "TMS")
 	)
 	(bus_alias "PCIE"
-		(members "RX+" "RX-" "TX+" "TX-")
+		(members "RX0+" "RX0-" "TX0+" "TX0-" "RX1+" "RX1-" "TX1+" "TX1-" "RX2+"
+			"RX2-" "TX2+" "TX2-" "RX3+" "RX3-" "TX3+" "TX3-"
+		)
 	)
 	(bus_alias "SDIO"
 		(members "DAT[0..7]" "CMD" "CLK" "STRB" "~{RST}" "CD")
@@ -57,8 +59,28 @@
 		(uuid "c41e90ff-e194-46af-aaff-3e768fd6aafc")
 	)
 	(no_connect
+		(at 175.26 137.16)
+		(uuid "0a7a8a9c-9731-4adb-bb82-de0b388e86f0")
+	)
+	(no_connect
+		(at 175.26 142.24)
+		(uuid "0ea46a14-581a-45eb-a036-861483ab562d")
+	)
+	(no_connect
+		(at 175.26 147.32)
+		(uuid "239e841e-2fe9-4b13-8378-9963ee8770eb")
+	)
+	(no_connect
 		(at 176.53 45.72)
 		(uuid "48d8a6e5-a377-4532-88f6-81fd84a90646")
+	)
+	(no_connect
+		(at 175.26 139.7)
+		(uuid "ace109d8-8fb9-4a9d-8dc1-5067f950a688")
+	)
+	(no_connect
+		(at 175.26 144.78)
+		(uuid "f14fdeba-53a6-4539-9902-8144aa575b8d")
 	)
 	(no_connect
 		(at 207.01 45.72)
@@ -126,16 +148,6 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 109.22) (xy 143.51 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e65199-24bf-40b1-978d-4a035a49e643")
-	)
-	(bus
-		(pts
 			(xy 58.42 187.96) (xy 176.53 187.96)
 		)
 		(stroke
@@ -176,7 +188,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 148.59) (xy 118.11 144.78)
+			(xy 118.11 148.59) (xy 118.11 142.24)
 		)
 		(stroke
 			(width 0)
@@ -204,25 +216,25 @@
 		)
 		(uuid "32520e24-dfa8-4bb0-a578-5fc285ec8cf0")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 58.42 152.4) (xy 74.93 152.4)
+			(xy 175.26 142.24) (xy 176.53 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37ce153c-dd84-4f70-8c7f-591f05a1c8f7")
+		(uuid "414f2bad-25ad-45b1-9eab-2c088c8fcc92")
 	)
 	(bus
 		(pts
-			(xy 143.51 124.46) (xy 176.53 124.46)
+			(xy 58.42 151.13) (xy 74.93 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "441dba8c-89b6-4c95-a866-94e81aaa9888")
+		(uuid "4777f598-a509-4cd1-a52d-8fb22977c3d3")
 	)
 	(bus
 		(pts
@@ -236,7 +248,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 142.24) (xy 118.11 142.24)
+			(xy 124.46 139.7) (xy 118.11 139.7)
 		)
 		(stroke
 			(width 0)
@@ -254,15 +266,15 @@
 		)
 		(uuid "549d1441-28f4-4c82-86ba-08f0aa7fa682")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 143.51 113.03) (xy 143.51 124.46)
+			(xy 175.26 147.32) (xy 176.53 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59f0b674-dc2e-4442-8502-ed7676bc8af6")
+		(uuid "585b6f0b-eccc-4c08-b958-8c7f35b55d82")
 	)
 	(bus
 		(pts
@@ -336,17 +348,7 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 97.79) (xy 176.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e24f04b-26b0-4447-988a-03c3a26110aa")
-	)
-	(bus
-		(pts
-			(xy 109.22 109.22) (xy 143.51 109.22)
+			(xy 109.22 109.22) (xy 176.53 109.22)
 		)
 		(stroke
 			(width 0)
@@ -464,9 +466,19 @@
 		)
 		(uuid "aea95e95-9aee-4d92-90ff-3816cd71727d")
 	)
+	(wire
+		(pts
+			(xy 175.26 137.16) (xy 176.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bbe736-17b0-4faf-91e5-7b7d2bb8c138")
+	)
 	(bus
 		(pts
-			(xy 109.22 157.48) (xy 176.53 157.48)
+			(xy 109.22 152.4) (xy 176.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -486,13 +498,23 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 113.03) (xy 143.51 113.03)
+			(xy 109.22 113.03) (xy 176.53 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bce985b2-5a13-4c4f-a96f-fc65ae558cab")
+	)
+	(wire
+		(pts
+			(xy 175.26 139.7) (xy 176.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ae302c-5306-4587-aeb2-0cf3816aef3c")
 	)
 	(bus
 		(pts
@@ -576,7 +598,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 144.78) (xy 124.46 144.78)
+			(xy 118.11 142.24) (xy 124.46 142.24)
 		)
 		(stroke
 			(width 0)
@@ -604,9 +626,19 @@
 		)
 		(uuid "ec30c5ba-9a06-457e-8378-8abda0eb001e")
 	)
+	(wire
+		(pts
+			(xy 175.26 144.78) (xy 176.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2c021c-eb2d-469a-b330-68ee86f048d6")
+	)
 	(bus
 		(pts
-			(xy 118.11 142.24) (xy 118.11 134.62)
+			(xy 118.11 139.7) (xy 118.11 134.62)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +658,7 @@
 	)
 	(sheet
 		(at 74.93 106.68)
-		(size 34.29 10.16)
+		(size 34.29 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -650,7 +682,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-usb-mux.kicad_sch"
-			(at 74.93 117.4246 0)
+			(at 74.93 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +700,7 @@
 				(justify right)
 			)
 		)
-		(pin "PCIe{slash}USB{PCIE}" bidirectional
+		(pin "PCIe_USB{PCIE}" bidirectional
 			(at 74.93 111.76 180)
 			(uuid "f4c33bc1-5de8-4ee0-bff4-52c511fc52bd")
 			(effects
@@ -688,14 +720,34 @@
 				(justify right)
 			)
 		)
-		(pin "pcie_usb_mux_sel" input
-			(at 109.22 115.57 0)
-			(uuid "1777e1ea-82a2-4473-ab39-5f2606ec5818")
+		(pin "PCIE_USB_MUX_SEL" input
+			(at 109.22 116.84 0)
+			(uuid "07640666-45ee-434c-9ca0-3a5e1d7b3168")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{PCIE_USB_MUX_OE}" input
+			(at 109.22 119.38 0)
+			(uuid "08976947-b6e0-4d26-ab4d-57df73ce32d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 74.93 109.22 180)
+			(uuid "4fbc3ed1-e63d-4196-8eff-f586b4f4f9cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1079,7 +1131,7 @@
 			)
 		)
 		(pin "OSM_ETH_C{SGMII}" bidirectional
-			(at 176.53 157.48 180)
+			(at 176.53 152.4 180)
 			(uuid "a6d56237-0d85-4716-a352-b4c56df45a28")
 			(effects
 				(font
@@ -1119,7 +1171,7 @@
 			)
 		)
 		(pin "OSM_PCIe_A{PCIE}" bidirectional
-			(at 176.53 124.46 180)
+			(at 176.53 113.03 180)
 			(uuid "aa0507cd-869d-477f-a6a5-0cf98916bb92")
 			(effects
 				(font
@@ -1139,7 +1191,7 @@
 			)
 		)
 		(pin "OSM_PCIe_C{PCIE}" bidirectional
-			(at 176.53 154.94 180)
+			(at 176.53 147.32 180)
 			(uuid "9e704d45-47d4-4a93-9b60-811a3037b3a6")
 			(effects
 				(font
@@ -1149,7 +1201,7 @@
 			)
 		)
 		(pin "OSM_PCIe_D{PCIE}" bidirectional
-			(at 176.53 152.4 180)
+			(at 176.53 144.78 180)
 			(uuid "7e4573dd-65d0-4776-a75f-7962649ce686")
 			(effects
 				(font
@@ -1259,7 +1311,7 @@
 			)
 		)
 		(pin "OSM_USB_C_SS{USBSS}" bidirectional
-			(at 176.53 97.79 180)
+			(at 176.53 109.22 180)
 			(uuid "5efaf343-6359-4f52-b0a3-c658c272f881")
 			(effects
 				(font
@@ -1269,7 +1321,7 @@
 			)
 		)
 		(pin "~{PCIe_CLKREQ}" input
-			(at 176.53 144.78 180)
+			(at 176.53 137.16 180)
 			(uuid "461d0bd8-3d77-4e1d-ad52-933ff087b9bc")
 			(effects
 				(font
@@ -1279,7 +1331,7 @@
 			)
 		)
 		(pin "~{PCIe_SM_ALERT}" input
-			(at 176.53 147.32 180)
+			(at 176.53 139.7 180)
 			(uuid "d32622f6-5a51-4619-a894-d989d46ad4a3")
 			(effects
 				(font
@@ -1289,7 +1341,7 @@
 			)
 		)
 		(pin "~{PCIe_WAKE}" input
-			(at 176.53 149.86 180)
+			(at 176.53 142.24 180)
 			(uuid "33bf07a5-6d1e-4c62-a915-57196a637e21")
 			(effects
 				(font
@@ -1441,7 +1493,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 139.7)
+		(at 124.46 137.16)
 		(size 29.21 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1457,7 +1509,7 @@
 		)
 		(uuid "945730c0-5d04-4966-88eb-4ee840f8c440")
 		(property "Sheetname" "PCIe x4 Connector"
-			(at 124.46 138.9884 0)
+			(at 124.46 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1518,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-x4-connector.kicad_sch"
-			(at 124.46 151.7146 0)
+			(at 124.46 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1527,7 @@
 			)
 		)
 		(pin "PCIE_x4{PCIE}" bidirectional
-			(at 124.46 144.78 180)
+			(at 124.46 142.24 180)
 			(uuid "4fff1f93-dd35-44c5-abdb-fd61f28da9d0")
 			(effects
 				(font
@@ -1485,7 +1537,7 @@
 			)
 		)
 		(pin "PCIE_REFCLK{PCIeREFCLK}" input
-			(at 124.46 142.24 180)
+			(at 124.46 139.7 180)
 			(uuid "5eff38b5-b84d-4966-b441-f51b07c73110")
 			(effects
 				(font
@@ -1585,7 +1637,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 144.78)
+		(at 74.93 146.05)
 		(size 34.29 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1601,7 +1653,7 @@
 		)
 		(uuid "a7bc3767-9865-4aca-836f-d553fd54a28f")
 		(property "Sheetname" "PCIe - SGMII Mux"
-			(at 74.93 144.0684 0)
+			(at 74.93 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1662,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-sgmii-mux.kicad_sch"
-			(at 74.93 160.6046 0)
+			(at 74.93 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,8 +1670,8 @@
 				(justify left top)
 			)
 		)
-		(pin "PCIe{slash}SGMII{PCIE}" bidirectional
-			(at 74.93 152.4 180)
+		(pin "PCIE_SGMII{PCIE}" bidirectional
+			(at 74.93 151.13 180)
 			(uuid "90781772-ecb1-4a47-9857-97bdf0ff02a1")
 			(effects
 				(font
@@ -1629,7 +1681,7 @@
 			)
 		)
 		(pin "SGMII{SGMII}" bidirectional
-			(at 109.22 157.48 0)
+			(at 109.22 152.4 0)
 			(uuid "9b092032-7aeb-4663-aa4c-13e60feaba44")
 			(effects
 				(font
@@ -1641,6 +1693,36 @@
 		(pin "PCIE_x4{PCIE}" bidirectional
 			(at 109.22 148.59 0)
 			(uuid "2c06fdf1-f58e-49c5-b467-809ae0a1aae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_USB_MUX_SEL" input
+			(at 109.22 156.21 0)
+			(uuid "c656365f-ec05-4a09-830f-bc4fa468c376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 74.93 148.59 180)
+			(uuid "1f20a3d2-fe25-4c3e-b3a5-fa73842eb0e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_USB_MUX_OE}" input
+			(at 109.22 158.75 0)
+			(uuid "c2cc8850-3974-4b9a-9826-2c42e3d986f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2194,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC-SCM_PCIe{slash}USB_SCMROOT{PCIE}" bidirectional
+		(pin "DC-SCM_PCIe_USB_SCMROOT{PCIE}" bidirectional
 			(at 58.42 111.76 0)
 			(uuid "368ef1b2-a30e-4c7d-8ea9-3ea641174064")
 			(effects
@@ -2153,7 +2235,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIe0{PCIE}" bidirectional
-			(at 58.42 152.4 0)
+			(at 58.42 151.13 0)
 			(uuid "3825b701-3206-4ebd-a986-77f0dbdcdd0e")
 			(effects
 				(font
