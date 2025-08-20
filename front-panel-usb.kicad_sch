@@ -6416,6 +6416,39 @@
 		)
 		(uuid "f2edded3-597d-4610-83f8-45de8b6ef100")
 	)
+	(hierarchical_label "UART0{UART}"
+		(shape bidirectional)
+		(at 78.74 242.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e770e30-198c-4b9e-a0a8-72d87e26c6a3")
+	)
+	(hierarchical_label "LED0"
+		(shape input)
+		(at 78.74 250.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66368f9b-9b23-4f52-9d13-afcdea7bf3ca")
+	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 78.74 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "866f6cd7-db96-43ec-9732-133552fac0e2")
+	)
 	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 228.6 173.99 180)
@@ -6437,6 +6470,39 @@
 			(justify right)
 		)
 		(uuid "aa8b64ee-0126-49d2-8fec-52152679bb21")
+	)
+	(hierarchical_label "UART1{UART}"
+		(shape bidirectional)
+		(at 78.74 245.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9425752-d4db-4a17-aeae-878580a41a99")
+	)
+	(hierarchical_label "JTAG{JTAG}"
+		(shape bidirectional)
+		(at 78.74 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c382f973-8b40-48f7-ad8b-6bb3842d4176")
+	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 78.74 252.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed31e24c-a6bd-4d41-a105-fa90d60e55e9")
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
