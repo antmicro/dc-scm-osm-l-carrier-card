@@ -1539,11 +1539,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "ETHERNET"
-		(members "MDI0-" "MDI0+" "MDI1-" "MDI1+" "MDI2-" "MDI2+" "MDI3-" "MDI3+"
-			"CTREF"
-		)
-	)
 	(junction
 		(at 186.69 139.7)
 		(diameter 0)

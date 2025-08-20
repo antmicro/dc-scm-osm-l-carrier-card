@@ -10,6 +10,9 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(bus_alias "ETHERNET"
+		(members "MDI0-" "MDI0+" "MDI1-" "MDI1+" "MDI2-" "MDI2+" "MDI3-" "MDI3+")
+	)
 	(text "TODO: verify we're using correct clocks"
 		(exclude_from_sim no)
 		(at 81.28 130.175 0)
