@@ -1647,7 +1647,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "af9b114c-dfa4-427f-a7c0-6a1753518223")
-		(property "Sheetname" "EMMC"
+		(property "Sheetname" "eMMC"
 			(at 265.43 159.3084 0)
 			(effects
 				(font
