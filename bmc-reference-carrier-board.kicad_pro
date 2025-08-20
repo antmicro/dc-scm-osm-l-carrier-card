@@ -684,8 +684,12 @@
       "Front panel Video"
     ],
     [
+      "e221e630-4eed-4bd7-af61-82caf62956ae",
+      "tpm_spi_mux"
+    ],
+    [
       "8b9a8008-1846-45f3-9c02-8213595344f6",
-      "DSI to DP converter"
+      "LVDS to DP converter"
     ],
     [
       "3d29c412-58cb-45c0-928a-e05b1352002d",

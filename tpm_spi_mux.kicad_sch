@@ -1,0 +1,46 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5555d44c-13fd-436c-ba0b-fa62cf9216eb")
+	(paper "A3")
+	(title_block
+		(title "BMC Reference Carrier Board")
+		(date "2025-08-14")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(hierarchical_label "DC-SCM-SPI{SPI}"
+		(shape bidirectional)
+		(at 165.1 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "398b59ec-0e33-4a37-93ec-9aa726ac69be")
+	)
+	(hierarchical_label "TPM_SPI{SPI}"
+		(shape bidirectional)
+		(at 165.1 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44a1951c-5a06-4822-a523-fa50864504fd")
+	)
+	(hierarchical_label "OSM_SPI{SPI}"
+		(shape bidirectional)
+		(at 165.1 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f3b7454-741b-45a2-b38c-60399005fcbc")
+	)
+)

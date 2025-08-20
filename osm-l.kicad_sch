@@ -12523,8 +12523,8 @@
 		)
 		(uuid "211fb1c1-f4a4-4f7f-b9eb-3aa342324847")
 	)
-	(hierarchical_label "CLK_{REFOUT}{PCIeREFCLK}"
-		(shape output)
+	(hierarchical_label "OSM_REFCLK{PCIeREFCLK}"
+		(shape bidirectional)
 		(at 52.07 299.72 180)
 		(effects
 			(font
@@ -12533,17 +12533,6 @@
 			(justify right)
 		)
 		(uuid "24e688b8-2edd-4351-a5e9-8f5c15d1545a")
-	)
-	(hierarchical_label "CLK_{REFIN}{PCIeREFCLK}"
-		(shape input)
-		(at 52.07 302.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "343b14ab-bc1f-492e-855a-caa1ad40fbad")
 	)
 	(hierarchical_label "OSM_SDIO_A{SDIO}"
 		(shape bidirectional)
@@ -12743,9 +12732,9 @@
 		)
 		(uuid "db6490e5-8ba2-426b-8915-9fa0b911dadf")
 	)
-	(hierarchical_label "OSM_DSI{DSI}"
-		(shape input)
-		(at 497.84 228.6 180)
+	(hierarchical_label "OSM_LVDS{LVDS}"
+		(shape output)
+		(at 391.16 294.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
