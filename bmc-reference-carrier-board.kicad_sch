@@ -929,6 +929,16 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_DP" input
+			(at 354.33 166.37 180)
+			(uuid "4630a3c2-4f24-46fb-b067-cad3b029d9d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
@@ -1504,6 +1514,36 @@
 		(pin "ETHERNET{ETHERNET}" bidirectional
 			(at 354.33 125.73 180)
 			(uuid "9cf25d8e-3568-48ec-8ba0-15838f76de98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_LED" input
+			(at 354.33 113.03 180)
+			(uuid "6311380c-9179-4f1c-8f37-bfd83f3c0b6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_LED1_G" input
+			(at 354.33 115.57 180)
+			(uuid "83737cb7-3830-4593-9c45-78f172ab6860")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_LED2_G" input
+			(at 354.33 118.11 180)
+			(uuid "56b5a8c8-be3b-4061-8f79-1d97073015b6")
 			(effects
 				(font
 					(size 1.27 1.27)
