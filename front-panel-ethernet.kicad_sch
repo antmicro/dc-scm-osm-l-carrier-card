@@ -2184,7 +2184,7 @@
 		)
 		(uuid "7adfad57-e7d2-4636-af15-c5c4d3d85271")
 	)
-	(hierarchical_label "ETH_LED1_G"
+	(hierarchical_label "ETH_LED2_G"
 		(shape input)
 		(at 222.25 125.73 0)
 		(effects
