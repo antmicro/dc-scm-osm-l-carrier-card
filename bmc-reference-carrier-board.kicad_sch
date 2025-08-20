@@ -21,6 +21,9 @@
 	(bus_alias "JTAG"
 		(members "TCK" "TDI" "TDO" "TMS")
 	)
+	(bus_alias "PCIE"
+		(members "RX+" "RX-" "TX+" "TX-")
+	)
 	(bus_alias "SDIO"
 		(members "DAT[0..7]" "CMD" "CLK" "STRB" "~{RST}" "CD")
 	)
@@ -29,6 +32,9 @@
 	)
 	(bus_alias "USB"
 		(members "D+" "D-")
+	)
+	(bus_alias "USBSS"
+		(members "RX+" "RX-" "TX+" "TX-")
 	)
 	(text "TODO: verify we're using correct clocks"
 		(exclude_from_sim no)
