@@ -18,6 +18,12 @@
 	(bus_alias "ETHERNET"
 		(members "MDI0-" "MDI0+" "MDI1-" "MDI1+" "MDI2-" "MDI2+" "MDI3-" "MDI3+")
 	)
+	(bus_alias "JTAG"
+		(members "TCK" "TDI" "TDO" "TMS")
+	)
+	(bus_alias "UART"
+		(members "RX" "TX")
+	)
 	(bus_alias "USB"
 		(members "D+" "D-")
 	)

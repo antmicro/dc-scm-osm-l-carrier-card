@@ -8892,12 +8892,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "JTAG"
-		(members "TCK" "TDI" "TDO" "TMS")
-	)
-	(bus_alias "UART"
-		(members "RX" "TX")
-	)
 	(rectangle
 		(start 19.812 15.24)
 		(end 135.89 87.122)
