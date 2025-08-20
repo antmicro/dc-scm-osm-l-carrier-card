@@ -21,17 +21,6 @@
 		)
 		(uuid "37588d5d-4767-4b82-bc39-6d46218f1784")
 	)
-	(hierarchical_label "PCIE_x1{PCIE}"
-		(shape bidirectional)
-		(at 175.26 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5fd68e1b-1ee1-444e-8d22-516bf690c16a")
-	)
 	(hierarchical_label "PCIe{slash}SGMII{PCIE}"
 		(shape bidirectional)
 		(at 128.27 113.03 180)
