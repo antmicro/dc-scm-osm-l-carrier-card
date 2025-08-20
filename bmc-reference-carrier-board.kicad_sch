@@ -626,7 +626,7 @@
 	)
 	(sheet
 		(at 74.93 106.68)
-		(size 34.29 8.89)
+		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -650,7 +650,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-usb-mux.kicad_sch"
-			(at 74.93 116.1546 0)
+			(at 74.93 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,6 +681,16 @@
 		(pin "USB{USBSS}" bidirectional
 			(at 109.22 109.22 0)
 			(uuid "95d3bf01-7739-4431-8c33-de4645fbd958")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pcie_usb_mux_sel" input
+			(at 109.22 115.57 0)
+			(uuid "1777e1ea-82a2-4473-ab39-5f2606ec5818")
 			(effects
 				(font
 					(size 1.27 1.27)

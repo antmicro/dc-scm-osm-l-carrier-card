@@ -9,10 +9,1300 @@
 		(date "2025-08-14")
 		(rev "1.0.0")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "antmicroLogicSignalSwitchesMultiplexersDecoders:CBTL02043ABQ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 38.1 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CBTL02043ABQ"
+				(at 38.1 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:DHVQFN-20-1EP_2.5x4.5_P0.5mm"
+				(at 38.1 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf"
+				(at 38.1 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Logic signal switch/multiplexer/decoder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CBTL02043ABQ,115"
+				(at 38.1 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 38.1 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 38.1 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 38.1 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CBTL02043ABQ_1_1"
+				(rectangle
+					(start 2.54 -35.56)
+					(end 22.86 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -6.35 0)
+					(length 2.54)
+					(name "A0_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -8.89 0)
+					(length 2.54)
+					(name "A0_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -13.97 0)
+					(length 2.54)
+					(name "A1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -16.51 0)
+					(length 2.54)
+					(name "A1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 2.54)
+					(name "SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -27.94 0)
+					(length 2.54)
+					(name "XSD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -33.02 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -1.27 180)
+					(length 2.54)
+					(name "B0_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -3.81 180)
+					(length 2.54)
+					(name "B0_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -8.89 180)
+					(length 2.54)
+					(name "B1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -11.43 180)
+					(length 2.54)
+					(name "B1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -21.59 180)
+					(length 2.54)
+					(name "C0_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -24.13 180)
+					(length 2.54)
+					(name "C0_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -29.21 180)
+					(length 2.54)
+					(name "C1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -31.75 180)
+					(length 2.54)
+					(name "C1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicropower:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at -3.175 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicropower:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_entry
+		(at 135.89 138.43)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c302c82-8e11-49ea-a17c-a6e9c35cf846")
+	)
+	(bus_entry
+		(at 203.2 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b23d93d-1147-41d5-b4c3-5c0a9d3782d2")
+	)
+	(bus_entry
+		(at 135.89 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324bf9db-dee0-4ac7-93c7-167a70a117e9")
+	)
+	(bus_entry
+		(at 135.89 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f84ce8b-a1f8-4ebc-8050-54811ae7743e")
+	)
+	(bus_entry
+		(at 203.2 161.29)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d54c6b-e3e1-4ec1-9479-2788e5f39568")
+	)
+	(bus_entry
+		(at 203.2 153.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46efb89c-3b81-4688-bacd-4d4013a7005f")
+	)
+	(bus_entry
+		(at 203.2 133.35)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d387967-cbcd-43b3-94fd-a0010e571e7f")
+	)
+	(bus_entry
+		(at 135.89 148.59)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cd6c3c-3593-4931-96dd-b3a41b3a3db8")
+	)
+	(bus_entry
+		(at 203.2 156.21)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d007f842-709c-4dce-bf0c-70677307fa71")
+	)
+	(bus_entry
+		(at 203.2 163.83)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d956588f-0273-4bb3-8893-15089da6e626")
+	)
+	(bus_entry
+		(at 203.2 140.97)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69d7978-2389-4144-95f4-9eb644c6feb0")
+	)
+	(bus_entry
+		(at 203.2 135.89)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9be1303-576a-44b8-81e0-93297f59e2b1")
+	)
+	(wire
+		(pts
+			(xy 135.89 157.48) (xy 153.67 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d5eda0-469a-4a6d-bcef-95b5afa9f462")
+	)
+	(bus
+		(pts
+			(xy 133.35 138.43) (xy 135.89 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05376c19-f5e8-47c3-9ccb-22a7b9786d72")
+	)
+	(bus
+		(pts
+			(xy 203.2 153.67) (xy 203.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fde00ab-917d-4990-b3dc-cc6b828fc590")
+	)
+	(wire
+		(pts
+			(xy 149.86 167.64) (xy 149.86 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1308ae22-64d4-4220-bd9b-0c42eaf758ea")
+	)
+	(wire
+		(pts
+			(xy 153.67 134.62) (xy 147.32 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c264a1f-44d2-455c-830b-a54d4bff3354")
+	)
+	(bus
+		(pts
+			(xy 203.2 135.89) (xy 203.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2703e746-8c00-4564-a732-5ab27446fac3")
+	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 147.32 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338ee7ed-4b61-4b00-9b0e-683665c5c451")
+	)
+	(wire
+		(pts
+			(xy 179.07 156.21) (xy 200.66 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360cab13-b561-49d9-9987-79d5ebc8c79f")
+	)
+	(wire
+		(pts
+			(xy 179.07 146.05) (xy 200.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c89124-c40a-4645-b2be-d61ff7f7707a")
+	)
+	(bus
+		(pts
+			(xy 135.89 140.97) (xy 135.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489760ee-7ca5-43b8-a3d8-e4f58fc1cfab")
+	)
+	(wire
+		(pts
+			(xy 179.07 138.43) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a134626-7756-4433-9df5-2b718af89a8c")
+	)
+	(bus
+		(pts
+			(xy 135.89 138.43) (xy 135.89 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4fa14e-5d44-4e5f-9490-82eb7e1a28ae")
+	)
+	(bus
+		(pts
+			(xy 203.2 156.21) (xy 203.2 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1b75c4-8d6c-4126-8696-9e91dc2d13f8")
+	)
+	(wire
+		(pts
+			(xy 179.07 158.75) (xy 200.66 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88438f97-1153-4ad4-9456-5674af9471f6")
+	)
+	(bus
+		(pts
+			(xy 203.2 140.97) (xy 203.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a639fe38-6f07-43c5-92dc-7ce558e2ef06")
+	)
+	(bus
+		(pts
+			(xy 203.2 153.67) (xy 205.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0232a4-4ba8-4ed6-8c5f-ce5c22704468")
+	)
+	(bus
+		(pts
+			(xy 203.2 133.35) (xy 203.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcd4ec6-02fa-459f-a7ad-20580e603b42")
+	)
+	(wire
+		(pts
+			(xy 153.67 167.64) (xy 149.86 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b0ef23-6fdd-4c23-9938-ae190cd0a27e")
+	)
+	(wire
+		(pts
+			(xy 138.43 148.59) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb7b679-332d-4ccd-9984-cf0691a6cbda")
+	)
+	(wire
+		(pts
+			(xy 179.07 166.37) (xy 200.66 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6803629-b270-4b90-81b6-ee17164e206f")
+	)
+	(wire
+		(pts
+			(xy 179.07 143.51) (xy 200.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c691b0ca-0409-4979-9615-9f2102c8fcfd")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70311a7-7490-4477-9cb7-977e884aa16c")
+	)
+	(bus
+		(pts
+			(xy 203.2 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a113d5-a731-4cb5-a91d-fcce6fda004e")
+	)
+	(wire
+		(pts
+			(xy 138.43 151.13) (xy 153.67 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80110a2-7f8c-46ce-a95c-62ba9758de65")
+	)
+	(wire
+		(pts
+			(xy 179.07 163.83) (xy 200.66 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60b104d-082f-4774-a542-50891e5cc9b0")
+	)
+	(bus
+		(pts
+			(xy 203.2 161.29) (xy 203.2 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee125376-1b22-44ad-8bb2-0bbb926d65b4")
+	)
+	(wire
+		(pts
+			(xy 179.07 135.89) (xy 200.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efeafa8c-0960-4307-b650-038f03c8b306")
+	)
+	(wire
+		(pts
+			(xy 138.43 140.97) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8133c13-fe99-4254-8bb3-06dc2b01b395")
+	)
+	(bus
+		(pts
+			(xy 135.89 146.05) (xy 135.89 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3ddf8c-9c9e-47b0-9911-649c5d9d2cc6")
+	)
+	(label "USB.TX-"
+		(at 182.88 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10b7db2e-4a3a-4d27-9318-5effba72748d")
+	)
+	(label "PCIE.RX+"
+		(at 182.88 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14c0fc9d-a8a1-4c94-b5fc-ba031ddbbf62")
+	)
+	(label "PCIe/USB.RX-"
+		(at 153.67 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17431f1b-769d-4a80-9a73-22063e9dfc42")
+	)
+	(label "USB.RX-"
+		(at 182.88 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32cb8a36-a44a-4229-9ff7-f704b267b950")
+	)
+	(label "PCIE.TX+"
+		(at 182.88 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dd233f5-a90a-4073-8184-d959ceed2107")
+	)
+	(label "PCIE.RX-"
+		(at 182.88 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a9edcd2-98d5-4c80-9b77-d44bd51d996d")
+	)
+	(label "USB.RX+"
+		(at 182.88 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc87c8c-ea4c-4957-b0b7-d093b8c191e2")
+	)
+	(label "PCIe/USB.RX+"
+		(at 153.67 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d0b49ed-caa2-41fd-9338-ea2c8bb7dce4")
+	)
+	(label "PCIE.TX-"
+		(at 182.88 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93145e9b-5b65-40f7-9a00-33fe3471d2fc")
+	)
+	(label "USB.TX+"
+		(at 182.88 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9469be61-c553-4698-8eab-63a8af55c68d")
+	)
+	(label "PCIe/USB.TX+"
+		(at 153.67 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9887238b-8544-407c-a7ce-ad2369610ea1")
+	)
+	(label "PCIe/USB.TX-"
+		(at 153.67 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d06e058f-d79d-45bb-9373-aa55010de994")
+	)
 	(hierarchical_label "PCIe{slash}USB{PCIE}"
 		(shape bidirectional)
-		(at 128.27 113.03 180)
+		(at 133.35 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23,7 +1313,7 @@
 	)
 	(hierarchical_label "USB{USBSS}"
 		(shape bidirectional)
-		(at 175.26 109.22 0)
+		(at 205.74 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34,7 +1324,7 @@
 	)
 	(hierarchical_label "PCIE{PCIE}"
 		(shape bidirectional)
-		(at 175.26 101.6 0)
+		(at 205.74 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,5 +1332,381 @@
 			(justify left)
 		)
 		(uuid "5fd68e1b-1ee1-444e-8d22-516bf690c16a")
+	)
+	(hierarchical_label "pcie_usb_mux_sel"
+		(shape input)
+		(at 135.89 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e658bc34-7268-40e9-8812-571561132026")
+	)
+	(symbol
+		(lib_id "antmicroLogicSignalSwitchesMultiplexersDecoders:CBTL02043ABQ")
+		(at 153.67 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f7b87c6-d9d4-4f94-97f1-611179b86038")
+		(property "Reference" "U15"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CBTL02043ABQ"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:DHVQFN-20-1EP_2.5x4.5_P0.5mm"
+			(at 191.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf"
+			(at 191.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Logic signal switch/multiplexer/decoder"
+			(at 153.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CBTL02043ABQ,115"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 191.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 191.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "aa579954-1df2-49f1-baf8-d5021e96fa34")
+		)
+		(pin "18"
+			(uuid "c7e5df5b-e531-4aa4-b4b8-1a7a68dd93cf")
+		)
+		(pin "2"
+			(uuid "4727ae28-58a5-4de8-b0db-b584b1a57f69")
+		)
+		(pin "19"
+			(uuid "3d29c5bb-01d9-4dcb-b60b-61b9846f1ebf")
+		)
+		(pin "12"
+			(uuid "ecf4f1db-7527-4e6b-8557-1f5c3549f1b3")
+		)
+		(pin "5"
+			(uuid "a237459b-9b45-4077-b84e-67496509a5a3")
+		)
+		(pin "9"
+			(uuid "ba4bd632-270d-4346-9f17-523b31561c31")
+		)
+		(pin "14"
+			(uuid "f0e24924-1d21-42f7-968a-8e58a87f9fbc")
+		)
+		(pin "13"
+			(uuid "7561fcea-daf9-4ed2-957a-fa73d610370b")
+		)
+		(pin "6"
+			(uuid "f2b8c340-116a-4c78-a8c4-764915bf6b75")
+		)
+		(pin "1"
+			(uuid "56805a2f-2a55-4f0d-954e-b8b2818a56dc")
+		)
+		(pin "10"
+			(uuid "1b09ac6b-7193-4d8a-84f1-8a4c49af34b4")
+		)
+		(pin "17"
+			(uuid "0472a953-9782-4d39-87a1-b84ca604c6ea")
+		)
+		(pin "15"
+			(uuid "f0d6e3c7-0ae4-4d39-b627-5c1493e2d189")
+		)
+		(pin "21"
+			(uuid "e9a40742-79a6-4932-b504-603ba7558210")
+		)
+		(pin "20"
+			(uuid "5cd09633-945a-4c55-af0d-d75ae9b1be3f")
+		)
+		(pin "11"
+			(uuid "505e8478-b2e1-4ea2-bc1b-149202c7e6d9")
+		)
+		(pin "3"
+			(uuid "5f90290b-55b6-45c5-a9cb-d903895b26d1")
+		)
+		(pin "4"
+			(uuid "e54f538f-e461-4dda-a18f-7d007ac117f3")
+		)
+		(pin "8"
+			(uuid "a63882a1-c8a2-4acd-b494-6d17d3438066")
+		)
+		(pin "7"
+			(uuid "73fc63d1-e44a-4925-909d-bfe4575f1a42")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 147.32 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bba2ad31-bf50-4845-b369-7904654c876c")
+		(property "Reference" "#PWR064"
+			(at 162.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48d235bd-b5ef-4bd9-b912-56d797655047")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 149.86 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf471fe6-da1b-424b-9abf-137e68c8f899")
+		(property "Reference" "#PWR065"
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a27a9661-7070-4899-baf8-a1ebf07d31f2")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
