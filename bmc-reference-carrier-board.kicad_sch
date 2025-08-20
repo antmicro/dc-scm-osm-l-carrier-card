@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(bus_alias "DP"
 		(members "TXD0-" "TXD0+" "TXD1-" "TXD1+" "TXD2-" "TXD2+" "TXD3-" "TXD3+"
-			"HPD"
+			"HPD" "AUX-" "AUX+"
 		)
 	)
 	(bus_alias "ETHERNET"
