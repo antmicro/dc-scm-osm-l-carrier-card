@@ -21,6 +21,9 @@
 	(bus_alias "JTAG"
 		(members "TCK" "TDI" "TDO" "TMS")
 	)
+	(bus_alias "SDIO"
+		(members "DAT[0..7]" "CMD" "CLK" "STRB" "~{RST}" "CD")
+	)
 	(bus_alias "UART"
 		(members "RX" "TX")
 	)
