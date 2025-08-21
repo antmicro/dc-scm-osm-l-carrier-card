@@ -1628,7 +1628,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_LED1_G" input
+		(pin "ETH_LED_G" input
 			(at 354.33 115.57 180)
 			(uuid "83737cb7-3830-4593-9c45-78f172ab6860")
 			(effects
@@ -1638,7 +1638,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_LED2_G" input
+		(pin "ETH_LED_Y" input
 			(at 354.33 118.11 180)
 			(uuid "56b5a8c8-be3b-4061-8f79-1d97073015b6")
 			(effects
