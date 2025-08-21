@@ -1768,7 +1768,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroVideoConnectors:DisplayPort-Mini_TE_2129320-3"
+		(symbol "antmicroVideoConnectors:DisplayPort-Mini_PulseElectronics_E9320-001-01"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1782,7 +1782,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DisplayPort-Mini_TE_2129320-3"
+			(property "Value" "DisplayPort-Mini_Pulse_E9320-001-01"
 				(at 45.72 0 0)
 				(effects
 					(font
@@ -1793,7 +1793,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:DisplayPort-Mini_Receptacle_TE_2129320-3"
+			(property "Footprint" "antmicro-footprints:DisplayPort-Mini_Receptacle_Pulse_E9320-001-01"
 				(at 45.72 -2.54 0)
 				(effects
 					(font
@@ -1804,7 +1804,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/usa-en/product-2129320-3.html"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6167/E9320-001-0x.pdf"
 				(at 45.72 -5.08 0)
 				(effects
 					(font
@@ -1815,7 +1815,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DisplayPort, Mini Receptacle Connector 20 Position Through Hole, Right Angle"
+			(property "Description" "DisplayPort, Mini Receptacle Connector 20 Position THT/SMD, Right Angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1824,7 +1824,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "2129320-3"
+			(property "MPN" "E9320-001-01"
 				(at 45.72 -7.62 0)
 				(effects
 					(font
@@ -1834,7 +1834,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "TE Connectivity"
+			(property "Manufacturer" " Pulse Electronics"
 				(at 45.72 -10.16 0)
 				(effects
 					(font
@@ -1867,7 +1867,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "MINI, DISPLAYPORT, CONNECTOR, THT, HORIZONTAL"
+			(property "ki_keywords" "MINI, DISPLAYPORT, CONNECTOR, THT, SMD, HORIZONTAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1876,7 +1876,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DisplayPort-Mini_TE_2129320-3_1_1"
+			(symbol "DisplayPort-Mini_PulseElectronics_E9320-001-01_1_1"
 				(rectangle
 					(start 2.667 2.54)
 					(end 22.86 -45.72)
@@ -4817,181 +4817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroVideoConnectors:DisplayPort-Mini_TE_2129320-3")
-		(at 204.47 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b260150-fc6f-470e-af05-bb456ad7d8b7")
-		(property "Reference" "J6"
-			(at 217.2335 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "DisplayPort-Mini_TE_2129320-3"
-			(at 250.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:DisplayPort-Mini_Receptacle_TE_2129320-3"
-			(at 250.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/usa-en/product-2129320-3.html"
-			(at 250.19 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "DisplayPort, Mini Receptacle Connector 20 Position Through Hole, Right Angle"
-			(at 204.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2129320-3"
-			(at 217.2335 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 250.19 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 250.19 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 250.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7634fe13-c7e7-44b0-befe-af8747008d99")
-		)
-		(pin "SH"
-			(uuid "92b26caf-16af-4a3a-b818-ff91b358d021")
-		)
-		(pin "8"
-			(uuid "a9d19146-e4a7-4ddc-b6fc-3e37c22f72fa")
-		)
-		(pin "13"
-			(uuid "5854f345-9fd4-40f4-9824-c6e29ee6913f")
-		)
-		(pin "19"
-			(uuid "59143a3a-a30e-4e0b-9a6b-51f5a1eae704")
-		)
-		(pin "16"
-			(uuid "26b74e61-717c-47aa-903c-5ae031279689")
-		)
-		(pin "20"
-			(uuid "7ba0de1b-b62e-4b18-936a-f0b135c1e2d1")
-		)
-		(pin "15"
-			(uuid "859058fc-1059-4a99-bc28-3153d9dfa439")
-		)
-		(pin "6"
-			(uuid "d68a95d8-f8be-4fa0-b928-a9d401503c29")
-		)
-		(pin "1"
-			(uuid "eca9a0db-7d39-490a-8df8-9297006bcd2d")
-		)
-		(pin "11"
-			(uuid "03c96fd7-6af1-4a7f-9d16-caf676c5c9e0")
-		)
-		(pin "7"
-			(uuid "b455e7c0-3e2c-4bd5-8692-0e1f1c55ffbb")
-		)
-		(pin "17"
-			(uuid "4dae3ac6-b743-4a7a-9a65-252369d58c27")
-		)
-		(pin "14"
-			(uuid "82581422-4a03-438e-bcae-9ded4e4ba594")
-		)
-		(pin "4"
-			(uuid "dd298f09-4bb2-4e12-994e-c5d33c4e7bd1")
-		)
-		(pin "10"
-			(uuid "8e8c1dcc-9f8e-4977-89f9-456aa5d8bd20")
-		)
-		(pin "2"
-			(uuid "1fed1039-d0bd-44b0-ad9e-ccab63d1ff0c")
-		)
-		(pin "9"
-			(uuid "459e6411-8caa-413d-97df-264f6b602ade")
-		)
-		(pin "12"
-			(uuid "2926b154-d795-4a61-b328-8fb1874e723d")
-		)
-		(pin "18"
-			(uuid "add7b226-1331-4b38-9887-7a8e24765cad")
-		)
-		(pin "3"
-			(uuid "123b0c3e-a27d-4e47-a4ee-f1adb902251f")
-		)
-		(instances
-			(project ""
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/32de8c9e-be2b-4d78-9d5d-f4e694f2d2e7"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_1M_0402")
 		(at 248.92 151.13 90)
 		(unit 1)
@@ -7630,6 +7455,181 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/32de8c9e-be2b-4d78-9d5d-f4e694f2d2e7"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroVideoConnectors:DisplayPort-Mini_PulseElectronics_E9320-001-01")
+		(at 204.47 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed904073-75bf-4853-89c7-24b653cf61e6")
+		(property "Reference" "J5"
+			(at 217.2335 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "DisplayPort-Mini_Pulse_E9320-001-01"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:DisplayPort-Mini_Receptacle_Pulse_E9320-001-01"
+			(at 250.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6167/E9320-001-0x.pdf"
+			(at 250.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "DisplayPort, Mini Receptacle Connector 20 Position THT/SMD, Right Angle"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "E9320-001-01"
+			(at 217.2335 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" " Pulse Electronics"
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 250.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "cdb6eb7f-ba98-4019-9549-2d795ed22436")
+		)
+		(pin "11"
+			(uuid "35da5683-4f2d-49b5-8292-918348c56686")
+		)
+		(pin "14"
+			(uuid "47c276b9-9a42-410c-af58-37616e8d1cf8")
+		)
+		(pin "17"
+			(uuid "139049f5-c4eb-4335-9213-0e1fa7868f86")
+		)
+		(pin "6"
+			(uuid "382eb593-2b36-49da-ba72-1d993f76318c")
+		)
+		(pin "SH"
+			(uuid "953f8d20-a83e-44d1-8805-a2dcdbce7c9d")
+		)
+		(pin "5"
+			(uuid "48f7ff94-0030-4ab2-885a-a713ac418448")
+		)
+		(pin "4"
+			(uuid "94b2fc73-0595-407a-9376-679ae8e00c45")
+		)
+		(pin "12"
+			(uuid "ef7ec637-e3f9-4187-97c4-6dd111eb11aa")
+		)
+		(pin "10"
+			(uuid "5206510b-c86a-4a21-a2f7-29de423ec79f")
+		)
+		(pin "13"
+			(uuid "196e6436-5c43-4202-927a-e2c4cf835366")
+		)
+		(pin "20"
+			(uuid "52fd9e7f-9d9e-46e9-9471-5cb47bf03714")
+		)
+		(pin "1"
+			(uuid "6e8c2beb-457c-4233-86ae-b2bd1a6fbfe4")
+		)
+		(pin "15"
+			(uuid "19a0a501-252a-496e-ab45-7ab4c467a4e9")
+		)
+		(pin "18"
+			(uuid "ed4df565-93eb-4d97-9849-c047737b524b")
+		)
+		(pin "3"
+			(uuid "3a688629-3cb9-4fbb-a435-3480f44b57f3")
+		)
+		(pin "19"
+			(uuid "f1df1c34-f80e-4799-8eef-3ee32a5dc7f5")
+		)
+		(pin "8"
+			(uuid "a168c4ea-7651-4e76-b0d8-24950c51cb81")
+		)
+		(pin "2"
+			(uuid "133d3d45-91e7-42e4-9525-eef61776d6d8")
+		)
+		(pin "9"
+			(uuid "832a0738-2131-47a1-b56e-046c247fc9f7")
+		)
+		(pin "7"
+			(uuid "f6379a91-ae0d-4fe1-9fbf-9dc57ab1abf3")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/32de8c9e-be2b-4d78-9d5d-f4e694f2d2e7"
+					(reference "J5")
 					(unit 1)
 				)
 			)
