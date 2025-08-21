@@ -2477,16 +2477,8 @@
 		(uuid "f274f561-c1e7-4869-9806-bd48d83d7dd2")
 	)
 	(no_connect
-		(at 199.39 114.3)
-		(uuid "2bf4e186-6509-42d3-8480-c46181a77ca0")
-	)
-	(no_connect
 		(at 199.39 100.33)
 		(uuid "343416ad-1761-46a0-ab84-e4d7db5a6f07")
-	)
-	(no_connect
-		(at 199.39 116.84)
-		(uuid "7d328284-b1e2-4171-b4d7-760b751e51ed")
 	)
 	(no_connect
 		(at 199.39 102.87)
@@ -2672,6 +2664,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 116.84) (xy 201.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b06e2a0-2bbf-40a2-8529-c4bb1bd5c207")
+	)
+	(wire
+		(pts
 			(xy 93.98 134.62) (xy 93.98 132.08)
 		)
 		(stroke
@@ -2809,6 +2811,16 @@
 			(type default)
 		)
 		(uuid "5bf741f6-cdcc-4a26-8286-aec534e59c58")
+	)
+	(wire
+		(pts
+			(xy 199.39 114.3) (xy 201.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9f8f1c-8474-4398-812e-6198ea0cbd5f")
 	)
 	(wire
 		(pts
@@ -3341,7 +3353,7 @@
 		(uuid "71969802-b6bf-4c1e-9e26-0e3a9116fc6d")
 	)
 	(label "USB1.D-"
-		(at 207.01 123.19 0)
+		(at 203.2 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3361,7 +3373,7 @@
 		(uuid "99a98143-6114-483c-9f37-40a7f7197a81")
 	)
 	(label "USB2.D+"
-		(at 207.01 106.68 0)
+		(at 203.2 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3381,7 +3393,7 @@
 		(uuid "a7aeea85-a658-4608-bfd2-85791d6c8306")
 	)
 	(label "USB2.D-"
-		(at 207.01 109.22 0)
+		(at 203.2 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3411,7 +3423,7 @@
 		(uuid "cc8b3f17-bbbc-487e-bb85-3e9e50fe344c")
 	)
 	(label "USB1.D+"
-		(at 207.01 120.65 0)
+		(at 203.2 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3452,6 +3464,17 @@
 		)
 		(uuid "6eb56f8a-2eff-4452-a607-9fd885306754")
 	)
+	(hierarchical_label "USB_HUB_2_FLG"
+		(shape input)
+		(at 201.93 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7516fede-c005-4f2d-b941-cfaaddcb29db")
+	)
 	(hierarchical_label "USB1{USB}"
 		(shape bidirectional)
 		(at 220.98 118.11 0)
@@ -3462,6 +3485,17 @@
 			(justify left)
 		)
 		(uuid "7d738984-d730-4b14-9884-f56b5a1d75b4")
+	)
+	(hierarchical_label "USB_HUB_2_PEN"
+		(shape input)
+		(at 201.93 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dadd1f32-730e-42bf-8d47-25ffdc4be6f0")
 	)
 	(symbol
 		(lib_id "InterfaceControllers:USB2422-I_MJ")
