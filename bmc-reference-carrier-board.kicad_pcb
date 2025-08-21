@@ -204719,10 +204719,81 @@
 		(layer "User.2")
 		(uuid "1b588e4b-ac09-4edb-989c-49971819020e")
 	)
+	(dimension
+		(type leader)
+		(locked yes)
+		(layer "B.Fab")
+		(uuid "18a6bdcd-c750-4311-ae43-4c1609e8dd95")
+		(pts
+			(xy 202.6 45.8) (xy 193.9 38.05)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(override_value "Insulator attachement")
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(text_frame 0)
+			(extension_offset 0.5)
+		)
+		(gr_text "Insulator attachement"
+			(locked yes)
+			(at 181.2 38.05 0)
+			(layer "B.Fab")
+			(uuid "18a6bdcd-c750-4311-ae43-4c1609e8dd95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type leader)
+		(locked yes)
+		(layer "B.Fab")
+		(uuid "9c47e2c1-9e33-44e4-8ede-56de96e910e1")
+		(pts
+			(xy 104.75 45.8) (xy 96.05 38.05)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(override_value "Insulator attachement")
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(text_frame 0)
+			(extension_offset 0.5)
+		)
+		(gr_text "Insulator attachement"
+			(locked yes)
+			(at 83.35 38.05 0)
+			(layer "B.Fab")
+			(uuid "9c47e2c1-9e33-44e4-8ede-56de96e910e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(zone
 		(net 0)
 		(net_name "")
-		(locked yes)
 		(layers "F.Cu" "B.Cu" "Edge.Cuts")
 		(uuid "512cb1d3-d4b4-4db3-978e-83631fd7331b")
 		(hatch edge 0.5)
@@ -204748,8 +204819,74 @@
 		)
 		(polygon
 			(pts
-				(xy 215.45 43.758) (xy 102.1 43.75) (xy 102.1 55) (xy 102.1 128.25) (xy 215.45 128.25) (xy 215.45 131)
-				(xy 95.05 131) (xy 95.05 41) (xy 215.45 41)
+				(xy 215.45 43.75) (xy 102.05 43.75) (xy 102.05 128.25) (xy 215.45 128.25) (xy 215.45 131) (xy 95.05 131)
+				(xy 95.05 41) (xy 215.45 41)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(locked yes)
+		(layers "B.Cu" "B.Fab")
+		(uuid "8326e23a-6186-4987-8cec-41380a0dbef8")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/DC-SCM 2.1 connector/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 102.05 43.75) (xy 108.25 43.75) (xy 108.25 128.25) (xy 102.05 128.25)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(locked yes)
+		(layers "B.Cu" "B.Fab")
+		(uuid "9ab6eddf-c37e-4ead-8c2a-fbceeff81143")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/DC-SCM 2.1 connector/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 197.05 43.75) (xy 207.05 43.75) (xy 207.06 128.25) (xy 197.05 128.25)
 			)
 		)
 	)
