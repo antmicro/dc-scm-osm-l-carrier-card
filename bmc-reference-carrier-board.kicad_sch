@@ -146,6 +146,16 @@
 		)
 		(uuid "1dd074f5-a5f9-4ca2-8769-6a60d4553378")
 	)
+	(wire
+		(pts
+			(xy 58.42 58.42) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26609708-2e1a-462f-b905-83da5dfddc4a")
+	)
 	(bus
 		(pts
 			(xy 58.42 187.96) (xy 176.53 187.96)
@@ -1061,6 +1071,16 @@
 		(pin "+12V_IN" input
 			(at 74.93 54.61 180)
 			(uuid "80e96069-b626-46d9-8c17-9003f753ada7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3_OUT" output
+			(at 74.93 58.42 180)
+			(uuid "d3f6b2e6-0f88-47c6-9c0b-1ed58e9a3aa7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,6 +2267,16 @@
 		(pin "DC_SCM_INTRUSION_N" output
 			(at 58.42 266.7 0)
 			(uuid "422f4957-6728-4ecb-bc10-7aa33975236c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_HPM_FRU" input
+			(at 58.42 58.42 0)
+			(uuid "0b9113ff-4fef-42ed-8740-b8bd302eaa64")
 			(effects
 				(font
 					(size 1.27 1.27)

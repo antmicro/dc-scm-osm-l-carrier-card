@@ -6780,6 +6780,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 48.26) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36703eed-a872-4d42-a156-e3d06f39da8d")
+	)
+	(wire
+		(pts
 			(xy 59.69 50.8) (xy 71.12 50.8)
 		)
 		(stroke
@@ -7077,6 +7087,17 @@
 			(justify left)
 		)
 		(uuid "6d69a7ed-4d90-48d2-8502-21f267532b0a")
+	)
+	(hierarchical_label "DC_SCM_HPM_FRU"
+		(shape input)
+		(at 144.78 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "774cb028-d757-45c6-adef-fc3a3546c28e")
 	)
 	(hierarchical_label "DC-SCM_PCIe_USB_SCMROOT{PCIE}"
 		(shape bidirectional)
