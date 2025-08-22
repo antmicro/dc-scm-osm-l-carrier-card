@@ -607,6 +607,17 @@
 		)
 		(uuid "44a1951c-5a06-4822-a523-fa50864504fd")
 	)
+	(hierarchical_label "TPM_MUX_SEL"
+		(shape input)
+		(at 144.78 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "857d78a5-205a-4fb1-8f97-3cee6c41472f")
+	)
 	(hierarchical_label "OSM_SPI{SPI}"
 		(shape bidirectional)
 		(at 165.1 144.78 0)

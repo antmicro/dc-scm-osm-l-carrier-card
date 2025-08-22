@@ -3540,6 +3540,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: replace with 32G version"
+		(exclude_from_sim no)
+		(at 208.026 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca10c0bf-73ff-4cf2-b022-6cce05c544a0")
+	)
 	(junction
 		(at 247.65 132.08)
 		(diameter 0)

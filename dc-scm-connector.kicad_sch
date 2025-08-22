@@ -1150,9 +1150,7 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "SPI_SCMCNTRL_IRQ0_N" passive line)
-					(alternate "" input line)
 				)
 				(pin passive line
 					(at 62.23 -20.32 180)
@@ -4466,9 +4464,7 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "SPI_SCMCNTRL_IRQ0_N" passive line)
-					(alternate "" input line)
 				)
 				(pin passive line
 					(at 62.23 -20.32 180)
@@ -7783,7 +7779,6 @@
 						)
 					)
 					(alternate "SPI_SCMCNTRL_IRQ0_N" passive line)
-					(alternate "" input line)
 				)
 				(pin passive line
 					(at 62.23 -20.32 180)
@@ -18851,7 +18846,7 @@
 		(uuid "5c173b00-be17-4840-ba2a-98befd370b01")
 	)
 	(hierarchical_label "DC_SCM_JTAG{JTAG}"
-		(shape output)
+		(shape bidirectional)
 		(at 40.64 58.42 180)
 		(effects
 			(font
@@ -18895,7 +18890,7 @@
 		(uuid "60f3ad17-7aad-47d3-bcdc-17d44b64ed50")
 	)
 	(hierarchical_label "DC-SCM_CLK_100M_1{PCIeREFCLK}"
-		(shape input)
+		(shape bidirectional)
 		(at 353.06 87.63 0)
 		(effects
 			(font
@@ -19339,7 +19334,6 @@
 		)
 		(pin "A60"
 			(uuid "1af02cb1-4e35-424f-8133-8db9605f598a")
-			(alternate "_SPI_SCMCNTRL_IRQ0_N")
 		)
 		(pin "OA14"
 			(uuid "0f6fd41f-28da-4aac-afc7-c634192959b7")
@@ -19960,7 +19954,6 @@
 		)
 		(pin "A60"
 			(uuid "1af02cb1-4e35-424f-8133-8db9605f598b")
-			(alternate "_SPI_SCMCNTRL_IRQ0_N")
 		)
 		(pin "OA14"
 			(uuid "0f6fd41f-28da-4aac-afc7-c634192959b8")
@@ -20581,7 +20574,6 @@
 		)
 		(pin "A60"
 			(uuid "1af02cb1-4e35-424f-8133-8db9605f598c")
-			(alternate "_SPI_SCMCNTRL_IRQ0_N")
 		)
 		(pin "OA14"
 			(uuid "0f6fd41f-28da-4aac-afc7-c634192959b9")

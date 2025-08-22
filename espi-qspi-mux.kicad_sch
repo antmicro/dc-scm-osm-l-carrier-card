@@ -607,6 +607,17 @@
 		)
 		(uuid "71e7b13e-a69b-4366-a103-26de6c8f5690")
 	)
+	(hierarchical_label "eSPI_RESET"
+		(shape bidirectional)
+		(at 176.53 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80f8fea6-6469-40b7-bde0-126b8801ea45")
+	)
 	(hierarchical_label "eSPI_ALERT"
 		(shape bidirectional)
 		(at 176.53 133.35 0)
