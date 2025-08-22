@@ -13386,6 +13386,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: add PECI voltage translator"
+		(exclude_from_sim no)
+		(at 184.15 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ddc989b-5697-4ad1-b91c-5003d6745a22")
+	)
 	(no_connect
 		(at 311.15 179.07)
 		(uuid "4282e659-a27c-49de-9f65-e529ccb02723")
@@ -15080,7 +15090,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 135.89 49.53)
+			(xy 135.89 49.53) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -16137,16 +16147,6 @@
 			(type default)
 		)
 		(uuid "906d2924-5e3e-4bea-a28d-0a9e863bed9d")
-	)
-	(wire
-		(pts
-			(xy 138.43 52.07) (xy 135.89 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "909ee997-4e6c-4b95-bdf7-b79acb9b17fa")
 	)
 	(wire
 		(pts
@@ -18693,7 +18693,7 @@
 	)
 	(hierarchical_label "DC_SCM_PECI"
 		(shape bidirectional)
-		(at 138.43 52.07 0)
+		(at 199.39 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18701,17 +18701,6 @@
 			(justify left)
 		)
 		(uuid "13e718fc-478f-4c08-ae16-db09a156c2f1")
-	)
-	(hierarchical_label "DC_SCM_PECI_VREF"
-		(shape output)
-		(at 138.43 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "18b27cf5-2e31-4cc7-a241-7672de2ac073")
 	)
 	(hierarchical_label "DC_SCM_I2C6{I2C}"
 		(shape bidirectional)

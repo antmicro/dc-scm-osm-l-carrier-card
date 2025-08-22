@@ -2688,16 +2688,6 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_PECI_VREF" output
-			(at 58.42 252.73 0)
-			(uuid "b2bac6ee-9a1c-4f65-8bab-4752190499c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{DC_SCM_SPI_SCMCNTRL_IRQ0}" input
 			(at 58.42 82.55 0)
 			(uuid "d055f0ff-6bbf-4f9e-b04e-c466b5e9f27a")
