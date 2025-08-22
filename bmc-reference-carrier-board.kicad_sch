@@ -30,6 +30,9 @@
 	(bus_alias "LTPI"
 		(members "RXD-" "RXD+" "TXD-" "TXD+" "RXCK+" "RXCK-" "TXCK+" "TXCK-")
 	)
+	(bus_alias "NC-SI"
+		(members "REF_CLK" "CRS_DV" "RXD[0..1]" "TX_EN" "TXD[0..1]")
+	)
 	(bus_alias "PCIE"
 		(members "RX0+" "RX0-" "TX0+" "TX0-" "RX1+" "RX1-" "TX1+" "TX1-" "RX2+"
 			"RX2-" "TX2+" "TX2-" "RX3+" "RX3-" "TX3+" "TX3-"
