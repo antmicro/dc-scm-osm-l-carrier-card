@@ -18,16 +18,39 @@
 	(bus_alias "ETHERNET"
 		(members "MDI0-" "MDI0+" "MDI1-" "MDI1+" "MDI2-" "MDI2+" "MDI3-" "MDI3+")
 	)
+	(bus_alias "I2C"
+		(members "SCL" "SDA")
+	)
+	(bus_alias "I3C"
+		(members "SCL" "SDA")
+	)
 	(bus_alias "JTAG"
-		(members "TCK" "TDI" "TDO" "TMS")
+		(members "TCK" "TDI" "TDO" "TMS" "TRST")
+	)
+	(bus_alias "LTPI"
+		(members "RXD-" "RXD+" "TXD-" "TXD+" "RXCK+" "RXCK-" "TXCK+" "TXCK-")
 	)
 	(bus_alias "PCIE"
 		(members "RX0+" "RX0-" "TX0+" "TX0-" "RX1+" "RX1-" "TX1+" "TX1-" "RX2+"
 			"RX2-" "TX2+" "TX2-" "RX3+" "RX3-" "TX3+" "TX3-"
 		)
 	)
+	(bus_alias "QSPI"
+		(members "IO0" "IO1" "IO2" "IO3" "SCK" "~{CS0}" "~{CS1}")
+	)
+	(bus_alias "RGMII"
+		(members "TXD0" "TXD1" "TXD2" "TXD3" "RXD0" "RXD1" "RXD2" "RXD3" "TX_CLK"
+			"TX_CTL" "RX_CTL" "RX_CLK" "MDIO" "MDC"
+		)
+	)
 	(bus_alias "SDIO"
 		(members "DAT[0..7]" "CMD" "CLK" "STRB" "~{RST}" "CD")
+	)
+	(bus_alias "SGMII"
+		(members "TX+" "TX-" "RX+" "RX-")
+	)
+	(bus_alias "SPI"
+		(members "MOSI" "MISO" "SCK" "~{CS0}")
 	)
 	(bus_alias "UART"
 		(members "RX" "TX")
@@ -37,6 +60,9 @@
 	)
 	(bus_alias "USBSS"
 		(members "RX+" "RX-" "TX+" "TX-")
+	)
+	(bus_alias "eSPI"
+		(members "IO0" "IO1" "IO2" "IO3" "SCK" "~{CS0}" "~{ALERT0}" "~{RESET}")
 	)
 	(text "TODO: verify we're using correct clocks"
 		(exclude_from_sim no)
