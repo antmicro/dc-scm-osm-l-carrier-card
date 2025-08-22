@@ -53,7 +53,7 @@
 		(members "TX+" "TX-" "RX+" "RX-")
 	)
 	(bus_alias "SPI"
-		(members "MOSI" "MISO" "SCK" "~{CS0}")
+		(members "DO" "DI" "SCK" "~{CS0}" "~{CS1}")
 	)
 	(bus_alias "UART"
 		(members "RX" "TX")
