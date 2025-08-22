@@ -7011,7 +7011,7 @@
 		)
 		(uuid "59d86827-fcb2-45c4-bb94-2fdd6c4c0450")
 	)
-	(hierarchical_label "DC_SCM_ESPI{ESPI}"
+	(hierarchical_label "DC_SCM_ESPI{eSPI}"
 		(shape bidirectional)
 		(at 341.63 187.96 0)
 		(effects

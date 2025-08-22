@@ -2162,7 +2162,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_ESPI{ESPI}" bidirectional
+		(pin "DC_SCM_ESPI{eSPI}" bidirectional
 			(at 58.42 177.8 0)
 			(uuid "ffce6497-caf9-4b7e-88bf-88ad29429dc6")
 			(effects
@@ -2506,7 +2506,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ESPI{ESPI}" bidirectional
+		(pin "ESPI{eSPI}" bidirectional
 			(at 74.93 177.8 180)
 			(uuid "f2279452-6a82-4466-a516-33f8fcba08c1")
 			(effects

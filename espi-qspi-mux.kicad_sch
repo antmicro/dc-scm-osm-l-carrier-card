@@ -618,7 +618,7 @@
 		)
 		(uuid "9d33fbed-cf3e-455b-a14f-a2c113914251")
 	)
-	(hierarchical_label "ESPI{ESPI}"
+	(hierarchical_label "ESPI{eSPI}"
 		(shape bidirectional)
 		(at 140.97 133.35 180)
 		(effects
