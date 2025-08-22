@@ -38,6 +38,9 @@
 			"RX2-" "TX2+" "TX2-" "RX3+" "RX3-" "TX3+" "TX3-"
 		)
 	)
+	(bus_alias "PCIeREFCLK"
+		(members "CLK+" "CLK-")
+	)
 	(bus_alias "QSPI"
 		(members "IO0" "IO1" "IO2" "IO3" "SCK" "~{CS0}" "~{CS1}")
 	)
@@ -399,7 +402,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 109.22) (xy 176.53 109.22)
+			(xy 110.49 101.6) (xy 176.53 101.6)
 		)
 		(stroke
 			(width 0)
@@ -477,9 +480,19 @@
 		)
 		(uuid "a648c5ff-a649-49e3-8faf-c7fcf2b4027d")
 	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 173.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94e3aff-e2f0-47e8-90bf-a55c7d6d29ba")
+	)
 	(bus
 		(pts
-			(xy 58.42 111.76) (xy 74.93 111.76)
+			(xy 58.42 104.14) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -559,7 +572,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 113.03) (xy 176.53 113.03)
+			(xy 110.49 105.41) (xy 176.53 105.41)
 		)
 		(stroke
 			(width 0)
@@ -748,7 +761,7 @@
 		(uuid "fae15600-78a2-4b2a-b3b8-58360362d2d0")
 	)
 	(sheet
-		(at 74.93 106.68)
+		(at 76.2 99.06)
 		(size 34.29 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -764,7 +777,7 @@
 		)
 		(uuid "02dc288a-88ee-45fa-83b7-00b3500b0ccd")
 		(property "Sheetname" "PCIe - USB Mux"
-			(at 74.93 105.9684 0)
+			(at 76.2 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -773,7 +786,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-usb-mux.kicad_sch"
-			(at 74.93 122.5046 0)
+			(at 76.2 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +795,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 109.22 113.03 0)
+			(at 110.49 105.41 0)
 			(uuid "22773127-92b0-4908-bda3-b45927d4f650")
 			(effects
 				(font
@@ -792,7 +805,7 @@
 			)
 		)
 		(pin "PCIe_USB{PCIE}" bidirectional
-			(at 74.93 111.76 180)
+			(at 76.2 104.14 180)
 			(uuid "f4c33bc1-5de8-4ee0-bff4-52c511fc52bd")
 			(effects
 				(font
@@ -802,7 +815,7 @@
 			)
 		)
 		(pin "USB{USBSS}" bidirectional
-			(at 109.22 109.22 0)
+			(at 110.49 101.6 0)
 			(uuid "95d3bf01-7739-4431-8c33-de4645fbd958")
 			(effects
 				(font
@@ -812,7 +825,7 @@
 			)
 		)
 		(pin "PCIE_USB_MUX_SEL" input
-			(at 109.22 116.84 0)
+			(at 110.49 109.22 0)
 			(uuid "07640666-45ee-434c-9ca0-3a5e1d7b3168")
 			(effects
 				(font
@@ -822,7 +835,7 @@
 			)
 		)
 		(pin "~{PCIE_USB_MUX_OE}" input
-			(at 109.22 119.38 0)
+			(at 110.49 111.76 0)
 			(uuid "08976947-b6e0-4d26-ab4d-57df73ce32d3")
 			(effects
 				(font
@@ -832,7 +845,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 74.93 109.22 180)
+			(at 76.2 101.6 180)
 			(uuid "4fbc3ed1-e63d-4196-8eff-f586b4f4f9cb")
 			(effects
 				(font
@@ -1302,7 +1315,7 @@
 			)
 		)
 		(pin "OSM_PCIe_A{PCIE}" bidirectional
-			(at 176.53 113.03 180)
+			(at 176.53 105.41 180)
 			(uuid "aa0507cd-869d-477f-a6a5-0cf98916bb92")
 			(effects
 				(font
@@ -1442,7 +1455,7 @@
 			)
 		)
 		(pin "OSM_USB_C_SS{USBSS}" bidirectional
-			(at 176.53 109.22 180)
+			(at 176.53 101.6 180)
 			(uuid "5efaf343-6359-4f52-b0a3-c658c272f881")
 			(effects
 				(font
@@ -1975,16 +1988,6 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_I2C13{I2C}" bidirectional
-			(at 58.42 240.03 0)
-			(uuid "c313ae88-d218-4dae-a7ff-564ab3bc33e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DC_SCM_I2C5{I2C}" bidirectional
 			(at 58.42 224.79 0)
 			(uuid "87328b3f-d684-40f2-bcec-d1faf2df991e")
@@ -2135,36 +2138,6 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_I2C12{I2C}" bidirectional
-			(at 58.42 237.49 0)
-			(uuid "403d1393-f79f-4f24-ad0f-a62252b4295d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_LTPI_SCM_HPM{LTPI}" bidirectional
-			(at 58.42 199.39 0)
-			(uuid "9eb02c26-c0eb-4b85-87e5-341f986c5a4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_LTPI_HPM_SCM{LTPI}" bidirectional
-			(at 58.42 196.85 0)
-			(uuid "670b78c4-d964-43b4-9171-c7466818cdb0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DC_SCM_ESPI{eSPI}" bidirectional
 			(at 58.42 177.8 0)
 			(uuid "ffce6497-caf9-4b7e-88bf-88ad29429dc6")
@@ -2188,16 +2161,6 @@
 		(pin "DC_SCM_UART{UART}" bidirectional
 			(at 58.42 207.01 0)
 			(uuid "c4b13f4d-08ea-4b1f-9121-9167e456c21d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_PECI{PECI}" bidirectional
-			(at 58.42 201.93 0)
-			(uuid "87311ec0-de2b-410a-a66d-942dd79c619a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,116 +2228,6 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_I2C14{I2C}" bidirectional
-			(at 58.42 242.57 0)
-			(uuid "c4c43a1d-09b1-4825-a86f-25d0a8d77345")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_I2C15{I2C}" bidirectional
-			(at 58.42 245.11 0)
-			(uuid "14e07aa4-d43d-41fc-8ccc-7fea65a7b6d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_I2C16{I2C}" bidirectional
-			(at 58.42 247.65 0)
-			(uuid "4f76d89d-87ac-4128-bd96-4b5c377ea515")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_I2C17{I2C}" bidirectional
-			(at 58.42 250.19 0)
-			(uuid "35bb29ee-7d4e-418a-a7d4-b56c24d63552")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_I2C18{I2C}" bidirectional
-			(at 58.42 252.73 0)
-			(uuid "fdef8758-2935-4428-960e-4e2b46056b0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_SCM_I2C19{I2C}" bidirectional
-			(at 58.42 255.27 0)
-			(uuid "06f91e55-f44e-4bd8-9845-337d9475a19c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC-SCM_PCIe_USB_SCMROOT{PCIE}" bidirectional
-			(at 58.42 111.76 0)
-			(uuid "368ef1b2-a30e-4c7d-8ea9-3ea641174064")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC-SCM_PCIE_CLK_S0{PCIeREFCLK}" output
-			(at 58.42 134.62 0)
-			(uuid "bf8af09f-501e-4f97-8107-0fb4e962e145")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC-SCM_PCIE_CLK_S5{PCIeREFCLK}" input
-			(at 58.42 132.08 0)
-			(uuid "fd5268a2-0a85-4bb7-84d2-defad37eded0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC-SCM_PCIe1{PCIE}" bidirectional
-			(at 58.42 127 0)
-			(uuid "d86b2d4f-e126-495d-9b70-e23d86486729")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC-SCM_PCIe0{PCIE}" bidirectional
-			(at 58.42 151.13 0)
-			(uuid "3825b701-3206-4ebd-a986-77f0dbdcdd0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DC_SCM_INTRUSION_N" output
 			(at 58.42 266.7 0)
 			(uuid "422f4957-6728-4ecb-bc10-7aa33975236c")
@@ -2388,6 +2241,186 @@
 		(pin "DC_SCM_HPM_FRU" input
 			(at 58.42 58.42 0)
 			(uuid "0b9113ff-4fef-42ed-8740-b8bd302eaa64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C12{I2C}" bidirectional
+			(at 58.42 237.49 0)
+			(uuid "72e49496-d430-45be-9040-252a926d08e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C13{I2C}" bidirectional
+			(at 58.42 240.03 0)
+			(uuid "e9959024-32bf-4725-87b6-bdbcbd51f674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C14{I2C}" bidirectional
+			(at 58.42 242.57 0)
+			(uuid "2683f549-0a86-453c-9293-85d8d08efe4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C15{I2C}" bidirectional
+			(at 58.42 245.11 0)
+			(uuid "9da4abcd-31a5-41b5-9a9a-7dfe803f87e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C16{I2C}" bidirectional
+			(at 58.42 247.65 0)
+			(uuid "d1fec3ec-97c4-4c9b-b547-2335702b1bcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C17{I2C}" bidirectional
+			(at 58.42 250.19 0)
+			(uuid "1028e5f1-830d-47ae-b263-21c060c929bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C18{I2C}" bidirectional
+			(at 58.42 252.73 0)
+			(uuid "10aea8b9-fbc8-49b7-966f-47c02be77922")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_I2C_I3C19{I2C}" bidirectional
+			(at 58.42 255.27 0)
+			(uuid "b84f896a-f150-4361-84f4-5d7818e44e50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_LTPI{LTPI}" bidirectional
+			(at 58.42 194.31 0)
+			(uuid "86243175-bc5e-4e20-b8e3-d1c9e1bced23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_PECI" bidirectional
+			(at 58.42 201.93 0)
+			(uuid "35cc7411-5362-435d-960e-bbbf8e9fb5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_PECI_VREF" output
+			(at 58.42 204.47 0)
+			(uuid "b2bac6ee-9a1c-4f65-8bab-4752190499c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DC_SCM_SPI_SCMCNTRL_IRQ0}" input
+			(at 58.42 198.12 0)
+			(uuid "d055f0ff-6bbf-4f9e-b04e-c466b5e9f27a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-SCM_CLK_100M_0{PCIeREFCLK}" output
+			(at 58.42 134.62 0)
+			(uuid "63151e70-c0e0-4c9b-aaae-954dd9b268ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-SCM_CLK_100M_1{PCIeREFCLK}" input
+			(at 58.42 132.08 0)
+			(uuid "16de7951-e68d-4c55-b988-475e364b5766")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-SCM_PCIE0_SGMII{PCIE}" bidirectional
+			(at 58.42 151.13 0)
+			(uuid "5f899a41-ecd5-4092-8693-86613b58afd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-SCM_PCIE1{PCIE}" bidirectional
+			(at 58.42 127 0)
+			(uuid "79e89eef-200c-494a-926a-ab00c092d0fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-SCM_PCIE_USB_SCMROOT{PCIE}" bidirectional
+			(at 58.42 104.14 0)
+			(uuid "cda8bc95-646d-47ee-a6ff-d8648124f67c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_HPM_SCM_PERST}" input
+			(at 58.42 124.46 0)
+			(uuid "bb55e01f-c152-4fc3-8894-8226e9e9ccbc")
 			(effects
 				(font
 					(size 1.27 1.27)
