@@ -884,7 +884,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroFixedInductors:L_2u2_3.1A_Vishay-IFSC-1515AH-01"
+		(symbol "antmicroFixedInductors:L_1u5_4.4A_Bourns-SRP3212A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -904,7 +904,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "L_2u2_3.1A_Vishay-IFSC-1515AH-01"
+			(property "Value" "L_1u5_4.4A_Bourns-SRP3212A"
 				(at 13.97 -2.54 0)
 				(effects
 					(font
@@ -915,7 +915,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:L_Vishay-IFSC-1515AH"
+			(property "Footprint" "antmicro-footprints:L_Bourns-SRP3212A"
 				(at 13.97 -7.62 0)
 				(effects
 					(font
@@ -926,7 +926,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/34295/sc15ah01.pdf"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/54/SRP3212A-3011944.pdf"
 				(at 13.97 -10.16 0)
 				(effects
 					(font
@@ -937,7 +937,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power Inductor (SMT), 2.2 µH, 3.1 A, Shielded, 3.1 A, IFSC-1515AH-01"
+			(property "Description" "Power Inductor (SMD), 1.5 µH, Irms 4.4 A, Shielded, Isat 5 A, SRP3212 Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -946,7 +946,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "2u2/3.1A"
+			(property "Val" "1u5/4.4A"
 				(at 13.97 -5.08 0)
 				(effects
 					(font
@@ -956,7 +956,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Vishay"
+			(property "Manufacturer" "Bourns"
 				(at 13.97 -12.7 0)
 				(effects
 					(font
@@ -967,7 +967,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "IFSC1515AHER2R2M01"
+			(property "MPN" "SRP3212A-1R5M"
 				(at 13.97 -15.24 0)
 				(effects
 					(font
@@ -978,7 +978,7 @@
 					(hide yes)
 				)
 			)
-			(property "ISat" "2.8 A"
+			(property "ISat" "5 A"
 				(at 13.97 -16.51 0)
 				(effects
 					(font
@@ -988,7 +988,7 @@
 					(hide yes)
 				)
 			)
-			(property "IMax" "3.1 A"
+			(property "IMax" "4.4 A"
 				(at 13.97 -20.32 0)
 				(effects
 					(font
@@ -999,7 +999,7 @@
 					(hide yes)
 				)
 			)
-			(property "Size" "4.0x4.0"
+			(property "Size" "3.2x2.5"
 				(at 13.97 -22.86 0)
 				(effects
 					(font
@@ -1032,7 +1032,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "INDUCTOR, PASSIVE"
+			(property "ki_keywords" "SMT, INDUCTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1041,7 +1041,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_2u2_3.1A_Vishay-IFSC-1515AH-01_0_1"
+			(symbol "L_1u5_4.4A_Bourns-SRP3212A_0_1"
 				(arc
 					(start 0.508 0)
 					(mid 1.016 0.5058)
@@ -1091,7 +1091,7 @@
 					)
 				)
 			)
-			(symbol "L_2u2_3.1A_Vishay-IFSC-1515AH-01_1_1"
+			(symbol "L_1u5_4.4A_Bourns-SRP3212A_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.508)
@@ -4195,6 +4195,167 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFixedInductors:L_1u5_4.4A_Bourns-SRP3212A")
+		(at 241.3 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20eb9de7-55fb-4853-aadf-212a80a1adc1")
+		(property "Reference" "L1"
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_1u5_4.4A_Bourns-SRP3212A"
+			(at 255.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:L_Bourns-SRP3212A"
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/SRP3212A-3011944.pdf"
+			(at 255.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor (SMD), 1.5 µH, Irms 4.4 A, Shielded, Isat 5 A, SRP3212 Series"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u5/4.4A"
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 255.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRP3212A-1R5M"
+			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "5 A"
+			(at 255.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IMax" "4.4 A"
+			(at 255.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "3.2x2.5"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 255.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 255.27 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec634271-4dcf-4434-801a-5d52e9c436c2")
+		)
+		(pin "2"
+			(uuid "aee7a26f-df61-49fc-b8ec-141b69120d09")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 250.19 144.78 0)
 		(unit 1)
@@ -6398,6 +6559,167 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFixedInductors:L_1u5_4.4A_Bourns-SRP3212A")
+		(at 238.76 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9bc5be9-ba1c-4890-be1f-8cb72e9784b2")
+		(property "Reference" "L2"
+			(at 241.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_1u5_4.4A_Bourns-SRP3212A"
+			(at 252.73 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:L_Bourns-SRP3212A"
+			(at 252.73 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/SRP3212A-3011944.pdf"
+			(at 252.73 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor (SMD), 1.5 µH, Irms 4.4 A, Shielded, Isat 5 A, SRP3212 Series"
+			(at 238.76 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u5/4.4A"
+			(at 241.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 252.73 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRP3212A-1R5M"
+			(at 252.73 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "5 A"
+			(at 252.73 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IMax" "4.4 A"
+			(at 252.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "3.2x2.5"
+			(at 252.73 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 252.73 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 252.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5998ea84-20ea-4a83-b9cf-93481e5525ca")
+		)
+		(pin "2"
+			(uuid "365f447e-aeab-47a7-8b82-1b2d7032dc03")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
 		(at 165.1 200.66 90)
 		(unit 1)
@@ -6543,167 +6865,6 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroFixedInductors:L_2u2_3.1A_Vishay-IFSC-1515AH-01")
-		(at 238.76 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acd8e207-2cdc-47b9-afd7-04d4e61c5756")
-		(property "Reference" "L2"
-			(at 241.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_2u2_3.1A_Vishay-IFSC-1515AH-01"
-			(at 252.73 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:L_Vishay-IFSC-1515AH"
-			(at 252.73 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/34295/sc15ah01.pdf"
-			(at 252.73 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Inductor (SMT), 2.2 µH, 3.1 A, Shielded, 3.1 A, IFSC-1515AH-01"
-			(at 238.76 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "2u2/3.1A"
-			(at 241.3 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 252.73 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IFSC1515AHER2R2M01"
-			(at 252.73 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ISat" "2.8 A"
-			(at 252.73 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "IMax" "3.1 A"
-			(at 252.73 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Size" "4.0x4.0"
-			(at 252.73 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 252.73 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 252.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28b0cd19-05c9-406d-8f30-0fd206cd10d5")
-		)
-		(pin "2"
-			(uuid "0f351f9b-157f-4ef8-990d-f5a448396841")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8067,167 +8228,6 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroFixedInductors:L_2u2_3.1A_Vishay-IFSC-1515AH-01")
-		(at 241.3 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0c34bd2-aefc-403d-9ffb-997225aff7b6")
-		(property "Reference" "L1"
-			(at 243.84 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_2u2_3.1A_Vishay-IFSC-1515AH-01"
-			(at 255.27 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:L_Vishay-IFSC-1515AH"
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/34295/sc15ah01.pdf"
-			(at 255.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Inductor (SMT), 2.2 µH, 3.1 A, Shielded, 3.1 A, IFSC-1515AH-01"
-			(at 241.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "2u2/3.1A"
-			(at 243.84 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 255.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IFSC1515AHER2R2M01"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ISat" "2.8 A"
-			(at 255.27 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "IMax" "3.1 A"
-			(at 255.27 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Size" "4.0x4.0"
-			(at 255.27 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 255.27 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 255.27 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfd064cb-b369-4cce-a58c-39fe6298ebd6")
-		)
-		(pin "2"
-			(uuid "41a5ac9d-3b4e-446b-b7c0-5736a531ddbd")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
-					(reference "L1")
 					(unit 1)
 				)
 			)
