@@ -649,6 +649,10 @@
       "DC-SCM 2.1 connector"
     ],
     [
+      "626fa623-3c57-4093-88cf-23d76305ad93",
+      "OSM L"
+    ],
+    [
       "0aea98e3-a768-49a4-b182-70f437391ac4",
       "USB Hub"
     ],
@@ -657,16 +661,20 @@
       "PCIe - USB Mux"
     ],
     [
-      "757bd70a-5179-4368-9172-3adb38876975",
-      "TPM"
+      "af9b114c-dfa4-427f-a7c0-6a1753518223",
+      "eMMC"
     ],
     [
       "fd4de79a-afa0-4171-b9b9-995c5758b8f0",
       "Ethernet PHY"
     ],
     [
-      "af9b114c-dfa4-427f-a7c0-6a1753518223",
-      "eMMC"
+      "e221e630-4eed-4bd7-af61-82caf62956ae",
+      "TPM Mux"
+    ],
+    [
+      "757bd70a-5179-4368-9172-3adb38876975",
+      "TPM"
     ],
     [
       "1d9765f7-f475-4be6-a940-c0038af0d26c",
@@ -681,16 +689,8 @@
       "Front panel Video"
     ],
     [
-      "e221e630-4eed-4bd7-af61-82caf62956ae",
-      "tpm_spi_mux"
-    ],
-    [
       "8b9a8008-1846-45f3-9c02-8213595344f6",
       "LVDS to DP converter"
-    ],
-    [
-      "3d29c412-58cb-45c0-928a-e05b1352002d",
-      "Power"
     ],
     [
       "e532ae7c-55b4-427b-a317-9e407e1b3e94",
@@ -705,8 +705,8 @@
       "PCIe x4 Connector"
     ],
     [
-      "626fa623-3c57-4093-88cf-23d76305ad93",
-      "OSM L"
+      "3d29c412-58cb-45c0-928a-e05b1352002d",
+      "Power"
     ]
   ],
   "text_variables": {}

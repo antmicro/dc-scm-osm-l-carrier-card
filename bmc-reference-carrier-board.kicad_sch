@@ -1017,7 +1017,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "10")
+					(page "5")
 				)
 			)
 		)
@@ -1109,7 +1109,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "9")
+					(page "4")
 				)
 			)
 		)
@@ -1251,7 +1251,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "14")
+					(page "10")
 				)
 			)
 		)
@@ -1313,7 +1313,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "17")
+					(page "12")
 				)
 			)
 		)
@@ -1375,7 +1375,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "19")
+					(page "17")
 				)
 			)
 		)
@@ -1857,7 +1857,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "23")
+					(page "3")
 				)
 			)
 		)
@@ -1909,7 +1909,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "11")
+					(page "9")
 				)
 			)
 		)
@@ -1971,7 +1971,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "18")
+					(page "13")
 				)
 			)
 		)
@@ -2033,7 +2033,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "22")
+					(page "16")
 				)
 			)
 		)
@@ -2115,7 +2115,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "15")
+					(page "11")
 				)
 			)
 		)
@@ -2217,7 +2217,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "21")
+					(page "15")
 				)
 			)
 		)
@@ -2269,7 +2269,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "13")
+					(page "6")
 				)
 			)
 		)
@@ -2782,7 +2782,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e221e630-4eed-4bd7-af61-82caf62956ae")
-		(property "Sheetname" "tpm_spi_mux"
+		(property "Sheetname" "TPM Mux"
 			(at 68.58 260.9084 0)
 			(effects
 				(font
@@ -2843,7 +2843,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "18")
+					(page "8")
 				)
 			)
 		)
@@ -2935,7 +2935,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "20")
+					(page "14")
 				)
 			)
 		)
@@ -2997,7 +2997,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "12")
+					(page "7")
 				)
 			)
 		)
