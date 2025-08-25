@@ -122,6 +122,16 @@
 	)
 	(bus
 		(pts
+			(xy 259.08 191.77) (xy 259.08 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ffd009-4ef9-4d92-a6ec-e5333e610dd8")
+	)
+	(bus
+		(pts
 			(xy 293.37 95.25) (xy 251.46 95.25)
 		)
 		(stroke
@@ -332,6 +342,16 @@
 	)
 	(bus
 		(pts
+			(xy 259.08 223.52) (xy 251.46 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5319620b-9d8c-41a7-ad57-73949cae589b")
+	)
+	(bus
+		(pts
 			(xy 172.72 43.18) (xy 176.53 43.18)
 		)
 		(stroke
@@ -470,6 +490,16 @@
 		)
 		(uuid "7ecc4973-1439-4e2b-9836-f33ca8da633f")
 	)
+	(bus
+		(pts
+			(xy 251.46 186.69) (xy 289.56 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a08d5fd-30f7-4b03-9a2b-1bd0760082f2")
+	)
 	(wire
 		(pts
 			(xy 109.22 182.88) (xy 176.53 182.88)
@@ -489,16 +519,6 @@
 			(type default)
 		)
 		(uuid "916a9d22-ccdf-49c2-bf84-f39732f2ed6c")
-	)
-	(bus
-		(pts
-			(xy 251.46 186.69) (xy 289.56 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a61d32-e542-4488-b705-9b730ad24dde")
 	)
 	(bus
 		(pts
@@ -692,6 +712,16 @@
 	)
 	(bus
 		(pts
+			(xy 289.56 191.77) (xy 259.08 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91bb397-681b-470c-b5d1-54fd08007bd4")
+	)
+	(bus
+		(pts
 			(xy 110.49 97.79) (xy 176.53 97.79)
 		)
 		(stroke
@@ -729,6 +759,16 @@
 			(type default)
 		)
 		(uuid "ca957d2b-d54a-43b8-b037-a3ac6732d327")
+	)
+	(wire
+		(pts
+			(xy 251.46 189.23) (xy 289.56 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b3be16-3042-405c-9e4f-dcbc334d1891")
 	)
 	(wire
 		(pts
@@ -1594,16 +1634,6 @@
 				(justify left)
 			)
 		)
-		(pin "OSM_LVDS{LVDS}" output
-			(at 251.46 186.69 0)
-			(uuid "f7744626-0610-4253-84da-ba422e600f14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ESPI_ALERT" bidirectional
 			(at 176.53 180.34 180)
 			(uuid "28c517a7-edaa-453c-ab78-677632130062")
@@ -1854,6 +1884,26 @@
 				(justify left)
 			)
 		)
+		(pin "DSI{DSI}" output
+			(at 251.46 186.69 0)
+			(uuid "1322f0da-55d7-446b-af22-9d89b82f1d15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVDS_TO_DP_EN" output
+			(at 251.46 189.23 0)
+			(uuid "6711c0ca-a075-40cc-ab72-a4276ebde494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
@@ -1915,7 +1965,7 @@
 		)
 	)
 	(sheet
-		(at 289.56 180.34)
+		(at 289.56 182.88)
 		(size 41.91 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1931,7 +1981,7 @@
 		)
 		(uuid "8b9a8008-1846-45f3-9c02-8213595344f6")
 		(property "Sheetname" "LVDS to DP converter"
-			(at 289.56 179.6284 0)
+			(at 289.56 182.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1990,7 @@
 			)
 		)
 		(property "Sheetfile" "lvds-to-dp-converter.kicad_sch"
-			(at 289.56 193.6246 0)
+			(at 289.56 196.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,9 +2008,29 @@
 				(justify right)
 			)
 		)
-		(pin "LVDS{LVDS}" input
+		(pin "DSI{DSI}" input
 			(at 289.56 186.69 180)
-			(uuid "a731232f-b9be-4842-b2b9-813f1056ef58")
+			(uuid "fd70d0e3-6b67-476b-8a4f-85585c5da68a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 289.56 189.23 180)
+			(uuid "15e233d7-810e-4f55-a486-8788709fbfbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 289.56 191.77 180)
+			(uuid "be449a66-18c6-4293-bbcb-6b7ccb3aefa6")
 			(effects
 				(font
 					(size 1.27 1.27)
