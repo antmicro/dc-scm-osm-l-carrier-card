@@ -50,7 +50,7 @@
 		)
 	)
 	(bus_alias "SDIO"
-		(members "DAT[0..7]" "CMD" "CLK" "STRB" "~{RST}" "CD")
+		(members "DAT[0..7]" "CMD" "CLK" "~{CD}" "IOPWR" "PWR_EN" "WP" "DS")
 	)
 	(bus_alias "SGMII"
 		(members "TX+" "TX-" "RX+" "RX-")
@@ -1652,7 +1652,7 @@
 				(justify left)
 			)
 		)
-		(pin "OSM_SDIO_A{SDIO}" bidirectional
+		(pin "SDIO_B{SDIO}" bidirectional
 			(at 251.46 166.37 0)
 			(uuid "b5605ed8-b24f-4e60-b468-cbd3b2b2a3d0")
 			(effects
