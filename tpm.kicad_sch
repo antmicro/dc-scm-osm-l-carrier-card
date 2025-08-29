@@ -24,7 +24,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TFM-107-01-X-D-RE1-WT"
+			(property "Value" "Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT"
 				(at 35.56 -7.62 0)
 				(effects
 					(font
@@ -35,7 +35,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT"
+			(property "Footprint" "antmicro-footprints:Conn_Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT"
 				(at 35.56 -10.16 0)
 				(effects
 					(font
@@ -120,13 +120,44 @@
 					(hide yes)
 				)
 			)
+			(symbol "Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT_1_0"
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(symbol "Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT_1_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 17.78 -17.78)
+					(end 8.89 -20.32)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 1.27)
+					(end 7.62 -19.05)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
@@ -135,14 +166,14 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
-					(name "01"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "01"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -153,14 +184,14 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
-					(name "03"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "03"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -171,14 +202,14 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "05"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "05"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -189,14 +220,14 @@
 				(pin passive line
 					(at 0 -7.62 0)
 					(length 2.54)
-					(name "07"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "07"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -207,14 +238,14 @@
 				(pin passive line
 					(at 0 -10.16 0)
 					(length 2.54)
-					(name "09"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "09"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -225,7 +256,7 @@
 				(pin passive line
 					(at 0 -12.7 0)
 					(length 2.54)
-					(name "11"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -243,7 +274,7 @@
 				(pin passive line
 					(at 0 -15.24 0)
 					(length 2.54)
-					(name "13"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -259,16 +290,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
+					(at 11.43 0 180)
 					(length 2.54)
-					(name "02"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "02"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -277,16 +308,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -2.54 180)
+					(at 11.43 -2.54 180)
 					(length 2.54)
-					(name "04"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "04"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -295,16 +326,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
+					(at 11.43 -5.08 180)
 					(length 2.54)
-					(name "06"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "06"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -313,16 +344,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -7.62 180)
+					(at 11.43 -7.62 180)
 					(length 2.54)
-					(name "08"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "08"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -331,9 +362,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -10.16 180)
+					(at 11.43 -10.16 180)
 					(length 2.54)
-					(name "10"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -349,9 +380,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -12.7 180)
+					(at 11.43 -12.7 180)
 					(length 2.54)
-					(name "12"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -367,9 +398,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -15.24 180)
+					(at 11.43 -15.24 180)
 					(length 2.54)
-					(name "14"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -429,7 +460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT"
+		(property "Footprint" "antmicro-footprints:Conn_Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT"
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -504,7 +535,7 @@
 				(hide yes)
 			)
 		)
-		(pin "06"
+		(pin "2"
 			(uuid "82a79b66-221b-4a67-8cdb-2d83b6a51960")
 		)
 		(pin "12"
@@ -516,25 +547,25 @@
 		(pin "11"
 			(uuid "1e7c7343-b223-4726-b186-1361776d971e")
 		)
-		(pin "09"
+		(pin "1"
 			(uuid "08bb661a-75a3-4b51-a98f-693e132bd74e")
 		)
-		(pin "07"
+		(pin "6"
 			(uuid "6fb78593-4d01-48f2-8a14-406536d8591b")
 		)
-		(pin "05"
+		(pin "9"
 			(uuid "d9618d4b-b606-430e-b6c5-a9f9e01673ff")
 		)
-		(pin "03"
+		(pin "8"
 			(uuid "b2e1b5cb-3c35-4a11-94a0-602793d1bfc8")
 		)
-		(pin "01"
+		(pin "3"
 			(uuid "738de540-b511-4879-bb57-89b0b735dc38")
 		)
-		(pin "02"
+		(pin "4"
 			(uuid "fad6cb9c-2751-406c-a90a-f20862a66381")
 		)
-		(pin "04"
+		(pin "5"
 			(uuid "0853eb4f-fccc-40b6-9d9e-0f2de3a396cb")
 		)
 		(pin "14"
@@ -543,8 +574,11 @@
 		(pin "10"
 			(uuid "4c105ef2-7173-4805-b4c9-c7432a850ecd")
 		)
-		(pin "08"
+		(pin "7"
 			(uuid "28ccbdf9-19fb-47cc-bd55-e06383539276")
+		)
+		(pin "SH"
+			(uuid "0d55ba5b-ad30-4242-b294-65ba2b75d050")
 		)
 		(instances
 			(project ""
