@@ -3890,6 +3890,16 @@
 		)
 		(uuid "33de8fa0-a5f7-4451-ace3-cb6090bc0a8a")
 	)
+	(text "To be checked"
+		(exclude_from_sim no)
+		(at 138.684 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a33bc757-7b6e-4813-8068-8b0b4d50c45a")
+	)
 	(text "Display Port Power"
 		(exclude_from_sim no)
 		(at 22.86 152.908 0)
@@ -6210,7 +6220,7 @@
 		(cells
 			(table_cell "ADDR"
 				(exclude_from_sim no)
-				(at 139.7 117.602 0)
+				(at 132.08 116.84 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6227,7 +6237,7 @@
 			)
 			(table_cell "I2C ADDR"
 				(exclude_from_sim no)
-				(at 148.59 117.602 0)
+				(at 140.97 116.84 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6244,7 +6254,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 139.7 120.142 0)
+				(at 132.08 119.38 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6259,9 +6269,9 @@
 				)
 				(uuid "b01f2419-8cbc-4244-ab2c-10b12c2d1f03")
 			)
-			(table_cell "0x2C"
+			(table_cell "0x98"
 				(exclude_from_sim no)
-				(at 148.59 120.142 0)
+				(at 140.97 119.38 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6278,7 +6288,7 @@
 			)
 			(table_cell "HIGH"
 				(exclude_from_sim no)
-				(at 139.7 122.682 0)
+				(at 132.08 121.92 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6293,9 +6303,9 @@
 				)
 				(uuid "533ba587-863f-498d-b538-fba663aa4612")
 			)
-			(table_cell "0x2D"
+			(table_cell "0x9A"
 				(exclude_from_sim no)
-				(at 148.59 122.682 0)
+				(at 140.97 121.92 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
