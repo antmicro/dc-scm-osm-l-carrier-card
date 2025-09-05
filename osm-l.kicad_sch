@@ -15766,6 +15766,16 @@
 	)
 	(bus
 		(pts
+			(xy 171.45 219.71) (xy 171.45 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171b09ee-a5a2-4f4e-bd6e-06f888b553dc")
+	)
+	(bus
+		(pts
 			(xy 402.59 43.18) (xy 403.86 43.18)
 		)
 		(stroke
@@ -17426,16 +17436,6 @@
 	)
 	(bus
 		(pts
-			(xy 171.45 213.36) (xy 171.45 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c5a4a5d-1496-4d54-906b-2c645b1973f4")
-	)
-	(bus
-		(pts
 			(xy 231.14 226.06) (xy 232.41 227.33)
 		)
 		(stroke
@@ -18346,6 +18346,16 @@
 	)
 	(bus
 		(pts
+			(xy 171.45 213.36) (xy 171.45 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0fe0ad-930b-4bb8-aef0-05bf315f4535")
+	)
+	(bus
+		(pts
 			(xy 67.31 210.82) (xy 67.31 208.28)
 		)
 		(stroke
@@ -18503,16 +18513,6 @@
 			(type default)
 		)
 		(uuid "d5f1d020-3655-4923-bfc7-9010cec92f9d")
-	)
-	(bus
-		(pts
-			(xy 171.45 219.71) (xy 171.45 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6454c33-9a81-4e14-9ccf-2f9e1a6d9d56")
 	)
 	(polyline
 		(pts
@@ -19364,6 +19364,16 @@
 		)
 		(uuid "17502cea-6fc4-48c4-8b20-3df5a9260b83")
 	)
+	(label "OSM_SPI_C.DO"
+		(at 161.29 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "180e0390-752b-4e25-a0d3-9a77137293c7")
+	)
 	(label "OSM_PCIe_A.TX0-"
 		(at 66.04 321.31 0)
 		(effects
@@ -19434,16 +19444,6 @@
 		)
 		(uuid "22c5df6e-6b5c-4c97-be9a-bdececc12000")
 	)
-	(label "OSM_SPI_C.MISO"
-		(at 161.29 226.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24f4bde8-c623-4799-ba3f-82aade71be9c")
-	)
 	(label "OSM_SPI_B.~{CS1}"
 		(at 78.74 144.78 0)
 		(effects
@@ -19493,16 +19493,6 @@
 			(justify left bottom)
 		)
 		(uuid "2d3aa587-a5b6-4a8b-b168-b92d4732e2b2")
-	)
-	(label "OSM_SPI_B.MOSI"
-		(at 161.29 217.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ec1b847-2cde-4ad1-b5d6-215393ea2565")
 	)
 	(label "I2C_3V3_7.SCL"
 		(at 85.09 218.44 180)
@@ -19693,6 +19683,16 @@
 			(justify left bottom)
 		)
 		(uuid "53208798-aa6e-490c-b2df-831a3f5a1710")
+	)
+	(label "OSM_SPI_B.DI"
+		(at 161.29 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53a5873e-a6b8-49ff-9116-243fbeff426f")
 	)
 	(label "OSM_SPI_C.~{CS0}"
 		(at 161.29 220.98 180)
@@ -20054,16 +20054,6 @@
 		)
 		(uuid "8cb71042-d436-4e00-8cdf-4132e4c79969")
 	)
-	(label "OSM_SPI_B.MISO"
-		(at 161.29 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d959af0-b551-4747-b97d-edd05014b927")
-	)
 	(label "OSM_ETH_A.TXD2"
 		(at 407.67 63.5 0)
 		(effects
@@ -20223,6 +20213,16 @@
 			(justify left bottom)
 		)
 		(uuid "aca8f125-70dd-497a-a9a9-e437bb427abf")
+	)
+	(label "OSM_SPI_B.DO"
+		(at 161.29 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad65eac2-d495-4b8c-9018-5d6d00a07fff")
 	)
 	(label "DSI.D0+"
 		(at 414.02 300.99 0)
@@ -20474,16 +20474,6 @@
 		)
 		(uuid "df812157-cdfb-4f6a-99b0-0c50bde83cbd")
 	)
-	(label "OSM_SPI_C.MOSI"
-		(at 161.29 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e248d750-a94b-493c-982c-c159c7ea01b5")
-	)
 	(label "OSM_SDIO_A.DAT1"
 		(at 323.85 328.93 0)
 		(effects
@@ -20503,6 +20493,16 @@
 			(justify right bottom)
 		)
 		(uuid "ecf830ad-8945-4b0d-b670-985f5fb2ca58")
+	)
+	(label "OSM_SPI_C.DI"
+		(at 161.29 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee69f503-5625-412d-a101-73cd417d1685")
 	)
 	(label "OSM_SPI_C.SCK"
 		(at 161.29 223.52 180)
