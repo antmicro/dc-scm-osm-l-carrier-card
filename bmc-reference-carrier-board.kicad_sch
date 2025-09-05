@@ -302,16 +302,6 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 194.31) (xy 58.42 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eba9bb4-0e00-474e-b379-83231b408c27")
-	)
-	(bus
-		(pts
 			(xy 58.42 151.13) (xy 74.93 151.13)
 		)
 		(stroke
@@ -489,6 +479,16 @@
 			(type default)
 		)
 		(uuid "7ecc4973-1439-4e2b-9836-f33ca8da633f")
+	)
+	(bus
+		(pts
+			(xy 58.42 194.31) (xy 74.93 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ada07f-280a-415c-993a-1f3d539329d1")
 	)
 	(bus
 		(pts
@@ -679,6 +679,16 @@
 			(type default)
 		)
 		(uuid "b31212d9-f126-4676-8baa-7de2447242d1")
+	)
+	(bus
+		(pts
+			(xy 119.38 194.31) (xy 176.53 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43d6174-c336-4f6c-858a-48fb4b7e4cc3")
 	)
 	(wire
 		(pts
@@ -1416,6 +1426,68 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
 					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 191.77)
+		(size 44.45 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ae3d11e-bdb2-474c-9920-031cf5845646")
+		(property "Sheetname" "LTPI bias"
+			(at 74.93 191.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ltpi-voltage-bias.kicad_sch"
+			(at 74.93 196.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_SCM_LTPI_B{LTPI}" bidirectional
+			(at 119.38 194.31 0)
+			(uuid "63f6bd61-ec43-4855-aa75-c934b2a49b54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_LTPI{LTPI}" bidirectional
+			(at 74.93 194.31 180)
+			(uuid "6609382c-fa7a-4722-b1f2-360b1dbac2f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "18")
 				)
 			)
 		)
