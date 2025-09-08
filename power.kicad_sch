@@ -2836,6 +2836,16 @@
 		)
 		(uuid "4f6947cb-6707-4f0e-88b5-aedc8babe02d")
 	)
+	(text "TODO: Missing 1V8 for LTPI Bias"
+		(exclude_from_sim no)
+		(at 183.134 90.932 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "58d4eec4-b795-4881-a78c-84dc4b6b45ec")
+	)
 	(text "3V3 DCDC"
 		(exclude_from_sim no)
 		(at 245.618 168.402 0)
