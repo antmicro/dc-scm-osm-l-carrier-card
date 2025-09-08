@@ -509,7 +509,32 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/BIOS Flash/QSPI.IO0": [
+        "50Ohm-se"
+      ],
+      "/BIOS Flash/QSPI.IO1": [
+        "50Ohm-se"
+      ],
+      "/BIOS Flash/QSPI.IO2": [
+        "50Ohm-se"
+      ],
+      "/BIOS Flash/QSPI.IO3": [
+        "50Ohm-se"
+      ],
+      "/BIOS Flash/QSPI.SCK": [
+        "50Ohm-se"
+      ],
+      "/BIOS Flash/QSPI.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/BIOS Flash/QSPI.~{CS1}": [
+        "50Ohm-se"
+      ],
+      "/BIOS Flash/QSPI{QSPI}": [
+        "50Ohm-se"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -711,6 +736,10 @@
     [
       "5ae3d11e-bdb2-474c-9920-031cf5845646",
       "LTPI bias"
+    ],
+    [
+      "f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf",
+      "BIOS Flash"
     ]
   ],
   "text_variables": {}
