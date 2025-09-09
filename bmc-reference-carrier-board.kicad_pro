@@ -740,6 +740,14 @@
     [
       "f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf",
       "BIOS Flash"
+    ],
+    [
+      "1ae89ab2-a757-4731-85b8-826e038b4e67",
+      "I2C Level Shifters"
+    ],
+    [
+      "40b8b518-c83d-44f5-8ab2-da7ec61f9cc6",
+      "STBY Level Shifters"
     ]
   ],
   "text_variables": {}

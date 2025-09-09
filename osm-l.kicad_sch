@@ -15836,6 +15836,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 129.54) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3c7888-ebe5-4a86-9113-67dff175e037")
+	)
+	(wire
+		(pts
 			(xy 168.91 76.2) (xy 142.24 76.2)
 		)
 		(stroke
@@ -16143,6 +16153,16 @@
 			(type default)
 		)
 		(uuid "2e28d9de-96c8-49f6-88c5-9b7f07ebb943")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0f952f-e299-4dd1-8907-fb0107124de3")
 	)
 	(bus
 		(pts
@@ -17504,16 +17524,6 @@
 		)
 		(uuid "96031b42-c9e5-441e-afcd-be013d5c4c47")
 	)
-	(wire
-		(pts
-			(xy 68.58 127) (xy 96.52 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983263bc-b8df-452d-a0ce-b19c509bdb72")
-	)
 	(bus
 		(pts
 			(xy 405.13 67.31) (xy 405.13 69.85)
@@ -17853,16 +17863,6 @@
 			(type default)
 		)
 		(uuid "b3f5d69e-145b-41e0-ae06-55217fd310d6")
-	)
-	(wire
-		(pts
-			(xy 68.58 129.54) (xy 96.52 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a1f576-339d-40d7-8cf4-19cd480c6ab7")
 	)
 	(bus
 		(pts
@@ -18213,6 +18213,16 @@
 			(type default)
 		)
 		(uuid "c93d5953-f727-472e-8036-2956b13f7cfd")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 142.24 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d14add-e5a0-4537-bf08-967b64aaa306")
 	)
 	(bus
 		(pts
@@ -18603,6 +18613,16 @@
 			(type default)
 		)
 		(uuid "df2d55ce-5f54-4efd-8fd2-7284e9ff0e28")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8471a9-f6df-45ea-8d83-1f2c85402d21")
 	)
 	(wire
 		(pts
@@ -20775,17 +20795,6 @@
 		)
 		(uuid "39d2b6f3-ed3b-4203-83b4-ee0b93c14d1f")
 	)
-	(hierarchical_label "~{INTRUSION}"
-		(shape bidirectional)
-		(at 68.58 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c08aa54-0973-4ded-80bd-f69b96847218")
-	)
 	(hierarchical_label "OSM_UART_B{UART}"
 		(shape bidirectional)
 		(at 167.64 132.08 0)
@@ -20984,6 +20993,17 @@
 		)
 		(uuid "7679f489-8f16-431c-a2e1-ee42ef7ca7ef")
 	)
+	(hierarchical_label "OSM_STBY_EN"
+		(shape output)
+		(at 153.67 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77399a7c-4981-423b-aa15-507de025453e")
+	)
 	(hierarchical_label "PECI"
 		(shape bidirectional)
 		(at 67.31 148.59 180)
@@ -20994,6 +21014,17 @@
 			(justify right)
 		)
 		(uuid "77871341-7fc0-4f3c-a6c2-59c45c9b7b73")
+	)
+	(hierarchical_label "~{OSM_STBY_RST}"
+		(shape output)
+		(at 153.67 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cb9c1e8-3e65-4ec3-b65c-ea84181c60f3")
 	)
 	(hierarchical_label "I2C_I3C_1V0_18{I3C}"
 		(shape bidirectional)
@@ -21060,6 +21091,28 @@
 			(justify right)
 		)
 		(uuid "95c6149f-9965-4c70-bf7a-7235abbef33f")
+	)
+	(hierarchical_label "OSM_STBY_RDY"
+		(shape input)
+		(at 68.58 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bdb3023-bad2-4851-8d5f-3b891eb6bb28")
+	)
+	(hierarchical_label "~{OSM_INTRUSION}"
+		(shape bidirectional)
+		(at 68.58 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a520264a-8b67-45fd-969d-3974d770c563")
 	)
 	(hierarchical_label "OSM_I2C_A{I2C}"
 		(shape bidirectional)
@@ -21269,17 +21322,6 @@
 			(justify right)
 		)
 		(uuid "f27face1-7855-4291-b045-acf4b3c892d6")
-	)
-	(hierarchical_label "~{STDB_RDY}"
-		(shape bidirectional)
-		(at 68.58 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f9f7f5ee-239c-46ca-88d3-535c238e8f86")
 	)
 	(hierarchical_label "ESPI_RST"
 		(shape bidirectional)
