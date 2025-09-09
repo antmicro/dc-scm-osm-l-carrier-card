@@ -2411,8 +2411,8 @@
 		)
 	)
 	(sheet
-		(at 265.43 160.02)
-		(size 22.86 11.43)
+		(at 265.43 161.29)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2427,7 +2427,7 @@
 		)
 		(uuid "af9b114c-dfa4-427f-a7c0-6a1753518223")
 		(property "Sheetname" "eMMC"
-			(at 265.43 159.3084 0)
+			(at 265.43 160.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
