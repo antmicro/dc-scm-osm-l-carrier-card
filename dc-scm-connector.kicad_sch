@@ -19850,7 +19850,7 @@
 		(uuid "d4fe9d78-0ac5-44cd-9c04-8bf5db3c90a4")
 	)
 	(hierarchical_label "~{PCIE_HPM_SCM_PERST}"
-		(shape input)
+		(shape output)
 		(at 318.77 80.01 0)
 		(effects
 			(font
