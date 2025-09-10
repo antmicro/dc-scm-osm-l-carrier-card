@@ -421,7 +421,7 @@
 	)
 	(hierarchical_label "TPM_SPI{SPI}"
 		(shape bidirectional)
-		(at 53.34 83.82 0)
+		(at 80.01 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -432,7 +432,7 @@
 	)
 	(symbol
 		(lib_id "antmicroB2BConnectors:Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT")
-		(at 175.26 87.63 0)
+		(at 201.93 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -441,7 +441,7 @@
 		(fields_autoplaced yes)
 		(uuid "c23f02ec-cae3-4612-81d3-d1d2386602b6")
 		(property "Reference" "J8"
-			(at 185.42 80.01 0)
+			(at 212.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,7 +450,7 @@
 			)
 		)
 		(property "Value" "TFM-107-01-X-D-RE1-WT"
-			(at 210.82 95.25 0)
+			(at 237.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +461,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Conn_Socket_Samtec_TFM_2x7_TFM-107-01-X-D-RE1-WT"
-			(at 210.82 97.79 0)
+			(at 237.49 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +472,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
-			(at 210.82 100.33 0)
+			(at 237.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,7 +483,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 14POS 1.27MM"
-			(at 210.82 102.87 0)
+			(at 237.49 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,7 +494,7 @@
 			)
 		)
 		(property "MPN" "TFM-107-01-L-D-RE1-WT"
-			(at 185.42 82.55 0)
+			(at 212.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -503,7 +503,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 210.82 105.41 0)
+			(at 237.49 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +514,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 210.82 107.95 0)
+			(at 237.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +525,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 210.82 110.49 0)
+			(at 237.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
