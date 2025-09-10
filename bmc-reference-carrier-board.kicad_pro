@@ -533,6 +533,72 @@
       ],
       "/BIOS Flash/QSPI{QSPI}": [
         "50Ohm-se"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI0+": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI0-": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI1+": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI1-": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI2+": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI2-": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI3+": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/ETHERNET.MDI3-": [
+        "100Ohm-diff"
+      ],
+      "/Ethernet PHY/RGMII.MDC": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.MDIO": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.RXD0": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.RXD1": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.RXD2": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.RXD3": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.RX_CLK": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.RX_CTL": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.TXD0": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.TXD1": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.TXD2": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.TXD3": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.TX_CLK": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RGMII.TX_CTL": [
+        "50Ohm-se"
       ]
     },
     "netclass_patterns": []
