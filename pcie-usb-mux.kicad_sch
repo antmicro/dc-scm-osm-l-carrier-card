@@ -2382,7 +2382,7 @@
 		)
 	)
 	(label "USB.TX-"
-		(at 222.25 133.35 0)
+		(at 222.25 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2412,7 +2412,7 @@
 		(uuid "17431f1b-769d-4a80-9a73-22063e9dfc42")
 	)
 	(label "USB.RX-"
-		(at 222.25 118.11 0)
+		(at 222.25 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2442,7 +2442,7 @@
 		(uuid "6a9edcd2-98d5-4c80-9b77-d44bd51d996d")
 	)
 	(label "USB.RX+"
-		(at 222.25 115.57 0)
+		(at 222.25 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2472,7 +2472,7 @@
 		(uuid "93145e9b-5b65-40f7-9a00-33fe3471d2fc")
 	)
 	(label "USB.TX+"
-		(at 222.25 130.81 0)
+		(at 222.25 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)

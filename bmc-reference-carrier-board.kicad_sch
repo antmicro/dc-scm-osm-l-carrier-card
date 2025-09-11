@@ -2368,16 +2368,6 @@
 				(justify left)
 			)
 		)
-		(pin "~{OSM_PCIe_A_PERST}" bidirectional
-			(at 176.53 124.46 180)
-			(uuid "e6d2f66e-8535-47c7-96ae-e7be220e2d57")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DSI{DSI}" output
 			(at 251.46 186.69 0)
 			(uuid "1322f0da-55d7-446b-af22-9d89b82f1d15")
@@ -2546,6 +2536,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{OSM_PCIe_PERST}" bidirectional
+			(at 176.53 124.46 180)
+			(uuid "61a35660-5947-4ae2-9744-6c9e780cdb40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

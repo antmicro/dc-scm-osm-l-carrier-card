@@ -13585,7 +13585,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PCIe directions from host POV"
+	(text "PCIe directions from HPM POV\n"
 		(exclude_from_sim no)
 		(at 363.22 110.49 0)
 		(effects
@@ -18298,7 +18298,7 @@
 		(uuid "06c656a2-b20e-4ab9-a400-7fa77809f142")
 	)
 	(label "DC-SCM_PCIE1.RX0-"
-		(at 314.96 158.75 0)
+		(at 314.96 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18908,7 +18908,7 @@
 		(uuid "87ac46e4-e012-481a-9a90-59e7aff7c27f")
 	)
 	(label "DC-SCM_PCIE1.RX0+"
-		(at 314.96 156.21 0)
+		(at 314.96 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19078,7 +19078,7 @@
 		(uuid "aa67179a-3507-4ae3-8fb9-9832c5733985")
 	)
 	(label "DC-SCM_PCIE1.TX0+"
-		(at 314.96 162.56 0)
+		(at 314.96 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19388,7 +19388,7 @@
 		(uuid "fbe1761b-4c83-4bbc-a847-000308d5b3dc")
 	)
 	(label "DC-SCM_PCIE1.TX0-"
-		(at 314.96 165.1 0)
+		(at 314.96 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
