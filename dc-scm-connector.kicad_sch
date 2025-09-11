@@ -13585,6 +13585,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PCIe directions from host POV"
+		(exclude_from_sim no)
+		(at 363.22 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ef7636a-e064-4ba5-950c-4d26b06e4eb2")
+	)
 	(text "TODO: add PECI voltage translator"
 		(exclude_from_sim no)
 		(at 184.15 44.45 0)
@@ -18268,7 +18278,7 @@
 		(uuid "044516ca-a7e4-4f0a-9260-f823cdb16aab")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX1-"
-		(at 314.96 116.84 0)
+		(at 314.96 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18448,7 +18458,7 @@
 		(uuid "2c0e88ff-ad3b-423f-832e-607ab5db4093")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX1+"
-		(at 314.96 120.65 0)
+		(at 314.96 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18528,7 +18538,7 @@
 		(uuid "3d94273d-1b35-4ef7-9e7b-82cac28fc425")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX0+"
-		(at 314.96 100.33 0)
+		(at 314.96 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18558,7 +18568,7 @@
 		(uuid "405e846b-2292-4189-8af9-2edc976418ac")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX3+"
-		(at 314.96 148.59 0)
+		(at 314.96 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18568,7 +18578,7 @@
 		(uuid "40957be5-dcb9-4029-94b5-c18a98dc0759")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX2+"
-		(at 314.96 128.27 0)
+		(at 314.96 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18648,7 +18658,7 @@
 		(uuid "4fd15ffd-35f8-4804-ade9-281b61c17126")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX0+"
-		(at 314.96 106.68 0)
+		(at 314.96 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18748,7 +18758,7 @@
 		(uuid "6adf874e-3446-4d94-a539-ea8eff947fb9")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX0-"
-		(at 314.96 102.87 0)
+		(at 314.96 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18788,7 +18798,7 @@
 		(uuid "7398e5ea-3fcd-4f37-8a69-1bb141618537")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX0-"
-		(at 314.96 109.22 0)
+		(at 314.96 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18798,7 +18808,7 @@
 		(uuid "77de30d8-698f-4cec-a68c-203536fe9f73")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX1-"
-		(at 314.96 123.19 0)
+		(at 314.96 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18838,7 +18848,7 @@
 		(uuid "8217eed5-c5b3-4df1-a0d7-79ad8a1ae3fd")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX3+"
-		(at 314.96 142.24 0)
+		(at 314.96 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18878,7 +18888,7 @@
 		(uuid "8644b1a4-46d7-4223-b21d-d6310bf39dbc")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX3-"
-		(at 314.96 144.78 0)
+		(at 314.96 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18908,7 +18918,7 @@
 		(uuid "87bb972a-6704-420c-b18c-bf3ff74ed8eb")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX1+"
-		(at 314.96 114.3 0)
+		(at 314.96 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19168,7 +19178,7 @@
 		(uuid "cadfb139-c91e-450e-97b3-af1496553ac1")
 	)
 	(label "DC-SCM_PCIE0_SGMII.RX2-"
-		(at 314.96 130.81 0)
+		(at 314.96 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19248,7 +19258,7 @@
 		(uuid "d1d175f3-876a-466c-96a0-3cff8b744e78")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX2+"
-		(at 314.96 134.62 0)
+		(at 314.96 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19328,7 +19338,7 @@
 		(uuid "ee85682d-8a38-4475-b112-e39c2538db12")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX3-"
-		(at 314.96 151.13 0)
+		(at 314.96 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19368,7 +19378,7 @@
 		(uuid "fb48f2c6-fe86-45e4-ac54-d43fc2a3a8c1")
 	)
 	(label "DC-SCM_PCIE0_SGMII.TX2-"
-		(at 314.96 137.16 0)
+		(at 314.96 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)

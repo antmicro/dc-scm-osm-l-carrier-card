@@ -3297,16 +3297,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Verifiy PCIe TX/RX swap"
-		(exclude_from_sim no)
-		(at 173.355 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "500a7c4a-f72f-4c36-a3c1-2436b086bd3f")
-	)
 	(junction
 		(at 242.57 88.9)
 		(diameter 0)
@@ -3344,7 +3334,7 @@
 		(uuid "60f42405-4f95-40eb-aacf-c91d8f6053c9")
 	)
 	(junction
-		(at 224.79 176.53)
+		(at 226.06 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c59143e-47e1-4260-962b-86409129df54")
@@ -3711,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 173.99) (xy 224.79 176.53)
+			(xy 226.06 173.99) (xy 226.06 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4141,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 176.53) (xy 224.79 177.8)
+			(xy 226.06 176.53) (xy 226.06 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4161,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 176.53) (xy 224.79 176.53)
+			(xy 223.52 176.53) (xy 226.06 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4191,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 173.99) (xy 224.79 173.99)
+			(xy 223.52 173.99) (xy 226.06 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6473,7 +6463,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 224.79 177.8 0)
+		(at 226.06 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6481,7 +6471,7 @@
 		(dnp no)
 		(uuid "b5ef2edb-14c4-4093-9f0e-82785b0b477e")
 		(property "Reference" "#PWR0202"
-			(at 233.68 180.34 0)
+			(at 234.95 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 181.61 0)
+			(at 226.06 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 185.42 0)
+			(at 234.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +6502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 190.5 0)
+			(at 234.95 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6513,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 177.8 0)
+			(at 226.06 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6522,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 233.68 185.42 0)
+			(at 234.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6533,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 233.68 187.96 0)
+			(at 234.95 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
