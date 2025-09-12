@@ -15850,6 +15850,16 @@
 		)
 		(uuid "03ec5ebf-08d7-4448-bc6c-16306cda8a79")
 	)
+	(wire
+		(pts
+			(xy 425.45 39.37) (xy 425.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058f9ac6-1a1e-483d-bf34-168de1a80169")
+	)
 	(bus
 		(pts
 			(xy 62.23 223.52) (xy 66.04 223.52)
@@ -18100,6 +18110,16 @@
 		)
 		(uuid "973f3736-bb47-4ca7-a572-cdffcfd1abe7")
 	)
+	(wire
+		(pts
+			(xy 425.45 40.64) (xy 426.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99727885-f719-4a23-b435-c466d205e5a8")
+	)
 	(bus
 		(pts
 			(xy 405.13 67.31) (xy 405.13 69.85)
@@ -19519,6 +19539,16 @@
 			(type default)
 		)
 		(uuid "ef9ca5b0-3f70-4de6-a942-8c271107ad20")
+	)
+	(wire
+		(pts
+			(xy 146.05 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa8d8e1-5354-43dd-8abf-5ab8bc515f2b")
 	)
 	(polyline
 		(pts
@@ -21536,6 +21566,17 @@
 			(justify right)
 		)
 		(uuid "22ee2e65-7541-4bd9-86b9-8d6e7da8b8f3")
+	)
+	(hierarchical_label "~{RESET_OUT}"
+		(shape output)
+		(at 146.05 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24df316c-23e7-4432-8454-c807a177ce48")
 	)
 	(hierarchical_label "OSM_REFCLK{PCIeREFCLK}"
 		(shape bidirectional)
@@ -26913,6 +26954,100 @@
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
 					(reference "U14")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 425.45 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3333796d-b841-45d6-9057-7fc93c33a3e8")
+		(property "Reference" "#PWR0239"
+			(at 440.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "ETH_VDDIO"
+			(at 425.45 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 425.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 440.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 440.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f002b29-8a54-4231-a693-90c1cbc37880")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(reference "#PWR0239")
+					(unit 1)
 				)
 			)
 		)

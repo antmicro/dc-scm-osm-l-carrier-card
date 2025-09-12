@@ -108,6 +108,10 @@
 		(color 0 0 0 0)
 		(uuid "f427153b-19de-41f9-abd7-d71568bd0047")
 	)
+	(no_connect
+		(at 287.02 125.73)
+		(uuid "d6dcd6d0-85f3-4e65-abd4-d5ac954a7d02")
+	)
 	(wire
 		(pts
 			(xy 58.42 46.99) (xy 63.5 46.99)
@@ -310,7 +314,7 @@
 	)
 	(bus
 		(pts
-			(xy 334.01 125.73) (xy 354.33 125.73)
+			(xy 334.01 123.19) (xy 354.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -338,6 +342,16 @@
 		)
 		(uuid "36b3e30b-d6ee-4b46-a170-58001cb44f98")
 	)
+	(wire
+		(pts
+			(xy 334.01 125.73) (xy 354.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455bd053-707e-4688-a75b-510da5938001")
+	)
 	(bus
 		(pts
 			(xy 58.42 148.59) (xy 74.93 148.59)
@@ -347,6 +361,16 @@
 			(type default)
 		)
 		(uuid "4777f598-a509-4cd1-a52d-8fb22977c3d3")
+	)
+	(wire
+		(pts
+			(xy 269.24 128.27) (xy 292.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a8febe-0939-410b-a56b-9a991e23cc3d")
 	)
 	(bus
 		(pts
@@ -397,6 +421,16 @@
 			(type default)
 		)
 		(uuid "4e16a080-5927-4478-aa5e-ad6f31349077")
+	)
+	(wire
+		(pts
+			(xy 287.02 125.73) (xy 292.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514be7b4-2312-452b-a140-00cbf833946a")
 	)
 	(wire
 		(pts
@@ -548,6 +582,16 @@
 		)
 		(uuid "63817abb-639f-4d3c-98e2-269e68e9f6c5")
 	)
+	(wire
+		(pts
+			(xy 251.46 86.36) (xy 269.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66acc940-4dac-498e-9def-56bba0dd513d")
+	)
 	(bus
 		(pts
 			(xy 237.49 38.1) (xy 237.49 43.18)
@@ -698,6 +742,16 @@
 		)
 		(uuid "916a9d22-ccdf-49c2-bf84-f39732f2ed6c")
 	)
+	(wire
+		(pts
+			(xy 334.01 128.27) (xy 354.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93230b94-e5c9-4368-9fed-76cab9a35ee9")
+	)
 	(bus
 		(pts
 			(xy 58.42 187.96) (xy 176.53 187.96)
@@ -810,7 +864,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 125.73) (xy 292.1 125.73)
+			(xy 251.46 123.19) (xy 292.1 123.19)
 		)
 		(stroke
 			(width 0)
@@ -957,6 +1011,16 @@
 			(type default)
 		)
 		(uuid "c556d581-2932-43fb-b62c-17d6edb07517")
+	)
+	(wire
+		(pts
+			(xy 269.24 86.36) (xy 269.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca25260d-69c8-4d1d-bf7d-167fa70ebf53")
 	)
 	(wire
 		(pts
@@ -1949,7 +2013,7 @@
 			)
 		)
 		(pin "OSM_ETH_A{RGMII}" bidirectional
-			(at 251.46 125.73 0)
+			(at 251.46 123.19 0)
 			(uuid "10620d89-98d5-48f8-a9a4-8e2440a73e33")
 			(effects
 				(font
@@ -2548,6 +2612,16 @@
 				(justify left)
 			)
 		)
+		(pin "~{RESET_OUT}" output
+			(at 251.46 86.36 0)
+			(uuid "2c0634b2-47cd-47f5-8165-c963e86247ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
@@ -2807,7 +2881,7 @@
 			)
 		)
 		(pin "ETHERNET{ETHERNET}" bidirectional
-			(at 354.33 125.73 180)
+			(at 354.33 123.19 180)
 			(uuid "9cf25d8e-3568-48ec-8ba0-15838f76de98")
 			(effects
 				(font
@@ -2816,18 +2890,8 @@
 				(justify left)
 			)
 		)
-		(pin "3V3_LED" input
-			(at 354.33 113.03 180)
-			(uuid "6311380c-9179-4f1c-8f37-bfd83f3c0b6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ETH_LED_G" input
-			(at 354.33 115.57 180)
+			(at 354.33 125.73 180)
 			(uuid "83737cb7-3830-4593-9c45-78f172ab6860")
 			(effects
 				(font
@@ -2837,7 +2901,7 @@
 			)
 		)
 		(pin "ETH_LED_Y" input
-			(at 354.33 118.11 180)
+			(at 354.33 128.27 180)
 			(uuid "56b5a8c8-be3b-4061-8f79-1d97073015b6")
 			(effects
 				(font
@@ -3751,7 +3815,7 @@
 			)
 		)
 		(pin "RGMII{RGMII}" bidirectional
-			(at 292.1 125.73 180)
+			(at 292.1 123.19 180)
 			(uuid "85aa64a4-d500-4517-9d56-db50ccf46c24")
 			(effects
 				(font
@@ -3761,13 +3825,53 @@
 			)
 		)
 		(pin "ETHERNET{ETHERNET}" bidirectional
-			(at 334.01 125.73 0)
+			(at 334.01 123.19 0)
 			(uuid "8603cf9b-ecfc-4811-aed6-b5630956d105")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ETH_LED_G" output
+			(at 334.01 125.73 0)
+			(uuid "ae6f38cb-cf68-4bac-8493-006795e3b9f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_LED_Y" output
+			(at 334.01 128.27 0)
+			(uuid "f2d92ff8-4d2a-428d-9c06-0342ebb786b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{INT}" output
+			(at 292.1 125.73 180)
+			(uuid "18318b6c-a19a-455d-9cb4-3cbb3e73c178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PHYRST}" input
+			(at 292.1 128.27 180)
+			(uuid "06061985-5e94-4171-a53e-43ec1e57b795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
