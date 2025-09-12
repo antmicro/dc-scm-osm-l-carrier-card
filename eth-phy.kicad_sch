@@ -4734,7 +4734,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "SET TO EXTERNAL\ndefault = 1V8\nCHANGE LED STRAPS IF USING\nDIFFERENT VOLTAGE"
+	(text_box "SET TO INTERNAL\ndefault = 1V8\nCHANGE LED STRAPS IF USING\nDIFFERENT VOLTAGE"
 		(exclude_from_sim no)
 		(at 226.06 90.17 0)
 		(size 26.67 11.43)
@@ -4873,12 +4873,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69ce2c4e-c892-4909-ad6f-ef1bb8644c9b")
-	)
-	(junction
-		(at 121.92 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6acd6a28-fda0-4ca5-91b1-3231e6fded6a")
 	)
 	(junction
 		(at 142.24 194.31)
@@ -7008,16 +7002,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 138.43) (xy 121.92 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a92fe7a8-c5e8-433d-ad8a-58adbcc57724")
-	)
-	(wire
-		(pts
 			(xy 292.1 179.07) (xy 298.45 179.07)
 		)
 		(stroke
@@ -8577,17 +8561,6 @@
 		)
 		(uuid "8d00b084-8df4-4042-b473-eb24d2488622")
 	)
-	(hierarchical_label "~{INT}"
-		(shape output)
-		(at 119.38 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cee2523b-44da-4bb7-9e3d-88aabe74e499")
-	)
 	(hierarchical_label "ETH_LED_G"
 		(shape output)
 		(at 298.45 179.07 0)
@@ -8870,7 +8843,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "06bdf914-8e24-4391-be25-55ec349deb96")
 		(property "Reference" "R182"
 			(at 278.13 182.88 90)
@@ -19888,7 +19861,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb114e1e-1ccc-4433-bbe6-cd23f5b976cb")
 		(property "Reference" "R179"
 			(at 275.59 167.64 90)

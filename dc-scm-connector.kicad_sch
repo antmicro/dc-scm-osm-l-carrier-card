@@ -13465,6 +13465,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:+0V5"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+0V5"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+0V5_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+0V5_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+0V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers
@@ -13594,16 +13707,6 @@
 			)
 		)
 		(uuid "3ef7636a-e064-4ba5-950c-4d26b06e4eb2")
-	)
-	(text "TODO: add PECI voltage translator"
-		(exclude_from_sim no)
-		(at 184.15 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4ddc989b-5697-4ad1-b91c-5003d6745a22")
 	)
 	(no_connect
 		(at 311.15 179.07)
@@ -15157,6 +15260,16 @@
 		)
 		(uuid "2911af8c-34a2-4180-bfb8-368042b9dbe8")
 	)
+	(wire
+		(pts
+			(xy 165.1 49.53) (xy 146.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299ac43c-7513-401a-8bc4-da39b80ce8e9")
+	)
 	(bus
 		(pts
 			(xy 161.29 208.28) (xy 161.29 210.82)
@@ -15626,6 +15739,16 @@
 			(type default)
 		)
 		(uuid "4aa1613f-e0f0-49bf-9a8c-3e51b4c30971")
+	)
+	(wire
+		(pts
+			(xy 165.1 48.26) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b46cd37-5b60-4d07-8092-1cbf05f6416d")
 	)
 	(bus
 		(pts
@@ -17126,6 +17249,16 @@
 			(type default)
 		)
 		(uuid "b00a1d9b-c572-4b27-a6ea-817b2cf7e2eb")
+	)
+	(wire
+		(pts
+			(xy 152.4 52.07) (xy 146.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e72664-600f-4aed-ac56-eefc3dc578a6")
 	)
 	(bus
 		(pts
@@ -19421,7 +19554,7 @@
 	)
 	(hierarchical_label "DC_SCM_PECI"
 		(shape bidirectional)
-		(at 199.39 52.07 0)
+		(at 152.4 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21377,6 +21510,71 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/ca214ec5-42cf-4efd-9251-fb98a8d45893"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+0V5")
+		(at 165.1 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "347a8ec2-3cea-4af4-94f0-d5468fa6569a")
+		(property "Reference" "#PWR0242"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PECI_VREF"
+			(at 165.1 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eba2faa9-d8b1-4b56-92c4-8965e6edb097")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/ca214ec5-42cf-4efd-9251-fb98a8d45893"
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)

@@ -814,6 +814,10 @@
     [
       "40b8b518-c83d-44f5-8ab2-da7ec61f9cc6",
       "STBY Level Shifters"
+    ],
+    [
+      "059549ff-8797-49c1-8fca-331cf9775bbd",
+      "PECI"
     ]
   ],
   "text_variables": {}
