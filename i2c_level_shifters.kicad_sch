@@ -2007,7 +2007,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01cbe2a5-0422-4f57-b370-7782b525330e")
 		(property "Reference" "U25"
@@ -2165,7 +2165,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "063a7c52-2825-41bb-a3ac-677a121e1c97")
 		(property "Reference" "C124"
 			(at 238.76 132.0736 90)
@@ -2994,7 +2994,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68f8837-efcf-4375-9366-5fad7e8ce0aa")
 		(property "Reference" "C125"

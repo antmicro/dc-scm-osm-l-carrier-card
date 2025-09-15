@@ -1232,7 +1232,7 @@
 		(uuid "90b5ce0b-1b2a-41a2-9736-41d2adbea8e5")
 	)
 	(bus_entry
-		(at 184.15 196.85)
+		(at 179.07 196.85)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -1241,7 +1241,7 @@
 		(uuid "e4a1d66c-0502-43e9-b2ef-f91125e290ad")
 	)
 	(bus_entry
-		(at 184.15 199.39)
+		(at 179.07 199.39)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -1291,7 +1291,7 @@
 	)
 	(bus
 		(pts
-			(xy 184.15 196.85) (xy 184.15 199.39)
+			(xy 179.07 196.85) (xy 179.07 199.39)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1551,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 194.31) (xy 182.88 194.31)
+			(xy 173.99 194.31) (xy 177.8 194.31)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1631,7 @@
 	)
 	(bus
 		(pts
-			(xy 184.15 195.58) (xy 184.15 196.85)
+			(xy 179.07 195.58) (xy 179.07 196.85)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1651,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 194.31) (xy 184.15 195.58)
+			(xy 177.8 194.31) (xy 179.07 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 198.12) (xy 194.31 198.12)
+			(xy 180.34 198.12) (xy 194.31 198.12)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 200.66) (xy 194.31 200.66)
+			(xy 180.34 200.66) (xy 194.31 200.66)
 		)
 		(stroke
 			(width 0)
@@ -2149,7 +2149,7 @@
 		)
 		(uuid "fe43b07a-0d7c-4429-ba27-c02ed91ac4b8")
 	)
-	(label "I2C0.SCL"
+	(label "I2C_12.SCL"
 		(at 153.67 71.12 0)
 		(effects
 			(font
@@ -2159,8 +2159,8 @@
 		)
 		(uuid "0e35a7eb-38ae-45a0-8485-074567f487e1")
 	)
-	(label "I2C1.SDA"
-		(at 185.42 198.12 0)
+	(label "I2C_13.SDA"
+		(at 180.34 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2169,7 +2169,7 @@
 		)
 		(uuid "38ce3610-0290-41b8-9713-d85122d8b06c")
 	)
-	(label "I2C0.SDA"
+	(label "I2C_12.SDA"
 		(at 153.67 68.58 0)
 		(effects
 			(font
@@ -2179,8 +2179,8 @@
 		)
 		(uuid "7d474a51-6684-4349-a755-f3eb47b4fef3")
 	)
-	(label "I2C1.SCL"
-		(at 185.42 200.66 0)
+	(label "I2C_13.SCL"
+		(at 180.34 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,9 +2189,9 @@
 		)
 		(uuid "dac51868-4a2c-44a2-b693-87234944218b")
 	)
-	(hierarchical_label "I2C1{I2C}"
+	(hierarchical_label "I2C_13{I2C}"
 		(shape bidirectional)
-		(at 179.07 194.31 180)
+		(at 173.99 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2200,7 @@
 		)
 		(uuid "648b8d2c-f967-4317-8b4d-e868a38afb79")
 	)
-	(hierarchical_label "I2C0{I2C}"
+	(hierarchical_label "I2C_12{I2C}"
 		(shape bidirectional)
 		(at 147.32 64.77 180)
 		(effects

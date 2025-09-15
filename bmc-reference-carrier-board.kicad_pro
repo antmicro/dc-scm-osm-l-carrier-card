@@ -822,6 +822,14 @@
     [
       "6e582200-5a13-40b2-b200-897e55905982",
       "Temp sensors"
+    ],
+    [
+      "3ed11a6c-c41e-4496-8ded-d9f7860b25fe",
+      "FPGA devkit conn"
+    ],
+    [
+      "795b4315-1db0-49a6-b944-d6fc21ceb345",
+      "iMX devkit conn"
     ]
   ],
   "text_variables": {}
