@@ -2704,16 +2704,6 @@
 				(justify right)
 			)
 		)
-		(pin "LVDS_TO_DP_EN" output
-			(at 251.46 189.23 0)
-			(uuid "6711c0ca-a075-40cc-ab72-a4276ebde494")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "OSM_STBY_EN" output
 			(at 176.53 91.44 180)
 			(uuid "917132d2-1544-4667-85cd-5b7ce712dcc8")
@@ -2775,7 +2765,7 @@
 			)
 		)
 		(pin "DISP_VDD_EN" bidirectional
-			(at 251.46 247.65 0)
+			(at 251.46 189.23 0)
 			(uuid "53877033-8f47-4686-bc30-d328b6609bb5")
 			(effects
 				(font

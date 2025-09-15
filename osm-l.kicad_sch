@@ -13271,7 +13271,7 @@
 		(uuid "0803ec57-a783-4516-a6ce-437f28570a29")
 	)
 	(no_connect
-		(at 534.67 284.48)
+		(at 508 233.68)
 		(uuid "0a85cb5d-3e99-46d9-ab6f-fc20bd67d980")
 	)
 	(no_connect
@@ -13375,6 +13375,10 @@
 		(uuid "1ddc0530-7115-4daa-b6b3-22567a72692b")
 	)
 	(no_connect
+		(at 96.52 134.62)
+		(uuid "1e6157a2-6973-455a-b602-285f6ad88a2c")
+	)
+	(no_connect
 		(at 142.24 234.95)
 		(uuid "1fa26cb2-8805-4536-95e9-ba552cba0126")
 	)
@@ -13383,7 +13387,7 @@
 		(uuid "2098dc31-3c37-4294-ba38-85f53ec73010")
 	)
 	(no_connect
-		(at 534.67 353.06)
+		(at 508 302.26)
 		(uuid "216239ac-f83a-4b00-a02b-ef189c20a793")
 	)
 	(no_connect
@@ -13467,7 +13471,7 @@
 		(uuid "335e0e15-bff2-421b-b409-f86e780f537f")
 	)
 	(no_connect
-		(at 534.67 304.8)
+		(at 508 254)
 		(uuid "33e6de43-4bd0-4a8f-8ecf-c507fae12fa5")
 	)
 	(no_connect
@@ -13483,7 +13487,7 @@
 		(uuid "36416dca-249a-404c-a537-5111474c78a9")
 	)
 	(no_connect
-		(at 534.67 341.63)
+		(at 508 290.83)
 		(uuid "36f7f9aa-7186-4dce-a837-d13ab34f1bbd")
 	)
 	(no_connect
@@ -13567,7 +13571,7 @@
 		(uuid "4486c104-6b42-4a00-9bdd-16643166d60a")
 	)
 	(no_connect
-		(at 534.67 339.09)
+		(at 508 288.29)
 		(uuid "452ba937-bce6-4b2b-8d56-8a3e26bf62d1")
 	)
 	(no_connect
@@ -13579,7 +13583,7 @@
 		(uuid "479e6934-44fc-4229-a9a9-08ee90f2cf76")
 	)
 	(no_connect
-		(at 534.67 320.04)
+		(at 508 269.24)
 		(uuid "48d0f0d7-0c9a-4137-b924-d972537cbbea")
 	)
 	(no_connect
@@ -13671,7 +13675,7 @@
 		(uuid "5a5a27a2-bf38-49a8-ac18-9e54121741b2")
 	)
 	(no_connect
-		(at 534.67 293.37)
+		(at 508 242.57)
 		(uuid "5aefe85d-e588-4432-9e26-1b33c17ec463")
 	)
 	(no_connect
@@ -13683,7 +13687,7 @@
 		(uuid "5f0361ba-1eb7-4065-ad92-b51b6a6f33ab")
 	)
 	(no_connect
-		(at 534.67 317.5)
+		(at 508 266.7)
 		(uuid "5fabf87f-de2d-4d9f-8090-318fb1a7daf9")
 	)
 	(no_connect
@@ -13695,7 +13699,7 @@
 		(uuid "614dc94d-7af4-429e-a259-8c3f2891e643")
 	)
 	(no_connect
-		(at 534.67 361.95)
+		(at 508 311.15)
 		(uuid "623fcf1c-88e8-4a9d-bd8b-41fcc799ed2b")
 	)
 	(no_connect
@@ -13807,7 +13811,7 @@
 		(uuid "78d149fe-07f9-4607-bbba-b6306c64b312")
 	)
 	(no_connect
-		(at 534.67 323.85)
+		(at 508 273.05)
 		(uuid "78e099f1-7fa9-49c8-b98b-c9ab27fc969f")
 	)
 	(no_connect
@@ -13835,7 +13839,7 @@
 		(uuid "7b3cbb96-562b-45b5-a5f4-e2820171da8c")
 	)
 	(no_connect
-		(at 534.67 297.18)
+		(at 508 246.38)
 		(uuid "7b8f0d86-805f-4888-9de2-83663b73b624")
 	)
 	(no_connect
@@ -13843,7 +13847,7 @@
 		(uuid "7de4b47d-c76e-45f0-be70-9328e2e3df8a")
 	)
 	(no_connect
-		(at 534.67 313.69)
+		(at 508 262.89)
 		(uuid "7e9ba191-eecd-4a94-9495-db6fbe279347")
 	)
 	(no_connect
@@ -13851,7 +13855,7 @@
 		(uuid "7f61fa86-8173-4bd8-ad41-ee2c49505192")
 	)
 	(no_connect
-		(at 534.67 326.39)
+		(at 508 275.59)
 		(uuid "81dc0f40-8b75-4e8a-bf43-916111ef9dfe")
 	)
 	(no_connect
@@ -14043,7 +14047,7 @@
 		(uuid "ac07d69b-89e9-4c79-a3d2-bed2dbc5081c")
 	)
 	(no_connect
-		(at 534.67 365.76)
+		(at 508 314.96)
 		(uuid "acc7993b-fb5c-4755-a3fe-b62da99f13ba")
 	)
 	(no_connect
@@ -14091,7 +14095,7 @@
 		(uuid "b4425ba3-13a1-4ea4-ba85-cc389eb2c9cf")
 	)
 	(no_connect
-		(at 534.67 355.6)
+		(at 508 304.8)
 		(uuid "b4ab4a01-9fea-4932-8c5c-d534ab6b9364")
 	)
 	(no_connect
@@ -14119,7 +14123,7 @@
 		(uuid "b6d111a1-19f5-410f-9e74-f830ef8a110f")
 	)
 	(no_connect
-		(at 534.67 299.72)
+		(at 508 248.92)
 		(uuid "b6e2d41b-7786-4990-b460-7adac3e730db")
 	)
 	(no_connect
@@ -14199,7 +14203,7 @@
 		(uuid "c5049abd-877a-4c0d-b09c-d8fef97bd28c")
 	)
 	(no_connect
-		(at 534.67 368.3)
+		(at 508 317.5)
 		(uuid "c518f63f-30ad-48ca-b331-acd729e3bd85")
 	)
 	(no_connect
@@ -14243,7 +14247,7 @@
 		(uuid "cd06b3f3-8eb1-43ba-820b-cc199d84fb09")
 	)
 	(no_connect
-		(at 534.67 290.83)
+		(at 508 240.03)
 		(uuid "ce5d5c86-8afb-489a-a166-681486a5084b")
 	)
 	(no_connect
@@ -14259,7 +14263,7 @@
 		(uuid "cff740e2-0418-4c62-aced-3e5af8d08a22")
 	)
 	(no_connect
-		(at 534.67 307.34)
+		(at 508 256.54)
 		(uuid "d02846c6-8659-4c0a-8c15-5d6946ba091f")
 	)
 	(no_connect
@@ -14315,7 +14319,7 @@
 		(uuid "d95ea002-a906-42e3-9847-e1b5698c30e9")
 	)
 	(no_connect
-		(at 534.67 332.74)
+		(at 508 281.94)
 		(uuid "dbdf451e-04c6-4ae7-aa85-50032e279799")
 	)
 	(no_connect
@@ -14379,7 +14383,7 @@
 		(uuid "e5f0bc51-d60d-4e76-95f6-04f1383a472d")
 	)
 	(no_connect
-		(at 534.67 359.41)
+		(at 508 308.61)
 		(uuid "e659f5b7-e827-4f0b-9936-1ae199448923")
 	)
 	(no_connect
@@ -14431,7 +14435,7 @@
 		(uuid "ecd564f1-f8cd-43d7-8d53-6b6f7de884f4")
 	)
 	(no_connect
-		(at 534.67 335.28)
+		(at 508 284.48)
 		(uuid "ecde20a7-970a-46ba-8e81-a6b538c36530")
 	)
 	(no_connect
@@ -14447,7 +14451,7 @@
 		(uuid "f0b8fb2c-3f46-46cc-a867-68b1d332576d")
 	)
 	(no_connect
-		(at 534.67 346.71)
+		(at 508 295.91)
 		(uuid "f12b2453-b927-4ccd-b898-c0b16f1219fd")
 	)
 	(no_connect
@@ -14483,7 +14487,7 @@
 		(uuid "f8e47e61-8bcf-42c8-b1c2-54b0b0e32d37")
 	)
 	(no_connect
-		(at 534.67 311.15)
+		(at 508 260.35)
 		(uuid "f95f021f-c844-4e3a-8e04-d632b69bea32")
 	)
 	(no_connect
@@ -14503,7 +14507,7 @@
 		(uuid "fce18b37-6797-424f-9e81-ba3e5d94fc3c")
 	)
 	(no_connect
-		(at 534.67 349.25)
+		(at 508 298.45)
 		(uuid "fcff6d8c-d35b-4c00-9830-211fbd75ba41")
 	)
 	(no_connect
@@ -16020,16 +16024,6 @@
 			(type default)
 		)
 		(uuid "0a2e8089-2674-4f04-9dbb-d8694120eef8")
-	)
-	(wire
-		(pts
-			(xy 73.66 237.49) (xy 96.52 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a57781f-e487-418a-a99c-7bbd3cfcd88f")
 	)
 	(bus
 		(pts
@@ -18423,7 +18417,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 255.27) (xy 68.58 255.27)
+			(xy 80.01 237.49) (xy 96.52 237.49)
 		)
 		(stroke
 			(width 0)
@@ -19363,16 +19357,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 255.27) (xy 73.66 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc0e54d6-1875-4023-8622-a636688732d6")
-	)
-	(wire
-		(pts
 			(xy 412.75 316.23) (xy 426.72 316.23)
 		)
 		(stroke
@@ -19670,16 +19654,6 @@
 			(type default)
 		)
 		(uuid "ee24bb36-7dba-4245-ad09-e984d70648f2")
-	)
-	(wire
-		(pts
-			(xy 68.58 134.62) (xy 96.52 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef2e93ac-e04b-45b9-b66e-e8ccf6958886")
 	)
 	(bus
 		(pts
@@ -21864,7 +21838,7 @@
 	)
 	(hierarchical_label "DISP_BL_PWM"
 		(shape bidirectional)
-		(at 68.58 255.27 180)
+		(at 80.01 237.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22005,17 +21979,6 @@
 		)
 		(uuid "884f871a-7083-4ef1-a2ac-5526cd761c6a")
 	)
-	(hierarchical_label "~{PRSNT1}"
-		(shape bidirectional)
-		(at 68.58 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8c54a52a-0df2-4173-b36f-eb5434cc7f98")
-	)
 	(hierarchical_label "OSM_ETH_C{SGMII}"
 		(shape bidirectional)
 		(at 519.43 53.34 0)
@@ -22136,17 +22099,6 @@
 			(justify right)
 		)
 		(uuid "ac286a48-55d7-438b-aa00-7e209f70d70c")
-	)
-	(hierarchical_label "LVDS_TO_DP_EN"
-		(shape output)
-		(at 58.42 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad67a8e5-2a9a-453d-9af7-dcdeb41ca8bc")
 	)
 	(hierarchical_label "I2C_I3C_1V8_15{I3C}"
 		(shape bidirectional)
@@ -31877,7 +31829,7 @@
 	)
 	(symbol
 		(lib_id "antmicroModules:OSM-L_Carrier-side")
-		(at 534.67 284.48 0)
+		(at 508 233.68 0)
 		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31886,7 +31838,7 @@
 		(fields_autoplaced yes)
 		(uuid "74fcb8de-db93-4046-95f7-35aea33d56c4")
 		(property "Reference" "U14"
-			(at 576.58 326.39 0)
+			(at 549.91 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31896,7 +31848,7 @@
 			)
 		)
 		(property "Value" "OSM-L_Carrier-side"
-			(at 594.36 292.1 0)
+			(at 567.69 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31907,7 +31859,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:OSM-L_Carrier-side"
-			(at 594.36 294.64 0)
+			(at 567.69 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31918,7 +31870,7 @@
 			)
 		)
 		(property "Datasheet" "https://sget.org/standards/osm/"
-			(at 594.36 297.18 0)
+			(at 567.69 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31929,7 +31881,7 @@
 			)
 		)
 		(property "Description" "Open Standard Module (OSM)"
-			(at 618.49 299.72 0)
+			(at 591.82 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31940,7 +31892,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 618.49 289.56 0)
+			(at 591.82 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31950,7 +31902,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 618.49 302.26 0)
+			(at 591.82 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31961,7 +31913,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 594.36 304.8 0)
+			(at 567.69 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31972,7 +31924,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 594.36 307.34 0)
+			(at 567.69 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
