@@ -464,6 +464,16 @@
 	)
 	(bus
 		(pts
+			(xy 276.86 212.09) (xy 292.1 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475fa9ac-d6e9-4c50-9e14-99b093a9f0a3")
+	)
+	(bus
+		(pts
 			(xy 58.42 148.59) (xy 74.93 148.59)
 		)
 		(stroke
@@ -1182,6 +1192,16 @@
 		)
 		(uuid "c556d581-2932-43fb-b62c-17d6edb07517")
 	)
+	(bus
+		(pts
+			(xy 276.86 214.63) (xy 292.1 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dae9e0-4d27-4b4b-b635-c2b8e9812926")
+	)
 	(wire
 		(pts
 			(xy 262.89 110.49) (xy 262.89 125.73)
@@ -1451,6 +1471,46 @@
 			(type default)
 		)
 		(uuid "fdad3698-396c-4d5d-b0b1-668152fe238d")
+	)
+	(label "I2C_12{I2C}"
+		(at 276.86 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2109317b-38ea-4eec-b73c-6898975a60f2")
+	)
+	(label "I2C_13{I2C}"
+		(at 62.23 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dcb6b6d-d76e-4d7c-b0f6-14ac854304d2")
+	)
+	(label "I2C_12{I2C}"
+		(at 62.23 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e7f86c8-d593-4bd5-8703-f423a9b422cd")
+	)
+	(label "I2C_13{I2C}"
+		(at 276.86 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79eb2ca9-a501-4e4e-b33c-3091915a34f7")
 	)
 	(sheet
 		(at 74.93 105.41)
@@ -2878,6 +2938,68 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 209.55)
+		(size 17.78 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e582200-5a13-40b2-b200-897e55905982")
+		(property "Sheetname" "Temp sensors"
+			(at 292.1 208.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp-sensors.kicad_sch"
+			(at 292.1 217.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C0{I2C}" bidirectional
+			(at 292.1 212.09 180)
+			(uuid "b9151063-adc9-4e5e-933e-e30e6d50a9b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1{I2C}" bidirectional
+			(at 292.1 214.63 180)
+			(uuid "b686cf32-ff43-4f55-91ca-af87156b9acc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "23")
 				)
 			)
 		)

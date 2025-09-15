@@ -818,6 +818,10 @@
     [
       "059549ff-8797-49c1-8fca-331cf9775bbd",
       "PECI"
+    ],
+    [
+      "6e582200-5a13-40b2-b200-897e55905982",
+      "Temp sensors"
     ]
   ],
   "text_variables": {}
