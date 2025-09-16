@@ -105,6 +105,12 @@
 		(uuid "62c510ff-cc36-4585-8d8d-4a4b4186e60b")
 	)
 	(junction
+		(at 133.35 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64923476-3909-446d-a4f9-42617c790eec")
+	)
+	(junction
 		(at 172.72 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -304,6 +310,16 @@
 		)
 		(uuid "1a2356a1-6dc4-47fd-b41c-cbcf851b2b95")
 	)
+	(wire
+		(pts
+			(xy 109.22 57.15) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bab8893-9c2e-4880-b94f-e86be35c9b07")
+	)
 	(bus
 		(pts
 			(xy 58.42 170.18) (xy 74.93 170.18)
@@ -323,16 +339,6 @@
 			(type default)
 		)
 		(uuid "1f95057e-21c2-47b1-99f8-65427755ad66")
-	)
-	(wire
-		(pts
-			(xy 58.42 58.42) (xy 74.93 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26609708-2e1a-462f-b905-83da5dfddc4a")
 	)
 	(bus
 		(pts
@@ -423,6 +429,16 @@
 			(type default)
 		)
 		(uuid "2e91587d-7382-4768-9f2b-aa92fa75ba3e")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1966c3-a79a-451a-92db-6bdba05ddf99")
 	)
 	(bus
 		(pts
@@ -876,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 176.53 88.9)
+			(xy 128.27 88.9) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1654,6 +1670,26 @@
 		)
 		(uuid "ec30c5ba-9a06-457e-8378-8abda0eb001e")
 	)
+	(wire
+		(pts
+			(xy 133.35 57.15) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed6173f-0b6c-407d-9e4f-c99c71da4ef3")
+	)
+	(wire
+		(pts
+			(xy 58.42 59.69) (xy 74.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5157fae-c518-4f05-a543-432d6cfd2263")
+	)
 	(bus
 		(pts
 			(xy 118.11 139.7) (xy 118.11 134.62)
@@ -2427,8 +2463,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 47.625)
-		(size 36.195 13.335)
+		(at 74.93 52.07)
+		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2443,7 +2479,7 @@
 		)
 		(uuid "3d29c412-58cb-45c0-928a-e05b1352002d")
 		(property "Sheetname" "Power"
-			(at 74.93 46.9134 0)
+			(at 74.93 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2488,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 74.93 61.5446 0)
+			(at 74.93 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,13 +2507,23 @@
 			)
 		)
 		(pin "+3V3_OUT" output
-			(at 74.93 58.42 180)
+			(at 74.93 59.69 180)
 			(uuid "d3f6b2e6-0f88-47c6-9c0b-1ed58e9a3aa7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 109.22 57.15 0)
+			(uuid "7cc0e9ab-3586-4ca0-bcc1-0f465ded0da3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -4407,7 +4453,7 @@
 			)
 		)
 		(pin "DC_SCM_HPM_FRU" input
-			(at 58.42 58.42 0)
+			(at 58.42 59.69 0)
 			(uuid "0b9113ff-4fef-42ed-8740-b8bd302eaa64")
 			(effects
 				(font
