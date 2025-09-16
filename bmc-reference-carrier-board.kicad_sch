@@ -686,6 +686,16 @@
 	)
 	(bus
 		(pts
+			(xy 58.42 212.09) (xy 176.53 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd2843d-ee73-4a28-982a-98f9ecd9a7f0")
+	)
+	(bus
+		(pts
 			(xy 109.22 107.95) (xy 176.53 107.95)
 		)
 		(stroke
@@ -3318,16 +3328,6 @@
 				(justify left)
 			)
 		)
-		(pin "OSM_STBY_RDY" input
-			(at 176.53 93.98 180)
-			(uuid "d061bf88-5aeb-40e2-a041-99e4ae651678")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{OSM_INTRUSION}" bidirectional
 			(at 176.53 96.52 180)
 			(uuid "0b8115f0-8a26-4584-8357-d432256d6016")
@@ -3359,7 +3359,7 @@
 			)
 		)
 		(pin "DISP_BL_PWM" bidirectional
-			(at 251.46 245.11 0)
+			(at 251.46 149.86 0)
 			(uuid "54e50549-66a4-4023-82a5-52a9e16e7513")
 			(effects
 				(font
@@ -3379,7 +3379,7 @@
 			)
 		)
 		(pin "IMX_GPIO" bidirectional
-			(at 251.46 255.27 0)
+			(at 251.46 152.4 0)
 			(uuid "9538c87b-8e93-41a2-bba8-5b45aab4f0d4")
 			(effects
 				(font
@@ -3439,23 +3439,13 @@
 			)
 		)
 		(pin "~{IRQ0}" bidirectional
-			(at 251.46 229.87 0)
+			(at 176.53 100.33 180)
 			(uuid "d14b5ef8-061e-47c2-9f22-010ac64c3037")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "~{PRSNT1}" bidirectional
-			(at 251.46 227.33 0)
-			(uuid "2783483b-783d-4439-a97b-62ab3b789ecc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "~{OSM_PCIe_PERST}" bidirectional
@@ -3471,6 +3461,36 @@
 		(pin "~{RESET_OUT}" output
 			(at 251.46 110.49 0)
 			(uuid "2c0634b2-47cd-47f5-8165-c963e86247ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_BTN}" input
+			(at 251.46 147.32 0)
+			(uuid "402d6fdd-c799-4bd3-8b8d-b2e64dbfd3bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSM_STBY_RDY" bidirectional
+			(at 176.53 93.98 180)
+			(uuid "a0488b0e-64bf-40de-b19e-dd5c201ad90e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET_IN}" input
+			(at 251.46 144.78 0)
+			(uuid "f99731e1-4470-46ae-88fb-09463a6ea071")
 			(effects
 				(font
 					(size 1.27 1.27)
