@@ -7153,7 +7153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "002060fe-5f25-4da9-8972-46952877d9af")
-		(property "Reference" "C107"
+		(property "Reference" "C119"
 			(at 112.268 139.6873 90)
 			(effects
 				(font
@@ -7288,7 +7288,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C107")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -7303,7 +7303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "012b5e55-721e-489b-9217-36d524bcbfcd")
-		(property "Reference" "C109"
+		(property "Reference" "C103"
 			(at 85.598 139.6873 90)
 			(effects
 				(font
@@ -7438,7 +7438,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C109")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -7453,7 +7453,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "03a50f8c-5292-43a3-a67d-c22e17948a29")
-		(property "Reference" "R82"
+		(property "Reference" "R202"
 			(at 166.37 175.26 90)
 			(effects
 				(font
@@ -7578,7 +7578,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R82")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -7594,7 +7594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0931e764-cc0b-419e-a83b-b796dece2b73")
-		(property "Reference" "#PWR0369"
+		(property "Reference" "#PWR0218"
 			(at 101.6 86.36 0)
 			(effects
 				(font
@@ -7673,7 +7673,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0369")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10e201fa-3fa3-464c-82b1-5abede6eff9e")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0214"
 			(at 110.49 167.64 0)
 			(effects
 				(font
@@ -7767,7 +7767,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0193")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -7783,7 +7783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13706124-a099-4ce5-a461-409b8af94b83")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0221"
 			(at 110.49 147.32 0)
 			(effects
 				(font
@@ -7862,7 +7862,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0187")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -7878,7 +7878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15c9d859-2ed2-4ef9-a03f-2fbcbefb22a7")
-		(property "Reference" "C117"
+		(property "Reference" "C115"
 			(at 99.822 176.5173 90)
 			(effects
 				(font
@@ -8013,7 +8013,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C117")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -8028,7 +8028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1622e44e-bd07-4af0-a2ee-1cecfe32bd83")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0197"
 			(at 83.82 167.64 0)
 			(effects
 				(font
@@ -8107,7 +8107,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0194")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -8122,7 +8122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "199d066c-f036-4f64-9658-56f8e93df1ce")
-		(property "Reference" "C94"
+		(property "Reference" "C101"
 			(at 85.598 97.7773 90)
 			(effects
 				(font
@@ -8257,7 +8257,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C94")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -8273,7 +8273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1da107f5-6d73-4480-83a4-6fcd9f96798d")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0203"
 			(at 74.93 147.32 0)
 			(effects
 				(font
@@ -8352,7 +8352,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0188")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -8367,7 +8367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "205b5216-bfaf-4167-9416-cc7d5add9cf7")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0198"
 			(at 90.17 207.01 0)
 			(effects
 				(font
@@ -8446,7 +8446,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0161")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -8462,7 +8462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "261fd92d-cb62-4efd-b68f-88203fe47f1c")
-		(property "Reference" "#PWR0372"
+		(property "Reference" "#PWR0201"
 			(at 74.93 105.41 0)
 			(effects
 				(font
@@ -8541,7 +8541,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0372")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -8556,7 +8556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "291131ae-beb9-4db1-b96f-dbce49249231")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0208"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -8635,7 +8635,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0192")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -8778,7 +8778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c4a5deb-38d3-4f00-b800-f019f22463f5")
-		(property "Reference" "#PWR0367"
+		(property "Reference" "#PWR0193"
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -8857,7 +8857,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0367")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -8873,7 +8873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d2d317a-bc0d-46e3-96e7-f32b51f90b9b")
-		(property "Reference" "#PWR0368"
+		(property "Reference" "#PWR0206"
 			(at 83.82 125.73 0)
 			(effects
 				(font
@@ -8952,7 +8952,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0368")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -8967,7 +8967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f0312cd-ebd5-4206-90ad-060e0893e74a")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0209"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -9046,7 +9046,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0195")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -9061,7 +9061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41738527-da94-4b95-aa0c-bd9df935c359")
-		(property "Reference" "R83"
+		(property "Reference" "R203"
 			(at 166.37 182.88 90)
 			(effects
 				(font
@@ -9186,7 +9186,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R83")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "425ca037-accf-41a6-8a79-9fcc457f3d09")
-		(property "Reference" "C116"
+		(property "Reference" "C109"
 			(at 90.932 176.5173 90)
 			(effects
 				(font
@@ -9488,7 +9488,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C116")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -9503,7 +9503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "468e92e7-8e67-4328-87ae-5d73a58f896a")
-		(property "Reference" "C89"
+		(property "Reference" "C118"
 			(at 112.268 78.7273 90)
 			(effects
 				(font
@@ -9638,7 +9638,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C89")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -9653,7 +9653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e02d004-27e8-4501-905a-7ee75cc22eac")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0194"
 			(at 90.17 135.89 0)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0163")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -9747,7 +9747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5100afcb-eead-48df-9676-e264dcbb3955")
-		(property "Reference" "R153"
+		(property "Reference" "R205"
 			(at 176.53 149.86 0)
 			(effects
 				(font
@@ -9881,7 +9881,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R153")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -9896,7 +9896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "548aa53b-541a-446c-bfd2-00ffebbfc1b5")
-		(property "Reference" "C105"
+		(property "Reference" "C107"
 			(at 94.488 139.6873 90)
 			(effects
 				(font
@@ -10031,7 +10031,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C105")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -10047,7 +10047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "568df9d6-5d40-4552-981c-9a5370b09465")
-		(property "Reference" "C98"
+		(property "Reference" "C96"
 			(at 76.708 118.11 90)
 			(effects
 				(font
@@ -10182,7 +10182,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C98")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -10350,7 +10350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d87b5b4-c1a8-41ea-bdc5-d573fce1aac3")
-		(property "Reference" "R132"
+		(property "Reference" "R207"
 			(at 189.23 198.12 0)
 			(effects
 				(font
@@ -10484,7 +10484,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R132")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -10499,7 +10499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5df4bfe9-09e1-4cf3-88be-ee3c3f54f39f")
-		(property "Reference" "C103"
+		(property "Reference" "C120"
 			(at 112.268 209.5373 90)
 			(effects
 				(font
@@ -10634,7 +10634,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C103")
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -10649,7 +10649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eb09708-d6dc-40e2-ae12-90a1f09663d8")
-		(property "Reference" "C87"
+		(property "Reference" "C123"
 			(at 195.58 218.4336 90)
 			(effects
 				(font
@@ -10784,7 +10784,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C87")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -10801,7 +10801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6006c51f-8b2b-4e89-8c26-491a000f2ea1")
-		(property "Reference" "R155"
+		(property "Reference" "R210"
 			(at 297.18 205.74 90)
 			(effects
 				(font
@@ -10926,7 +10926,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R155")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -10942,7 +10942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6476a5db-04ee-4159-a14c-6486386f471f")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0222"
 			(at 184.15 171.45 0)
 			(effects
 				(font
@@ -11021,7 +11021,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0191")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -11037,7 +11037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dab4c0d-9a59-47f5-8a58-4fd4cce4c6f0")
-		(property "Reference" "R81"
+		(property "Reference" "R206"
 			(at 184.15 166.37 0)
 			(effects
 				(font
@@ -11160,7 +11160,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R81")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -11176,7 +11176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72266959-5d3c-4837-a2df-b3df3b4d9a93")
-		(property "Reference" "#PWR0371"
+		(property "Reference" "#PWR0212"
 			(at 92.71 86.36 0)
 			(effects
 				(font
@@ -11255,7 +11255,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0371")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -11270,7 +11270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75f2d432-655f-4d45-a8e8-5ee2cf0ed958")
-		(property "Reference" "C102"
+		(property "Reference" "C117"
 			(at 103.378 209.5373 90)
 			(effects
 				(font
@@ -11405,7 +11405,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C102")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -11421,7 +11421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78e0aacd-092e-4c5c-9029-b796291ee982")
-		(property "Reference" "#PWR0373"
+		(property "Reference" "#PWR0189"
 			(at 66.04 86.36 0)
 			(effects
 				(font
@@ -11500,7 +11500,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0373")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -11667,7 +11667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82863478-13fb-4210-b249-57e099219c78")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0211"
 			(at 83.82 217.17 0)
 			(effects
 				(font
@@ -11746,7 +11746,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0179")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -11762,7 +11762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82f11117-21ab-4e2c-af8b-f21852a6664e")
-		(property "Reference" "C111"
+		(property "Reference" "C116"
 			(at 99.822 194.2973 90)
 			(effects
 				(font
@@ -11897,7 +11897,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C111")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -11912,7 +11912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8434a7b0-ebc5-430f-8639-1db57a2c387b")
-		(property "Reference" "C97"
+		(property "Reference" "C106"
 			(at 94.488 118.0973 90)
 			(effects
 				(font
@@ -12047,7 +12047,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C97")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -12063,7 +12063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88fa391b-6b37-47e4-87f0-ff44c1e8c5e2")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0217"
 			(at 92.71 217.17 0)
 			(effects
 				(font
@@ -12142,7 +12142,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0180")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -12158,7 +12158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a52245a-0553-4675-af30-4b3d78a86168")
-		(property "Reference" "#PWR0377"
+		(property "Reference" "#PWR0199"
 			(at 66.04 217.17 0)
 			(effects
 				(font
@@ -12237,7 +12237,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0377")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -12252,7 +12252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8da5cc4f-0273-4828-bb43-79f90f9a56b0")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0196"
 			(at 90.17 157.48 0)
 			(effects
 				(font
@@ -12331,7 +12331,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0197")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -12346,7 +12346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f92b9c7-1752-4810-b36b-747fcf294e13")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0215"
 			(at 110.49 184.15 0)
 			(effects
 				(font
@@ -12425,7 +12425,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0196")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -12442,7 +12442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "941577f2-3084-495f-aead-95ce6b826b3c")
-		(property "Reference" "#PWR0378"
+		(property "Reference" "#PWR0223"
 			(at 160.02 190.5 0)
 			(effects
 				(font
@@ -12521,7 +12521,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0378")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -12536,7 +12536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94aedad0-8f60-476d-8891-742d76713fe2")
-		(property "Reference" "#PWR0366"
+		(property "Reference" "#PWR0192"
 			(at 90.17 113.03 0)
 			(effects
 				(font
@@ -12615,7 +12615,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0366")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -12630,7 +12630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9521060a-7c20-4622-89d3-7d55837f55d7")
-		(property "Reference" "C100"
+		(property "Reference" "C104"
 			(at 85.598 209.5373 90)
 			(effects
 				(font
@@ -12765,7 +12765,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C100")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -12781,7 +12781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "977a50b3-5ff7-4fe5-9fe2-3a185bbed6fa")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0213"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -12860,7 +12860,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0185")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -12875,7 +12875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97906e3d-4022-401c-9d13-ebdb5e03de33")
-		(property "Reference" "C108"
+		(property "Reference" "C121"
 			(at 121.158 139.6873 90)
 			(effects
 				(font
@@ -13010,7 +13010,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C108")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -13026,7 +13026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c69ab85-b036-4162-bac2-752a09039bb1")
-		(property "Reference" "#PWR0365"
+		(property "Reference" "#PWR0202"
 			(at 74.93 125.73 0)
 			(effects
 				(font
@@ -13105,7 +13105,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0365")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -13120,7 +13120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9edd7c67-a376-491a-9197-38cd7933d91a")
-		(property "Reference" "C92"
+		(property "Reference" "C100"
 			(at 85.598 78.7273 90)
 			(effects
 				(font
@@ -13255,7 +13255,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C92")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -13272,7 +13272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47f5c91-834d-4be6-bd3d-3f5ea9066ff9")
-		(property "Reference" "R156"
+		(property "Reference" "R211"
 			(at 297.18 214.63 90)
 			(effects
 				(font
@@ -13397,7 +13397,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R156")
+					(reference "R211")
 					(unit 1)
 				)
 			)
@@ -13413,7 +13413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6530f76-4e17-4bfb-998a-fcf7dcdbb40e")
-		(property "Reference" "C113"
+		(property "Reference" "C108"
 			(at 90.932 160.0073 90)
 			(effects
 				(font
@@ -13548,7 +13548,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C113")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -13565,7 +13565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75bd9e3-c6f6-4d8b-ba6a-dbea9d5d1081")
-		(property "Reference" "R154"
+		(property "Reference" "R209"
 			(at 297.18 196.85 90)
 			(effects
 				(font
@@ -13690,7 +13690,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R154")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -13857,7 +13857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae98c9e2-ea76-417f-bef6-ce6b251a34e1")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0219"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -13936,7 +13936,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0186")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -13952,7 +13952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af429603-7ac9-458c-97b7-7f0bcb2bd395")
-		(property "Reference" "#PWR0376"
+		(property "Reference" "#PWR0205"
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -14031,7 +14031,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0376")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -14047,7 +14047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0aa30fc-6f4a-482c-a0ce-c2559dbffda6")
-		(property "Reference" "#PWR0364"
+		(property "Reference" "#PWR0224"
 			(at 191.77 226.06 0)
 			(effects
 				(font
@@ -14126,7 +14126,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0364")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -14141,7 +14141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7a1d5af-c700-4e8b-bed7-cf764ce3a511")
-		(property "Reference" "R152"
+		(property "Reference" "R204"
 			(at 176.53 147.32 0)
 			(effects
 				(font
@@ -14275,7 +14275,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R152")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -14291,7 +14291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8def357-0026-4515-afa0-9c60fa81fd71")
-		(property "Reference" "C104"
+		(property "Reference" "C97"
 			(at 76.708 139.7 90)
 			(effects
 				(font
@@ -14426,7 +14426,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C104")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -14442,7 +14442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc667c4a-7d2c-4e80-8163-a41efc8b64fc")
-		(property "Reference" "#PWR0375"
+		(property "Reference" "#PWR0200"
 			(at 74.93 86.36 0)
 			(effects
 				(font
@@ -14521,7 +14521,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0375")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -14537,7 +14537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6593511-a92b-47ad-90b5-5a759acccdb4")
-		(property "Reference" "U27"
+		(property "Reference" "U24"
 			(at 200.025 115.57 0)
 			(effects
 				(font
@@ -14830,7 +14830,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "U27")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -14845,7 +14845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6634417-f99b-4744-a72b-cc592c008af3")
-		(property "Reference" "#PWR0374"
+		(property "Reference" "#PWR0190"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -14924,7 +14924,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0374")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -14939,7 +14939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8bcb7d7-6004-4e78-8824-85c125a14030")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0210"
 			(at 101.6 201.93 0)
 			(effects
 				(font
@@ -15018,7 +15018,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0189")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -15033,7 +15033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c90649cb-1b0d-49ea-b0e0-bddacfae5a28")
-		(property "Reference" "C90"
+		(property "Reference" "C112"
 			(at 103.378 78.7273 90)
 			(effects
 				(font
@@ -15168,7 +15168,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C90")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -15183,7 +15183,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "cb8a1602-e94e-4d7f-8fda-093c0eb3d199")
-		(property "Reference" "R133"
+		(property "Reference" "R208"
 			(at 200.66 207.01 90)
 			(effects
 				(font
@@ -15308,7 +15308,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R133")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -15323,7 +15323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d072b024-1e28-414c-b236-e38f5f10dc8c")
-		(property "Reference" "C91"
+		(property "Reference" "C105"
 			(at 94.488 78.7273 90)
 			(effects
 				(font
@@ -15458,7 +15458,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C91")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -15474,7 +15474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d09bf358-9018-4dc1-b0bc-4707399729b6")
-		(property "Reference" "C93"
+		(property "Reference" "C94"
 			(at 76.708 78.74 90)
 			(effects
 				(font
@@ -15609,7 +15609,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C93")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -15625,7 +15625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0ebb537-7e5d-4060-b285-87ffb0f6d311")
-		(property "Reference" "C115"
+		(property "Reference" "C98"
 			(at 76.708 160.02 90)
 			(effects
 				(font
@@ -15760,7 +15760,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C115")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -15777,7 +15777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d351d090-8b26-413e-b3bb-39c587ee07e8")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0226"
 			(at 205.74 160.02 0)
 			(effects
 				(font
@@ -15856,7 +15856,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0182")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -15871,7 +15871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5912eb0-63d6-4721-9530-7c7e664f6915")
-		(property "Reference" "C96"
+		(property "Reference" "C102"
 			(at 85.598 118.0973 90)
 			(effects
 				(font
@@ -16006,7 +16006,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C96")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -16023,7 +16023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9ab5779-a323-4e10-958c-bd0c901e902b")
-		(property "Reference" "R157"
+		(property "Reference" "R212"
 			(at 297.18 223.52 90)
 			(effects
 				(font
@@ -16148,7 +16148,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R157")
+					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -16164,7 +16164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e04b6901-6501-421f-bedf-edfa593928e0")
-		(property "Reference" "#PWR0363"
+		(property "Reference" "#PWR0225"
 			(at 201.93 226.06 0)
 			(effects
 				(font
@@ -16243,7 +16243,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0363")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -16259,7 +16259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e29b92a8-b7ab-43b2-a9c4-39a95794549e")
-		(property "Reference" "U27"
+		(property "Reference" "U24"
 			(at 290.83 110.49 0)
 			(effects
 				(font
@@ -16552,7 +16552,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "U27")
+					(reference "U24")
 					(unit 2)
 				)
 			)
@@ -16568,7 +16568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4002508-6956-4551-8db2-b564d54f11ff")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0207"
 			(at 83.82 147.32 0)
 			(effects
 				(font
@@ -16647,7 +16647,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0184")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -16664,7 +16664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46238f3-91f5-4c93-a7e5-9a557bd99416")
-		(property "Reference" "R158"
+		(property "Reference" "R213"
 			(at 297.18 232.41 90)
 			(effects
 				(font
@@ -16789,7 +16789,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "R158")
+					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -16805,7 +16805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e79ff6bf-aba8-411a-86b6-fd9362181e3a")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0204"
 			(at 74.93 217.17 0)
 			(effects
 				(font
@@ -16884,7 +16884,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0178")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -16899,7 +16899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec3e758e-7a68-4c38-add9-ab9e6b991cea")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0216"
 			(at 110.49 201.93 0)
 			(effects
 				(font
@@ -16978,7 +16978,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0190")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -16994,7 +16994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeda9b0b-6543-471a-96ca-545aafa2fbe0")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0220"
 			(at 101.6 217.17 0)
 			(effects
 				(font
@@ -17073,7 +17073,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0181")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -17088,7 +17088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2bcca25-fe31-425a-a6a1-03d5a68f9677")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0188"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -17167,7 +17167,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0160")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -17183,7 +17183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f66cac-6f03-4997-a6f8-28a0e2a7dd5d")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0195"
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -17262,7 +17262,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0183")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -17277,7 +17277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4c9b626-2126-4eb9-a1e5-02eed3ab2f0d")
-		(property "Reference" "C101"
+		(property "Reference" "C111"
 			(at 94.488 209.5373 90)
 			(effects
 				(font
@@ -17412,7 +17412,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C101")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -17428,7 +17428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5383723-bdbb-49b4-af1c-d9a923751e8f")
-		(property "Reference" "#PWR0370"
+		(property "Reference" "#PWR0191"
 			(at 66.04 105.41 0)
 			(effects
 				(font
@@ -17507,7 +17507,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "#PWR0370")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -17523,7 +17523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdcf90ea-95c9-4f3b-9869-1ec64f846fca")
-		(property "Reference" "C88"
+		(property "Reference" "C122"
 			(at 180.34 218.4336 90)
 			(effects
 				(font
@@ -17658,7 +17658,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C88")
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -17673,7 +17673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fff9be76-0146-4784-933e-12b25c9272ad")
-		(property "Reference" "C106"
+		(property "Reference" "C113"
 			(at 103.378 139.6873 90)
 			(effects
 				(font
@@ -17808,7 +17808,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
-					(reference "C106")
+					(reference "C113")
 					(unit 1)
 				)
 			)
