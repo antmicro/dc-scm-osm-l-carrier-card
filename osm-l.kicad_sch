@@ -15485,6 +15485,16 @@
 		)
 		(uuid "1c0ca202-ee55-4a40-bdd4-02953b90ed5d")
 	)
+	(text "USER Button"
+		(exclude_from_sim no)
+		(at 24.765 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48e83873-d924-4386-a548-fa8f016e76bb")
+	)
 	(text "Connected to 3V3 FPGA bank,\ninput only on standard carriers"
 		(exclude_from_sim no)
 		(at 50.8 286.385 0)
@@ -15516,6 +15526,26 @@
 			(justify left)
 		)
 		(uuid "accd9a50-d6e7-4634-a5f6-ce3264f539a9")
+	)
+	(text "RESET Button"
+		(exclude_from_sim no)
+		(at 212.725 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b82c60ef-28d6-42d4-8e0b-b2bf2483b801")
+	)
+	(text "ONOFF Button"
+		(exclude_from_sim no)
+		(at 212.725 40.005 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5c35018-7f13-415a-80e9-4844638c90f1")
 	)
 	(text "_/¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯\n_/¯¯¯¯\\___________\n_/¯¯¯¯¯¯¯\\________\n_/\\___/¯¯¯¯¯¯¯¯¯¯¯\n_/\\___/¯¯\\________\n_//¯¯¯\\__/¯¯¯¯¯¯¯¯"
 		(exclude_from_sim no)
@@ -15562,7 +15592,7 @@
 		(uuid "fa256b0c-bb88-4fcb-9b36-ac23b16b90cf")
 	)
 	(junction
-		(at 175.26 40.64)
+		(at 199.39 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16dcbcbd-bd5b-4e9a-b845-c525c19c96c2")
@@ -15580,6 +15610,12 @@
 		(uuid "39d58bb3-9d74-4d2f-b0e8-c66c463c5447")
 	)
 	(junction
+		(at 199.39 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5107b8b2-bc0e-4dfa-aa50-e69a3957c87b")
+	)
+	(junction
 		(at 95.25 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15592,16 +15628,34 @@
 		(uuid "69b7a45a-a284-449d-b93e-cc366bac5427")
 	)
 	(junction
-		(at 175.26 53.34)
+		(at 199.39 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d680a01-b6c3-439c-b798-7398f60c1a9b")
+	)
+	(junction
+		(at 199.39 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72491a1c-e3d6-47f5-8e98-20e650a6d08b")
+	)
+	(junction
+		(at 36.83 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "966b09df-a9e9-43ea-b525-f4a21a4c8215")
 	)
 	(junction
 		(at 102.87 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98e4cf84-6e34-46e6-9018-d5ab21be3fe0")
+	)
+	(junction
+		(at 36.83 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d1eed37-c84c-4f4a-a2b8-0fae271782a0")
 	)
 	(junction
 		(at 154.94 57.15)
@@ -15790,6 +15844,10 @@
 	(no_connect
 		(at 314.96 158.75)
 		(uuid "1a1df0f3-1f5e-44e9-86c1-5d2a0875e7f9")
+	)
+	(no_connect
+		(at 82.55 280.67)
+		(uuid "1a829156-31ed-4523-9c84-3c1a6703da8c")
 	)
 	(no_connect
 		(at 360.68 153.67)
@@ -18572,6 +18630,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 223.52) (xy 36.83 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10934520-e437-4fb6-b636-a1d7dce29a17")
+	)
+	(wire
+		(pts
+			(xy 36.83 234.95) (xy 36.83 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11197a2d-8dcf-4247-bbee-3fcda10e9971")
+	)
+	(wire
+		(pts
 			(xy 74.93 247.65) (xy 102.87 247.65)
 		)
 		(stroke
@@ -18579,6 +18657,16 @@
 			(type default)
 		)
 		(uuid "112ec4a2-7b18-41da-9970-efad508247a4")
+	)
+	(wire
+		(pts
+			(xy 34.29 223.52) (xy 34.29 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1189324e-e2db-40eb-bcb9-6cef88d88d24")
 	)
 	(wire
 		(pts
@@ -18599,6 +18687,16 @@
 			(type default)
 		)
 		(uuid "12a429ee-2be4-427f-b48d-62d884fe4b3e")
+	)
+	(wire
+		(pts
+			(xy 199.39 59.69) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12af3f61-8fbe-4a8f-a37d-6e819b20047b")
 	)
 	(bus
 		(pts
@@ -18709,6 +18807,16 @@
 			(type default)
 		)
 		(uuid "19ed7ad2-188a-47ac-a75a-798956bca981")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 201.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a469483-028f-4509-a4e3-448d3a5c049c")
 	)
 	(bus
 		(pts
@@ -19302,6 +19410,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 48.26) (xy 168.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388c63f6-9cb5-44ee-baee-bedf647109d5")
+	)
+	(wire
+		(pts
 			(xy 297.18 303.53) (xy 314.96 303.53)
 		)
 		(stroke
@@ -19482,6 +19600,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 48.26) (xy 168.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b04f87-f264-4c98-8a76-2e4d58ec21ca")
+	)
+	(wire
+		(pts
 			(xy 148.59 271.78) (xy 176.53 271.78)
 		)
 		(stroke
@@ -19542,7 +19670,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 41.91) (xy 175.26 40.64)
+			(xy 199.39 60.96) (xy 199.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488ebd18-474a-48d7-8f68-47354b9cde73")
+	)
+	(wire
+		(pts
+			(xy 199.39 29.21) (xy 199.39 27.94)
 		)
 		(stroke
 			(width 0)
@@ -19679,6 +19817,16 @@
 			(type default)
 		)
 		(uuid "511f5cb7-286f-44c0-a52b-ec0ccf6face9")
+	)
+	(wire
+		(pts
+			(xy 36.83 220.98) (xy 102.87 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5149fdeb-c4bc-4a24-8ecf-e8d4942d3c28")
 	)
 	(wire
 		(pts
@@ -20042,7 +20190,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 43.18) (xy 142.24 43.18)
+			(xy 142.24 43.18) (xy 168.91 43.18)
 		)
 		(stroke
 			(width 0)
@@ -20132,7 +20280,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 53.34) (xy 177.8 53.34)
+			(xy 199.39 40.64) (xy 201.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -20170,6 +20318,16 @@
 		)
 		(uuid "68fb556b-f65f-43ac-b2c0-436b3a4323c0")
 	)
+	(wire
+		(pts
+			(xy 175.26 27.94) (xy 175.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691770af-da5a-4b42-a844-6f1ee87e6148")
+	)
 	(bus
 		(pts
 			(xy 275.59 306.07) (xy 275.59 308.61)
@@ -20192,7 +20350,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 40.64) (xy 177.8 41.91)
+			(xy 201.93 27.94) (xy 201.93 29.21)
 		)
 		(stroke
 			(width 0)
@@ -20319,6 +20477,16 @@
 			(type default)
 		)
 		(uuid "71428626-f103-48c8-a91f-7ce015a4c1ed")
+	)
+	(wire
+		(pts
+			(xy 201.93 48.26) (xy 201.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b41ed7-565f-45a5-8904-281734eeb7f5")
 	)
 	(polyline
 		(pts
@@ -20452,7 +20620,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 52.07) (xy 175.26 53.34)
+			(xy 199.39 39.37) (xy 199.39 40.64)
 		)
 		(stroke
 			(width 0)
@@ -20499,6 +20667,16 @@
 			(type default)
 		)
 		(uuid "7d072705-4ed4-4765-a9ee-6a256ae8ebc4")
+	)
+	(wire
+		(pts
+			(xy 199.39 27.94) (xy 175.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f48beef-411e-413c-902d-ffd2b250a6b5")
 	)
 	(wire
 		(pts
@@ -20862,6 +21040,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 60.96) (xy 201.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f666b2f-47d9-48d8-b567-250ab84c38e7")
+	)
+	(wire
+		(pts
 			(xy 133.35 133.35) (xy 132.08 133.35)
 		)
 		(stroke
@@ -20879,6 +21067,16 @@
 			(type default)
 		)
 		(uuid "8fe04029-32a3-447f-9d51-f0c318a21b61")
+	)
+	(wire
+		(pts
+			(xy 199.39 49.53) (xy 199.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff86efa-f2d0-432a-b36a-38556c682ae6")
 	)
 	(wire
 		(pts
@@ -20909,6 +21107,26 @@
 			(type default)
 		)
 		(uuid "90b9d969-ff16-4dc1-a93f-ba01c9887a28")
+	)
+	(wire
+		(pts
+			(xy 34.29 223.52) (xy 36.83 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9293e3d0-d2b4-44b8-96ea-4181262bb858")
+	)
+	(wire
+		(pts
+			(xy 36.83 236.22) (xy 34.29 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9305d7dc-89ce-47bb-b036-eeb7c64847fa")
 	)
 	(wire
 		(pts
@@ -21062,6 +21280,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 280.67) (xy 102.87 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6bf9c4-1e6f-496b-ae33-eb06431e06bc")
+	)
+	(wire
+		(pts
 			(xy 298.45 191.77) (xy 314.96 191.77)
 		)
 		(stroke
@@ -21199,16 +21427,6 @@
 			(type default)
 		)
 		(uuid "a18aa7f4-fc4e-41ee-9147-3976fcb3e2fb")
-	)
-	(wire
-		(pts
-			(xy 86.36 280.67) (xy 102.87 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1daae6a-6f23-4722-91bc-de19610c96c1")
 	)
 	(wire
 		(pts
@@ -21422,7 +21640,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 40.64) (xy 177.8 40.64)
+			(xy 199.39 27.94) (xy 201.93 27.94)
 		)
 		(stroke
 			(width 0)
@@ -21530,6 +21748,16 @@
 		)
 		(uuid "b17c6042-0554-4539-949e-5a90975b3e70")
 	)
+	(polyline
+		(pts
+			(xy 34.29 283.21) (xy 34.29 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2536120-456f-46e9-ba83-25740155fc4e")
+	)
 	(wire
 		(pts
 			(xy 148.59 220.98) (xy 176.53 220.98)
@@ -21550,19 +21778,9 @@
 		)
 		(uuid "b3b375e2-75a4-4ddb-8b92-f264ceca8892")
 	)
-	(polyline
-		(pts
-			(xy 34.29 251.46) (xy 34.29 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b410c1-6a22-4ba0-b86e-7f1928008cdc")
-	)
 	(wire
 		(pts
-			(xy 175.26 53.34) (xy 175.26 54.61)
+			(xy 199.39 40.64) (xy 199.39 41.91)
 		)
 		(stroke
 			(width 0)
@@ -21779,6 +21997,16 @@
 			(type default)
 		)
 		(uuid "bd7a2dfe-d454-4337-ba71-800ee6507a81")
+	)
+	(wire
+		(pts
+			(xy 36.83 220.98) (xy 36.83 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9b4647-9ce3-4902-a43a-ae90fd39a689")
 	)
 	(wire
 		(pts
@@ -22029,6 +22257,16 @@
 			(type default)
 		)
 		(uuid "ccffe893-65b4-4711-9a32-c9a0f7987e8d")
+	)
+	(wire
+		(pts
+			(xy 199.39 48.26) (xy 201.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd21d227-afee-49cc-a50e-47e19c913003")
 	)
 	(wire
 		(pts
@@ -22362,16 +22600,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 220.98) (xy 102.87 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd742a73-3f4b-4564-ab53-83653c9658dd")
-	)
-	(wire
-		(pts
 			(xy 360.68 64.77) (xy 382.27 64.77)
 		)
 		(stroke
@@ -22682,7 +22910,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 53.34) (xy 177.8 52.07)
+			(xy 201.93 40.64) (xy 201.93 39.37)
 		)
 		(stroke
 			(width 0)
@@ -22772,7 +23000,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 39.37) (xy 175.26 40.64)
+			(xy 199.39 26.67) (xy 199.39 27.94)
 		)
 		(stroke
 			(width 0)
@@ -22832,6 +23060,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 236.22) (xy 36.83 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f577510e-603b-4488-8cd3-c57d60f0c93d")
+	)
+	(wire
+		(pts
 			(xy 74.93 228.6) (xy 102.87 228.6)
 		)
 		(stroke
@@ -22869,6 +23107,16 @@
 			(type default)
 		)
 		(uuid "f7cd35e7-2517-4748-8168-0f525c9fe998")
+	)
+	(wire
+		(pts
+			(xy 34.29 236.22) (xy 34.29 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cc55d3-57eb-4e75-a6c9-bd5a4a6362cf")
 	)
 	(bus
 		(pts
@@ -23350,6 +23598,16 @@
 		)
 		(uuid "289aa145-ef76-4903-82ee-174c191af4f5")
 	)
+	(label "IMX_GPIO"
+		(at 74.93 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28abe66d-baa1-480f-8ffb-6f92d5a949e2")
+	)
 	(label "LTPI.TXCK+"
 		(at 279.4 300.99 0)
 		(effects
@@ -23499,6 +23757,16 @@
 			(justify right bottom)
 		)
 		(uuid "4626cac3-73a1-4580-8c59-d5a642e76224")
+	)
+	(label "DISP_BL_PWM"
+		(at 86.36 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49867815-bd40-478d-9a29-12d3e4721087")
 	)
 	(label "LTPI.TXD+"
 		(at 279.4 307.34 0)
@@ -24828,17 +25096,6 @@
 		)
 		(uuid "179e3d58-31e2-43f7-bc43-48ca8ab65933")
 	)
-	(hierarchical_label "~{RESET_IN}"
-		(shape input)
-		(at 146.05 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c61f242-5b10-41d3-817d-c5c8dd8a186e")
-	)
 	(hierarchical_label "~{OSM_INTRUSION}"
 		(shape bidirectional)
 		(at 74.93 170.18 180)
@@ -24948,17 +25205,6 @@
 			(justify right)
 		)
 		(uuid "53b972d1-f6e2-4ba5-940e-92255267e7e6")
-	)
-	(hierarchical_label "DISP_BL_PWM"
-		(shape bidirectional)
-		(at 86.36 280.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "561cebf9-1449-44c5-9f93-395f5b3eea61")
 	)
 	(hierarchical_label "PCIE_SGMII_MUX_SEL"
 		(shape bidirectional)
@@ -25256,17 +25502,6 @@
 			(justify left)
 		)
 		(uuid "c14b1687-3b96-40cb-a177-7af909d34761")
-	)
-	(hierarchical_label "IMX_GPIO"
-		(shape bidirectional)
-		(at 74.93 220.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c16e88cc-19f4-47ef-847d-2e6a91b539ed")
 	)
 	(hierarchical_label "DSI{DSI}"
 		(shape output)
@@ -27622,7 +27857,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+1V8_AON")
-		(at 175.26 34.29 0)
+		(at 199.39 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27630,7 +27865,7 @@
 		(dnp no)
 		(uuid "0befac9a-2907-4442-bb5c-6b7396bfd774")
 		(property "Reference" "#PWR0339"
-			(at 190.5 36.83 0)
+			(at 214.63 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27641,7 +27876,7 @@
 			)
 		)
 		(property "Value" "+1V8_AON"
-			(at 175.26 30.48 0)
+			(at 199.39 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27650,7 +27885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 41.91 0)
+			(at 214.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27661,7 +27896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 44.45 0)
+			(at 214.63 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27672,7 +27907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 34.29 0)
+			(at 199.39 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27681,7 +27916,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 190.5 39.37 0)
+			(at 214.63 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27692,7 +27927,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 190.5 41.91 0)
+			(at 214.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31541,15 +31776,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 175.26 54.61 0)
+		(at 199.39 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4755dbd5-fc55-4beb-a281-12b109f7ffba")
-		(property "Reference" "#PWR0319"
-			(at 184.15 57.15 0)
+		(uuid "43c63a06-9aae-4da8-bc48-bd220a9b2b64")
+		(property "Reference" "#PWR0360"
+			(at 208.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31560,7 +31795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 58.42 0)
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31569,7 +31804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 62.23 0)
+			(at 208.28 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31580,7 +31815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 67.31 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31591,7 +31826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 54.61 0)
+			(at 199.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31600,7 +31835,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 184.15 62.23 0)
+			(at 208.28 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31611,7 +31846,101 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 184.15 64.77 0)
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d00951a-b2bf-4580-8924-6e1c39b4fa40")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(reference "#PWR0360")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 199.39 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4755dbd5-fc55-4beb-a281-12b109f7ffba")
+		(property "Reference" "#PWR0319"
+			(at 208.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 208.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 208.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34515,6 +34844,132 @@
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
 					(reference "R286")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD")
+		(at 201.93 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aab2777-3390-42bf-8e3c-4ad2495aea41")
+		(property "Reference" "SW2"
+			(at 205.74 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_KMR211NGLFS_SMD"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SW_KMR211NGLFS_SMD"
+			(at 191.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KMR211NGLFS"
+			(at 205.74 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9b86e4d8-1b94-440e-8c54-079691a12911")
+		)
+		(pin "1"
+			(uuid "242c14b0-d00a-4bcb-8e86-a5908dd3502b")
+		)
+		(pin "3"
+			(uuid "303c60b7-d607-4bb6-b83e-6cd42bc94a1c")
+		)
+		(pin "2"
+			(uuid "329df981-af4f-447e-8975-8c663840981a")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -39294,6 +39749,133 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD")
+		(at 34.29 224.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b375fe-e452-44c2-aba1-d39d8b894ef5")
+		(property "Reference" "SW3"
+			(at 30.48 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_KMR211NGLFS_SMD"
+			(at 41.91 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SW_KMR211NGLFS_SMD"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
+			(at 46.99 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC"
+			(at 34.29 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KMR211NGLFS"
+			(at 30.48 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 49.53 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 52.07 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 54.61 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d313437b-0065-4990-819c-c869daaffcdd")
+		)
+		(pin "1"
+			(uuid "a55af63f-6f16-46d5-9aa7-c72bb9c9198e")
+		)
+		(pin "3"
+			(uuid "321732bb-dbc5-4325-b15b-084ed9a687a2")
+		)
+		(pin "2"
+			(uuid "f0bf5c36-4142-4e6f-a5b2-6539d4ef026b")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 299.72 52.07 0)
 		(mirror y)
@@ -41546,7 +42128,7 @@
 	)
 	(symbol
 		(lib_id "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD")
-		(at 177.8 41.91 270)
+		(at 201.93 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41555,7 +42137,7 @@
 		(fields_autoplaced yes)
 		(uuid "91ee2a98-b404-4833-b264-e37949c472d7")
 		(property "Reference" "SW1"
-			(at 181.61 45.72 90)
+			(at 205.74 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41565,7 +42147,7 @@
 			)
 		)
 		(property "Value" "SW_KMR211NGLFS_SMD"
-			(at 170.18 67.31 0)
+			(at 194.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41576,7 +42158,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SW_KMR211NGLFS_SMD"
-			(at 167.64 67.31 0)
+			(at 191.77 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41587,7 +42169,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
-			(at 165.1 67.31 0)
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41598,7 +42180,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC"
-			(at 177.8 41.91 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41607,7 +42189,7 @@
 			)
 		)
 		(property "MPN" "KMR211NGLFS"
-			(at 181.61 48.26 90)
+			(at 205.74 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41617,7 +42199,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 162.56 67.31 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41628,7 +42210,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 160.02 67.31 0)
+			(at 184.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41639,7 +42221,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 157.48 67.31 0)
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46700,6 +47282,101 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 36.83 237.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b254c6e4-0f8d-4cad-92b9-e1409b097ebe")
+		(property "Reference" "#PWR0359"
+			(at 27.94 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 27.94 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 27.94 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f9578ac-639c-40c4-a1e2-a4f6f8dedb07")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93"
+					(reference "#PWR0359")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 293.37 170.18 0)
 		(unit 1)
@@ -50960,7 +51637,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 175.26 39.37 90)
+		(at 199.39 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50969,7 +51646,7 @@
 		(fields_autoplaced yes)
 		(uuid "de16759e-b877-4ae0-9a18-9775ec5e4d35")
 		(property "Reference" "R290"
-			(at 177.8 35.56 90)
+			(at 201.93 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50979,7 +51656,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 187.96 19.05 0)
+			(at 212.09 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50990,7 +51667,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 190.5 19.05 0)
+			(at 214.63 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51001,7 +51678,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 193.04 19.05 0)
+			(at 217.17 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51012,7 +51689,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 175.26 39.37 0)
+			(at 199.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51021,7 +51698,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 195.58 19.05 0)
+			(at 219.71 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51032,7 +51709,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 198.12 19.05 0)
+			(at 222.25 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51043,7 +51720,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 200.66 19.05 0)
+			(at 224.79 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51054,7 +51731,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 203.2 19.05 0)
+			(at 227.33 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51065,7 +51742,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 177.8 38.1 90)
+			(at 201.93 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51075,7 +51752,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 185.42 19.05 0)
+			(at 209.55 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)

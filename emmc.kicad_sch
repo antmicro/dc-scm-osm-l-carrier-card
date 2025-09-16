@@ -11049,7 +11049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c75e23cd-9838-4849-bd3e-191599172ea5")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR0361"
 			(at 102.87 96.52 0)
 			(effects
 				(font
@@ -11099,7 +11099,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223"
-					(reference "#PWR0320")
+					(reference "#PWR0361")
 					(unit 1)
 				)
 			)

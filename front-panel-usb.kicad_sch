@@ -22506,7 +22506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f6b8bd9-819f-46eb-a6f4-b3c1293276ae")
-		(property "Reference" "#PWR0261"
+		(property "Reference" "#PWR0362"
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -22585,7 +22585,7 @@
 		(instances
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/1d9765f7-f475-4be6-a940-c0038af0d26c"
-					(reference "#PWR0261")
+					(reference "#PWR0362")
 					(unit 1)
 				)
 			)

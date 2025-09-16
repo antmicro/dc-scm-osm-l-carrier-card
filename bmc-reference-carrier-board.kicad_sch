@@ -1422,6 +1422,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 102.87) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc65a0b6-8b33-4822-b0ff-27b83017a1cf")
+	)
+	(wire
+		(pts
 			(xy 109.22 283.21) (xy 171.45 283.21)
 		)
 		(stroke
@@ -3404,29 +3414,9 @@
 				(justify left)
 			)
 		)
-		(pin "DISP_BL_PWM" bidirectional
-			(at 251.46 149.86 0)
-			(uuid "54e50549-66a4-4023-82a5-52a9e16e7513")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DISP_VDD_EN" bidirectional
 			(at 251.46 189.23 0)
 			(uuid "53877033-8f47-4686-bc30-d328b6609bb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IMX_GPIO" bidirectional
-			(at 251.46 152.4 0)
-			(uuid "9538c87b-8e93-41a2-bba8-5b45aab4f0d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3475,7 @@
 			)
 		)
 		(pin "~{IRQ0}" bidirectional
-			(at 176.53 100.33 180)
+			(at 176.53 102.87 180)
 			(uuid "d14b5ef8-061e-47c2-9f22-010ac64c3037")
 			(effects
 				(font
@@ -3514,16 +3504,6 @@
 				(justify right)
 			)
 		)
-		(pin "~{PWR_BTN}" input
-			(at 251.46 147.32 0)
-			(uuid "402d6fdd-c799-4bd3-8b8d-b2e64dbfd3bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "OSM_STBY_RDY" bidirectional
 			(at 176.53 93.98 180)
 			(uuid "a0488b0e-64bf-40de-b19e-dd5c201ad90e")
@@ -3532,16 +3512,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "~{RESET_IN}" input
-			(at 251.46 144.78 0)
-			(uuid "f99731e1-4470-46ae-88fb-09463a6ea071")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -4563,7 +4533,7 @@
 			)
 		)
 		(pin "~{DC_SCM_SPI_SCMCNTRL_IRQ0}" input
-			(at 58.42 104.14 0)
+			(at 58.42 102.87 0)
 			(uuid "d055f0ff-6bbf-4f9e-b04e-c466b5e9f27a")
 			(effects
 				(font
