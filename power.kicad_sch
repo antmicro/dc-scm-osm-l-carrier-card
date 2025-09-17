@@ -7304,119 +7304,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicropower:VCC"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "VDD_IN_5V \n+5V +/- 5% \n0.5A/6W "
 		(exclude_from_sim no)
@@ -7674,6 +7561,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c468cda-260a-4f63-976f-d5b7f441f899")
+	)
+	(junction
+		(at 62.23 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3d1c85-9925-4d64-ac5d-8d368efad64c")
 	)
 	(junction
 		(at 189.23 77.47)
@@ -8113,7 +8006,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 72.39) (xy 104.14 72.39)
+			(xy 59.69 72.39) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8210,6 +8103,16 @@
 			(type default)
 		)
 		(uuid "27f9a847-ba22-4ccd-abfd-d7a5d97675aa")
+	)
+	(wire
+		(pts
+			(xy 76.2 48.26) (xy 62.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d1938e-42ce-4d84-b962-69c70ef54960")
 	)
 	(wire
 		(pts
@@ -8720,6 +8623,16 @@
 			(type default)
 		)
 		(uuid "66b1259b-ea4a-4001-a70f-4a0c254e481b")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 62.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ba9c0c-f0fb-47a7-bd99-94a4fab4ec59")
 	)
 	(wire
 		(pts
@@ -9780,6 +9693,16 @@
 			(type default)
 		)
 		(uuid "d6f231d9-93c0-47bd-a641-dff90e9f1e97")
+	)
+	(wire
+		(pts
+			(xy 62.23 72.39) (xy 104.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71f1370-67d8-4bfd-93f3-826df693e9d3")
 	)
 	(wire
 		(pts
@@ -21879,73 +21802,6 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
 					(reference "U31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:VCC")
-		(at 76.2 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a23f4881-3ecb-410b-97c5-1914b6810274")
-		(property "Reference" "#PWR0255"
-			(at 76.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 74.295 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b6f8f40-c7d8-45d0-afe4-fdaa594eb86a")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
-					(reference "#PWR0255")
 					(unit 1)
 				)
 			)

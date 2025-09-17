@@ -269,11 +269,12 @@
 				)
 			)
 			(property "Description" "Modular Connector, RJ45 Jack, 1 x 1 (Port), Surface Mount"
-				(at 0 0 0)
+				(at 41.91 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)

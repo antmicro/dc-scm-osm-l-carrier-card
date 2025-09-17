@@ -256,7 +256,44 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2641600|1473200|d3dc0608-bb39-47cb-bad2-33924741699b|98ea1abd-5110-4b38-a6ff-eac5780f56b0|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223",
+        ""
+      ],
+      [
+        "multiple_net_names|2641600|1498600|2e5ca787-2fad-4843-b4f6-fc844778ed81|afcc6e55-ed89-41b8-ae79-2fdcbb34c2d9|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223",
+        ""
+      ],
+      [
+        "no_connect_connected|1993900|1320800|d1e745ea-61cc-4d5b-a8b3-01cf3c9010a8|bdc29c32-d783-456a-b719-363f0aed5fae|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223||",
+        ""
+      ],
+      [
+        "no_connect_connected|1993900|1346200|7eabc282-3a49-4a28-a9df-40153ebc4d1a|1929bff0-9da0-40f0-adab-7d257fc56ae5|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223||",
+        ""
+      ],
+      [
+        "no_connect_connected|1993900|1371600|30344d63-08c4-44fb-b539-243dc840f3ec|e6b1bb07-3441-4610-8a9c-6885b9d47a82|/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223||",
+        ""
+      ],
+      [
+        "no_connect_connected|2527300|1460500|2ab1dc1d-5847-4596-a23f-96aa87788a32|90bb9428-17d8-498f-b99a-2406c057e915|/5f636c45-3c15-4731-8931-4625e0dab7e4/f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf||",
+        ""
+      ],
+      [
+        "pin_to_pin|3327400|1041400|0caa90bb-e21b-41a4-afc6-247d97b7fdd1|d7ca1d85-5702-4ef9-8bcc-4be4daaf0387|/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d|/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d|/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d",
+        ""
+      ],
+      [
+        "pin_to_pin|3327400|1092200|4c2ba284-022c-4283-a766-9c77998c3bb8|c15c774d-82ec-4d15-acaf-dc630e91715e|/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d|/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d|/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d",
+        ""
+      ],
+      [
+        "similar_labels|2298700|1739900|9d33fbed-cf3e-455b-a14f-a2c113914251|ac286a48-55d7-438b-aa00-7e209f70d70c|/5f636c45-3c15-4731-8931-4625e0dab7e4/e532ae7c-55b4-427b-a317-9e407e1b3e94|/5f636c45-3c15-4731-8931-4625e0dab7e4/e532ae7c-55b4-427b-a317-9e407e1b3e94|/5f636c45-3c15-4731-8931-4625e0dab7e4/626fa623-3c57-4093-88cf-23d76305ad93",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -443,7 +480,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -467,7 +504,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -502,6 +539,24 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "100Ohm-diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "50Ohm-se",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
       }
     ],

@@ -13697,6 +13697,98 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "PCIe directions from HPM POV\n"
 		(exclude_from_sim no)
@@ -13707,6 +13799,18 @@
 			)
 		)
 		(uuid "3ef7636a-e064-4ba5-950c-4d26b06e4eb2")
+	)
+	(junction
+		(at 82.55 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345325ba-0973-41a4-b365-9d6d8de5993c")
+	)
+	(junction
+		(at 176.53 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac6b6be-5bef-49a9-8827-ca5497299526")
 	)
 	(no_connect
 		(at 311.15 179.07)
@@ -14820,6 +14924,16 @@
 		)
 		(uuid "02bedbe4-e07a-4577-a60b-5a52cfda1e2f")
 	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 187.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03892def-39e9-47f6-ae6b-f99af72dbcab")
+	)
 	(bus
 		(pts
 			(xy 182.88 60.96) (xy 179.07 60.96)
@@ -15672,6 +15786,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 46.99) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413104ce-f307-448a-94e3-2ea421d60639")
+	)
+	(wire
+		(pts
 			(xy 74.93 148.59) (xy 54.61 148.59)
 		)
 		(stroke
@@ -15802,7 +15926,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 46.99) (xy 85.09 46.99)
+			(xy 80.01 46.99) (xy 82.55 46.99)
 		)
 		(stroke
 			(width 0)
@@ -16019,16 +16143,6 @@
 			(type default)
 		)
 		(uuid "5fa2d262-d4ee-4ffd-bf94-a1c68c8cde6f")
-	)
-	(wire
-		(pts
-			(xy 80.01 44.45) (xy 85.09 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fea8aed-76bf-45a2-9a0e-6d7596bda2bf")
 	)
 	(bus
 		(pts
@@ -16529,6 +16643,16 @@
 			(type default)
 		)
 		(uuid "826c6e8b-341c-45db-abe0-8ac1a5819d33")
+	)
+	(wire
+		(pts
+			(xy 187.96 49.53) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bc39dd-8adc-481a-873d-6ae81b55eca0")
 	)
 	(wire
 		(pts
@@ -17372,6 +17496,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 44.45) (xy 85.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e80507-86c9-4b8b-87d5-4ad60a164c52")
+	)
+	(wire
+		(pts
 			(xy 147.32 113.03) (xy 152.4 113.03)
 		)
 		(stroke
@@ -17739,6 +17873,16 @@
 			(type default)
 		)
 		(uuid "d03025ea-b074-414c-bdf3-dc029d8fcfd2")
+	)
+	(wire
+		(pts
+			(xy 82.55 41.91) (xy 82.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ae1485-2aa7-4646-9db6-dfed0578e277")
 	)
 	(wire
 		(pts
@@ -21544,7 +21688,7 @@
 			)
 		)
 		(property "Value" "PECI_VREF"
-			(at 176.53 43.815 0)
+			(at 176.53 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22643,15 +22787,15 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "604e104a-bc02-4121-8f5b-1b192ddcf44a")
 		(property "Reference" "J1"
-			(at 252.73 137.795 0)
+			(at 280.035 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1"
@@ -23547,6 +23691,71 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/ca214ec5-42cf-4efd-9251-fb98a8d45893"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 82.55 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67ee494f-f1b4-40e8-abbb-aa13ed1f88be")
+		(property "Reference" "#FLG09"
+			(at 82.55 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "876db9b4-412a-45c1-b093-2b0a60dd6637")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/ca214ec5-42cf-4efd-9251-fb98a8d45893"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -28457,6 +28666,71 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/ca214ec5-42cf-4efd-9251-fb98a8d45893"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 187.96 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3aea925-ec73-48e0-be6c-9a719536bcef")
+		(property "Reference" "#FLG010"
+			(at 187.96 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e00fc72-5eda-4afe-a45c-765ec3f3b33f")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/ca214ec5-42cf-4efd-9251-fb98a8d45893"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)

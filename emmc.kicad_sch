@@ -909,7 +909,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -5.08 0)
 					(length 3.81)
 					(name "VDDI"
@@ -4398,6 +4398,98 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 247.65 100.33)
@@ -4416,6 +4508,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10e9cdd7-2fd3-4460-a0fb-dd23214b59c8")
+	)
+	(junction
+		(at 185.42 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "163a76db-7e24-40d0-addf-e56269fb3534")
 	)
 	(junction
 		(at 236.22 132.08)
@@ -4512,6 +4610,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79db5e48-4748-4abc-aeed-1dcc5df832a7")
+	)
+	(junction
+		(at 177.8 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a08ed7b-2f66-41f6-b7c7-5af6100b625b")
 	)
 	(junction
 		(at 121.92 102.87)
@@ -4746,6 +4850,16 @@
 			(type default)
 		)
 		(uuid "ecd74f80-7745-4bed-9c5f-e2e9d6f2c5ec")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 195.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045bb448-58f7-4da0-9a54-85171cfc4370")
 	)
 	(wire
 		(pts
@@ -5189,6 +5303,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 101.6) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c31f14-d423-44f1-87a8-79c594d1ccd6")
+	)
+	(wire
+		(pts
 			(xy 260.35 147.32) (xy 260.35 149.86)
 		)
 		(stroke
@@ -5349,7 +5473,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 119.38) (xy 195.58 119.38)
+			(xy 177.8 119.38) (xy 185.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5366,6 +5490,16 @@
 			(type default)
 		)
 		(uuid "7bf3df0a-ff36-4f2e-a588-877c613bfd0d")
+	)
+	(wire
+		(pts
+			(xy 185.42 115.57) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8729ac-36dc-4b84-a777-6587e6b53440")
 	)
 	(wire
 		(pts
@@ -8310,6 +8444,71 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 177.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b760b1c-1a07-459b-a8ff-ed8853f5aed3")
+		(property "Reference" "#FLG011"
+			(at 177.8 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c582d44d-67e4-47aa-b19b-7e463738e1ee")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 151.13 128.27 0)
 		(unit 1)
@@ -9542,6 +9741,71 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 185.42 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91b1058a-ba6c-40ff-82b5-f9cede278bc3")
+		(property "Reference" "#FLG018"
+			(at 185.42 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5f87ee-3cc0-4526-a57f-4ff15fe8d51b")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223"
+					(reference "#FLG018")
 					(unit 1)
 				)
 			)

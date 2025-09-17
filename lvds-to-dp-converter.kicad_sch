@@ -3742,6 +3742,16 @@
 	(bus_alias "DSI"
 		(members "D0+" "D0-" "D1+" "D1-" "D2+" "D2-" "D3+" "D3-" "CLK+" "CLK-")
 	)
+	(text "AVCC"
+		(exclude_from_sim no)
+		(at 178.816 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46d1614c-1a68-4451-9fb3-2dc6a7c28b2d")
+	)
 	(text "To be checked"
 		(exclude_from_sim no)
 		(at 213.614 174.498 0)
@@ -4977,16 +4987,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 162.56) (xy 181.61 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee95fb4-b94e-438e-8894-48bad9f2a696")
-	)
-	(wire
-		(pts
 			(xy 325.12 118.11) (xy 303.53 118.11)
 		)
 		(stroke
@@ -5565,6 +5565,16 @@
 		)
 		(uuid "8e4c402b-3fec-46b5-9032-21959d54f308")
 	)
+	(wire
+		(pts
+			(xy 170.18 161.29) (xy 170.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0d047a-6583-45af-b7ad-9d17861de032")
+	)
 	(bus
 		(pts
 			(xy 255.27 119.38) (xy 255.27 121.92)
@@ -6054,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "c11089a4-07d0-49d5-88c0-d155ad4a05b8")
+	)
+	(wire
+		(pts
+			(xy 170.18 162.56) (xy 181.61 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c6a5e3-0c77-4746-a83c-7fee847a26f4")
 	)
 	(wire
 		(pts
@@ -6719,16 +6739,6 @@
 				(uuid "123528c1-92ce-4c8b-ba48-ce0fd59e005e")
 			)
 		)
-	)
-	(label "AVCC"
-		(at 176.53 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1475bcce-bdbb-490f-bc83-00ffa31c3b20")
 	)
 	(label "DSI.D3-"
 		(at 261.62 140.97 0)
@@ -12332,6 +12342,100 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
 					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 170.18 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e9719a2-4017-44d4-984d-98c20901b16b")
+		(property "Reference" "#PWR0273"
+			(at 185.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 185.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 185.42 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0f9017a-9e5f-4026-a8f2-f09fe53b77ad")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)

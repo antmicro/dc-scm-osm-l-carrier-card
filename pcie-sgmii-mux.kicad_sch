@@ -331,7 +331,7 @@
 				)
 			)
 			(symbol "TMUXHS4412RUAR_1_0"
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(hide yes)
@@ -591,7 +591,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 20.32 -58.42 180)
 					(length 2.54)
 					(name "DB3N"

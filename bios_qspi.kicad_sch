@@ -2323,6 +2323,98 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "1.8 V only"
 		(exclude_from_sim no)
@@ -2359,6 +2451,12 @@
 		(uuid "5ae7b6d5-7fd8-4903-a16b-fa982f72f86c")
 	)
 	(junction
+		(at 231.14 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63d3feec-03d6-4593-a62f-80abd2190565")
+	)
+	(junction
 		(at 198.12 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2387,6 +2485,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddde6ad1-ea20-49c2-bf01-7754da8d01bb")
+	)
+	(no_connect
+		(at 232.41 185.42)
+		(uuid "5b4ad5b3-2df3-4de3-89e1-22543c6e798a")
 	)
 	(bus_entry
 		(at 172.72 151.13)
@@ -2841,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.1764 148.59) (xy 175.26 148.59)
+			(xy 189.23 148.59) (xy 175.26 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2919,6 +3021,16 @@
 		)
 		(uuid "c19b7cf8-e42e-47b9-8c7c-0caf0fa61d77")
 	)
+	(wire
+		(pts
+			(xy 231.14 128.27) (xy 231.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c562b3b2-d1a2-4f1a-89a6-32fd65810482")
+	)
 	(bus
 		(pts
 			(xy 172.72 140.97) (xy 171.45 139.7)
@@ -2961,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 148.59) (xy 194.2564 148.59)
+			(xy 233.68 148.59) (xy 194.31 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4094,6 +4206,72 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 231.14 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a1071b-918a-436a-ab89-55c8cb50c790")
+		(property "Reference" "#FLG08"
+			(at 231.14 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a86c3fc-10a8-4233-b6ce-e124c607e797")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 180.34 177.8 0)
 		(unit 1)
@@ -4857,7 +5035,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 189.1764 148.59 0)
+		(at 189.23 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4865,7 +5043,7 @@
 		(dnp no)
 		(uuid "a6764666-7323-476b-a878-20998d4b80b9")
 		(property "Reference" "R273"
-			(at 187.2714 147.32 0)
+			(at 187.325 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +5052,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 209.4964 161.29 0)
+			(at 209.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +5063,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 209.4964 163.83 0)
+			(at 209.55 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +5074,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 209.4964 166.37 0)
+			(at 209.55 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5085,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 189.1764 148.59 0)
+			(at 189.23 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +5094,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 209.4964 168.91 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5105,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 209.4964 171.45 0)
+			(at 209.55 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +5116,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 209.4964 173.99 0)
+			(at 209.55 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +5127,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 209.4964 176.53 0)
+			(at 209.55 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5138,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 195.5264 147.32 0)
+			(at 195.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +5147,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 209.4964 158.75 0)
+			(at 209.55 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +5157,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 209.4964 179.07 0)
+			(at 209.55 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
