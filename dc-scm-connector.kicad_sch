@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?__cf_chl_jschl_tk__=4604d1306574a1ee474ea914090d3e0c57e266a6-1606907014-0-AbkYBTCTl__kMBcY3BDmgKpfUy32FqitwN2Lniuy8W-uyv2Ev04Q-Q5Mr7srIz_Wnur0_9chB4CRbxKSYcEh7IvAJYsUgJ0PWIS5YdRqqHg567uaZciEX2hQP4ss5l6M4XdNrxEjJppHvyRV3ku89t-VmUSzhgCb8oJlyHpTxST4dEmKZNXfM53TM0tmGirdVbCRt1Byrx5pkz_uMvNABIOj7B2-eDGK52J3DWRD76zEyjdxY7Iz11gPiOY5i_QGIR3uOwkR5LBPNXe8zGqAf8--AKa7RqDbIriQRt90_32C4zIuHqbGa05BXS135E65ov80PbVcb4eSiutCqcJUAacUwu3eVnXVeIumfihJxuP8Rv7_n6saeG_2IuQpEiskzovLGKZM3667Y-rm-AL1NRXTamtvBxqTk0vyMvZ60FgJ"
+			(property "Datasheet" "https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view"
 				(at 76.2 -12.7 0)
 				(effects
 					(font
@@ -158,7 +158,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(hide yes)
@@ -177,7 +177,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(hide yes)
@@ -196,7 +196,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(hide yes)
@@ -450,7 +450,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -469,7 +469,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -488,7 +488,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -507,7 +507,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -526,7 +526,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -545,7 +545,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -564,7 +564,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -583,7 +583,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -602,7 +602,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -621,7 +621,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -640,7 +640,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -659,7 +659,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -678,7 +678,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -697,7 +697,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -716,7 +716,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -735,7 +735,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -754,7 +754,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -773,7 +773,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -792,7 +792,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -811,7 +811,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -830,7 +830,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -849,7 +849,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -868,7 +868,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -887,7 +887,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -906,7 +906,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -925,7 +925,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -944,7 +944,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -963,7 +963,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -982,7 +982,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -1001,7 +1001,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -1020,7 +1020,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -1039,7 +1039,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -1058,7 +1058,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -1195,26 +1195,6 @@
 				(pin passive line
 					(at 62.23 -26.67 180)
 					(length 5.08)
-					(name "USB2_SCMHOST1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST1_DN_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -29.21 180)
-					(length 5.08)
 					(name "USB2_SCMHOST1_DP"
 						(effects
 							(font
@@ -1233,16 +1213,16 @@
 					(alternate "USB2_HPMHOST1_DP_" passive line)
 				)
 				(pin passive line
-					(at 62.23 -33.02 180)
+					(at 62.23 -29.21 180)
 					(length 5.08)
-					(name "USB2_SCMHOST2_DN"
+					(name "USB2_SCMHOST1_DN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B68"
+					(number "B36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1250,10 +1230,10 @@
 						)
 					)
 					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST2_DN_" passive line)
+					(alternate "USB2_HPMHOST1_DN_" passive line)
 				)
 				(pin passive line
-					(at 62.23 -35.56 180)
+					(at 62.23 -33.02 180)
 					(length 5.08)
 					(name "USB2_SCMHOST2_DP"
 						(effects
@@ -1271,6 +1251,26 @@
 					)
 					(alternate "GPIO" passive line)
 					(alternate "_USB2_HPMHOST2_DP" passive line)
+				)
+				(pin passive line
+					(at 62.23 -35.56 180)
+					(length 5.08)
+					(name "USB2_SCMHOST2_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+					(alternate "USB2_HPMHOST2_DN_" passive line)
 				)
 			)
 			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_1_2_1"
@@ -1955,7 +1955,7 @@
 				(pin passive line
 					(at 62.23 -38.1 180)
 					(length 5.08)
-					(name "I2C_I3C_1V0_18_SCL_"
+					(name "I2C_I3C_1V0_18_SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1974,7 +1974,7 @@
 				(pin passive line
 					(at 62.23 -40.64 180)
 					(length 5.08)
-					(name "I2C_I3C_1V0_18_SDA__"
+					(name "I2C_I3C_1V0_18_SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2260,119 +2260,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -21.59 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -24.13 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CRS_DV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -26.67 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -29.21 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -44.45 0)
+					(at 0 -25.4 0)
 					(length 5.08)
 					(name "LTPI_HPM_SCM_CLK_DP"
 						(effects
@@ -2390,7 +2278,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -46.99 0)
+					(at 0 -27.94 0)
 					(length 5.08)
 					(name "LTPI_HPM_SCM_CLK_DN"
 						(effects
@@ -2400,6 +2288,114 @@
 						)
 					)
 					(number "B23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -31.75 0)
+					(length 5.08)
+					(name "LTPI_HPM_SCM_DATA_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -34.29 0)
+					(length 5.08)
+					(name "LTPI_HPM_SCM_DATA_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_CLK_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_CLK_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -44.45 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_DATA_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -46.99 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_DATA_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2552,7 +2548,83 @@
 					)
 				)
 				(pin passive line
-					(at 62.23 -25.4 180)
+					(at 62.23 -31.75 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -34.29 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_CRS_DV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -36.83 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -39.37 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -41.91 180)
 					(length 5.08)
 					(name "NCSI_SCM_HPM_TX_EN"
 						(effects
@@ -2571,7 +2643,7 @@
 					(alternate "GPIO" passive line)
 				)
 				(pin passive line
-					(at 62.23 -27.94 180)
+					(at 62.23 -44.45 180)
 					(length 5.08)
 					(name "NCSI_SCM_HPM_D0"
 						(effects
@@ -2590,7 +2662,7 @@
 					(alternate "GPIO" passive line)
 				)
 				(pin passive line
-					(at 62.23 -30.48 180)
+					(at 62.23 -46.99 180)
 					(length 5.08)
 					(name "NCSI_SCM_HPM_D1"
 						(effects
@@ -2607,6709 +2679,9 @@
 						)
 					)
 					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -38.1 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -40.64 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -44.45 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -46.99 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 				)
 			)
 			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_1_4_1"
-				(rectangle
-					(start 5.08 3.81)
-					(end 57.15 -119.38)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_PERST_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -11.43 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_1_S0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -13.97 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_1_S0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_HPM_SCM_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_HPM_SCM_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -26.67 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_SCM_HPM_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -29.21 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_SCM_HPM_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -34.29 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_1_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_AUX_DP" passive line)
-					(alternate "LTPI_HPM_SCM_CLK_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -36.83 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_AUX_DN" passive line)
-					(alternate "LTPI_HPM_SCM_CLK_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_1_DP_"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE0_DP" passive line)
-					(alternate "LTPI_SCM_HPM_CLK_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE0_DN" passive line)
-					(alternate "LTPI_SCM_HPM_CLK_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -48.26 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_2_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -50.8 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_2_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_1_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -54.61 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_2_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -57.15 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_2_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_1_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -62.23 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_3_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "LTPI_HPM_SCM_DATA_2_DP" passive line)
-					(alternate "USB2_SCMHOST_3_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -64.77 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_3_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "LTPI_HPM_SCM_DATA_2_DN__" passive line)
-					(alternate "USB2_SCMHOST_3_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -68.58 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_3_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE1_DP" passive line)
-					(alternate "LTPI_SCM_HPM_DATA_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -71.12 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_3_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE1_DN" passive line)
-					(alternate "LTPI_SCM_HPM_DATA_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -76.2 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_4_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -78.74 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_4_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -82.55 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_4_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -85.09 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_4_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -90.17 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_5_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -92.71 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_5_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -96.52 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_5_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -99.06 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_5_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -105.41 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_SCM_HPM_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_2_DP" passive line)
-					(alternate "USB3_SCMHOST_SCM_HPM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -107.95 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_SCM_HPM_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_2_DN" passive line)
-					(alternate "USB3_SCMHOST_SCM_HPM_1_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -111.76 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_HPM_SCM_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_2_DP" passive line)
-					(alternate "USB3_SCMHOST_HPM_SCM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -114.3 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_HPM_SCM_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_2_DN" passive line)
-					(alternate "USB3_SCMHOST_HPM_SCM_1_DN" passive line)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_2"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 76.2 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1"
-				(at 76.2 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM_2x84_Rev-1-0"
-				(at 76.2 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view"
-				(at 76.2 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "PCB Edge DC-SCM 2.1 Rev.1.1 Connector"
-				(at 76.2 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 76.2 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 76.2 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 76.2 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 76.2 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CONNECTOR, EDGE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_2_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 57.15 -45.72)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "P3V0_HPM_SCM_BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "HPM_SCM_STBY_RDY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "SCM_HPM_STBY_RST_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "SCM_HPM_STBY_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TRST_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -33.02 0)
-					(length 5.08)
-					(name "PRSNT0_SCM_HPM_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 0)
-					(length 5.08)
-					(name "PRSNT1_HPM_SCM_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "HPM_SCM_INTRUSION_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 0 180)
-					(length 5.08)
-					(name "VCC_SCM_HPM_FRU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -5.08 180)
-					(length 5.08)
-					(name "PECI_VREF_HPM_SCM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPI" passive line)
-				)
-				(pin passive line
-					(at 62.23 -7.62 180)
-					(length 5.08)
-					(name "PECI_HPM_SCM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -13.97 180)
-					(length 5.08)
-					(name "GPIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPI_SCMCNTRL_IRQ0_N" passive line)
-				)
-				(pin passive line
-					(at 62.23 -20.32 180)
-					(length 5.08)
-					(name "UART0_SCM_HPM_DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_SCM_HPM_TX_EN" passive line)
-					(alternate "PCIE_SCM_HPM_PERST_N" passive line)
-					(alternate "_GPO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -22.86 180)
-					(length 5.08)
-					(name "UART0_HPM_SCM_DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -26.67 180)
-					(length 5.08)
-					(name "USB2_SCMHOST1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST1_DN_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -29.21 180)
-					(length 5.08)
-					(name "USB2_SCMHOST1_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST1_DP_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -33.02 180)
-					(length 5.08)
-					(name "USB2_SCMHOST2_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST2_DN_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -35.56 180)
-					(length 5.08)
-					(name "USB2_SCMHOST2_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "_USB2_HPMHOST2_DP" passive line)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_2_2_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 57.15 -76.2)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "I2C_3V3_0_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "I2C_3V3_0_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 0)
-					(length 5.08)
-					(name "I2C_3V3_1_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -8.89 0)
-					(length 5.08)
-					(name "I2C_3V3_1_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "I2C_3V3_2_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "I2C_3V3_2_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -19.05 0)
-					(length 5.08)
-					(name "I2C_3V3_3_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -21.59 0)
-					(length 5.08)
-					(name "I2C_3V3_3_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "I2C_3V3_4_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "I2C_3V3_4_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -31.75 0)
-					(length 5.08)
-					(name "I2C_3V3_5_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -34.29 0)
-					(length 5.08)
-					(name "I2C_3V3_5_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "I2C_3V3_6_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "I2C_3V3_6_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -44.45 0)
-					(length 5.08)
-					(name "I2C_3V3_7_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_CLK" passive line)
-					(alternate "SGPIO_CLK" passive line)
-				)
-				(pin passive line
-					(at 0 -46.99 0)
-					(length 5.08)
-					(name "I2C_3V3_7_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_CRS_DV" passive line)
-					(alternate "SGPIO_LD" passive line)
-				)
-				(pin passive line
-					(at 0 -50.8 0)
-					(length 5.08)
-					(name "I2C_3V3_8_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_SCM_HPM_D0" passive line)
-					(alternate "SGPIO_DATAOUT" passive line)
-				)
-				(pin passive line
-					(at 0 -53.34 0)
-					(length 5.08)
-					(name "I2C_3V3_8_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_SCM_HPM_D1" passive line)
-					(alternate "SGPIO_DATAIN" passive line)
-				)
-				(pin passive line
-					(at 0 -57.15 0)
-					(length 5.08)
-					(name "I2C_3V3_9_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_D0" passive line)
-					(alternate "UART1_SCM_HPM_DATA_" passive line)
-				)
-				(pin passive line
-					(at 0 -59.69 0)
-					(length 5.08)
-					(name "I2C_3V3_9_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_D1" passive line)
-					(alternate "UART1_HPM_SCM_DATA_" passive line)
-				)
-				(pin passive line
-					(at 0 -64.77 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_10_SCL" passive line)
-				)
-				(pin passive line
-					(at 0 -67.31 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_CS_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_10_SDA_" passive line)
-					(alternate "QSPI_HPMCNTRL_TPM_CS_N" passive line)
-				)
-				(pin passive line
-					(at 0 -71.12 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_DI_IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_11_SCL" passive line)
-				)
-				(pin passive line
-					(at 0 -73.66 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_DO_IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_11_SDA" passive line)
-				)
-				(pin passive line
-					(at 62.23 0 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_12_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -2.54 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_12_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -6.35 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_13_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -8.89 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_13_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -12.7 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_14_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -15.24 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_14_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -19.05 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_15_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -21.59 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_15_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -25.4 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_16_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -27.94 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_16_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -31.75 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_17_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ESPI0_HPMCNTRL_CS1_N" passive line)
-				)
-				(pin passive line
-					(at 62.23 -34.29 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_17_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ESPI0_HPMCNTRL_ALERT1_N" passive line)
-				)
-				(pin passive line
-					(at 62.23 -38.1 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_18_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSI_1V2_0_SCL" passive line)
-				)
-				(pin passive line
-					(at 62.23 -40.64 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_18_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "_FSI_1V2_0_SDA" passive line)
-				)
-				(pin passive line
-					(at 62.23 -44.45 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_19_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSI_1V2_1_SCL" passive line)
-				)
-				(pin passive line
-					(at 62.23 -46.99 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_19_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSI_1V2_1_SDA" passive line)
-				)
-				(pin passive line
-					(at 62.23 -62.23 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -64.77 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_CS0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -67.31 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_CS1_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -71.12 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_DO_IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -73.66 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_DI_IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_2_3_1"
-				(rectangle
-					(start 5.08 3.81)
-					(end 57.15 -49.53)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_CS0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_CS1_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_CLK_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_CLK_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -31.75 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -34.29 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -44.45 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -46.99 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 0 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -2.54 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_CS0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -5.08 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_RESET_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -7.62 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -10.16 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -12.7 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -15.24 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -17.78 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_ALERT0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -31.75 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -34.29 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CRS_DV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -36.83 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -39.37 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -41.91 180)
-					(length 5.08)
-					(name "NCSI_SCM_HPM_TX_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -44.45 180)
-					(length 5.08)
-					(name "NCSI_SCM_HPM_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -46.99 180)
-					(length 5.08)
-					(name "NCSI_SCM_HPM_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_2_4_1"
-				(rectangle
-					(start 5.08 3.81)
-					(end 57.15 -119.38)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_PERST_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -11.43 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_1_S0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -13.97 0)
-					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_1_S0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_HPM_SCM_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_HPM_SCM_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -26.67 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_0_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_SCM_HPM_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -29.21 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB3_SCMHOST_SCM_HPM_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -34.29 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_1_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_AUX_DP" passive line)
-					(alternate "LTPI_HPM_SCM_CLK_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -36.83 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_AUX_DN" passive line)
-					(alternate "LTPI_HPM_SCM_CLK_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_1_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE0_DP" passive line)
-					(alternate "LTPI_SCM_HPM_CLK_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE0_DN" passive line)
-					(alternate "LTPI_SCM_HPM_CLK_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -48.26 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_2_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -50.8 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_2_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_1_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -54.61 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_2_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -57.15 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_2_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_1_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -62.23 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_3_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "LTPI_HPM_SCM_DATA_2_DP" passive line)
-					(alternate "USB2_SCMHOST_3_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -64.77 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_3_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "LTPI_HPM_SCM_DATA_2_DN__" passive line)
-					(alternate "USB2_SCMHOST_3_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -68.58 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_3_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE1_DP" passive line)
-					(alternate "LTPI_SCM_HPM_DATA_2_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -71.12 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_3_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DISPLAYPORT_SCM_HPM_LANE1_DN" passive line)
-					(alternate "LTPI_SCM_HPM_DATA_2_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -76.2 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_4_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -78.74 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_4_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -82.55 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_4_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -85.09 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_4_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -90.17 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_5_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -92.71 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_HPM_SCM_5_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -96.52 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_5_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -99.06 0)
-					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_5_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -105.41 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_SCM_HPM_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_2_DP" passive line)
-					(alternate "USB3_SCMHOST_SCM_HPM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -107.95 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_SCM_HPM_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_SCM_HPM_2_DN" passive line)
-					(alternate "USB3_SCMHOST_SCM_HPM_1_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -111.76 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_HPM_SCM_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_2_DP" passive line)
-					(alternate "USB3_SCMHOST_HPM_SCM_1_DP" passive line)
-				)
-				(pin passive line
-					(at 0 -114.3 0)
-					(length 5.08)
-					(name "PCIE_SCMROOT_HPM_SCM_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SGMII_HPM_SCM_2_DN" passive line)
-					(alternate "USB3_SCMHOST_HPM_SCM_1_DN" passive line)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_3"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 76.2 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1"
-				(at 76.2 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM_2x84_Rev-1-0"
-				(at 76.2 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view"
-				(at 76.2 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "PCB Edge DC-SCM 2.1 Rev.1.1 Connector"
-				(at 76.2 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 76.2 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 76.2 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 76.2 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 76.2 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CONNECTOR, EDGE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_3_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 57.15 -45.72)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "P12V_AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "P3V0_HPM_SCM_BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "HPM_SCM_STBY_RDY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "SCM_HPM_STBY_RST_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "SCM_HPM_STBY_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "JTAG_SCMCNTRL_TRST_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -33.02 0)
-					(length 5.08)
-					(name "PRSNT0_SCM_HPM_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 0)
-					(length 5.08)
-					(name "PRSNT1_HPM_SCM_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "HPM_SCM_INTRUSION_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 0 180)
-					(length 5.08)
-					(name "VCC_SCM_HPM_FRU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -5.08 180)
-					(length 5.08)
-					(name "PECI_VREF_HPM_SCM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OB14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPI" passive line)
-				)
-				(pin passive line
-					(at 62.23 -7.62 180)
-					(length 5.08)
-					(name "PECI_HPM_SCM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "OA14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -13.97 180)
-					(length 5.08)
-					(name "GPIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPI_SCMCNTRL_IRQ0_N" passive line)
-				)
-				(pin passive line
-					(at 62.23 -20.32 180)
-					(length 5.08)
-					(name "UART0_SCM_HPM_DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_SCM_HPM_TX_EN" passive line)
-					(alternate "PCIE_SCM_HPM_PERST_N" passive line)
-					(alternate "_GPO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -22.86 180)
-					(length 5.08)
-					(name "UART0_HPM_SCM_DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -26.67 180)
-					(length 5.08)
-					(name "USB2_SCMHOST1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST1_DN_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -29.21 180)
-					(length 5.08)
-					(name "USB2_SCMHOST1_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST1_DP_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -33.02 180)
-					(length 5.08)
-					(name "USB2_SCMHOST2_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST2_DN_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -35.56 180)
-					(length 5.08)
-					(name "USB2_SCMHOST2_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "_USB2_HPMHOST2_DP" passive line)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_3_2_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 57.15 -76.2)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "I2C_3V3_0_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "I2C_3V3_0_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 0)
-					(length 5.08)
-					(name "I2C_3V3_1_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -8.89 0)
-					(length 5.08)
-					(name "I2C_3V3_1_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "I2C_3V3_2_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "I2C_3V3_2_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -19.05 0)
-					(length 5.08)
-					(name "I2C_3V3_3_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -21.59 0)
-					(length 5.08)
-					(name "I2C_3V3_3_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "I2C_3V3_4_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "I2C_3V3_4_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -31.75 0)
-					(length 5.08)
-					(name "I2C_3V3_5_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -34.29 0)
-					(length 5.08)
-					(name "I2C_3V3_5_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "I2C_3V3_6_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "I2C_3V3_6_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -44.45 0)
-					(length 5.08)
-					(name "I2C_3V3_7_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_CLK" passive line)
-					(alternate "SGPIO_CLK" passive line)
-				)
-				(pin passive line
-					(at 0 -46.99 0)
-					(length 5.08)
-					(name "I2C_3V3_7_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_CRS_DV" passive line)
-					(alternate "SGPIO_LD" passive line)
-				)
-				(pin passive line
-					(at 0 -50.8 0)
-					(length 5.08)
-					(name "I2C_3V3_8_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_SCM_HPM_D0" passive line)
-					(alternate "SGPIO_DATAOUT" passive line)
-				)
-				(pin passive line
-					(at 0 -53.34 0)
-					(length 5.08)
-					(name "I2C_3V3_8_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_SCM_HPM_D1" passive line)
-					(alternate "SGPIO_DATAIN" passive line)
-				)
-				(pin passive line
-					(at 0 -57.15 0)
-					(length 5.08)
-					(name "I2C_3V3_9_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_D0" passive line)
-					(alternate "UART1_SCM_HPM_DATA_" passive line)
-				)
-				(pin passive line
-					(at 0 -59.69 0)
-					(length 5.08)
-					(name "I2C_3V3_9_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NCSI2_HPM_SCM_D1" passive line)
-					(alternate "UART1_HPM_SCM_DATA_" passive line)
-				)
-				(pin passive line
-					(at 0 -64.77 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_10_SCL" passive line)
-				)
-				(pin passive line
-					(at 0 -67.31 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_CS_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_10_SDA_" passive line)
-					(alternate "QSPI_HPMCNTRL_TPM_CS_N" passive line)
-				)
-				(pin passive line
-					(at 0 -71.12 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_DI_IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_11_SCL" passive line)
-				)
-				(pin passive line
-					(at 0 -73.66 0)
-					(length 5.08)
-					(name "SPI_HPMCNTRL_TPM_DO_IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C_I3C_1V8_11_SDA" passive line)
-				)
-				(pin passive line
-					(at 62.23 0 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_12_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -2.54 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_12_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -6.35 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_13_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -8.89 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_13_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -12.7 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_14_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -15.24 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_14_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -19.05 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_15_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -21.59 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_15_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -25.4 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_16_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -27.94 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_16_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -31.75 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_17_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ESPI0_HPMCNTRL_CS1_N" passive line)
-				)
-				(pin passive line
-					(at 62.23 -34.29 180)
-					(length 5.08)
-					(name "I2C_I3C_1V8_17_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ESPI0_HPMCNTRL_ALERT1_N" passive line)
-				)
-				(pin passive line
-					(at 62.23 -38.1 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_18_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSI_1V2_0_SCL" passive line)
-				)
-				(pin passive line
-					(at 62.23 -40.64 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_18_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "_FSI_1V2_0_SDA" passive line)
-				)
-				(pin passive line
-					(at 62.23 -44.45 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_19_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSI_1V2_1_SCL" passive line)
-				)
-				(pin passive line
-					(at 62.23 -46.99 180)
-					(length 5.08)
-					(name "I2C_I3C_1V0_19_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSI_1V2_1_SDA" passive line)
-				)
-				(pin passive line
-					(at 62.23 -62.23 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -64.77 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_CS0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -67.31 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_CS1_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -71.12 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_DO_IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -73.66 180)
-					(length 5.08)
-					(name "SPI_SCMCNTRL_DI_IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_3_3_1"
-				(rectangle
-					(start 5.08 3.81)
-					(end 57.15 -49.53)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_CS0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_CS1_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "QSPI_HPMCNTRL_IO_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_CLK_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_CLK_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -31.75 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -34.29 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -44.45 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -46.99 0)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 0 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -2.54 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_CS0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -5.08 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_RESET_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -7.62 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -10.16 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -12.7 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -15.24 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_IO_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -17.78 180)
-					(length 5.08)
-					(name "ESPI_HPMCNTRL_ALERT0_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -31.75 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -34.29 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CRS_DV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -36.83 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -39.37 180)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -41.91 180)
-					(length 5.08)
-					(name "NCSI_SCM_HPM_TX_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -44.45 180)
-					(length 5.08)
-					(name "NCSI_SCM_HPM_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -46.99 180)
-					(length 5.08)
-					(name "NCSI_SCM_HPM_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-			)
-			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_3_4_1"
 				(rectangle
 					(start 5.08 3.81)
 					(end 57.15 -119.38)
@@ -9988,7 +3360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?__cf_chl_jschl_tk__=4604d1306574a1ee474ea914090d3e0c57e266a6-1606907014-0-AbkYBTCTl__kMBcY3BDmgKpfUy32FqitwN2Lniuy8W-uyv2Ev04Q-Q5Mr7srIz_Wnur0_9chB4CRbxKSYcEh7IvAJYsUgJ0PWIS5YdRqqHg567uaZciEX2hQP4ss5l6M4XdNrxEjJppHvyRV3ku89t-VmUSzhgCb8oJlyHpTxST4dEmKZNXfM53TM0tmGirdVbCRt1Byrx5pkz_uMvNABIOj7B2-eDGK52J3DWRD76zEyjdxY7Iz11gPiOY5i_QGIR3uOwkR5LBPNXe8zGqAf8--AKa7RqDbIriQRt90_32C4zIuHqbGa05BXS135E65ov80PbVcb4eSiutCqcJUAacUwu3eVnXVeIumfihJxuP8Rv7_n6saeG_2IuQpEiskzovLGKZM3667Y-rm-AL1NRXTamtvBxqTk0vyMvZ60FgJ"
+			(property "Datasheet" "https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view"
 				(at 76.2 -12.7 0)
 				(effects
 					(font
@@ -10100,7 +3472,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(hide yes)
@@ -10119,7 +3491,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(hide yes)
@@ -10138,7 +3510,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(hide yes)
@@ -10392,7 +3764,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10411,7 +3783,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10430,7 +3802,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10449,7 +3821,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10468,7 +3840,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10487,7 +3859,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10506,7 +3878,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10525,7 +3897,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10544,7 +3916,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10563,7 +3935,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10582,7 +3954,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10601,7 +3973,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10620,7 +3992,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10639,7 +4011,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10658,7 +4030,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10677,7 +4049,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10696,7 +4068,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10715,7 +4087,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10734,7 +4106,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10753,7 +4125,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10772,7 +4144,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10791,7 +4163,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10810,7 +4182,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10829,7 +4201,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10848,7 +4220,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10867,7 +4239,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10886,7 +4258,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10905,7 +4277,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10924,7 +4296,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10943,7 +4315,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10962,7 +4334,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -10981,7 +4353,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -11000,7 +4372,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(hide yes)
@@ -11092,7 +4464,7 @@
 							)
 						)
 					)
-					(alternate "_SPI_SCMCNTRL_IRQ0_N" passive line)
+					(alternate "SPI_SCMCNTRL_IRQ0_N" passive line)
 				)
 				(pin passive line
 					(at 62.23 -20.32 180)
@@ -11137,26 +4509,6 @@
 				(pin passive line
 					(at 62.23 -26.67 180)
 					(length 5.08)
-					(name "USB2_SCMHOST1_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST1_DN_" passive line)
-				)
-				(pin passive line
-					(at 62.23 -29.21 180)
-					(length 5.08)
 					(name "USB2_SCMHOST1_DP"
 						(effects
 							(font
@@ -11175,16 +4527,16 @@
 					(alternate "USB2_HPMHOST1_DP_" passive line)
 				)
 				(pin passive line
-					(at 62.23 -33.02 180)
+					(at 62.23 -29.21 180)
 					(length 5.08)
-					(name "USB2_SCMHOST2_DN"
+					(name "USB2_SCMHOST1_DN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B68"
+					(number "B36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11192,10 +4544,10 @@
 						)
 					)
 					(alternate "GPIO" passive line)
-					(alternate "USB2_HPMHOST2_DN_" passive line)
+					(alternate "USB2_HPMHOST1_DN_" passive line)
 				)
 				(pin passive line
-					(at 62.23 -35.56 180)
+					(at 62.23 -33.02 180)
 					(length 5.08)
 					(name "USB2_SCMHOST2_DP"
 						(effects
@@ -11213,6 +4565,26 @@
 					)
 					(alternate "GPIO" passive line)
 					(alternate "_USB2_HPMHOST2_DP" passive line)
+				)
+				(pin passive line
+					(at 62.23 -35.56 180)
+					(length 5.08)
+					(name "USB2_SCMHOST2_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+					(alternate "USB2_HPMHOST2_DN_" passive line)
 				)
 			)
 			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_2_1"
@@ -11897,7 +5269,7 @@
 				(pin passive line
 					(at 62.23 -38.1 180)
 					(length 5.08)
-					(name "I2C_I3C_1V0_18_SCL_"
+					(name "I2C_I3C_1V0_18_SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11916,7 +5288,7 @@
 				(pin passive line
 					(at 62.23 -40.64 180)
 					(length 5.08)
-					(name "I2C_I3C_1V0_18_SDA__"
+					(name "I2C_I3C_1V0_18_SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12202,119 +5574,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -21.59 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -24.13 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_CRS_DV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -26.67 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -29.21 0)
-					(length 5.08)
-					(name "NCSI_HPM_SCM_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "LTPI_HPM_SCM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -44.45 0)
+					(at 0 -25.4 0)
 					(length 5.08)
 					(name "LTPI_HPM_SCM_CLK_DP"
 						(effects
@@ -12332,7 +5592,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -46.99 0)
+					(at 0 -27.94 0)
 					(length 5.08)
 					(name "LTPI_HPM_SCM_CLK_DN"
 						(effects
@@ -12342,6 +5602,114 @@
 						)
 					)
 					(number "B23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -31.75 0)
+					(length 5.08)
+					(name "LTPI_HPM_SCM_DATA_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -34.29 0)
+					(length 5.08)
+					(name "LTPI_HPM_SCM_DATA_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_CLK_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_CLK_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -44.45 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_DATA_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -46.99 0)
+					(length 5.08)
+					(name "LTPI_SCM_HPM_DATA_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12494,7 +5862,83 @@
 					)
 				)
 				(pin passive line
-					(at 62.23 -25.4 180)
+					(at 62.23 -31.75 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -34.29 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_CRS_DV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -36.83 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -39.37 180)
+					(length 5.08)
+					(name "NCSI_HPM_SCM_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO" passive line)
+				)
+				(pin passive line
+					(at 62.23 -41.91 180)
 					(length 5.08)
 					(name "NCSI_SCM_HPM_TX_EN"
 						(effects
@@ -12513,7 +5957,7 @@
 					(alternate "GPIO" passive line)
 				)
 				(pin passive line
-					(at 62.23 -27.94 180)
+					(at 62.23 -44.45 180)
 					(length 5.08)
 					(name "NCSI_SCM_HPM_D0"
 						(effects
@@ -12532,7 +5976,7 @@
 					(alternate "GPIO" passive line)
 				)
 				(pin passive line
-					(at 62.23 -30.48 180)
+					(at 62.23 -46.99 180)
 					(length 5.08)
 					(name "NCSI_SCM_HPM_D1"
 						(effects
@@ -12549,78 +5993,6 @@
 						)
 					)
 					(alternate "GPIO" passive line)
-				)
-				(pin passive line
-					(at 62.23 -38.1 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -40.64 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_CLK_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -44.45 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 62.23 -46.99 180)
-					(length 5.08)
-					(name "LTPI_SCM_HPM_DATA_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 				)
 			)
 			(symbol "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_4_1"
@@ -12692,25 +6064,6 @@
 				(pin passive line
 					(at 0 -11.43 0)
 					(length 5.08)
-					(name "PCIE_HPM_SCM_CLK_100M_1_S0_DN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DN" passive line)
-				)
-				(pin passive line
-					(at 0 -13.97 0)
-					(length 5.08)
 					(name "PCIE_HPM_SCM_CLK_100M_1_S0_DP"
 						(effects
 							(font
@@ -12726,6 +6079,25 @@
 						)
 					)
 					(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DP" passive line)
+				)
+				(pin passive line
+					(at 0 -13.97 0)
+					(length 5.08)
+					(name "PCIE_HPM_SCM_CLK_100M_1_S0_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "PCIE_HPM_SCM_CLK_100M_1_S5_DN" passive line)
 				)
 				(pin passive line
 					(at 0 -20.32 0)
@@ -12846,7 +6218,7 @@
 				(pin passive line
 					(at 0 -40.64 0)
 					(length 5.08)
-					(name "PCIE_HPMROOT_SCM_HPM_1_DP_"
+					(name "PCIE_HPMROOT_SCM_HPM_1_DP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18544,6 +11916,16 @@
 		)
 		(uuid "00840244-26ea-4486-8176-0abff4e607ff")
 	)
+	(label "DC_SCM_USB1.D-"
+		(at 175.26 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "021ab413-68a9-4b2c-80d8-aadd4b4a1b55")
+	)
 	(label "DC_SCM_I2C_I3C17.SCL"
 		(at 157.48 142.24 0)
 		(effects
@@ -18714,16 +12096,6 @@
 		)
 		(uuid "27ca82bb-7973-4fb9-88c4-189e75c00819")
 	)
-	(label "DC_SCM_USB2.D-"
-		(at 158.75 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29c07931-94d3-489c-b15e-9607c58742e5")
-	)
 	(label "DC_SCM_UART.TX"
 		(at 158.75 64.77 0)
 		(effects
@@ -18874,6 +12246,16 @@
 		)
 		(uuid "41b147c8-4134-4c19-9a63-a6ed695b2dce")
 	)
+	(label "DC_SCM_USB2.D-"
+		(at 175.26 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "422cd644-b660-420b-8837-0b3744b13314")
+	)
 	(label "DC_SCM_I2C_I3C13.SCL"
 		(at 157.48 116.84 0)
 		(effects
@@ -18904,16 +12286,6 @@
 		)
 		(uuid "46616ebe-693b-46a5-b3f0-59aff066c732")
 	)
-	(label "DC_SCM_USB1.D-"
-		(at 158.75 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "482a4346-15ab-4354-ba57-418fb23735c6")
-	)
 	(label "DC_SCM_I2C_I3C18.SCL"
 		(at 157.48 148.59 0)
 		(effects
@@ -18943,16 +12315,6 @@
 			(justify left bottom)
 		)
 		(uuid "563a0fcb-d869-47a9-84b1-14fa4a39d5f0")
-	)
-	(label "DC_SCM_USB1.D+"
-		(at 158.75 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "575f4e4a-99a7-40b5-9ba5-708686a81145")
 	)
 	(label "DC_SCM_LTPI.RXD+"
 		(at 63.5 233.68 0)
@@ -19213,16 +12575,6 @@
 			(justify left bottom)
 		)
 		(uuid "92a23b01-8c15-4c1d-a128-e25f1605e441")
-	)
-	(label "DC_SCM_USB2.D+"
-		(at 158.75 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92ab0abd-7143-4a27-b17c-c41c7c5fbb44")
 	)
 	(label "DC_SCM_TPM_SPI.DO"
 		(at 55.88 184.15 0)
@@ -19564,6 +12916,16 @@
 		)
 		(uuid "da082253-ce1a-4ad9-90c8-9cdb95723164")
 	)
+	(label "DC_SCM_USB1.D+"
+		(at 175.26 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbdc6c88-648f-45af-9cb7-fe1d88e7664d")
+	)
 	(label "DC_SCM_I2C9.SCL"
 		(at 57.15 167.64 0)
 		(effects
@@ -19673,6 +13035,16 @@
 			(justify left bottom)
 		)
 		(uuid "fbe1761b-4c83-4bbc-a847-000308d5b3dc")
+	)
+	(label "DC_SCM_USB2.D+"
+		(at 175.26 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe333dcb-17d3-4b9c-97a4-2f9fdae40ef1")
 	)
 	(label "DC-SCM_PCIE1.TX0-"
 		(at 314.96 158.75 0)
@@ -22778,7 +16150,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_3")
 		(lib_id "antmicroEdgeConnectors:PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1")
 		(at 311.15 80.01 0)
 		(mirror y)
@@ -26766,7 +20137,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1_2")
 		(lib_id "antmicroEdgeConnectors:PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1")
 		(at 85.09 201.93 0)
 		(unit 3)
@@ -29053,7 +22423,6 @@
 		)
 		(pin "A60"
 			(uuid "1af02cb1-4e35-424f-8133-8db9605f598d")
-			(alternate "_SPI_SCMCNTRL_IRQ0_N")
 		)
 		(pin "OA14"
 			(uuid "0f6fd41f-28da-4aac-afc7-c634192959ba")
