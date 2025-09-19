@@ -2783,7 +2783,7 @@
 							)
 						)
 					)
-					(number "66"
+					(number "62"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17838,7 +17838,7 @@
 		(pin "5"
 			(uuid "9d45fab5-80b1-4fce-b7ef-085e6150d538")
 		)
-		(pin "66"
+		(pin "62"
 			(uuid "59ed0223-ae86-4998-87fb-2222d12a4043")
 		)
 		(pin "3"
