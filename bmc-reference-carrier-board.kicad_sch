@@ -2536,6 +2536,16 @@
 				(justify right)
 			)
 		)
+		(pin "PWR_MON{I2C}" bidirectional
+			(at 109.22 59.69 0)
+			(uuid "dedd5d00-58bc-4ba1-ae21-4abd9021efd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
