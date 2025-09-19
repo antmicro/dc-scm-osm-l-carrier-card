@@ -1326,6 +1326,30 @@
       "/PCIe - SGMII Mux/PCIE_x4{PCIE}": [
         "85Ohm-diff"
       ],
+      "/PCIe - SGMII Mux/RX1+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/RX1-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/RX2+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/RX2-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/TX1+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/TX1-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/TX2+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/TX2-": [
+        "85Ohm-diff"
+      ],
       "/TPM Mux/TPM_SPI.DI": [
         "50Ohm-se"
       ],
