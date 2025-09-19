@@ -17034,6 +17034,37 @@
 		)
 		(uuid "f3b77341-864e-4ef2-a488-4cb67cfec92b")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 354.33 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cbcb8b8-d82d-4437-a86a-b288fdb4a830")
+		(property "Netclass" "90Ohm-diff"
+			(at 350.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 154.94 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_100R_0402")
 		(at 158.75 153.67 0)

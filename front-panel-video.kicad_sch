@@ -4146,6 +4146,84 @@
 		)
 		(uuid "5cd84c07-22de-4cd7-8def-08efaa021350")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 158.75 105.41) (xy 161.29 105.41) (xy 161.29 142.24) (xy 158.75 142.24)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 1d9e20f4-71ac-4fbc-b805-b492f85d5ff8)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 107.95 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "406cf3ec-4c02-4286-a49a-64b4775cb885")
+		(property "Netclass" "100Ohm-diff"
+			(at 98.298 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 300.99 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 158.75 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6edd4d8-af71-4b84-88ed-85e3bdc23d15")
+		(property "Netclass" "100Ohm-diff"
+			(at 159.4485 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 358.14 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 144.78 107.95 180)

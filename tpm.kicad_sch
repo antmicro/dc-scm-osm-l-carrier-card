@@ -1384,6 +1384,37 @@
 		)
 		(uuid "a09c25b4-768b-4e89-93ac-158cffb8d6d0")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 186.69 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38a80f2a-2591-437b-ad5a-419f59ac96ab")
+		(property "Netclass" "50Ohm-se"
+			(at 182.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at -12.7 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroGenericPinHeaders:PinHeader_2x7_P2.54mm_Drill1.02mm_ TSW-107-07-L-D-014")
 		(at 217.17 151.13 180)

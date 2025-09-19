@@ -8693,21 +8693,6 @@
 			(uuid 599a1581-0be2-45b8-9b88-75829cc42991)
 		)
 	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 82.55 153.67) (xy 85.09 153.67) (xy 85.09 201.93) (xy 82.55 201.93)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 71d420bf-a4ff-4777-84e5-268aff31b4cf)
-		)
-	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -8735,38 +8720,6 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 82.55 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e147b49a-b692-49df-911c-36f44f317fa5")
-		(property "Netclass" "50Ohm-se"
-			(at 81.8515 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at -116.84 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)

@@ -2155,6 +2155,37 @@
 		)
 		(uuid "f977a0bb-3ccb-481d-82a2-fd5d2177760e")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 185.42 127 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2903787-3ede-48bd-a82f-b85adb59597d")
+		(property "Netclass" "100Ohm-diff"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 384.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroModularConnectorsJacksWithMagnetics:Bus_RJ45_7498111120R")
 		(at 212.09 121.92 0)

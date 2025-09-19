@@ -66358,7 +66358,7 @@
 		(uuid "02935abf-14d3-4055-b04e-4edc819b4a24")
 	)
 	(bus_entry
-		(at 259.08 203.2)
+		(at 255.27 203.2)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -66619,7 +66619,7 @@
 		(uuid "3b3de471-c91d-4d9c-9923-3facc066e17b")
 	)
 	(bus_entry
-		(at 259.08 200.66)
+		(at 255.27 200.66)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -66736,7 +66736,7 @@
 		(uuid "4d1e9fb5-e5ae-42a1-bb09-01dcd194c9dd")
 	)
 	(bus_entry
-		(at 259.08 181.61)
+		(at 255.27 181.61)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -66853,7 +66853,7 @@
 		(uuid "5efc6fe6-33de-4e70-ad03-eb68a1d7a425")
 	)
 	(bus_entry
-		(at 259.08 166.37)
+		(at 255.27 166.37)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -67141,7 +67141,7 @@
 		(uuid "9484e561-3ed6-4fe0-b428-4c43944ac2b6")
 	)
 	(bus_entry
-		(at 259.08 177.8)
+		(at 255.27 177.8)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -67204,7 +67204,7 @@
 		(uuid "9e1e00f3-a4d4-4d6e-987b-56da5f982db0")
 	)
 	(bus_entry
-		(at 259.08 196.85)
+		(at 255.27 196.85)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -67429,7 +67429,7 @@
 		(uuid "d6ba8fde-460a-4403-a9ad-c5f8142af443")
 	)
 	(bus_entry
-		(at 259.08 175.26)
+		(at 255.27 175.26)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -67447,7 +67447,7 @@
 		(uuid "da7252ee-b283-45b2-aaef-0f0fb33fa1d4")
 	)
 	(bus_entry
-		(at 259.08 184.15)
+		(at 255.27 184.15)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -67492,7 +67492,7 @@
 		(uuid "e497bc2f-ae89-420f-9004-d78753595cdc")
 	)
 	(bus_entry
-		(at 259.08 194.31)
+		(at 255.27 194.31)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -67582,7 +67582,7 @@
 		(uuid "f55daaa8-5391-4c5b-8b73-a417f360d7c2")
 	)
 	(bus_entry
-		(at 259.08 163.83)
+		(at 255.27 163.83)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -67946,7 +67946,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 175.26) (xy 259.08 177.8)
+			(xy 255.27 175.26) (xy 255.27 177.8)
 		)
 		(stroke
 			(width 0)
@@ -67996,7 +67996,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 179.07) (xy 260.35 179.07)
+			(xy 256.54 179.07) (xy 289.56 179.07)
 		)
 		(stroke
 			(width 0)
@@ -68206,7 +68206,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 193.04) (xy 259.08 194.31)
+			(xy 255.27 193.04) (xy 255.27 194.31)
 		)
 		(stroke
 			(width 0)
@@ -68456,7 +68456,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 191.77) (xy 257.81 191.77)
+			(xy 252.73 191.77) (xy 254 191.77)
 		)
 		(stroke
 			(width 0)
@@ -68546,7 +68546,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 191.77) (xy 259.08 193.04)
+			(xy 254 191.77) (xy 255.27 193.04)
 		)
 		(stroke
 			(width 0)
@@ -68886,7 +68886,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 176.53) (xy 260.35 176.53)
+			(xy 256.54 176.53) (xy 285.75 176.53)
 		)
 		(stroke
 			(width 0)
@@ -69096,7 +69096,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 162.56) (xy 259.08 163.83)
+			(xy 255.27 162.56) (xy 255.27 163.83)
 		)
 		(stroke
 			(width 0)
@@ -69496,7 +69496,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 170.18) (xy 280.67 170.18)
+			(xy 252.73 170.18) (xy 280.67 170.18)
 		)
 		(stroke
 			(width 0)
@@ -69616,7 +69616,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 204.47) (xy 260.35 204.47)
+			(xy 256.54 204.47) (xy 285.75 204.47)
 		)
 		(stroke
 			(width 0)
@@ -69926,7 +69926,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 163.83) (xy 259.08 166.37)
+			(xy 255.27 163.83) (xy 255.27 166.37)
 		)
 		(stroke
 			(width 0)
@@ -69986,7 +69986,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 172.72) (xy 259.08 173.99)
+			(xy 254 172.72) (xy 255.27 173.99)
 		)
 		(stroke
 			(width 0)
@@ -70156,7 +70156,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 172.72) (xy 257.81 172.72)
+			(xy 252.73 172.72) (xy 254 172.72)
 		)
 		(stroke
 			(width 0)
@@ -70646,7 +70646,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 201.93) (xy 260.35 201.93)
+			(xy 256.54 201.93) (xy 285.75 201.93)
 		)
 		(stroke
 			(width 0)
@@ -71056,7 +71056,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 200.66) (xy 259.08 203.2)
+			(xy 255.27 200.66) (xy 255.27 203.2)
 		)
 		(stroke
 			(width 0)
@@ -71216,7 +71216,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 167.64) (xy 293.37 167.64)
+			(xy 256.54 167.64) (xy 293.37 167.64)
 		)
 		(stroke
 			(width 0)
@@ -71266,7 +71266,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 194.31) (xy 259.08 196.85)
+			(xy 255.27 194.31) (xy 255.27 196.85)
 		)
 		(stroke
 			(width 0)
@@ -71336,7 +71336,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 177.8) (xy 259.08 181.61)
+			(xy 255.27 177.8) (xy 255.27 181.61)
 		)
 		(stroke
 			(width 0)
@@ -71476,7 +71476,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 165.1) (xy 293.37 165.1)
+			(xy 256.54 165.1) (xy 293.37 165.1)
 		)
 		(stroke
 			(width 0)
@@ -71486,7 +71486,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 182.88) (xy 260.35 182.88)
+			(xy 256.54 182.88) (xy 285.75 182.88)
 		)
 		(stroke
 			(width 0)
@@ -71856,7 +71856,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 198.12) (xy 260.35 198.12)
+			(xy 256.54 198.12) (xy 289.56 198.12)
 		)
 		(stroke
 			(width 0)
@@ -71996,7 +71996,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 195.58) (xy 260.35 195.58)
+			(xy 256.54 195.58) (xy 285.75 195.58)
 		)
 		(stroke
 			(width 0)
@@ -72006,7 +72006,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 161.29) (xy 259.08 162.56)
+			(xy 254 161.29) (xy 255.27 162.56)
 		)
 		(stroke
 			(width 0)
@@ -72146,7 +72146,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 196.85) (xy 259.08 200.66)
+			(xy 255.27 196.85) (xy 255.27 200.66)
 		)
 		(stroke
 			(width 0)
@@ -72206,7 +72206,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 181.61) (xy 259.08 184.15)
+			(xy 255.27 181.61) (xy 255.27 184.15)
 		)
 		(stroke
 			(width 0)
@@ -72296,7 +72296,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 185.42) (xy 260.35 185.42)
+			(xy 256.54 185.42) (xy 285.75 185.42)
 		)
 		(stroke
 			(width 0)
@@ -72376,7 +72376,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 173.99) (xy 259.08 175.26)
+			(xy 255.27 173.99) (xy 255.27 175.26)
 		)
 		(stroke
 			(width 0)
@@ -72566,7 +72566,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 161.29) (xy 257.81 161.29)
+			(xy 252.73 161.29) (xy 254 161.29)
 		)
 		(stroke
 			(width 0)
@@ -72755,7 +72755,7 @@
 		(uuid "10d7978a-4fe0-4831-97cc-8df1163d7759")
 	)
 	(label "OSM_PCIe_B.RX0-"
-		(at 262.89 204.47 0)
+		(at 261.62 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73125,7 +73125,7 @@
 		(uuid "49f2e0c1-9c2b-4d48-9344-bafdb206d352")
 	)
 	(label "OSM_PCIe_B.TX0+"
-		(at 262.89 195.58 0)
+		(at 261.62 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73145,7 +73145,7 @@
 		(uuid "4c21bc92-407f-41f0-afe8-a5f0126e04ec")
 	)
 	(label "OSM_PCIe_A.TX0+"
-		(at 262.89 176.53 0)
+		(at 261.62 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73575,7 +73575,7 @@
 		(uuid "8ac6a095-166a-46fa-ad58-803f73ee14cc")
 	)
 	(label "OSM_PCIe_A.RX0-"
-		(at 262.89 185.42 0)
+		(at 261.62 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73775,7 +73775,7 @@
 		(uuid "a5544e7b-b9cc-4846-b038-b568b181f528")
 	)
 	(label "OSM_PCIe_A.TX0-"
-		(at 262.89 179.07 0)
+		(at 261.62 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73835,7 +73835,7 @@
 		(uuid "a9deb072-ab9d-4756-8327-c4595703ecd9")
 	)
 	(label "OSM_PCIe_B.RX0+"
-		(at 262.89 201.93 0)
+		(at 261.62 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73965,7 +73965,7 @@
 		(uuid "c07e4937-f566-444b-9d5d-05e94438fe4b")
 	)
 	(label "OSM_PCIe_B.TX0-"
-		(at 262.89 198.12 0)
+		(at 261.62 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74195,7 +74195,7 @@
 		(uuid "db784366-fd23-47e9-a7a6-96d8e55b627d")
 	)
 	(label "OSM_PCIe_A.RX0+"
-		(at 262.89 182.88 0)
+		(at 261.62 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74367,7 +74367,7 @@
 	)
 	(hierarchical_label "OSM_PCIe_A{PCIE}"
 		(shape bidirectional)
-		(at 251.46 172.72 180)
+		(at 252.73 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74477,7 +74477,7 @@
 	)
 	(hierarchical_label "~{OSM_PCIe_PERST}"
 		(shape bidirectional)
-		(at 251.46 170.18 180)
+		(at 252.73 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74653,7 +74653,7 @@
 	)
 	(hierarchical_label "OSM_REFCLK{PCIeREFCLK}"
 		(shape bidirectional)
-		(at 251.46 161.29 180)
+		(at 252.73 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74895,7 +74895,7 @@
 	)
 	(hierarchical_label "OSM_PCIe_B{PCIE}"
 		(shape bidirectional)
-		(at 251.46 191.77 180)
+		(at 252.73 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74980,6 +74980,408 @@
 			(justify right)
 		)
 		(uuid "fe085d1e-8dc2-4048-9197-bacbc222b74c")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 177.8 264.16 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "051b50d6-5f0a-450d-86b0-4d48e927da98")
+		(property "Netclass" "50Ohm-se"
+			(at 181.356 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 377.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 438.15 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bd1929b-850b-46c5-bc24-4f4ab61246c6")
+		(property "Netclass" "50Ohm-se"
+			(at 434.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 238.76 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 379.73 313.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1deec90b-5d1e-4fca-a1c4-b3378b6c7df3")
+		(property "Netclass" "50Ohm-se"
+			(at 383.54 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 579.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 275.59 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2815c572-e0ae-4548-9d79-b09d8ea8b1cc")
+		(property "Netclass" "90Ohm-diff"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 443.23 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c6e3253-f1b4-4c45-afa6-e8bd77fbb357")
+		(property "Netclass" "50Ohm-se"
+			(at 439.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 243.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 177.8 236.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f889d5b-9ee2-4368-b1ce-a41154e6ac96")
+		(property "Netclass" "50Ohm-se"
+			(at 181.356 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 377.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 553.72 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77268f13-46db-4ea8-8cab-827c840ca2f8")
+		(property "Netclass" "85Ohm-diff"
+			(at 557.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 753.11 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 255.27 195.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79438ed9-2b74-44fa-9634-249bae1fc3f6")
+		(property "Netclass" "85Ohm-diff"
+			(at 251.46 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 55.88 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 412.75 58.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bb101fa-b027-4f3d-abd2-3ac7cab1767f")
+		(property "Netclass" "90Ohm-diff"
+			(at 416.306 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 144.78 -54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 255.27 176.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adb7fa48-21d1-4e55-975c-380dc60f9f55")
+		(property "Netclass" "85Ohm-diff"
+			(at 251.46 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 55.88 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 275.59 300.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5cb9dcd-3d1d-4bfb-b18a-7b7bd64b29f4")
+		(property "Netclass" "100Ohm-diff"
+			(at 272.288 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 474.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 424.18 320.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd39e7ee-aded-4ef8-8a6f-9dc995c94e4a")
+		(property "Netclass" "100Ohm-diff"
+			(at 420.624 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 623.57 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 177.8 252.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc31f7cc-828b-45f0-bbd1-b6c333502cf9")
+		(property "Netclass" "50Ohm-se"
+			(at 181.356 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 377.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicroModules:OSM-L_Carrier-side")
