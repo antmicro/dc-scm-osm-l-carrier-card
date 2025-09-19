@@ -123,6 +123,12 @@
 		(uuid "8d8f8309-006b-4b44-b040-cc0209958dc8")
 	)
 	(junction
+		(at 259.08 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f101e907-3b91-4138-b98a-35a947664f2c")
+	)
+	(junction
 		(at 262.89 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -242,7 +248,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 191.77) (xy 259.08 223.52)
+			(xy 259.08 191.77) (xy 259.08 203.2)
 		)
 		(stroke
 			(width 0)
@@ -682,6 +688,16 @@
 	)
 	(bus
 		(pts
+			(xy 259.08 203.2) (xy 259.08 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a62089d-f5df-4bcb-9012-104d0f66bc77")
+	)
+	(bus
+		(pts
 			(xy 58.42 250.19) (xy 176.53 250.19)
 		)
 		(stroke
@@ -942,6 +958,16 @@
 	)
 	(bus
 		(pts
+			(xy 375.92 228.6) (xy 384.81 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8853d3ad-cd3d-4a90-96f5-cb4e614754fb")
+	)
+	(bus
+		(pts
 			(xy 251.46 186.69) (xy 289.56 186.69)
 		)
 		(stroke
@@ -1160,6 +1186,16 @@
 		)
 		(uuid "a4139f66-dda1-459d-82bd-3648fb7b69e2")
 	)
+	(bus
+		(pts
+			(xy 384.81 228.6) (xy 384.81 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5352d1e-3b10-4c60-9a7b-ba0abf2fc6f6")
+	)
 	(wire
 		(pts
 			(xy 58.42 91.44) (xy 81.28 91.44)
@@ -1319,6 +1355,16 @@
 			(type default)
 		)
 		(uuid "b52ac243-7dde-45c9-828f-07a3b88b086c")
+	)
+	(bus
+		(pts
+			(xy 375.92 237.49) (xy 375.92 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59aa2db-f33d-4004-aacb-1afb643dcee8")
 	)
 	(wire
 		(pts
@@ -1690,6 +1736,16 @@
 		)
 		(uuid "eed6173f-0b6c-407d-9e4f-c99c71da4ef3")
 	)
+	(bus
+		(pts
+			(xy 384.81 203.2) (xy 259.08 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0602d6b-bbd5-4301-843e-f6907c8a472a")
+	)
 	(wire
 		(pts
 			(xy 58.42 59.69) (xy 74.93 59.69)
@@ -1739,6 +1795,16 @@
 			(type default)
 		)
 		(uuid "fdad3698-396c-4d5d-b0b1-668152fe238d")
+	)
+	(bus
+		(pts
+			(xy 378.46 237.49) (xy 375.92 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe916510-5480-484b-8b0a-7233674928a6")
 	)
 	(label "I2C_12{I2C}"
 		(at 363.22 242.57 0)
@@ -3533,8 +3599,8 @@
 		)
 	)
 	(sheet
-		(at 378.46 240.03)
-		(size 17.78 7.62)
+		(at 378.46 234.95)
+		(size 17.78 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3549,7 +3615,7 @@
 		)
 		(uuid "6e582200-5a13-40b2-b200-897e55905982")
 		(property "Sheetname" "Temp sensors"
-			(at 378.46 239.3184 0)
+			(at 378.46 234.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,6 +3645,16 @@
 		(pin "I2C_13{I2C}" bidirectional
 			(at 378.46 245.11 180)
 			(uuid "fa5ddc4a-388e-4e3d-a82c-37377555e51d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSM_I2C_A{I2C}" bidirectional
+			(at 378.46 237.49 180)
+			(uuid "0d1cda7a-6945-40d2-a70d-62f425603464")
 			(effects
 				(font
 					(size 1.27 1.27)
