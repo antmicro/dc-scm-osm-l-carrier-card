@@ -4020,6 +4020,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroShuntsJumpers:Net-Tie_P0.15mm"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Net-Tie_P0.15mm"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:NetTie-2_SMD_Pad0.15mm"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 21.59 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 21.59 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 21.59 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Net-Tie_P0.15mm_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:+3V3"
 			(power)
 			(pin_numbers
@@ -4594,12 +4756,6 @@
 		(uuid "50b61aad-9d60-493b-a18f-6c17bc7e2484")
 	)
 	(junction
-		(at 224.79 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50c5e7b2-32f3-40f4-92e8-ead55515e1fc")
-	)
-	(junction
 		(at 259.08 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4666,7 +4822,7 @@
 		(uuid "a6428229-700e-41ea-b753-0ef111087be5")
 	)
 	(junction
-		(at 260.35 149.86)
+		(at 232.41 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f2030f-ed63-429c-b85a-a26686285494")
@@ -4706,6 +4862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4c2ef7-b427-4b71-a59e-e89041b0ab6a")
+	)
+	(junction
+		(at 220.98 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa82c41c-cdf1-477f-9345-8a74467a8dab")
 	)
 	(bus_entry
 		(at 279.4 113.03)
@@ -4971,6 +5133,16 @@
 		)
 		(uuid "1102aafd-e9e7-4875-9e98-121de3777d33")
 	)
+	(wire
+		(pts
+			(xy 220.98 144.78) (xy 278.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1595750c-16b2-4414-be9b-f2ecae409567")
+	)
 	(bus
 		(pts
 			(xy 279.4 125.73) (xy 279.4 128.27)
@@ -5003,7 +5175,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 149.86) (xy 260.35 152.4)
+			(xy 232.41 149.86) (xy 232.41 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +5275,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 153.67) (xy 224.79 154.94)
+			(xy 220.98 151.13) (xy 220.98 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5233,7 +5405,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 144.78) (xy 224.79 148.59)
+			(xy 220.98 144.78) (xy 220.98 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5313,7 +5485,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 147.32) (xy 260.35 149.86)
+			(xy 232.41 147.32) (xy 232.41 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5593,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 144.78) (xy 224.79 144.78)
+			(xy 219.71 144.78) (xy 220.98 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5640,16 +5812,6 @@
 			(type default)
 		)
 		(uuid "8d4be33c-18d4-4ad2-9cfc-24855258364e")
-	)
-	(wire
-		(pts
-			(xy 224.79 144.78) (xy 278.13 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6bccc4-63fd-439b-9e5f-c3fc1ec157af")
 	)
 	(wire
 		(pts
@@ -5903,7 +6065,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 147.32) (xy 278.13 147.32)
+			(xy 232.41 147.32) (xy 238.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5983,7 +6145,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 149.86) (xy 278.13 149.86)
+			(xy 232.41 149.86) (xy 238.76 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6083,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 149.86) (xy 278.13 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3553c52-c906-4b62-a451-3e2e08fb9288")
+	)
+	(wire
+		(pts
 			(xy 236.22 132.08) (xy 278.13 132.08)
 		)
 		(stroke
@@ -6160,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "fc6ce75f-caec-4303-8ba3-5eeab08d5a9d")
+	)
+	(wire
+		(pts
+			(xy 245.11 147.32) (xy 278.13 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc9271e-7f46-48f3-9a7d-4557e2e5494c")
 	)
 	(label "SDIO.DAT6"
 		(at 264.16 132.08 0)
@@ -6334,7 +6516,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 224.79 154.94 0)
+		(at 220.98 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6342,7 +6524,7 @@
 		(dnp no)
 		(uuid "02896faa-d664-4fa6-83c3-f6e4787cab82")
 		(property "Reference" "#PWR061"
-			(at 233.68 157.48 0)
+			(at 229.87 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 158.75 0)
+			(at 220.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 162.56 0)
+			(at 229.87 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 167.64 0)
+			(at 229.87 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 154.94 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6575,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 233.68 162.56 0)
+			(at 229.87 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6586,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 233.68 165.1 0)
+			(at 229.87 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,6 +8691,122 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroShuntsJumpers:Net-Tie_P0.15mm")
+		(at 245.11 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c9bccf5-0410-4f69-b89f-2e19648f8b24")
+		(property "Reference" "TP31"
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Net-Tie_P0.15mm"
+			(at 253.238 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:NetTie-2_SMD_Pad0.15mm"
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 223.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b84dcc2e-4c63-44e0-8191-2229d5fc6692")
+		)
+		(pin "1"
+			(uuid "818268b3-0f37-4a1f-a590-8fbc1e16f1ac")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 151.13 128.27 0)
 		(unit 1)
@@ -8754,6 +9052,122 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroShuntsJumpers:Net-Tie_P0.15mm")
+		(at 245.11 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "735f1871-3b75-48cb-bdda-b91c44e9c9ac")
+		(property "Reference" "TP32"
+			(at 236.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Net-Tie_P0.15mm"
+			(at 253.238 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:NetTie-2_SMD_Pad0.15mm"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 245.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 223.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 223.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef440543-e97b-43ec-bdba-76abccd1eeb8")
+		)
+		(pin "1"
+			(uuid "36d1d3b4-3d4d-4d39-bad3-7e6d1372a71a")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/af9b114c-dfa4-427f-a7c0-6a1753518223"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 160.02 111.76 0)
 		(unit 1)
@@ -8849,7 +9263,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 260.35 152.4 0)
+		(at 232.41 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8857,7 +9271,7 @@
 		(dnp no)
 		(uuid "81a45434-cbe7-4bde-b28d-a4d47348bf36")
 		(property "Reference" "#PWR062"
-			(at 269.24 154.94 0)
+			(at 241.3 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +9282,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 156.21 0)
+			(at 232.41 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +9291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 160.02 0)
+			(at 241.3 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +9302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 165.1 0)
+			(at 241.3 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +9313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 152.4 0)
+			(at 232.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +9322,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 269.24 160.02 0)
+			(at 241.3 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +9333,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 269.24 162.56 0)
+			(at 241.3 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,7 +11393,7 @@
 	(symbol
 		(lib_name "R_10k_0402_4")
 		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 224.79 153.67 90)
+		(at 220.98 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10987,7 +11401,7 @@
 		(dnp no)
 		(uuid "b84635b7-8971-4ac5-8943-00a2b4bfb969")
 		(property "Reference" "R101"
-			(at 226.06 149.86 90)
+			(at 222.25 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11410,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 237.49 133.35 0)
+			(at 233.68 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,7 +11421,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 240.03 133.35 0)
+			(at 236.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,7 +11432,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 242.57 133.35 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 153.67 0)
+			(at 220.98 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,7 +11452,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 247.65 133.35 0)
+			(at 243.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +11463,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 245.11 133.35 0)
+			(at 241.3 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11060,7 +11474,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 226.06 152.4 90)
+			(at 222.25 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +11484,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 250.19 133.35 0)
+			(at 246.38 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +11495,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 252.73 133.35 0)
+			(at 248.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +11506,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 234.95 133.35 0)
+			(at 231.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

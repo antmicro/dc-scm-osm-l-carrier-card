@@ -504,7 +504,7 @@
         "diff_pair_width": 0.15,
         "line_style": 0,
         "name": "100Ohm-diff",
-        "pcb_color": "rgb(0, 194, 0)",
+        "pcb_color": "rgb(204, 102, 0)",
         "priority": 1,
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.15,
@@ -517,7 +517,7 @@
         "clearance": 0.125,
         "line_style": 0,
         "name": "50Ohm-se",
-        "pcb_color": "rgb(0, 194, 194)",
+        "pcb_color": "rgb(0, 132, 132)",
         "priority": 3,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.18,
@@ -532,7 +532,7 @@
         "diff_pair_width": 0.202,
         "line_style": 0,
         "name": "85Ohm-diff",
-        "pcb_color": "rgb(255, 0, 255)",
+        "pcb_color": "rgb(132, 0, 132)",
         "priority": 0,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.202,
@@ -595,11 +595,9 @@
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_1.CLK+": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_1.CLK-": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_CLK_100M_1{PCIeREFCLK}": [
@@ -657,11 +655,9 @@
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX0+": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX0-": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.RX1+": [
@@ -683,11 +679,9 @@
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX0+": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX0-": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE1.TX1+": [
@@ -1117,11 +1111,9 @@
         "85Ohm-diff"
       ],
       "/OSM L/OSM_PCIe_A.RX0+": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/OSM L/OSM_PCIe_A.RX0-": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/OSM L/OSM_PCIe_A.RX1+": [
@@ -1143,11 +1135,9 @@
         "85Ohm-diff"
       ],
       "/OSM L/OSM_PCIe_A.TX0+": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/OSM L/OSM_PCIe_A.TX0-": [
-        "50Ohm-se",
         "85Ohm-diff"
       ],
       "/OSM L/OSM_PCIe_A.TX1+": [
@@ -1276,6 +1266,12 @@
       "/OSM L/SDIO_B.PWR_EN": [
         "50Ohm-se"
       ],
+      "/OSM L/SDIO_B.WP": [
+        "50Ohm-se"
+      ],
+      "/OSM L/SDIO_B.~{CD}": [
+        "50Ohm-se"
+      ],
       "/OSM L/SDIO_B{SDIO}": [
         "50Ohm-se"
       ],
@@ -1346,9 +1342,6 @@
         "50Ohm-se"
       ],
       "/TPM Mux/TPM_SPI{SPI}": [
-        "50Ohm-se"
-      ],
-      "GND": [
         "50Ohm-se"
       ]
     },
