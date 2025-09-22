@@ -1604,6 +1604,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Note:\nIntentional RX/TX swap on UBS SS\ndue to PCIe/USB labels naming on OSM"
+		(exclude_from_sim no)
+		(at 226.314 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6312aae-0710-4887-94a5-f12e06c1b361")
+	)
 	(junction
 		(at 167.64 97.79)
 		(diameter 0)
