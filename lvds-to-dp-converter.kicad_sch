@@ -5080,16 +5080,6 @@
 		)
 		(uuid "46d1614c-1a68-4451-9fb3-2dc6a7c28b2d")
 	)
-	(text "To be checked"
-		(exclude_from_sim no)
-		(at 213.614 174.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a33bc757-7b6e-4813-8068-8b0b4d50c45a")
-	)
 	(text "LVDS termination"
 		(exclude_from_sim no)
 		(at 291.465 189.865 0)
@@ -5319,18 +5309,6 @@
 	(no_connect
 		(at 278.13 154.94)
 		(uuid "2dcd827b-bb4a-47c4-a4ba-f8223a7f3dad")
-	)
-	(no_connect
-		(at 212.09 123.19)
-		(uuid "31c83ddd-bb1d-4ab8-a84d-0ed508644d21")
-	)
-	(no_connect
-		(at 212.09 128.27)
-		(uuid "7f4f0d16-682e-435d-ab66-2f5f3764a344")
-	)
-	(no_connect
-		(at 212.09 125.73)
-		(uuid "88873287-be60-414c-8184-7e8319cd1400")
 	)
 	(no_connect
 		(at 278.13 160.02)
@@ -8058,7 +8036,7 @@
 		(cells
 			(table_cell "ADDR"
 				(exclude_from_sim no)
-				(at 207.01 176.53 0)
+				(at 190.5 166.37 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8075,7 +8053,7 @@
 			)
 			(table_cell "I2C ADDR"
 				(exclude_from_sim no)
-				(at 215.9 176.53 0)
+				(at 199.39 166.37 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8092,7 +8070,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 207.01 179.07 0)
+				(at 190.5 168.91 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8109,7 +8087,7 @@
 			)
 			(table_cell "0x98"
 				(exclude_from_sim no)
-				(at 215.9 179.07 0)
+				(at 199.39 168.91 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8126,7 +8104,7 @@
 			)
 			(table_cell "HIGH"
 				(exclude_from_sim no)
-				(at 207.01 181.61 0)
+				(at 190.5 171.45 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8143,7 +8121,7 @@
 			)
 			(table_cell "0x9A"
 				(exclude_from_sim no)
-				(at 215.9 181.61 0)
+				(at 199.39 171.45 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
