@@ -3177,6 +3177,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:+3V3_AON"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_AON"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_AON_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_AON_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3_AON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers
@@ -3316,12 +3429,6 @@
 		(uuid "1b67d4e0-fad4-4ff6-a7c3-4b5ff0850062")
 	)
 	(junction
-		(at 264.16 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cd889bf-273a-4b7e-a415-7fe0531dd38f")
-	)
-	(junction
 		(at 190.5 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3338,6 +3445,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c59143e-47e1-4260-962b-86409129df54")
+	)
+	(junction
+		(at 264.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "900cbeb5-ec03-4552-b6ac-b4ce8fc81ad5")
 	)
 	(junction
 		(at 248.92 88.9)
@@ -3739,6 +3852,16 @@
 		)
 		(uuid "389340b8-89f0-4ab1-b8d9-80d71ca24b3c")
 	)
+	(wire
+		(pts
+			(xy 269.24 111.76) (xy 264.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d3312d-28fb-471f-ad9a-513588310887")
+	)
 	(bus
 		(pts
 			(xy 142.24 137.16) (xy 142.24 142.24)
@@ -3991,13 +4114,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 111.76) (xy 271.78 111.76)
+			(xy 269.24 107.95) (xy 269.24 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92942d36-3b68-4c96-952e-4d68e6489ecb")
+		(uuid "969968a6-0cdb-4f66-b1e6-2bf5c3334236")
 	)
 	(wire
 		(pts
@@ -4510,17 +4633,6 @@
 			(justify right)
 		)
 		(uuid "541786d2-c1af-4aa0-9c9c-87edc29669fb")
-	)
-	(hierarchical_label "3V0_AON"
-		(shape input)
-		(at 271.78 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb18794e-3d3f-4615-87a0-43ada9530ca7")
 	)
 	(hierarchical_label "PCIE_REFCLK{PCIeREFCLK}"
 		(shape input)
@@ -5753,6 +5865,71 @@
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
 					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3_AON")
+		(at 269.24 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62259c9f-3332-438b-801d-78312d2470d2")
+		(property "Reference" "#PWR040"
+			(at 269.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_AON"
+			(at 269.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6f33e7-b0e6-4e2c-b63f-998bedddd46f")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
