@@ -64922,6 +64922,12 @@
 		(uuid "39d58bb3-9d74-4d2f-b0e8-c66c463c5447")
 	)
 	(junction
+		(at 201.93 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4df7ef86-3ebc-4057-b06f-63f9dff8ef32")
+	)
+	(junction
 		(at 199.39 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -68153,6 +68159,16 @@
 			(type default)
 		)
 		(uuid "1b2521c3-5b15-4810-a9c2-c2b6e259da7b")
+	)
+	(wire
+		(pts
+			(xy 201.93 48.26) (xy 219.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b70ef4b-725a-475d-9e21-36cb6cc39b00")
 	)
 	(wire
 		(pts
@@ -74375,6 +74391,17 @@
 			(justify right)
 		)
 		(uuid "012eb975-bd4c-4077-9861-ba8e4cdeebc7")
+	)
+	(hierarchical_label "~{RESET_IN}"
+		(shape input)
+		(at 219.71 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03023661-9e9a-4292-8e40-fe128727a271")
 	)
 	(hierarchical_label "I2C_I3C_1V8_13{I3C}"
 		(shape bidirectional)
