@@ -3431,7 +3431,7 @@
 		(uuid "ffc3acfe-ceba-4d8e-9f4c-711465ef6728")
 	)
 	(label "NON_REM1"
-		(at 186.69 190.5 0)
+		(at 186.69 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3450,7 +3450,7 @@
 		)
 		(uuid "2c14a65b-d6c2-4c3b-9f75-35c421566a59")
 	)
-	(label "NON_REM2"
+	(label "NON_REM0"
 		(at 153.67 132.08 0)
 		(effects
 			(font
@@ -3530,8 +3530,8 @@
 		)
 		(uuid "76008bd4-0674-4733-8e2e-6885640d28aa")
 	)
-	(label "NON_REM2"
-		(at 186.69 185.42 0)
+	(label "NON_REM0"
+		(at 186.69 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4754,6 +4754,7 @@
 		)
 		(pin "13"
 			(uuid "77ea69c5-fb85-4af0-baa4-339597d39890")
+			(alternate "NON_REM1")
 		)
 		(pin "18"
 			(uuid "b063ef59-a3a2-4e50-81d8-874f5761e1e7")
@@ -4763,6 +4764,7 @@
 		)
 		(pin "17"
 			(uuid "ecd94571-2a55-485b-809d-bedcd5846205")
+			(alternate "NON_REM0")
 		)
 		(pin "2"
 			(uuid "42aed271-30dd-4bd7-b9c8-0ffcc63639dd")
