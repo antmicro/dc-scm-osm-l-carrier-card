@@ -449,12 +449,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroMemory:MT25QU01GBBB8_T-PBGA-24"
+		(symbol "antmicroMemory:MT25QL01GBBB8E_SOP2-16"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 35.56 -2.54 0)
+				(at 43.18 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -463,19 +463,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "MT25QU01GBBB8_T-PBGA-24"
-				(at 35.56 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:BGA-25-24_6x8mm_Layout5x5_P1x1mm"
-				(at 35.56 -10.16 0)
+			(property "Value" "MT25QL01GBBB8E_SOP2-16"
+				(at 43.18 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -485,8 +474,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://eu.mouser.com/datasheet/2/671/mict_s_a0004996076_1-2290890.pdf"
-				(at 35.56 -12.7 0)
+			(property "Footprint" "antmicro-footprints:SOP2-16_7.5x10.3mm"
+				(at 43.18 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -496,18 +485,28 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NOR Flash SPI FLASH NOR SLC 256MX4 SOIC DDP"
-				(at 35.56 -22.86 0)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/671/mict_s_a0005338280_1-2290790.pdf"
+				(at 43.18 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MPN" "MT25QU01GBBB8E12-0SIT"
-				(at 35.56 -5.08 0)
+			(property "Description" "NOR Flash Serial-SPI 3.3V 1G-bit 1G/512M/256M x 1/2-bit/4-bit 6ns 16-Pin SOP-II T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MT25QL01GBBB8ESF-0SIT"
+				(at 43.18 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -517,7 +516,7 @@
 				)
 			)
 			(property "Manufacturer" "Micron Technology"
-				(at 35.56 -15.24 0)
+				(at 43.18 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -528,7 +527,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 35.56 -17.78 0)
+				(at 43.18 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -539,7 +538,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 35.56 -20.32 0)
+				(at 43.18 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -549,7 +548,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "IC, SMT, FLASH"
+			(property "ki_keywords" "IC, MEMORY, SPI, FLASH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -558,297 +557,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "MT25QU01GBBB8_T-PBGA-24_1_0"
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "RFU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MT25QU01GBBB8_T-PBGA-24_1_1"
+			(symbol "MT25QL01GBBB8E_SOP2-16_1_1"
 				(rectangle
-					(start 2.54 2.54)
-					(end 19.05 -21.59)
+					(start 5.08 2.54)
+					(end 25.4 -20.32)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -858,7 +570,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 0 0)
+					(at 2.54 0 0)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -867,25 +579,7 @@
 							)
 						)
 					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -894,16 +588,16 @@
 					)
 				)
 				(pin input line
-					(at 0 -6.35 0)
+					(at 2.54 -2.54 0)
 					(length 2.54)
-					(name "SCK"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B2"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -912,16 +606,16 @@
 					)
 				)
 				(pin input line
-					(at 0 -8.89 0)
+					(at 2.54 -5.08 0)
 					(length 2.54)
-					(name "~{CS}"
+					(name "S#"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C2"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -929,17 +623,18 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -11.43 0)
+				(pin passive line
+					(at 2.54 -7.62 0)
 					(length 2.54)
-					(name "SI/IO0"
+					(hide yes)
+					(name "DNU_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -947,17 +642,18 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -13.97 0)
+				(pin passive line
+					(at 2.54 -10.16 0)
 					(length 2.54)
-					(name "SO/IO1"
+					(hide yes)
+					(name "DNU_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -965,17 +661,18 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -16.51 0)
+				(pin passive line
+					(at 2.54 -12.7 0)
 					(length 2.54)
-					(name "~{WP}/IO2"
+					(hide yes)
+					(name "DNU_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -983,17 +680,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -19.05 0)
+				(pin input line
+					(at 2.54 -15.24 0)
 					(length 2.54)
-					(name "~{HOLD}/IO3"
+					(name "RESET#"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1002,16 +699,164 @@
 					)
 				)
 				(pin power_in line
-					(at 21.59 -19.05 180)
+					(at 2.54 -17.78 0)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B3"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 0 180)
+					(length 2.54)
+					(name "DQ0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -2.54 180)
+					(length 2.54)
+					(name "DQ1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -5.08 180)
+					(length 2.54)
+					(name "W#/DQ2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -7.62 180)
+					(length 2.54)
+					(name "DQ3/HOLD#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "DNU_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -12.7 180)
+					(length 2.54)
+					(hide yes)
+					(name "DNU_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -15.24 180)
+					(length 2.54)
+					(hide yes)
+					(name "DNU_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -17.78 180)
+					(length 2.54)
+					(hide yes)
+					(name "DNU_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2445,16 +2290,22 @@
 		(uuid "3ab45c88-4621-44da-88f8-3b6901bd164d")
 	)
 	(junction
+		(at 261.62 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d4a5600-d1ae-4dfb-86f6-9896f7bd7da3")
+	)
+	(junction
+		(at 261.62 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "500bfa8b-92e6-45f7-8436-95a897964097")
+	)
+	(junction
 		(at 213.36 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ae7b6d5-7fd8-4903-a16b-fa982f72f86c")
-	)
-	(junction
-		(at 231.14 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63d3feec-03d6-4593-a62f-80abd2190565")
+		(uuid "5b2a9006-5d4d-4e41-9249-11211da0f6f1")
 	)
 	(junction
 		(at 198.12 129.54)
@@ -2463,28 +2314,22 @@
 		(uuid "75f1067a-fb60-4da7-85c0-2ff77d69fa1d")
 	)
 	(junction
-		(at 228.6 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4c2e680-d6c7-41f9-8dfc-be30b92a79d3")
-	)
-	(junction
 		(at 205.74 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc9d6148-b592-403b-8aa6-104195dade8e")
 	)
 	(junction
-		(at 220.98 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3805f97-0f97-4edc-b820-59cf0637b09f")
-	)
-	(junction
 		(at 205.74 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddde6ad1-ea20-49c2-bf01-7754da8d01bb")
+	)
+	(junction
+		(at 259.08 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdb14cf0-c6d5-43da-a808-2d0513243eb4")
 	)
 	(no_connect
 		(at 207.01 185.42)
@@ -2583,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 157.48) (xy 256.54 156.21)
+			(xy 260.35 167.64) (xy 260.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2621,6 +2466,16 @@
 		)
 		(uuid "1c60a542-e106-4b57-8fda-0029253ff1b1")
 	)
+	(wire
+		(pts
+			(xy 261.62 135.89) (xy 261.62 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f191b8c-4bd8-4dee-83a5-d20f3d089d48")
+	)
 	(bus
 		(pts
 			(xy 172.72 146.05) (xy 172.72 148.59)
@@ -2640,6 +2495,16 @@
 			(type default)
 		)
 		(uuid "28946484-16ed-4e94-88d5-2940344f26f2")
+	)
+	(wire
+		(pts
+			(xy 259.08 153.67) (xy 267.97 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b54d835-d159-4f42-a413-ecff97817bdb")
 	)
 	(wire
 		(pts
@@ -2693,17 +2558,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.7) (xy 220.98 135.89)
+			(xy 275.59 163.83) (xy 259.08 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d48bdfb-5b70-4731-bf4c-b6bd1276bbad")
+		(uuid "3e5df84c-a669-42c8-a137-b7fe7ebb75eb")
 	)
 	(wire
 		(pts
-			(xy 194.31 143.51) (xy 233.68 143.51)
+			(xy 194.31 143.51) (xy 220.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 156.21) (xy 255.27 156.21)
+			(xy 260.35 166.37) (xy 259.08 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 137.16) (xy 231.14 129.54)
+			(xy 261.62 129.54) (xy 261.62 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 220.98 130.81)
+			(xy 275.59 129.54) (xy 275.59 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2793,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 129.54) (xy 228.6 130.81)
+			(xy 264.16 135.89) (xy 264.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2803,13 +2668,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 228.6 129.54)
+			(xy 275.59 135.89) (xy 275.59 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6352417f-a1e5-4be3-a23f-abf930f956b0")
+		(uuid "62cf07be-b2d1-42f6-a1fb-dc40ca29f31c")
 	)
 	(wire
 		(pts
@@ -2873,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 137.16) (xy 231.14 137.16)
+			(xy 259.08 148.59) (xy 261.62 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2923,6 +2788,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 151.13) (xy 267.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0be32c-3dd9-4e8a-af96-c5f5a7665cff")
+	)
+	(wire
+		(pts
 			(xy 189.23 148.59) (xy 175.26 148.59)
 		)
 		(stroke
@@ -2963,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 129.54) (xy 231.14 129.54)
+			(xy 261.62 129.54) (xy 275.59 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3003,6 +2878,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 129.54) (xy 261.62 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0742b3c-9ce5-4a9d-8470-e6cdfa578a21")
+	)
+	(wire
+		(pts
 			(xy 175.26 182.88) (xy 173.99 182.88)
 		)
 		(stroke
@@ -3023,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 128.27) (xy 231.14 129.54)
+			(xy 259.08 128.27) (xy 259.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3043,6 +2928,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 135.89) (xy 264.16 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f67958-3493-45bf-9fb7-5c804f35409f")
+	)
+	(wire
+		(pts
 			(xy 140.97 177.8) (xy 154.94 177.8)
 		)
 		(stroke
@@ -3053,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 146.05) (xy 233.68 146.05)
+			(xy 198.12 146.05) (xy 220.98 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3113,26 +3008,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 129.54) (xy 220.98 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7706fd3-7594-4001-9ae1-412eb10916f5")
-	)
-	(wire
-		(pts
-			(xy 233.68 139.7) (xy 220.98 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f79ef319-6f9a-4f0d-b4c0-f053c044b5e3")
-	)
-	(wire
-		(pts
 			(xy 205.74 129.54) (xy 205.74 130.81)
 		)
 		(stroke
@@ -3141,13 +3016,23 @@
 		)
 		(uuid "fbf4c2b1-a8ac-40cc-a3d1-0849ede8bcf4")
 	)
+	(wire
+		(pts
+			(xy 213.36 129.54) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd37940-311b-4baf-bce2-c7e75954439b")
+	)
 	(label "~{CS}"
-		(at 214.63 146.05 0)
+		(at 220.98 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "08e0dca2-b494-4248-a2f8-b8089fb8ca7d")
 	)
@@ -3172,7 +3057,7 @@
 		(uuid "10b67a15-e0a5-4f36-bf1e-f927b9c4047f")
 	)
 	(label "VCC_FLS"
-		(at 199.39 129.54 0)
+		(at 240.03 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3221,6 +3106,16 @@
 		)
 		(uuid "25571460-3d23-4773-bf19-8e637aa9925d")
 	)
+	(label "SCK"
+		(at 267.97 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2563694e-cc83-4349-88f5-f564867f5cd3")
+	)
 	(label "QSPI.IO2"
 		(at 175.26 153.67 0)
 		(effects
@@ -3230,6 +3125,26 @@
 			(justify left bottom)
 		)
 		(uuid "2d42c368-a8ab-49c8-85c1-676c87592182")
+	)
+	(label "~{CS}"
+		(at 267.97 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31596abe-f13c-403b-8558-061ccc3274dd")
+	)
+	(label "~{RESET}"
+		(at 267.97 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "320e48b7-c2ae-4270-bf4d-77aa482539e4")
 	)
 	(label "QSPI.IO1"
 		(at 175.26 151.13 0)
@@ -3302,12 +3217,12 @@
 		(uuid "98fe4fcc-3a2a-4587-88e5-208d12845da0")
 	)
 	(label "SCK"
-		(at 214.63 143.51 0)
+		(at 220.98 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a2f208d2-efac-41a4-9aa9-1a2f9a507290")
 	)
@@ -4023,8 +3938,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 228.6 135.89 0)
-		(mirror y)
+		(at 264.16 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4032,7 +3946,7 @@
 		(dnp no)
 		(uuid "368d3ad6-2d8e-4f99-9f67-8abb03d9801c")
 		(property "Reference" "#PWR0310"
-			(at 219.71 138.43 0)
+			(at 273.05 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 137.795 0)
+			(at 264.16 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +3966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 143.51 0)
+			(at 273.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +3977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 148.59 0)
+			(at 273.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +3988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 135.89 0)
+			(at 264.16 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +3997,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 219.71 143.51 0)
+			(at 273.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4008,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 219.71 146.05 0)
+			(at 273.05 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4181,8 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 231.14 128.27 0)
+		(at 259.08 128.27 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4276,7 +4191,7 @@
 		(fields_autoplaced yes)
 		(uuid "69a1071b-918a-436a-ab89-55c8cb50c790")
 		(property "Reference" "#FLG08"
-			(at 231.14 126.365 0)
+			(at 259.08 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4200,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 231.14 123.19 0)
+			(at 259.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 128.27 0)
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 128.27 0)
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 128.27 0)
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,8 +4538,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 220.98 135.89 270)
-		(mirror x)
+		(at 275.59 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4632,7 +4546,7 @@
 		(dnp no)
 		(uuid "89596bea-8586-44e4-8bcc-b42302867edb")
 		(property "Reference" "R282"
-			(at 219.71 132.08 90)
+			(at 276.86 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4556,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 208.28 115.57 0)
+			(at 288.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +4567,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 205.74 115.57 0)
+			(at 290.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4578,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 203.2 115.57 0)
+			(at 293.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4589,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 220.98 135.89 0)
+			(at 275.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4598,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 200.66 115.57 0)
+			(at 295.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4609,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 198.12 115.57 0)
+			(at 298.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4620,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 195.58 115.57 0)
+			(at 300.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4631,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 193.04 115.57 0)
+			(at 303.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +4642,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 219.71 134.62 90)
+			(at 276.86 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4652,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 210.82 115.57 0)
+			(at 285.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +4914,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 256.54 157.48 0)
+		(at 260.35 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5009,7 +4923,7 @@
 		(dnp no)
 		(uuid "a3baa754-59e4-4e9c-af72-ce1ce70a565f")
 		(property "Reference" "#PWR0312"
-			(at 247.65 160.02 0)
+			(at 251.46 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +4934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 161.29 0)
+			(at 260.35 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +4943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 165.1 0)
+			(at 251.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +4954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 170.18 0)
+			(at 251.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +4965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 157.48 0)
+			(at 260.35 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +4974,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 247.65 165.1 0)
+			(at 251.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +4985,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 247.65 167.64 0)
+			(at 251.46 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,190 +5157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMemory:MT25QU01GBBB8_T-PBGA-24")
-		(at 233.68 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1c12fb5-7906-45fd-bff8-14b3f70f1299")
-		(property "Reference" "U32"
-			(at 244.475 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MT25QU01GBBB8_T-PBGA-24"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:BGA-25-24_6x8mm_Layout5x5_P1x1mm"
-			(at 269.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/671/mict_s_a0004996076_1-2290890.pdf"
-			(at 269.24 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "NOR Flash SPI FLASH NOR SLC 256MX4 SOIC DDP"
-			(at 258.064 194.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MT25QU01GBBB8E12-0SIT"
-			(at 244.475 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Micron Technology"
-			(at 269.24 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 269.24 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 269.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "A4"
-			(uuid "327d0640-acc3-4222-afeb-f678bb47dea7")
-		)
-		(pin "A2"
-			(uuid "825b033a-6855-40e7-bdbe-0db9d1243471")
-		)
-		(pin "A5"
-			(uuid "2ab1dc1d-5847-4596-a23f-96aa87788a32")
-		)
-		(pin "E3"
-			(uuid "90bb9428-17d8-498f-b99a-2406c057e915")
-		)
-		(pin "D5"
-			(uuid "7479de92-e92a-4c0d-9e6c-781aa7d23f42")
-		)
-		(pin "B1"
-			(uuid "b8910a35-7a2f-4059-8758-1a9d0fffeb52")
-		)
-		(pin "C3"
-			(uuid "fb682e6f-ba20-4e2b-b46f-23f69d031266")
-		)
-		(pin "B3"
-			(uuid "5f05ce1e-f615-47fe-9537-2648ffc2977d")
-		)
-		(pin "E5"
-			(uuid "410f293b-a6de-426c-85e5-aef97ce48c8a")
-		)
-		(pin "D1"
-			(uuid "adf1a196-cc38-44b0-b444-6abe84719057")
-		)
-		(pin "B5"
-			(uuid "8eddc941-c051-496b-b45f-45a04cd9d206")
-		)
-		(pin "C1"
-			(uuid "a1f86bcc-bd53-4bd4-8be5-ebabb1381d45")
-		)
-		(pin "C5"
-			(uuid "2012e8fb-a488-4820-9dc6-bd35421b514b")
-		)
-		(pin "C2"
-			(uuid "aad1b150-bd79-4d4c-9456-0ae2ea28ab8e")
-		)
-		(pin "B2"
-			(uuid "c5f1fe71-5f5c-44a7-a9e1-2a274f3945c6")
-		)
-		(pin "D2"
-			(uuid "51f3d611-c1ce-4202-acd3-b720529bb7af")
-		)
-		(pin "A3"
-			(uuid "78fd411d-f598-4978-bbd2-c89e83e9c5e1")
-		)
-		(pin "C4"
-			(uuid "c1560d15-c72e-4024-bb00-22d168fa07d3")
-		)
-		(pin "B4"
-			(uuid "4ada17ba-c796-4de0-af99-aa560ea92a5d")
-		)
-		(pin "D4"
-			(uuid "15f31b00-8285-4127-ba26-2626a2cad020")
-		)
-		(pin "E4"
-			(uuid "47cce691-a913-4432-bb32-a7cdb8847b0e")
-		)
-		(pin "D3"
-			(uuid "b4c5416a-e828-486f-9320-1cd06b223662")
-		)
-		(pin "E2"
-			(uuid "363c2723-c969-4426-9df8-bdbb64237d5e")
-		)
-		(pin "E1"
-			(uuid "abc34d80-e8b6-4680-82a2-656e628857a2")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf"
-					(reference "U32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 208.28 189.23 0)
 		(unit 1)
@@ -5515,6 +5245,167 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf"
 					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMemory:MT25QL01GBBB8E_SOP2-16")
+		(at 261.62 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca40a941-7128-4b54-952a-29601d6d00e8")
+		(property "Reference" "U44"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MT25QL01GBBB8E_SOP2-16"
+			(at 218.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOP2-16_7.5x10.3mm"
+			(at 218.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/671/mict_s_a0005338280_1-2290790.pdf"
+			(at 218.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "NOR Flash Serial-SPI 3.3V 1G-bit 1G/512M/256M x 1/2-bit/4-bit 6ns 16-Pin SOP-II T/R"
+			(at 261.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MT25QL01GBBB8ESF-0SIT"
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Micron Technology"
+			(at 218.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 218.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 218.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff687a12-8c3a-4b10-8412-eacca0858f81")
+		)
+		(pin "11"
+			(uuid "92288b3e-baf3-4e8c-be5a-f83a630862be")
+		)
+		(pin "9"
+			(uuid "f6a5ed09-7277-4ba1-83dc-0eaa324cbea7")
+		)
+		(pin "14"
+			(uuid "a1969ad6-f6f0-41da-99f7-621540491d55")
+		)
+		(pin "15"
+			(uuid "fa4761ba-13a6-4e9a-bec5-de9df6b0fc44")
+		)
+		(pin "10"
+			(uuid "81c53428-1f0c-47c5-b389-2bcc9a5e6a21")
+		)
+		(pin "7"
+			(uuid "aa00296f-3610-4fbf-b107-fa34d1b79509")
+		)
+		(pin "8"
+			(uuid "a1b3dd04-265f-4f60-a884-1c06dbabaa5b")
+		)
+		(pin "1"
+			(uuid "4ee135fe-e17c-4573-b3df-769eb3baccb7")
+		)
+		(pin "13"
+			(uuid "4c752785-8d41-4e0a-aa0d-cc2e34a4b43b")
+		)
+		(pin "6"
+			(uuid "46a96daf-59d9-4c4c-a6dd-e89b37f79c90")
+		)
+		(pin "3"
+			(uuid "bcae35a7-7ab3-4ddc-9ea3-90e9fe6a5c6f")
+		)
+		(pin "5"
+			(uuid "1a40e1fe-98e0-48e0-bf36-081dedaf592c")
+		)
+		(pin "12"
+			(uuid "846361cf-f46e-4502-a8d7-5303b75821c8")
+		)
+		(pin "16"
+			(uuid "0364fd53-e34e-417e-8d1a-e8a65da51806")
+		)
+		(pin "4"
+			(uuid "05aba868-681c-4939-80db-3468f42cda72")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf"
+					(reference "U44")
 					(unit 1)
 				)
 			)
@@ -6083,8 +5974,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_1u_0402")
-		(at 228.6 135.89 270)
-		(mirror x)
+		(at 264.16 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6092,7 +5982,7 @@
 		(dnp no)
 		(uuid "fbc97c09-ce04-4187-9623-27545389c9c5")
 		(property "Reference" "C161"
-			(at 226.822 132.08 90)
+			(at 265.938 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +5992,7 @@
 			)
 		)
 		(property "Value" "C_1u_0402"
-			(at 218.44 115.57 0)
+			(at 274.32 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6003,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 215.9 115.57 0)
+			(at 276.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-			(at 213.36 115.57 0)
+			(at 279.4 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6025,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
-			(at 228.6 135.89 0)
+			(at 264.16 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6034,7 @@
 			)
 		)
 		(property "MPN" "C1005X6S1A105K050BC"
-			(at 210.82 115.57 0)
+			(at 281.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6045,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 208.28 115.57 0)
+			(at 284.48 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6056,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 205.74 115.57 0)
+			(at 287.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6067,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 203.2 115.57 0)
+			(at 289.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6078,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 226.822 134.62 90)
+			(at 265.938 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6088,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 200.66 115.57 0)
+			(at 292.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6098,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 198.12 115.57 0)
+			(at 294.64 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6108,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 195.58 115.57 0)
+			(at 297.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
