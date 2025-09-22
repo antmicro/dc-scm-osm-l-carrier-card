@@ -16444,7 +16444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM_2x84_Rev-1-0"
+		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1"
 			(at 234.95 90.17 0)
 			(effects
 				(font
@@ -18023,7 +18023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM_2x84_Rev-1-0"
+		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1"
 			(at 161.29 54.61 0)
 			(effects
 				(font
@@ -20430,7 +20430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM_2x84_Rev-1-0"
+		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1"
 			(at 161.29 212.09 0)
 			(effects
 				(font
@@ -22549,7 +22549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM_2x84_Rev-1-0"
+		(property "Footprint" "antmicro-footprints:PCB-Edge_DC-SCM-2.1_2x84_Rev-1-1"
 			(at 161.29 120.65 0)
 			(effects
 				(font
