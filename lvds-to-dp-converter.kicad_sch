@@ -5325,10 +5325,6 @@
 		(uuid "31c83ddd-bb1d-4ab8-a84d-0ed508644d21")
 	)
 	(no_connect
-		(at 278.13 146.05)
-		(uuid "4cb473ad-eed5-4532-8a71-c140597053f9")
-	)
-	(no_connect
 		(at 212.09 128.27)
 		(uuid "7f4f0d16-682e-435d-ab66-2f5f3764a344")
 	)
@@ -5359,10 +5355,6 @@
 	(no_connect
 		(at 278.13 162.56)
 		(uuid "b6590cbd-d23d-414d-914e-432f5274597f")
-	)
-	(no_connect
-		(at 278.13 143.51)
-		(uuid "bfac4ca7-c34b-458f-8813-759c79b57a52")
 	)
 	(no_connect
 		(at 278.13 172.72)
@@ -5585,6 +5577,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 245.11) (xy 294.64 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d69856-f2c7-4b96-8cdb-d08d6ccfabdc")
+	)
+	(wire
+		(pts
 			(xy 281.94 199.39) (xy 292.1 199.39)
 		)
 		(stroke
@@ -5662,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "0957dab4-dacc-49fe-987f-7db7ad59f8dc")
+	)
+	(wire
+		(pts
+			(xy 281.94 241.3) (xy 292.1 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a572c95-d7e8-4054-ba52-b597245b2f7c")
 	)
 	(wire
 		(pts
@@ -6355,6 +6367,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 238.76) (xy 292.1 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539d42c6-88ce-4112-bb8f-50f9e88a0c9a")
+	)
+	(wire
+		(pts
 			(xy 215.9 212.09) (xy 198.12 212.09)
 		)
 		(stroke
@@ -6362,6 +6384,16 @@
 			(type default)
 		)
 		(uuid "542f9b5b-6b09-4dca-a406-12dde7098ac7")
+	)
+	(wire
+		(pts
+			(xy 294.64 240.03) (xy 294.64 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b889dc-f96a-4067-804b-805ea0329165")
 	)
 	(bus
 		(pts
@@ -6462,6 +6494,16 @@
 			(type default)
 		)
 		(uuid "5d47c1db-7b94-43d8-ba61-a5861aad18b3")
+	)
+	(wire
+		(pts
+			(xy 292.1 246.38) (xy 292.1 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc088b3-23fd-4d7e-970e-acd1cee0f618")
 	)
 	(wire
 		(pts
@@ -6715,6 +6757,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 238.76) (xy 292.1 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e299d0c-c2fd-4b20-878d-0e22167eb0db")
+	)
+	(wire
+		(pts
 			(xy 92.71 74.93) (xy 92.71 77.47)
 		)
 		(stroke
@@ -6792,6 +6844,16 @@
 			(type default)
 		)
 		(uuid "8a68f848-3f47-4e03-abea-81e734883b1e")
+	)
+	(wire
+		(pts
+			(xy 261.62 143.51) (xy 278.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b50c1c5-63d7-4388-a139-b74b345bd9d6")
 	)
 	(wire
 		(pts
@@ -7025,6 +7087,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 146.05) (xy 278.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cfe97f-da93-476b-978e-eb29616a5ef0")
+	)
+	(wire
+		(pts
 			(xy 294.64 237.49) (xy 292.1 237.49)
 		)
 		(stroke
@@ -7145,6 +7217,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 246.38) (xy 292.1 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a909436c-ab0a-4b2e-ae55-fd2ea84e2def")
+	)
+	(wire
+		(pts
 			(xy 92.71 135.89) (xy 101.6 135.89)
 		)
 		(stroke
@@ -7202,6 +7284,16 @@
 			(type default)
 		)
 		(uuid "afe79d53-9fd5-43ae-b6fb-fee17d071372")
+	)
+	(wire
+		(pts
+			(xy 281.94 243.84) (xy 292.1 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b105b490-d10d-4de6-ace1-5693cc83d66f")
 	)
 	(wire
 		(pts
@@ -8078,6 +8170,26 @@
 		)
 		(uuid "1875fd45-b3c6-4cc7-9a96-3567ef4a231d")
 	)
+	(label "RX_E1-"
+		(at 281.94 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c64997b-a18d-4ec2-a707-016e5a2b1f4d")
+	)
+	(label "RX_E1+"
+		(at 261.62 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20e986ee-0903-4d58-86a7-fdb11b54e053")
+	)
 	(label "DSI.CLK+"
 		(at 261.62 118.11 0)
 		(effects
@@ -8087,6 +8199,16 @@
 			(justify left bottom)
 		)
 		(uuid "2ab2c2ec-4f06-48be-a24f-5c94faab01cd")
+	)
+	(label "RX_E1-"
+		(at 261.62 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39496ec4-8df9-448d-a376-304b91d89abc")
 	)
 	(label "XTAL_OUT"
 		(at 176.53 160.02 0)
@@ -8297,6 +8419,16 @@
 			(justify left bottom)
 		)
 		(uuid "b72f5e4f-9f69-4469-b277-5ffaccb7a5e9")
+	)
+	(label "RX_E1+"
+		(at 281.94 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b75cf285-c3c8-4b10-bfd9-9cd1bed60a70")
 	)
 	(label "DP.AUX-"
 		(at 318.77 140.97 180)
@@ -15954,6 +16086,148 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
 					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_100R_0402")
+		(at 294.64 245.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f01431-8067-44ad-b835-eaa3963acac7")
+		(property "Reference" "R349"
+			(at 297.18 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_100R_0402"
+			(at 281.94 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 279.4 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 276.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 100 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 294.64 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1000GLF"
+			(at 274.32 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 271.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 269.24 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 266.7 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100R"
+			(at 297.18 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 284.48 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e7e1c52-e542-4534-a938-b67380eea09d")
+		)
+		(pin "2"
+			(uuid "1f17ad66-6a52-4e06-9d41-641b4fd30983")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/8b9a8008-1846-45f3-9c02-8213595344f6"
+					(reference "R349")
 					(unit 1)
 				)
 			)

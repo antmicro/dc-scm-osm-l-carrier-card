@@ -3694,9 +3694,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e88f26fe-2ae4-42ed-8367-592eb5df9834")
 		(property "Reference" "C124"
-			(at 229.87 111.125 90)
+			(at 236.22 111.7536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3793,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 228.6 114.935 90)
+			(at 236.22 114.2936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
