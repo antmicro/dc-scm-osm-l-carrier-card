@@ -129,12 +129,6 @@
 		(uuid "f103a7dd-69c9-457d-9964-0cb31a10f36c")
 	)
 	(junction
-		(at 161.29 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f427153b-19de-41f9-abd7-d71568bd0047")
-	)
-	(junction
 		(at 172.72 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -449,16 +443,6 @@
 			(type default)
 		)
 		(uuid "32520e24-dfa8-4bb0-a578-5fc285ec8cf0")
-	)
-	(wire
-		(pts
-			(xy 161.29 142.24) (xy 161.29 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36b3e30b-d6ee-4b46-a170-58001cb44f98")
 	)
 	(bus
 		(pts
@@ -852,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 162.56) (xy 176.53 162.56)
+			(xy 58.42 162.56) (xy 176.53 162.56)
 		)
 		(stroke
 			(width 0)
@@ -899,16 +883,6 @@
 			(type default)
 		)
 		(uuid "7945940e-f762-4d83-ab97-028b01f9cdd5")
-	)
-	(wire
-		(pts
-			(xy 153.67 142.24) (xy 161.29 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9ed8bb-c598-4a7a-94b4-9e04e5564aef")
 	)
 	(wire
 		(pts
@@ -1589,16 +1563,6 @@
 			(type default)
 		)
 		(uuid "de2d0680-ec1f-490b-96ce-e245594e4395")
-	)
-	(wire
-		(pts
-			(xy 58.42 162.56) (xy 161.29 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e05a1178-2f95-4b8d-a799-8e5b70f91032")
 	)
 	(wire
 		(pts
@@ -4024,16 +3988,6 @@
 				(justify left)
 			)
 		)
-		(pin "3V0_AON" input
-			(at 153.67 142.24 0)
-			(uuid "22836bf6-a71d-420f-9e4f-1607370dd7ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{PERST}" input
 			(at 124.46 137.16 180)
 			(uuid "d506521d-82b7-4e3d-ada3-511ebe0b0e9e")
@@ -4188,7 +4142,7 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_USB_MUX_SEL" input
+		(pin "PCIE_SGMII_MUX_SEL" input
 			(at 109.22 151.13 0)
 			(uuid "c656365f-ec05-4a09-830f-bc4fa468c376")
 			(effects
