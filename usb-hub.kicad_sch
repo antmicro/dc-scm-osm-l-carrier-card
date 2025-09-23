@@ -2227,14 +2227,14 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 22.86 -2.54 0)
+			(property "Reference" "Y6"
+				(at -3.302 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Value" "Resonator_27.12MHz_XRCGB"
@@ -2290,21 +2290,22 @@
 				)
 			)
 			(property "MPN" "XRCGB24M000F3M00R0"
-				(at 22.86 -22.86 0)
+				(at -3.302 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right)
+					(hide yes)
 				)
 			)
 			(property "Val" "24MHz"
-				(at 22.86 -5.08 0)
+				(at -3.302 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "CLoad" "6pF"

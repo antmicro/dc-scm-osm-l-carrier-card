@@ -11711,6 +11711,10 @@
 		(uuid "7f22744f-f85c-444a-8c29-a5d128edd22d")
 	)
 	(no_connect
+		(at 92.71 72.39)
+		(uuid "86fde156-87a0-483f-b704-32d64550eda0")
+	)
+	(no_connect
 		(at 48.26 59.69)
 		(uuid "8a2165dc-be97-49ee-9a74-ec7567174e93")
 	)
@@ -11757,6 +11761,10 @@
 	(no_connect
 		(at 140.97 161.29)
 		(uuid "c4d4f106-4982-4d42-94b6-ae3c49ce00e4")
+	)
+	(no_connect
+		(at 92.71 69.85)
+		(uuid "c698ac3f-8d6b-41ff-92e1-3825c4c81df6")
 	)
 	(no_connect
 		(at 140.97 201.93)
@@ -12187,7 +12195,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 92.71 69.85)
+			(xy 80.01 64.77) (xy 92.71 64.77)
 		)
 		(stroke
 			(width 0)
@@ -12254,16 +12262,6 @@
 			(type default)
 		)
 		(uuid "14dcec34-9e03-4445-bb88-4ccdc6cec116")
-	)
-	(wire
-		(pts
-			(xy 80.01 64.77) (xy 92.71 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162fc1e9-d903-41c3-a80e-1cdb8cc9f905")
 	)
 	(wire
 		(pts
@@ -13257,16 +13255,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 187.96) (xy 335.28 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5658967a-c6e9-4e16-8132-e992218c3b6d")
-	)
-	(wire
-		(pts
 			(xy 102.87 259.08) (xy 102.87 257.81)
 		)
 		(stroke
@@ -13354,16 +13342,6 @@
 			(type default)
 		)
 		(uuid "59c48b55-3362-477d-99be-6e2786ca26ac")
-	)
-	(wire
-		(pts
-			(xy 347.98 86.36) (xy 335.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59dd9f4f-f97d-4ad1-9f5f-69cf6e912c27")
 	)
 	(bus
 		(pts
@@ -14467,16 +14445,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 180.34) (xy 335.28 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fe569fb-5fa0-4bd7-9f76-02cd59e9811d")
-	)
-	(wire
-		(pts
 			(xy 140.97 175.26) (xy 149.86 175.26)
 		)
 		(stroke
@@ -14614,16 +14582,6 @@
 			(type default)
 		)
 		(uuid "a87751ba-5666-4b47-b409-c5c7bcd36e3c")
-	)
-	(wire
-		(pts
-			(xy 347.98 93.98) (xy 335.28 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a49969-be84-436c-889d-787bf6b25cfd")
 	)
 	(wire
 		(pts
@@ -14987,7 +14945,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 91.44) (xy 335.28 91.44)
+			(xy 347.98 86.36) (xy 335.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -15817,23 +15775,13 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 185.42) (xy 335.28 185.42)
+			(xy 347.98 180.34) (xy 335.28 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f766049c-cf03-42ca-acb7-a786f618c8cf")
-	)
-	(wire
-		(pts
-			(xy 80.01 72.39) (xy 92.71 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f76ae0b5-b03b-49eb-bba4-1ffe1fb5e4b1")
 	)
 	(wire
 		(pts
@@ -16206,7 +16154,7 @@
 		(uuid "49750ee0-5d36-4eb9-8aad-81ae69deba35")
 	)
 	(label "USB0.D-"
-		(at 347.98 91.44 180)
+		(at 347.98 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16245,16 +16193,6 @@
 		)
 		(uuid "60aee769-2774-47d8-953d-800f36cde5db")
 	)
-	(label "USB0_CC1"
-		(at 347.98 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61fc1733-f12e-482a-9a1a-7830221ee03f")
-	)
 	(label "PORT2"
 		(at 250.19 179.07 180)
 		(effects
@@ -16276,7 +16214,7 @@
 		(uuid "63f965a8-14c0-480e-b5cc-6b0c876eeb31")
 	)
 	(label "USB1.D-"
-		(at 347.98 185.42 180)
+		(at 347.98 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16304,16 +16242,6 @@
 			(justify right bottom)
 		)
 		(uuid "726c4f85-f50b-4ce5-8f6f-f252ad68ebee")
-	)
-	(label "USB2_CC2"
-		(at 80.01 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73e15515-c310-477e-8bf1-e49977f4ddfc")
 	)
 	(label "USB1_CC2"
 		(at 311.15 163.83 180)
@@ -16435,16 +16363,6 @@
 		)
 		(uuid "ac4e203a-2abb-49a4-a03b-583fe05cecdc")
 	)
-	(label "USB1_CC1"
-		(at 347.98 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b80b3c84-7b48-439f-b66b-49f08e4e1136")
-	)
 	(label "FTDI_3V3"
 		(at 22.86 125.73 0)
 		(effects
@@ -16495,16 +16413,6 @@
 		)
 		(uuid "c73ae930-80ea-46c2-abeb-3409e6d479a9")
 	)
-	(label "USB1_CC2"
-		(at 347.98 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c822c8c9-ce51-41de-9eb0-38faec4d39ab")
-	)
 	(label "USB2_VBUS"
 		(at 144.78 46.99 0)
 		(effects
@@ -16536,7 +16444,7 @@
 		(uuid "ca2bd83c-2972-4443-b47f-2341a0782e53")
 	)
 	(label "USB2_D-"
-		(at 80.01 69.85 0)
+		(at 80.01 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16544,16 +16452,6 @@
 			(justify left bottom)
 		)
 		(uuid "db6a7a9f-70b5-459d-8e0a-4615f0b68f52")
-	)
-	(label "USB0_CC2"
-		(at 347.98 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dce35153-addd-4ba1-a162-bba3721a31a9")
 	)
 	(label "PORT0"
 		(at 260.35 85.09 180)
@@ -16574,16 +16472,6 @@
 			(justify left bottom)
 		)
 		(uuid "de68ec77-c680-44ba-aa18-0f9f650cf674")
-	)
-	(label "USB2_CC1"
-		(at 80.01 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df4622f4-912f-44fc-a605-9ad6ee2f7ea9")
 	)
 	(label "JTAG.TCK"
 		(at 91.44 255.27 0)
