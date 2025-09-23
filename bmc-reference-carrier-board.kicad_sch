@@ -1824,8 +1824,8 @@
 		)
 		(uuid "6657d4fd-c667-4aec-9934-3c6f4c87c051")
 	)
-	(label "DC_SCM_LTPI_B{LTPI}"
-		(at 142.24 193.04 0)
+	(label "DC_SCM_LTPI{LTPI}"
+		(at 63.5 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1934,7 +1934,7 @@
 		)
 		(uuid "e1d5de07-831c-4635-8a9a-29d7bfdf16f5")
 	)
-	(label "DC_SCM_LTPI_B{LTPI}"
+	(label "DC_SCM_LTPI{LTPI}"
 		(at 269.24 214.63 0)
 		(effects
 			(font
