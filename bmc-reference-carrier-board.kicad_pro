@@ -1185,6 +1185,24 @@
       "/OSM L/OSM_SPI_A{QSPI}": [
         "50Ohm-se"
       ],
+      "/OSM L/OSM_SPI_B.DI": [
+        "50Ohm-se"
+      ],
+      "/OSM L/OSM_SPI_B.DO": [
+        "50Ohm-se"
+      ],
+      "/OSM L/OSM_SPI_B.SCK": [
+        "50Ohm-se"
+      ],
+      "/OSM L/OSM_SPI_B.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/OSM L/OSM_SPI_B.~{CS1}": [
+        "50Ohm-se"
+      ],
+      "/OSM L/OSM_SPI_B{SPI}": [
+        "50Ohm-se"
+      ],
       "/OSM L/OSM_SPI_C.DI": [
         "50Ohm-se"
       ],
@@ -1336,6 +1354,18 @@
         "85Ohm-diff"
       ],
       "/PCIe - SGMII Mux/RX2-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/SGMII.RX+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/SGMII.RX-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/SGMII.TX+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - SGMII Mux/SGMII.TX-": [
         "85Ohm-diff"
       ],
       "/PCIe - SGMII Mux/TX1+": [
