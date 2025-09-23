@@ -4114,6 +4114,16 @@
 		)
 		(uuid "76008bd4-0674-4733-8e2e-6885640d28aa")
 	)
+	(label "USB_BYPASS.D+"
+		(at 181.61 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93e58952-fad9-4f6f-867a-c2b9698346be")
+	)
 	(label "NON_REM0"
 		(at 186.69 190.5 0)
 		(effects
@@ -4193,6 +4203,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd7686ba-c8fe-4c1b-a240-99b0be41aeee")
+	)
+	(label "USB_BYPASS.D-"
+		(at 181.61 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea75a217-0499-4d42-8828-0e463d2ced14")
 	)
 	(label "DN2_D+"
 		(at 199.39 120.65 0)
@@ -4278,6 +4298,68 @@
 			(justify left)
 		)
 		(uuid "dadd1f32-730e-42bf-8d47-25ffdc4be6f0")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 135.89 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "508eb118-2d5f-4b29-8cf9-257516675cd5")
+		(property "Netclass" "90Ohm-diff"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at -63.5 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 138.43 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a5999d4-7956-4519-9ac6-bd4a23e021e9")
+		(property "Netclass" "90Ohm-diff"
+			(at 142.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 337.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
