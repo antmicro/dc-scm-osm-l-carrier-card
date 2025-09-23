@@ -1143,6 +1143,39 @@
       "/LVDS to DP converter/DSI{DSI}": [
         "100Ohm-diff"
       ],
+      "/OSM L/DSI.CLK+": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.CLK-": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D0+": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D0-": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D1+": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D1-": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D2+": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D2-": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D3+": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI.D3-": [
+        "100Ohm-diff"
+      ],
+      "/OSM L/DSI{DSI}": [
+        "100Ohm-diff"
+      ],
       "/OSM L/OSM_ETH_C.RX+": [
         "85Ohm-diff"
       ],
