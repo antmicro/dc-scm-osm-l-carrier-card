@@ -1901,22 +1901,10 @@
 		(uuid "d6312aae-0710-4887-94a5-f12e06c1b361")
 	)
 	(junction
-		(at 167.64 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "576cd57b-28ad-4225-8dc1-cbb1fa60fb4a")
-	)
-	(junction
 		(at 186.69 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "633e162a-98e2-444d-97a4-b867c41ee0df")
-	)
-	(junction
-		(at 177.8 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e68e12a-6b80-4d5a-ba16-1c3fa7b6ceb2")
+		(uuid "576cd57b-28ad-4225-8dc1-cbb1fa60fb4a")
 	)
 	(junction
 		(at 142.24 143.51)
@@ -2052,16 +2040,6 @@
 		)
 		(uuid "030cf53b-c7fd-4f60-a420-ffbc9854eb4a")
 	)
-	(wire
-		(pts
-			(xy 186.69 97.79) (xy 186.69 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "038d5554-8433-4d31-a56f-6e3e6de751e5")
-	)
 	(bus
 		(pts
 			(xy 252.73 137.16) (xy 252.73 139.7)
@@ -2111,16 +2089,6 @@
 			(type default)
 		)
 		(uuid "197b041f-cf85-469d-854f-633c66a1c933")
-	)
-	(wire
-		(pts
-			(xy 195.58 97.79) (xy 186.69 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c264a1f-44d2-455c-830b-a54d4bff3354")
 	)
 	(wire
 		(pts
@@ -2272,16 +2240,6 @@
 		)
 		(uuid "5fd1f650-3b50-41d5-8ba4-c19768af411a")
 	)
-	(wire
-		(pts
-			(xy 186.69 104.14) (xy 186.69 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c304369-533f-4bef-bb34-926fc4a85d61")
-	)
 	(bus
 		(pts
 			(xy 241.3 111.76) (xy 237.49 111.76)
@@ -2291,16 +2249,6 @@
 			(type default)
 		)
 		(uuid "776810fd-f159-4433-be41-a162afaa66f9")
-	)
-	(wire
-		(pts
-			(xy 177.8 104.14) (xy 177.8 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779edf38-7958-4d2c-abf8-01933b845964")
 	)
 	(wire
 		(pts
@@ -2324,17 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 97.79) (xy 177.8 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a37802-cff7-42a7-831a-33edfcd92071")
-	)
-	(wire
-		(pts
-			(xy 167.64 104.14) (xy 167.64 105.41)
+			(xy 186.69 104.14) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 97.79) (xy 167.64 99.06)
+			(xy 186.69 97.79) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 167.64 97.79)
+			(xy 186.69 96.52) (xy 186.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 97.79) (xy 177.8 97.79)
+			(xy 186.69 97.79) (xy 195.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2511,16 +2449,6 @@
 			(type default)
 		)
 		(uuid "d20e2905-ec76-4519-877b-9137029e7309")
-	)
-	(wire
-		(pts
-			(xy 186.69 97.79) (xy 177.8 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5fc224-6b1f-4b2b-818b-b302501df9c0")
 	)
 	(wire
 		(pts
@@ -2863,100 +2791,6 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 186.69 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22d51a7e-55af-4f57-b63b-6e4b754aedd2")
-		(property "Reference" "#PWR041"
-			(at 195.58 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 195.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 195.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b21f4d94-de6b-43e0-a3d7-d4d15e5c2913")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
 		(at 190.5 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3051,7 +2885,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 167.64 105.41 0)
+		(at 186.69 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3059,7 +2893,7 @@
 		(dnp no)
 		(uuid "27277001-a424-447b-9177-52d9727782bc")
 		(property "Reference" "#PWR038"
-			(at 176.53 107.95 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +2904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 109.22 0)
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +2913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 113.03 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +2924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 118.11 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +2935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 105.41 0)
+			(at 186.69 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +2944,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 176.53 113.03 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +2955,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 176.53 115.57 0)
+			(at 195.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3344,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 167.64 104.14 270)
+		(at 186.69 104.14 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3520,346 +3354,6 @@
 		(fields_autoplaced yes)
 		(uuid "75531fa1-0661-4c53-a27c-4d472a0b22fe")
 		(property "Reference" "C19"
-			(at 170.18 100.3236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 167.64 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R61H104KE14D"
-			(at 149.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 170.18 102.8636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "179a4655-df0c-419e-8297-7a67adb3f1f5")
-		)
-		(pin "1"
-			(uuid "84536e5c-4061-4f68-803c-dbc846f71109")
-		)
-		(instances
-			(project ""
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 142.24 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b5dc2d4-33a3-44fc-99c6-f7fe43dbf21b")
-		(property "Reference" "#PWR024"
-			(at 151.13 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d874943-95b3-4e20-a7f4-fe48e363b91e")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 177.8 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dbb90e0-2a62-40fa-b228-fb3646aee453")
-		(property "Reference" "#PWR039"
-			(at 186.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 186.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 186.69 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de8d1ad6-0cc6-4c7f-a156-04d733d746b6")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 186.69 104.14 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ff71209-92a0-49bd-bf53-c655e335d444")
-		(property "Reference" "C21"
 			(at 189.23 100.3236 90)
 			(effects
 				(font
@@ -3986,43 +3480,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "22fb5d07-f7e5-4442-b1cd-4f8ff9cf4fb2")
+			(uuid "179a4655-df0c-419e-8297-7a67adb3f1f5")
 		)
 		(pin "1"
-			(uuid "aaf99eca-23ed-40f4-877f-dd1348c810bc")
+			(uuid "84536e5c-4061-4f68-803c-dbc846f71109")
 		)
 		(instances
-			(project "bmc-reference-carrier-board"
+			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 177.8 104.14 270)
-		(mirror x)
+		(lib_id "antmicropower:GND")
+		(at 142.24 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f6ae9b3-b4aa-4218-9e85-bbb0173794e7")
-		(property "Reference" "C20"
-			(at 180.34 100.3236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 167.64 83.82 0)
+		(uuid "7b5dc2d4-33a3-44fc-99c6-f7fe43dbf21b")
+		(property "Reference" "#PWR024"
+			(at 151.13 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,149 +3514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 165.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 177.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R61H104KE14D"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 180.34 102.8636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 149.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a52298b6-12ee-4b92-bc2d-d4299cf3c691")
-		)
-		(pin "1"
-			(uuid "c2de78f2-2302-4220-b2a0-e9f14d561eb8")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+3V3")
-		(at 167.64 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a59b3b4c-e5aa-4e6c-b49d-b5f745758266")
-		(property "Reference" "#PWR037"
-			(at 182.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 167.64 91.44 0)
+		(property "Value" "GND"
+			(at 142.24 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +3524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 104.14 0)
+			(at 151.13 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +3535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 106.68 0)
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +3546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 96.52 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +3555,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 182.88 99.06 0)
+			(at 151.13 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +3566,102 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 182.88 101.6 0)
+			(at 151.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d874943-95b3-4e20-a7f4-fe48e363b91e")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/02dc288a-88ee-45fa-83b7-00b3500b0ccd"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 186.69 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a59b3b4c-e5aa-4e6c-b49d-b5f745758266")
+		(property "Reference" "#PWR037"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 201.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
