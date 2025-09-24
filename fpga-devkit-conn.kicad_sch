@@ -1847,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 101.6) (xy 182.88 101.6)
+			(xy 157.48 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 182.88 93.98)
+			(xy 157.48 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 182.88 106.68)
+			(xy 157.48 106.68) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2217,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 182.88 109.22)
+			(xy 157.48 109.22) (xy 189.23 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 182.88 91.44)
+			(xy 157.48 91.44) (xy 189.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 114.3) (xy 182.88 114.3)
+			(xy 157.48 114.3) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 182.88 99.06)
+			(xy 157.48 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2597,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 116.84) (xy 182.88 116.84)
+			(xy 157.48 116.84) (xy 189.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2896,7 @@
 		(uuid "16873470-2af0-4837-82d2-b2a9e8be2faa")
 	)
 	(label "DC_SCM_LTPI_FMC.TXD+"
-		(at 182.88 114.3 180)
+		(at 189.23 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2986,7 +2986,7 @@
 		(uuid "2fdac076-0b48-42e7-9383-2de70de8ee34")
 	)
 	(label "DC_SCM_LTPI_FMC.RXCK-"
-		(at 182.88 93.98 180)
+		(at 189.23 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,7 +3016,7 @@
 		(uuid "3a6ef730-1daf-4acc-a7e7-d5bc0f1c9526")
 	)
 	(label "DC_SCM_LTPI_FMC.RXD-"
-		(at 182.88 101.6 180)
+		(at 189.23 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3086,7 +3086,7 @@
 		(uuid "701c3dfb-ea88-4e20-8891-20a5c5c0989a")
 	)
 	(label "DC_SCM_LTPI_FMC.RXCK+"
-		(at 182.88 91.44 180)
+		(at 189.23 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3096,7 +3096,7 @@
 		(uuid "708b2161-b304-4233-b4ef-9a9008745c04")
 	)
 	(label "DC_SCM_LTPI_FMC.RXD+"
-		(at 182.88 99.06 180)
+		(at 189.23 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,7 +3146,7 @@
 		(uuid "7e25c372-2d39-4a76-ac6f-34a721c23242")
 	)
 	(label "DC_SCM_LTPI_FMC.TXD-"
-		(at 182.88 116.84 180)
+		(at 189.23 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3186,7 +3186,7 @@
 		(uuid "8f058310-b85d-4a45-abd0-6ec561aaf973")
 	)
 	(label "DC_SCM_LTPI_FMC.TXCK-"
-		(at 182.88 109.22 180)
+		(at 189.23 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3206,7 +3206,7 @@
 		(uuid "9b17225c-46c2-4c99-922b-6d1bc804e49a")
 	)
 	(label "DC_SCM_LTPI_FMC.TXCK+"
-		(at 182.88 106.68 180)
+		(at 189.23 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3538,6 +3538,52 @@
 			(justify right)
 		)
 		(uuid "f115f6cb-ffde-40f1-92f8-6af00d6f0a16")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 160.02 119.38) (xy 160.02 88.9) (xy 162.56 88.9) (xy 162.56 119.38)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 103c6103-1fff-49fc-85cf-03a33cf31ee9)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 162.56 119.38 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fce19e75-471b-47b3-909a-e52a2f2d3d81")
+		(property "Netclass" "100Ohm-diff"
+			(at 165.862 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -36.83 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicroGenericPinHeaders:PinHeader_2x10_P1.27mm_SMD_Shrouded")
