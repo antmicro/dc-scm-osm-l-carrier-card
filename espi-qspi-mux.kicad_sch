@@ -1415,6 +1415,12 @@
 		)
 	)
 	(junction
+		(at 243.84 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40f3888e-9633-42cb-a583-50af152898c2")
+	)
+	(junction
 		(at 227.33 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1798,6 +1804,16 @@
 		)
 		(uuid "2a883ec4-af24-4d95-bce7-df37dc55bc92")
 	)
+	(wire
+		(pts
+			(xy 243.84 124.46) (xy 243.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c05e998-0a48-4e63-bf01-752cb214e826")
+	)
 	(bus
 		(pts
 			(xy 248.92 133.35) (xy 248.92 135.89)
@@ -1897,6 +1913,16 @@
 			(type default)
 		)
 		(uuid "590b8ddc-be46-476e-8a68-da8cdcf6b333")
+	)
+	(wire
+		(pts
+			(xy 243.84 124.46) (xy 236.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595b20b7-c325-4477-9316-97fff083bf7e")
 	)
 	(wire
 		(pts
@@ -2120,7 +2146,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 124.46) (xy 236.22 124.46)
+			(xy 246.38 124.46) (xy 243.84 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2854,6 +2880,101 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/e532ae7c-55b4-427b-a317-9e407e1b3e94"
 					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 243.84 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "403fa8ce-eba2-454f-b0a0-fab4302876a6")
+		(property "Reference" "#PWR0430"
+			(at 234.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 234.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f84e8dd2-a191-4db1-8c44-4394b72bc9da")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/e532ae7c-55b4-427b-a317-9e407e1b3e94"
+					(reference "#PWR0430")
 					(unit 1)
 				)
 			)
