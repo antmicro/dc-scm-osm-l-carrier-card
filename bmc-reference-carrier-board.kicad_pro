@@ -963,6 +963,12 @@
       "/Ethernet PHY/ETHERNET{ETHERNET}": [
         "100Ohm-diff"
       ],
+      "/Ethernet PHY/MDC": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/MDIO": [
+        "50Ohm-se"
+      ],
       "/Ethernet PHY/RGMII.MDC": [
         "50Ohm-se"
       ],
@@ -1006,6 +1012,24 @@
         "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII{RGMII}": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RXC": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RXCTL": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RXD0": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RXD1": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RXD2": [
+        "50Ohm-se"
+      ],
+      "/Ethernet PHY/RXD3": [
         "50Ohm-se"
       ],
       "/Front panel USB/USB1.D+": [
