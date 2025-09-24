@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.9,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -146,6 +146,42 @@
         [
           "items_not_allowed|204775414|108964531|4faed718-4635-4958-8606-f1a2406ba4e6|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "padstack|194260000|125508000|43dce258-8c72-4221-bbe8-7b4175e9f150|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|194260000|46508000|962e0251-f1a1-4972-bbbe-5d548db0a618|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|203749000|78200000|07d50984-6b04-441a-8eb0-a2e421aa38d2|15e6cec0-f324-45a6-928d-c9ce20b5255c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|203749000|93810000|7df6a711-d296-4a74-8721-0b88b5e75d71|a960d461-58e1-4227-a46a-9e3bd5068882",
+          ""
+        ],
+        [
+          "silk_edge_clearance|206543000|78190000|07d50984-6b04-441a-8eb0-a2e421aa38d2|3ebb545e-c9b4-4f7d-9b8e-7a14ec01e120",
+          ""
+        ],
+        [
+          "silk_edge_clearance|215460000|60850000|09f45d4e-e029-4bb8-ad34-aa5883327c4d|2b9216f5-9fc7-4ca9-9055-7e8cd15c79b6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|215460000|69150000|09f45d4e-e029-4bb8-ad34-aa5883327c4d|b999aabb-767a-47cd-a600-f3aa1429ff5d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|215460000|78190000|09f45d4e-e029-4bb8-ad34-aa5883327c4d|048659d8-d3a6-48ad-9064-6af0b39c1edc",
+          ""
+        ],
+        [
+          "silk_edge_clearance|215460000|93810000|303902a6-39f4-4738-a00c-38cb68e69368|c6badbc3-c194-4988-9e3e-fd5b5590d08a",
+          ""
         ]
       ],
       "meta": {
@@ -177,7 +213,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -213,7 +249,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.1,
-        "min_connection": 0.125,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
