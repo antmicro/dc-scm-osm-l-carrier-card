@@ -221,6 +221,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroCapacitors0402:C_10p_25V_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_10p_25V_0402"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/04023A100FAT2A/"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 10pF C0G 0402 1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "04023A100FAT2A"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KYOCERA AVX"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "10p"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "C0G"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10p_25V_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10p_25V_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroCapacitors0402:C_22p_0402"
 			(pin_numbers
 				(hide yes)
@@ -393,217 +604,6 @@
 				)
 			)
 			(symbol "C_22p_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroCapacitors0402:C_27p_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_27p_0402"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 27 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, Walsin MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "0402N270J500CT"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Walsin"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "27p"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" ""
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" ""
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_27p_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_27p_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -3126,36 +3126,25 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResonators:Resonator_25MHz_445"
+		(symbol "antmicroResonators:Resonator_25MHz_XRCGB"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 15.24 -5.08 0)
+			(property "Reference" "Y6"
+				(at -3.302 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
-			(property "Value" "Resonator_25MHz_445"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Resonator_SMD_CTS_445_5x3.2mm"
-				(at 15.24 -17.78 0)
+			(property "Value" "Resonator_25MHz_XRCGB"
+				(at 22.86 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3165,8 +3154,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ctscorp.com/wp-content/uploads/445.pdf"
-				(at 15.24 -20.32 0)
+			(property "Footprint" "antmicro-footprints:Resonator_SMD_Murata_XRCGB_2x1.6x0.65mm"
+				(at 22.86 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3176,7 +3165,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "25 MHz ±20ppm Crystal 18pF 40 Ohms 2-SMD, No Lead"
+			(property "Datasheet" "https://www.murata.com/products/productdata/8801078247454/SPEC-XRCGB27M120F3M13R0.pdf?1541043011000"
+				(at 22.86 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Crystals 2.0x1.6x0.65mm 25MHz Crystal +/-30ppm Initial tolerance; CLoad: 6pF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3185,60 +3185,66 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "445I23D25M00000"
-				(at 15.24 -7.62 0)
+			(property "Manufacturer" "Murata"
+				(at 22.86 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "CTS"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Val" "25MHz"
-				(at 15.24 -12.7 0)
+			(property "MPN" "XRCGB25M000F3M00R0"
+				(at -3.302 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Val" "25MHz"
+				(at -3.302 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "CLoad" "6pF"
+				(at 22.86 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 15.24 -22.86 0)
+				(at 22.86 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 15.24 -25.4 0)
+				(at 22.86 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, OSCILLATOR"
+			(property "ki_keywords" "OSCILLATOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3247,7 +3253,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "Resonator_25MHz_445_1_1"
+			(symbol "Resonator_25MHz_XRCGB_1_1"
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 1.905 2.54) (xy 5.715 2.54) (xy 5.715 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 1.905 -2.54) (xy 5.715 -2.54) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.54 1.27) (xy 2.54 -1.27)
@@ -3302,6 +3332,43 @@
 					)
 				)
 				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "~"
@@ -3311,7 +3378,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5064,6 +5131,16 @@
 			(type default)
 		)
 		(uuid "10928249-bfae-47ae-9dcd-41b21c7bf45f")
+	)
+	(wire
+		(pts
+			(xy 261.62 205.74) (xy 261.62 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d59e02-888f-4a5a-a7ca-112e49b4cde5")
 	)
 	(wire
 		(pts
@@ -8094,6 +8171,21 @@
 			(uuid 599a1581-0be2-45b8-9b88-75829cc42991)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 170.18 154.94) (xy 172.72 154.94) (xy 172.72 201.93) (xy 170.18 201.93)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 65569f3c-4460-4680-a6fb-3c47d65f4992)
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -8121,6 +8213,37 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 172.72 201.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83f98c9e-9cde-4d52-bfd7-231bdcc7e14f")
+		(property "Netclass" "50Ohm-se"
+			(at 176.53 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 372.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9417,157 +9540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_27p_0402")
-		(at 271.78 208.28 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1eaedbb2-1892-434a-8966-8e022169b9b4")
-		(property "Reference" "C52"
-			(at 270.002 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_27p_0402"
-			(at 261.62 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 259.08 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
-			(at 256.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 27 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, Walsin MLCC"
-			(at 271.78 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402N270J500CT"
-			(at 254 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin"
-			(at 251.46 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 248.92 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 246.38 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "27p"
-			(at 270.002 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" ""
-			(at 243.84 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 241.3 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "609b44b0-720a-49e6-9ab0-677aec886904")
-		)
-		(pin "2"
-			(uuid "ef1a4e27-0848-40b0-a4be-b37df4cc7565")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
-					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 152.4 209.55 0)
 		(unit 1)
@@ -10286,6 +10258,146 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResonators:Resonator_25MHz_XRCGB")
+		(at 257.81 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "357e9e79-c706-4192-b6c8-e951159d9de8")
+		(property "Reference" "Y1"
+			(at 261.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Resonator_25MHz_XRCGB"
+			(at 280.67 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Resonator_SMD_Murata_XRCGB_2x1.6x0.65mm"
+			(at 280.67 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdata/8801078247454/SPEC-XRCGB27M120F3M13R0.pdf?1541043011000"
+			(at 280.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystals 2.0x1.6x0.65mm 25MHz Crystal +/-30ppm Initial tolerance; CLoad: 6pF"
+			(at 257.81 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 280.67 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XRCGB25M000F3M00R0"
+			(at 254.508 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Val" "25MHz"
+			(at 261.62 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CLoad" "6pF"
+			(at 280.67 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 280.67 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 280.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43df1bf9-5fc9-4033-9da0-1b18e11fc2df")
+		)
+		(pin "3"
+			(uuid "f7e79842-ebc4-4b1b-8eb9-3735e89962c4")
+		)
+		(pin "2"
+			(uuid "139d22ca-8623-4585-a191-14b5f35d478f")
+		)
+		(pin "4"
+			(uuid "46e9f6a8-e3c3-4a83-82c9-7c4b2438e87f")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -11435,6 +11547,156 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_10p_25V_0402")
+		(at 271.78 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49d98c87-0d37-4b3a-8717-332d159abd0b")
+		(property "Reference" "C21"
+			(at 265.938 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10p_25V_0402"
+			(at 281.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 284.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/04023A100FAT2A/"
+			(at 287.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 10pF C0G 0402 1%"
+			(at 271.78 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "04023A100FAT2A"
+			(at 289.56 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 292.1 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 294.64 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 297.18 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10p"
+			(at 265.938 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 299.72 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 302.26 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb972015-2a72-47e4-aef8-fe48ec29d892")
+		)
+		(pin "1"
+			(uuid "d69df2db-0a0e-41dc-9943-d27e66d47351")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -15561,6 +15823,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_10p_25V_0402")
+		(at 251.46 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8412876-2a0e-4a57-906e-9051f74238ca")
+		(property "Reference" "C20"
+			(at 254 204.4636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10p_25V_0402"
+			(at 261.62 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 264.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/04023A100FAT2A/"
+			(at 266.7 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 10pF C0G 0402 1%"
+			(at 251.46 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "04023A100FAT2A"
+			(at 269.24 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 271.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 274.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 276.86 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10p"
+			(at 254 207.0036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 279.4 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 281.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "213405c9-42ea-4269-854d-cf9d49a8cc4c")
+		)
+		(pin "1"
+			(uuid "cf74be5e-7621-4965-b0ac-8a3ed9268b45")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_4u7_0402")
 		(at 234.95 116.84 90)
 		(unit 1)
@@ -18455,283 +18868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_27p_0402")
-		(at 251.46 208.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dde45c90-9500-4cfb-bc07-44cadc617809")
-		(property "Reference" "C51"
-			(at 253.238 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_27p_0402"
-			(at 261.62 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 264.16 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
-			(at 266.7 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 27 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, Walsin MLCC"
-			(at 251.46 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402N270J500CT"
-			(at 269.24 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin"
-			(at 271.78 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 274.32 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 276.86 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "27p"
-			(at 253.238 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" ""
-			(at 279.4 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 281.94 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca0d3cc9-795c-4d3f-b14e-1a23755b9674")
-		)
-		(pin "2"
-			(uuid "d1d92efc-a1ea-4569-b37e-6ef4e5764ead")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResonators:Resonator_25MHz_445")
-		(at 265.43 200.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df4bc2e1-64e4-4c5f-bcff-5eedcd0adf80")
-		(property "Reference" "Y2"
-			(at 261.62 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Resonator_25MHz_445"
-			(at 250.19 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Resonator_SMD_CTS_445_5x3.2mm"
-			(at 250.19 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ctscorp.com/wp-content/uploads/445.pdf"
-			(at 250.19 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "25 MHz ±20ppm Crystal 18pF 40 Ohms 2-SMD, No Lead"
-			(at 265.43 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "445I23D25M00000"
-			(at 261.62 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "CTS"
-			(at 250.19 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "25MHz"
-			(at 261.62 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 250.19 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 250.19 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d6cc7a9-020d-405a-b548-ad34cc988db5")
-		)
-		(pin "2"
-			(uuid "caf9aba2-07c1-4796-a036-652cae0a7caa")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 236.22 210.82 0)
 		(unit 1)
@@ -19064,6 +19200,100 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 261.62 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e46f2143-1f55-4e04-9d51-1e7ea41cb81c")
+		(property "Reference" "#PWR039"
+			(at 270.51 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 270.51 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 270.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b846905a-263e-4607-b917-604e28754741")
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/fd4de79a-afa0-4171-b9b9-995c5758b8f0"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
