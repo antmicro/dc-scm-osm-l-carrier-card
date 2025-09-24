@@ -2158,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 167.64) (xy 134.62 167.64)
+			(xy 154.94 167.64) (xy 139.7 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 134.62 165.1)
+			(xy 154.94 165.1) (xy 139.7 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 162.56) (xy 129.54 162.56)
+			(xy 113.03 162.56) (xy 134.62 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2318,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 162.56) (xy 134.62 162.56)
+			(xy 154.94 162.56) (xy 139.7 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 165.1) (xy 129.54 165.1)
+			(xy 113.03 165.1) (xy 134.62 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2798,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 170.18) (xy 134.62 170.18)
+			(xy 154.94 170.18) (xy 139.7 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 170.18) (xy 129.54 170.18)
+			(xy 113.03 170.18) (xy 134.62 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3088,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 167.64) (xy 129.54 167.64)
+			(xy 113.03 167.64) (xy 134.62 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3117,7 +3117,7 @@
 		(uuid "0e35a7eb-38ae-45a0-8485-074567f487e1")
 	)
 	(label "I2C_13.SCL"
-		(at 149.86 167.64 180)
+		(at 154.94 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3147,7 +3147,7 @@
 		(uuid "7d474a51-6684-4349-a755-f3eb47b4fef3")
 	)
 	(label "I2C_12.SDA"
-		(at 149.86 165.1 180)
+		(at 154.94 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3167,7 +3167,7 @@
 		(uuid "a88bd23f-5646-4a2a-b29a-756f891e9d40")
 	)
 	(label "I2C_13.SDA"
-		(at 149.86 170.18 180)
+		(at 154.94 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3197,7 +3197,7 @@
 		(uuid "dac51868-4a2c-44a2-b693-87234944218b")
 	)
 	(label "I2C_12.SCL"
-		(at 149.86 162.56 180)
+		(at 154.94 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4035,7 +4035,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 129.54 167.64 0)
+		(at 134.62 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4043,7 +4043,7 @@
 		(dnp yes)
 		(uuid "2301ac1a-974c-45fb-9351-10034562272f")
 		(property "Reference" "R347"
-			(at 129.54 166.37 0)
+			(at 134.62 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 149.86 180.34 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 149.86 182.88 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 149.86 185.42 0)
+			(at 154.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4086,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 129.54 167.64 0)
+			(at 134.62 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 149.86 187.96 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4106,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 149.86 190.5 0)
+			(at 154.94 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4117,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 149.86 193.04 0)
+			(at 154.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4128,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 149.86 195.58 0)
+			(at 154.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4139,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 134.62 166.37 0)
+			(at 139.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 149.86 177.8 0)
+			(at 154.94 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4159,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 149.86 198.12 0)
+			(at 154.94 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5452,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 129.54 170.18 0)
+		(at 134.62 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5460,7 +5460,7 @@
 		(dnp yes)
 		(uuid "56ace9ef-6994-4ba5-9a5f-363ed0528b68")
 		(property "Reference" "R348"
-			(at 129.54 168.91 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5470,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 149.86 182.88 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5481,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 149.86 185.42 0)
+			(at 154.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5492,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 149.86 187.96 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5503,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 129.54 170.18 0)
+			(at 134.62 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5512,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 149.86 190.5 0)
+			(at 154.94 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5523,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 149.86 193.04 0)
+			(at 154.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5534,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 149.86 195.58 0)
+			(at 154.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5545,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 149.86 198.12 0)
+			(at 154.94 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5556,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 134.62 168.91 0)
+			(at 139.7 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5566,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 149.86 180.34 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5576,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 149.86 200.66 0)
+			(at 154.94 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +11788,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 129.54 162.56 0)
+		(at 134.62 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11796,7 +11796,7 @@
 		(dnp yes)
 		(uuid "fb2b13b8-0e30-42d4-a63b-c3ab55518f66")
 		(property "Reference" "R345"
-			(at 129.54 161.29 0)
+			(at 134.62 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11806,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 149.86 175.26 0)
+			(at 154.94 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +11817,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 149.86 177.8 0)
+			(at 154.94 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11828,7 +11828,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 149.86 180.34 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11839,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 129.54 162.56 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11848,7 +11848,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 149.86 182.88 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +11859,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 149.86 185.42 0)
+			(at 154.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11870,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 149.86 187.96 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11881,7 +11881,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 149.86 190.5 0)
+			(at 154.94 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +11892,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 134.62 161.29 0)
+			(at 139.7 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11902,7 +11902,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 149.86 172.72 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11912,7 +11912,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 149.86 193.04 0)
+			(at 154.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +12033,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 129.54 165.1 0)
+		(at 134.62 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12041,7 +12041,7 @@
 		(dnp yes)
 		(uuid "ffd397b7-8c15-47e2-94cf-acceed12e45e")
 		(property "Reference" "R346"
-			(at 129.54 163.83 0)
+			(at 134.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12051,7 +12051,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 149.86 177.8 0)
+			(at 154.94 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12062,7 +12062,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 149.86 180.34 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12073,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 149.86 182.88 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12084,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 129.54 165.1 0)
+			(at 134.62 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12093,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 149.86 185.42 0)
+			(at 154.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +12104,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 149.86 187.96 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12115,7 +12115,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 149.86 190.5 0)
+			(at 154.94 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12126,7 +12126,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 149.86 193.04 0)
+			(at 154.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12137,7 +12137,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 134.62 163.83 0)
+			(at 139.7 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,7 +12147,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 149.86 175.26 0)
+			(at 154.94 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12157,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 149.86 195.58 0)
+			(at 154.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

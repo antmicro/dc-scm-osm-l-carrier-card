@@ -81,6 +81,12 @@
 		(uuid "c41e90ff-e194-46af-aaff-3e768fd6aafc")
 	)
 	(junction
+		(at 342.9 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38e9759e-c68b-4001-b894-8fd0b018cef4")
+	)
+	(junction
 		(at 171.45 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -427,6 +433,16 @@
 			(type default)
 		)
 		(uuid "1f95057e-21c2-47b1-99f8-65427755ad66")
+	)
+	(wire
+		(pts
+			(xy 288.29 166.37) (xy 342.9 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23174fef-d369-4e19-9ab1-5fc1823bce83")
 	)
 	(bus
 		(pts
@@ -780,6 +796,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 166.37) (xy 342.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673ca384-4ab9-465b-b391-f898669ae749")
+	)
+	(wire
+		(pts
 			(xy 251.46 87.63) (xy 304.8 87.63)
 		)
 		(stroke
@@ -877,6 +903,16 @@
 			(type default)
 		)
 		(uuid "7945940e-f762-4d83-ab97-028b01f9cdd5")
+	)
+	(bus
+		(pts
+			(xy 355.6 222.25) (xy 378.46 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfac058-89f7-4c4c-845f-bf3391452536")
 	)
 	(wire
 		(pts
@@ -1167,6 +1203,16 @@
 			(type default)
 		)
 		(uuid "a749551d-4421-44b6-8bef-872736005522")
+	)
+	(wire
+		(pts
+			(xy 342.9 62.23) (xy 354.33 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f376e6-8b37-4dc0-aa04-2788f007e0b0")
 	)
 	(bus
 		(pts
@@ -1598,9 +1644,19 @@
 		)
 		(uuid "f5157fae-c518-4f05-a543-432d6cfd2263")
 	)
+	(bus
+		(pts
+			(xy 251.46 208.28) (xy 283.21 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66cc4a8-10ce-4ce8-9372-d8bf18e5e1c5")
+	)
 	(wire
 		(pts
-			(xy 304.8 62.23) (xy 354.33 62.23)
+			(xy 304.8 62.23) (xy 342.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1718,6 +1774,16 @@
 		)
 		(uuid "6b202989-d984-4e4d-b967-b20a5998c5df")
 	)
+	(label "I2C_MUX_IMX{I2C}"
+		(at 378.46 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70bd067f-2417-4791-829a-cea86d6beab0")
+	)
 	(label "I2C_13{I2C}"
 		(at 361.95 245.11 0)
 		(effects
@@ -1737,6 +1803,16 @@
 			(justify left bottom)
 		)
 		(uuid "7e6c5fa8-51e6-4635-a051-28a9f4b9795a")
+	)
+	(label "I2C_MUX_IMX{I2C}"
+		(at 283.21 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8825f0f0-9dda-4fb4-bc12-c28712ba5160")
 	)
 	(label "DC_SCM_I2C6{I2C}"
 		(at 269.24 224.79 0)
@@ -3462,6 +3538,16 @@
 				(justify right)
 			)
 		)
+		(pin "I2C_MUX_IMX{I2C}" bidirectional
+			(at 251.46 208.28 0)
+			(uuid "6b398779-b93f-4cce-a9bb-0d4380260337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
@@ -3716,6 +3802,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2C_MUX_IMX{I2C}" bidirectional
+			(at 355.6 222.25 0)
+			(uuid "7fc63b1e-0067-45ef-b1e6-78f8618fd8c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -4076,6 +4172,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 288.29 166.37 0)
+			(uuid "57f20375-3121-42c7-8a2d-e2fa8fac48c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

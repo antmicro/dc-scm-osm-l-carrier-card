@@ -4990,15 +4990,6 @@
 		(uuid "bba2fa93-6c65-4e8b-b263-6bb4a2801e0d")
 	)
 	(bus_entry
-		(at 279.4 140.97)
-		(size -1.27 1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf8be726-1844-4f16-8499-098c4ca44f13")
-	)
-	(bus_entry
 		(at 279.4 135.89)
 		(size -1.27 1.27)
 		(stroke
@@ -5063,16 +5054,6 @@
 			(type default)
 		)
 		(uuid "07cfe402-a618-46e7-9f5c-cb2f11c89adb")
-	)
-	(bus
-		(pts
-			(xy 279.4 138.43) (xy 279.4 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081503df-9d85-486b-93ae-5bfd373a7ce6")
 	)
 	(wire
 		(pts
@@ -5236,7 +5217,7 @@
 	)
 	(bus
 		(pts
-			(xy 279.4 140.97) (xy 279.4 143.51)
+			(xy 279.4 138.43) (xy 279.4 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5674,6 +5655,16 @@
 		)
 		(uuid "79a23ced-8eca-41c1-84c6-1dba3b278d35")
 	)
+	(wire
+		(pts
+			(xy 222.25 142.24) (xy 219.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1aa03f-fdcd-4dde-bddd-5c582278a0e9")
+	)
 	(bus
 		(pts
 			(xy 279.4 143.51) (xy 279.4 146.05)
@@ -5823,16 +5814,6 @@
 			(type default)
 		)
 		(uuid "8d1b1fe7-c3c8-4179-b410-b6083f2d9fa0")
-	)
-	(wire
-		(pts
-			(xy 219.71 142.24) (xy 278.13 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d4be33c-18d4-4ad2-9cfc-24855258364e")
 	)
 	(wire
 		(pts
@@ -6454,16 +6435,6 @@
 		)
 		(uuid "87ff2340-c136-4c93-9b42-27402df816fa")
 	)
-	(label "SDIO.PWR_EN"
-		(at 264.16 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d56038d-5d5b-4f8c-a252-5d60ff03ef4a")
-	)
 	(label "SDIO.DAT0"
 		(at 264.16 116.84 0)
 		(effects
@@ -6534,6 +6505,17 @@
 			(justify left)
 		)
 		(uuid "627dc665-1f1c-40c7-8acc-cb230a5d9cd7")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 222.25 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99750f39-439f-4a17-a755-b13a653d6af2")
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
