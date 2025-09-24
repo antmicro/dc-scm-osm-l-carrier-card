@@ -10,7 +10,7 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols
-		(symbol "antmicroGenericPinHeaders:PinHeader_2x7_P2.54mm_Drill1.02mm_ TSW-107-07-L-D-014"
+		(symbol "antmicroGenericPinHeaders:PinHeader_2x7_P2mm_Drill0.9mm_878311420"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24,7 +24,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "PinHeader_2x7_P2.54mm_Drill1.02mm_ TSW-107-07-L-D-014"
+			(property "Value" "PinHeader_2x7_P2mm_Drill0.9mm_878311420"
 				(at 25.4 -5.08 0)
 				(effects
 					(font
@@ -35,7 +35,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:PinHeader_2x7_P2.54mm_Drill1.02mm_TSW-107-07-L-D-014"
+			(property "Footprint" "antmicro-footprints:PinHeader_2x7_P2mm_Drill0.9mm_878311420"
 				(at 25.4 -7.62 0)
 				(effects
 					(font
@@ -57,8 +57,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pin Header, 2 Rows, 13 Contacts, 2.54mm"
-				(at 56.896 -22.606 0)
+			(property "Description" "2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Through Hole, Shrouded, 14 Circuits, 0.38µm Gold (Au) Plating, with Center Polarization Slot, with Locking Window, without PCB Locator, Tube"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "TSW-107-07-L-D-014"
+			(property "MPN" "878311420"
 				(at 25.4 -12.7 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Samtec"
+			(property "Manufacturer" "Molex"
 				(at 25.4 -15.24 0)
 				(effects
 					(font
@@ -118,7 +118,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PinHeader_2x7_P2.54mm_Drill1.02mm_ TSW-107-07-L-D-014_1_1"
+			(symbol "PinHeader_2x7_P2mm_Drill0.9mm_878311420_1_1"
 				(rectangle
 					(start 2.54 1.27)
 					(end 7.62 -16.51)
@@ -511,6 +511,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -984,6 +1002,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "REMOVE PIN 14"
+		(exclude_from_sim no)
+		(at 199.39 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af6c5a1f-b855-4ab3-aa6b-d39b76aebead")
+	)
 	(junction
 		(at 224.79 148.59)
 		(diameter 0)
@@ -1009,6 +1037,10 @@
 	(no_connect
 		(at 187.96 151.13)
 		(uuid "1b0ee55a-e59c-4eea-9504-9fb91e2c55a8")
+	)
+	(no_connect
+		(at 207.01 135.89)
+		(uuid "6282d7ae-81eb-40df-8f5e-5cbbe5b40b12")
 	)
 	(no_connect
 		(at 207.01 146.05)
@@ -1412,157 +1444,6 @@
 					(italic yes)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroGenericPinHeaders:PinHeader_2x7_P2.54mm_Drill1.02mm_ TSW-107-07-L-D-014")
-		(at 217.17 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a690b3c-3be0-45ca-95e7-dba9af7a6bad")
-		(property "Reference" "J3"
-			(at 212.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PinHeader_2x7_P2.54mm_Drill1.02mm_ TSW-107-07-L-D-014"
-			(at 191.77 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:PinHeader_2x7_P2.54mm_Drill1.02mm_TSW-107-07-L-D-014"
-			(at 191.77 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/878311420?display=pdf"
-			(at 191.77 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header, 2 Rows, 13 Contacts, 2.54mm"
-			(at 160.274 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TSW-107-07-L-D-014"
-			(at 212.09 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 191.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 191.77 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 191.77 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "ae9439bf-8913-4e80-bccc-7c424f274f3d")
-		)
-		(pin "6"
-			(uuid "ff06ba8f-ee77-4314-8ad6-d89c65bade58")
-		)
-		(pin "4"
-			(uuid "25a5338e-f344-403d-ae3a-026af69dee39")
-		)
-		(pin "7"
-			(uuid "8e46502f-c676-4c85-9744-5e1294965f83")
-		)
-		(pin "11"
-			(uuid "f518f398-c088-4942-a0ee-e6c93962e443")
-		)
-		(pin "13"
-			(uuid "def024e9-0bec-46b8-ba00-a6313c87e9d5")
-		)
-		(pin "5"
-			(uuid "ae3fe373-83d8-45bb-9a46-0327d4571ce1")
-		)
-		(pin "8"
-			(uuid "ff2cd052-ba0c-4c19-9701-86a90e1c7a2c")
-		)
-		(pin "1"
-			(uuid "29a48506-5704-4376-8f42-185d6caba21e")
-		)
-		(pin "12"
-			(uuid "0e00a612-4814-4687-a030-9e07723991c6")
-		)
-		(pin "3"
-			(uuid "ab3b460d-7fad-49f5-bf68-a2dbaa44355c")
-		)
-		(pin "2"
-			(uuid "58ee11da-6fdc-4f2e-ab3e-214db22229d2")
-		)
-		(pin "9"
-			(uuid "f0e40139-8aef-4a30-886c-39357e6f4c48")
-		)
-		(instances
-			(project ""
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/757bd70a-5179-4368-9172-3adb38876975"
-					(reference "J3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2047,6 +1928,160 @@
 			(project ""
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/757bd70a-5179-4368-9172-3adb38876975"
 					(reference "R145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroGenericPinHeaders:PinHeader_2x7_P2mm_Drill0.9mm_878311420")
+		(at 217.17 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afa1ec63-d580-4e95-af57-ede2d45ae4de")
+		(property "Reference" "J21"
+			(at 212.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PinHeader_2x7_P2mm_Drill0.9mm_878311420"
+			(at 191.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:PinHeader_2x7_P2mm_Drill0.9mm_878311420"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/878311420?display=pdf"
+			(at 191.77 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Through Hole, Shrouded, 14 Circuits, 0.38µm Gold (Au) Plating, with Center Polarization Slot, with Locking Window, without PCB Locator, Tube"
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "878311420"
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c036d3a8-e39e-46e7-b534-4317437d4631")
+		)
+		(pin "8"
+			(uuid "4ab661f1-e068-4a40-864f-6648c11c2352")
+		)
+		(pin "13"
+			(uuid "d80e4bc4-c45d-4a99-96e6-5075999ff0b6")
+		)
+		(pin "12"
+			(uuid "6061e02b-7dcc-49cf-b3ed-3774e9646cef")
+		)
+		(pin "5"
+			(uuid "529aa2fe-67b6-4eba-8352-dfb5c4b1eb17")
+		)
+		(pin "14"
+			(uuid "7382cb3e-9930-45d4-8cc5-c0afb1f447e6")
+		)
+		(pin "10"
+			(uuid "7bb286dc-92b6-4f93-9415-f58aedb69be0")
+		)
+		(pin "7"
+			(uuid "82c6587e-3ae5-4e87-be67-6b058ace7833")
+		)
+		(pin "9"
+			(uuid "fd428376-a4ed-412e-8c2c-23e330f8162a")
+		)
+		(pin "6"
+			(uuid "d2f3d979-7d6c-4b4b-b624-16996b96d392")
+		)
+		(pin "2"
+			(uuid "2f811f17-e722-4a07-a1e4-e467a16b6596")
+		)
+		(pin "3"
+			(uuid "62af20a9-9ebc-4770-970f-4e7b6eb61409")
+		)
+		(pin "1"
+			(uuid "28cd2775-e572-4e5c-8198-1f7cab04b690")
+		)
+		(pin "11"
+			(uuid "0e679e65-c47c-4263-9926-93054406278c")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/757bd70a-5179-4368-9172-3adb38876975"
+					(reference "J21")
 					(unit 1)
 				)
 			)
