@@ -1032,6 +1032,30 @@
       "/Ethernet PHY/RXD3": [
         "50Ohm-se"
       ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.RXCK+": [
+        "100Ohm-diff"
+      ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.RXCK-": [
+        "100Ohm-diff"
+      ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.RXD+": [
+        "100Ohm-diff"
+      ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.RXD-": [
+        "100Ohm-diff"
+      ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.TXCK+": [
+        "100Ohm-diff"
+      ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.TXCK-": [
+        "100Ohm-diff"
+      ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.TXD+": [
+        "100Ohm-diff"
+      ],
+      "/FPGA devkit conn/DC_SCM_LTPI_FMC.TXD-": [
+        "100Ohm-diff"
+      ],
       "/Front panel USB/USB1.D+": [
         "90Ohm-diff"
       ],
