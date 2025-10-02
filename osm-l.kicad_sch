@@ -66626,10 +66626,6 @@
 		(uuid "b0d5bbd6-37b2-436d-877a-1de740a6f661")
 	)
 	(no_connect
-		(at 314.96 40.64)
-		(uuid "b151d73b-84eb-4a39-9526-50208be99d6e")
-	)
-	(no_connect
 		(at 534.67 173.99)
 		(uuid "b3796ec3-69e9-4cdf-b159-171e00d2945a")
 	)
@@ -68875,6 +68871,16 @@
 			(type default)
 		)
 		(uuid "1fad5ab8-6ad4-48e0-b489-24ae8c0c399e")
+	)
+	(wire
+		(pts
+			(xy 308.61 40.64) (xy 314.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2092c50c-80c8-4521-a7db-f9b23c042cc5")
 	)
 	(bus
 		(pts
@@ -74828,6 +74834,17 @@
 			(justify right)
 		)
 		(uuid "3a516621-1b16-4814-956e-8c86b57cee35")
+	)
+	(hierarchical_label "OSM_USB_A_VBUS_DET"
+		(shape input)
+		(at 308.61 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e34adec-f9e0-455c-b5f4-0b911f441f59")
 	)
 	(hierarchical_label "LED2"
 		(shape bidirectional)

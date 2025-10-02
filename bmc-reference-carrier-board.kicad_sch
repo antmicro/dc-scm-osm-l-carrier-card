@@ -398,7 +398,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 78.74) (xy 176.53 78.74)
+			(xy 167.64 77.47) (xy 176.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -568,7 +568,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 50.8) (xy 160.02 78.74)
+			(xy 167.64 50.8) (xy 167.64 77.47)
 		)
 		(stroke
 			(width 0)
@@ -846,6 +846,16 @@
 		)
 		(uuid "6c69d606-5636-4ba7-ac6d-f72d077846bc")
 	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 165.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e63fd2a-534e-4a06-8509-215a73c8109e")
+	)
 	(bus
 		(pts
 			(xy 121.92 232.41) (xy 176.53 232.41)
@@ -886,6 +896,16 @@
 		)
 		(uuid "72cf286c-dee5-492a-9f51-fae54f2994a0")
 	)
+	(wire
+		(pts
+			(xy 217.17 50.8) (xy 354.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c3793c-6bce-44f2-b687-b84911c43f85")
+	)
 	(bus
 		(pts
 			(xy 58.42 43.18) (xy 176.53 43.18)
@@ -908,7 +928,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 50.8) (xy 176.53 50.8)
+			(xy 167.64 50.8) (xy 176.53 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1185,6 +1205,16 @@
 			(type default)
 		)
 		(uuid "a749551d-4421-44b6-8bef-872736005522")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79f1965-9d79-4414-bdcb-d529817dea17")
 	)
 	(wire
 		(pts
@@ -1555,6 +1585,16 @@
 			(type default)
 		)
 		(uuid "e86de649-7c61-45c0-b5b0-06be18a1ef3a")
+	)
+	(wire
+		(pts
+			(xy 165.1 48.26) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b2f549-ffd5-4b4c-8734-92c1dbed9ee9")
 	)
 	(wire
 		(pts
@@ -2144,6 +2184,26 @@
 				(justify right)
 			)
 		)
+		(pin "USB2_VBUS" input
+			(at 217.17 50.8 0)
+			(uuid "6c08dd7a-28d5-453a-a725-756ede61536c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_HOST_VBUS_DET" output
+			(at 176.53 48.26 180)
+			(uuid "4d98fca4-b2e9-47a9-8a52-ea9ade4756c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
@@ -2371,6 +2431,16 @@
 		(pin "~{RESET}" output
 			(at 354.33 62.23 180)
 			(uuid "d1139c95-8061-4ad1-8220-fd91fd084c41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB1_VBUS" output
+			(at 354.33 50.8 180)
+			(uuid "6cc68a09-4b30-4d66-b1e8-4c2214e853d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3141,7 @@
 			)
 		)
 		(pin "OSM_USB_A{USB}" bidirectional
-			(at 176.53 78.74 180)
+			(at 176.53 77.47 180)
 			(uuid "ade1f179-7487-4079-a1e0-474e0cd71610")
 			(effects
 				(font
@@ -3508,6 +3578,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "OSM_USB_A_VBUS_DET" input
+			(at 176.53 80.01 180)
+			(uuid "7179620e-e910-4b5e-9d24-88997a3a2f0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

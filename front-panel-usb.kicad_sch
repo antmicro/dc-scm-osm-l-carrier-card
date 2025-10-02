@@ -11177,6 +11177,12 @@
 		(uuid "1420cbcb-fa5f-4642-b085-707da51e8f0e")
 	)
 	(junction
+		(at 337.82 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b808293-aa51-40c4-9ba2-0c61676a4228")
+	)
+	(junction
 		(at 287.02 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13572,6 +13578,16 @@
 			(type default)
 		)
 		(uuid "6688edec-fba8-4272-859c-f77050d88311")
+	)
+	(wire
+		(pts
+			(xy 336.55 118.11) (xy 337.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678f5f11-ed4c-465f-a3dd-b301993cc12e")
 	)
 	(wire
 		(pts
@@ -15973,16 +15989,6 @@
 		)
 		(uuid "1190b11d-3b1a-4ce0-9d31-d25e72aa201f")
 	)
-	(label "USB1_VBUS"
-		(at 359.41 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13651d36-cfda-437f-8149-59acff1ff798")
-	)
 	(label "VCORE"
 		(at 85.09 144.78 0)
 		(effects
@@ -16671,6 +16677,17 @@
 			(justify left)
 		)
 		(uuid "bbb024d8-b3e7-4842-b587-d443f993d616")
+	)
+	(hierarchical_label "USB1_VBUS"
+		(shape output)
+		(at 336.55 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c333c4d9-2926-4a5d-afdf-216738c26673")
 	)
 	(hierarchical_label "LED1"
 		(shape input)
