@@ -388,16 +388,6 @@
 	)
 	(bus
 		(pts
-			(xy 292.1 80.01) (xy 251.46 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "140b5718-14d1-431d-b961-52046d7af82c")
-	)
-	(bus
-		(pts
 			(xy 167.64 77.47) (xy 176.53 77.47)
 		)
 		(stroke
@@ -538,7 +528,7 @@
 	)
 	(bus
 		(pts
-			(xy 294.64 59.69) (xy 354.33 59.69)
+			(xy 298.45 59.69) (xy 354.33 59.69)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +638,7 @@
 	)
 	(bus
 		(pts
-			(xy 289.56 77.47) (xy 289.56 54.61)
+			(xy 293.37 77.47) (xy 293.37 54.61)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +748,7 @@
 	)
 	(bus
 		(pts
-			(xy 354.33 57.15) (xy 292.1 57.15)
+			(xy 354.33 57.15) (xy 295.91 57.15)
 		)
 		(stroke
 			(width 0)
@@ -835,6 +825,16 @@
 			(type default)
 		)
 		(uuid "67848a1e-e271-4ab3-885d-f404dfc2e472")
+	)
+	(bus
+		(pts
+			(xy 292.1 80.01) (xy 295.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ec2e62-885d-4ef4-9788-cbf6e35ee1f3")
 	)
 	(wire
 		(pts
@@ -935,6 +935,16 @@
 			(type default)
 		)
 		(uuid "7945940e-f762-4d83-ab97-028b01f9cdd5")
+	)
+	(bus
+		(pts
+			(xy 292.1 77.47) (xy 293.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbb34b6-a5b5-4028-a5fe-f87946276538")
 	)
 	(bus
 		(pts
@@ -1058,6 +1068,16 @@
 	)
 	(bus
 		(pts
+			(xy 251.46 80.01) (xy 259.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989341ac-58f5-46d5-a4ff-e47f2f9c4082")
+	)
+	(bus
+		(pts
 			(xy 58.42 207.01) (xy 176.53 207.01)
 		)
 		(stroke
@@ -1085,6 +1105,16 @@
 			(type default)
 		)
 		(uuid "9b414979-0454-49dd-a8fd-cfc266924a21")
+	)
+	(bus
+		(pts
+			(xy 292.1 82.55) (xy 298.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfa1ad0-fb19-48f3-9bdc-21a347561ed7")
 	)
 	(bus
 		(pts
@@ -1228,16 +1258,6 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 82.55) (xy 294.64 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad213902-452d-4c42-8261-0ecd49c1e2e8")
-	)
-	(bus
-		(pts
 			(xy 378.46 214.63) (xy 355.6 214.63)
 		)
 		(stroke
@@ -1275,6 +1295,16 @@
 			(type default)
 		)
 		(uuid "aeecf0ab-b439-409c-afdf-c2739d844c0f")
+	)
+	(bus
+		(pts
+			(xy 251.46 82.55) (xy 259.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d60327-e40b-4ef0-8d02-707f1bb1380a")
 	)
 	(wire
 		(pts
@@ -1348,7 +1378,7 @@
 	)
 	(bus
 		(pts
-			(xy 289.56 54.61) (xy 354.33 54.61)
+			(xy 293.37 54.61) (xy 354.33 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1538,7 @@
 	)
 	(bus
 		(pts
-			(xy 292.1 57.15) (xy 292.1 80.01)
+			(xy 295.91 57.15) (xy 295.91 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1535,6 +1565,16 @@
 			(type default)
 		)
 		(uuid "e14e40ef-30f0-4c81-8dd6-dd94defbdd6b")
+	)
+	(bus
+		(pts
+			(xy 251.46 77.47) (xy 259.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18dc60c-ba6e-43ee-bac8-ceca6ab47809")
 	)
 	(bus
 		(pts
@@ -1608,23 +1648,13 @@
 	)
 	(bus
 		(pts
-			(xy 294.64 82.55) (xy 294.64 59.69)
+			(xy 298.45 82.55) (xy 298.45 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ebe24cf9-fcf1-48ea-9518-29fbc162eee4")
-	)
-	(bus
-		(pts
-			(xy 251.46 77.47) (xy 289.56 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec30c5ba-9a06-457e-8378-8abda0eb001e")
 	)
 	(wire
 		(pts
@@ -4906,6 +4936,108 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
 					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 259.08 72.39)
+		(size 33.02 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0c03096-ea38-4e73-804d-160af003006c")
+		(property "Sheetname" "FTDI Level Shifters"
+			(at 259.08 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ftdi_level_shifters.kicad_sch"
+			(at 259.08 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "JTAG_1V8{JTAG}" bidirectional
+			(at 259.08 77.47 180)
+			(uuid "7b6f1b63-935b-48eb-8cab-1bb17bbf0101")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG{JTAG}" bidirectional
+			(at 292.1 77.47 0)
+			(uuid "595dac2f-3659-49ba-87ec-bad0a581823c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART0_1V8{UART}" bidirectional
+			(at 259.08 80.01 180)
+			(uuid "44b53983-bc01-4451-8b7a-eba19dc32a59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0{UART}" bidirectional
+			(at 292.1 80.01 0)
+			(uuid "f3e16ac8-fc63-4f6e-801c-9ca97c653a7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_1V8{UART}" bidirectional
+			(at 259.08 82.55 180)
+			(uuid "1b34d543-a1b5-4fea-976b-615120368037")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1{UART}" bidirectional
+			(at 292.1 82.55 0)
+			(uuid "ede6356e-58be-4bc4-93c2-53186078a23b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "26")
 				)
 			)
 		)
