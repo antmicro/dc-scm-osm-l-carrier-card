@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|179837698|55512302|7bcfebfd-23dc-4f60-8615-0562f70844ea|96c4d9e6-b5f0-4155-9ab4-fe96f755ae2b",
-          ""
-        ],
-        [
-          "clearance|184135000|54685000|83911f15-d2f6-4573-aac2-384ea269202b|ef29b12e-06e3-44f7-8d03-b1eb4704d417",
-          ""
-        ],
-        [
           "copper_edge_clearance|208380000|77700000|07d50984-6b04-441a-8eb0-a2e421aa38d2|0c51e438-c3e1-4eaf-9883-a97dfe069218",
           ""
         ],
@@ -77,14 +69,6 @@
         ],
         [
           "courtyards_overlap|151545000|121635000|441d8337-b64a-4f26-905b-51f6ea622e32|ce3cfea0-bff6-4ec6-b837-87dd22ea85d1",
-          ""
-        ],
-        [
-          "items_not_allowed|104091000|45385000|7b321fe2-70b6-4034-949d-6104b975ba68|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|104091000|47416000|a52fa0a8-828b-4fce-b6cb-7a105671539a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -953,6 +937,30 @@
       "/DC-SCM 2.1 connector/DC_SCM_NC-SI{NC-SI}": [
         "50Ohm-se"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO0": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO1": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO2": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.IO3": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.SCK": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI.~{CS1}": [
+        "50Ohm-se"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_QSPI{QSPI}": [
+        "50Ohm-se"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_SPI_SCMCNTRL.DI": [
         "50Ohm-se"
       ],
@@ -1814,12 +1822,120 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "CLoad",
+          "name": "CLoad",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMax",
+          "name": "IMax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISat",
+          "name": "ISat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max. Curr.",
+          "name": "Max. Curr.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Public",
+          "name": "Public",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1885,10 +2001,6 @@
       "PCIe - USB Mux"
     ],
     [
-      "af9b114c-dfa4-427f-a7c0-6a1753518223",
-      "eMMC"
-    ],
-    [
       "fd4de79a-afa0-4171-b9b9-995c5758b8f0",
       "Ethernet PHY"
     ],
@@ -1937,10 +2049,6 @@
       "LTPI bias"
     ],
     [
-      "f7dd1d4e-8165-4fe2-a0a6-b4960a02bfaf",
-      "BIOS Flash"
-    ],
-    [
       "1ae89ab2-a757-4731-85b8-826e038b4e67",
       "I2C Level Shifters"
     ],
@@ -1953,16 +2061,8 @@
       "PECI"
     ],
     [
-      "6e582200-5a13-40b2-b200-897e55905982",
-      "Temp sensors"
-    ],
-    [
-      "3ed11a6c-c41e-4496-8ded-d9f7860b25fe",
-      "FPGA devkit conn"
-    ],
-    [
-      "795b4315-1db0-49a6-b944-d6fc21ceb345",
-      "iMX devkit conn"
+      "f0c03096-ea38-4e73-804d-160af003006c",
+      "FTDI Level Shifters"
     ]
   ],
   "text_variables": {}
