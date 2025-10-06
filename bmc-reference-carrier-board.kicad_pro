@@ -245,7 +245,7 @@
         "min_text_height": 0.6,
         "min_text_thickness": 0.12,
         "min_through_hole_diameter": 0.1,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -1715,6 +1715,72 @@
         "85Ohm-diff"
       ],
       "/PCIe - SGMII Mux/TX2-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX0+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX0-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX1+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX1-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX2+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX2-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX3+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.RX3-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX1+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX1-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX2+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX2-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX3+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE.TX3-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/PCIE{PCIE}": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/USB.RX+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/USB.RX-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/USB.TX+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/USB.TX-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe - USB Mux/USB{USBSS}": [
         "85Ohm-diff"
       ],
       "/TPM Mux/TPM_SPI.DI": [

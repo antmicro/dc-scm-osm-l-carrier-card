@@ -1225,12 +1225,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "STBY_1V8"
-		(members "RDY" "EN" "~{RST_N}")
-	)
-	(bus_alias "STBY_3V3"
-		(members "RDY" "EN" "~{RST_N}")
-	)
 	(junction
 		(at 232.41 139.7)
 		(diameter 0)

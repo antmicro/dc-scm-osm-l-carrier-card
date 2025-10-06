@@ -2789,6 +2789,53 @@
 		)
 		(uuid "e658bc34-7268-40e9-8812-571561132026")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 232.41 109.22) (xy 273.05 109.22) (xy 273.05 143.51) (xy 232.41 143.51)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e7682eed-1f50-45fe-a9ea-3c146813f061)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 232.41 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7d2d726-abcd-4800-a19e-29bbf4a49a5a")
+		(property "Netclass" "85Ohm-diff"
+			(at 233.1085 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 431.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicropower:GND")
 		(at 190.5 156.21 0)
