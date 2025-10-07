@@ -1568,19 +1568,19 @@
         "90Ohm-diff"
       ],
       "/OSM L/OSM_USB_C_SS.RX+": [
-        "90Ohm-diff"
+        "85Ohm-diff"
       ],
       "/OSM L/OSM_USB_C_SS.RX-": [
-        "90Ohm-diff"
+        "85Ohm-diff"
       ],
       "/OSM L/OSM_USB_C_SS.TX+": [
-        "90Ohm-diff"
+        "85Ohm-diff"
       ],
       "/OSM L/OSM_USB_C_SS.TX-": [
-        "90Ohm-diff"
+        "85Ohm-diff"
       ],
       "/OSM L/OSM_USB_C_SS{USBSS}": [
-        "90Ohm-diff"
+        "85Ohm-diff"
       ],
       "/OSM L/SDIO_B.CLK": [
         "50Ohm-se"

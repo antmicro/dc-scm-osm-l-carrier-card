@@ -16130,7 +16130,7 @@
 		(uuid "49750ee0-5d36-4eb9-8aad-81ae69deba35")
 	)
 	(label "UART1.RX"
-		(at 171.45 196.85 0)
+		(at 171.45 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16250,7 +16250,7 @@
 		(uuid "7c4e5449-b48b-4e90-b627-57d03940937f")
 	)
 	(label "UART0.TX"
-		(at 171.45 172.72 0)
+		(at 171.45 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16260,7 +16260,7 @@
 		(uuid "7d03797a-638a-455f-8f2c-b7b1b2bc1631")
 	)
 	(label "UART1.TX"
-		(at 171.45 194.31 0)
+		(at 171.45 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16440,7 +16440,7 @@
 		(uuid "ca2bd83c-2972-4443-b47f-2341a0782e53")
 	)
 	(label "UART0.RX"
-		(at 171.45 175.26 0)
+		(at 171.45 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
