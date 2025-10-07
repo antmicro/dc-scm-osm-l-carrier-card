@@ -4,8 +4,8 @@
 (rule "(usb_2.0_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
-	(constraint track_width (opt 0.16mm))
-	(constraint diff_pair_gap  (opt 0.138mm))
+	(constraint track_width (opt 0.1525mm))
+	(constraint diff_pair_gap  (opt 0.11mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(usb_2.0_outer"
@@ -20,8 +20,8 @@
 (rule "hdmi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.225mm))
+	(constraint track_width (opt 0.12mm))
+	(constraint diff_pair_gap  (opt 0.15mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "hdmi_outer"
@@ -41,15 +41,15 @@
 (rule "mdi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff_MDI')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.225mm))
+	(constraint track_width (opt 0.12mm))
+	(constraint diff_pair_gap  (opt 0.15mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "mdi_outer"
 	(layer outer)
 	(condition "(A.NetClass == '100Ohm-diff_MDI')")
 	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.222mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 
@@ -63,8 +63,8 @@
 (rule "csi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_CSI')")
-	(constraint track_width  (opt 0.16mm))
-	(constraint diff_pair_gap  (opt 0.138mm))
+	(constraint track_width (opt 0.1525mm))
+	(constraint diff_pair_gap  (opt 0.11mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "csi_outer"
@@ -85,8 +85,8 @@
 (rule "usb_ss_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_USB_SS')")
-	(constraint track_width (opt 0.16mm))
-	(constraint diff_pair_gap  (opt 0.138mm))
+	(constraint track_width (opt 0.1525mm))
+	(constraint diff_pair_gap  (opt 0.11mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "usb_ss_outer"
@@ -107,8 +107,8 @@
 (rule "pcie_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
-	(constraint track_width (opt 0.16mm))
-	(constraint diff_pair_gap  (opt 0.138mm))
+	(constraint track_width (opt 0.1525mm))
+	(constraint diff_pair_gap  (opt 0.11mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "pcie_outer"
@@ -126,11 +126,6 @@
 
 #---------------------------------------------
 
-(rule clearance_PoE
-	(condition "A.NetClass == 'Default' && B.NetClass == 'PoE'")
-	(constraint clearance (min 0.5mm))
-)
-
 (rule "allow_overlap" 
     (condition "A.intersectsArea('allow_overlap')")
     (constraint courtyard_clearance (min -1mm))
@@ -140,4 +135,15 @@
 (rule "clearance 3V3_SW"
 	(constraint clearance (min 0.5mm))
 	(condition "A.Type == 'Zone' &&  A.NetName == '/Supply/3V3_SW' && B.Pad_Type == 'Through-hole'")
+)
+
+(rule "case_hs_keepout" 
+    (condition 
+		"A.intersectsArea('B.Cu Case keepout') && ! A.hasExactNetclass('Default')"
+	)
+    (constraint disallow track via)
+)
+(rule cooper2edge_inner 
+	(constraint edge_clearance (min 0.4mm))
+	(layer inner)
 )
