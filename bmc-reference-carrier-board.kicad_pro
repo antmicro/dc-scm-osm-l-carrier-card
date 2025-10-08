@@ -160,10 +160,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|215460000|78190000|09f45d4e-e029-4bb8-ad34-aa5883327c4d|048659d8-d3a6-48ad-9064-6af0b39c1edc",
-          ""
-        ],
-        [
           "silk_edge_clearance|215460000|93810000|303902a6-39f4-4738-a00c-38cb68e69368|c6badbc3-c194-4988-9e3e-fd5b5590d08a",
           ""
         ]
@@ -1127,43 +1123,55 @@
         "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII.TXD0": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-TX"
       ],
       "/Ethernet PHY/RGMII.TXD1": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-TX"
       ],
       "/Ethernet PHY/RGMII.TXD2": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-TX"
       ],
       "/Ethernet PHY/RGMII.TXD3": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-TX"
       ],
       "/Ethernet PHY/RGMII.TX_CLK": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-TX"
       ],
       "/Ethernet PHY/RGMII.TX_CTL": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-TX"
       ],
       "/Ethernet PHY/RGMII{RGMII}": [
         "50Ohm-se"
       ],
       "/Ethernet PHY/RXC": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-RX"
       ],
       "/Ethernet PHY/RXCTL": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-RX"
       ],
       "/Ethernet PHY/RXD0": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-RX"
       ],
       "/Ethernet PHY/RXD1": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-RX"
       ],
       "/Ethernet PHY/RXD2": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-RX"
       ],
       "/Ethernet PHY/RXD3": [
-        "50Ohm-se"
+        "50Ohm-se",
+        "RGMII-RX"
       ],
       "/FPGA devkit conn/DC_SCM_LTPI_FMC.RXCK+": [
         "100Ohm-diff"

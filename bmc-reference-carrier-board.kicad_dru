@@ -1,129 +1,70 @@
 (version 1)
 
-#---------------------- USB 2.0 ----------------------
-(rule "(usb_2.0_inner"
+#---------------------- 85 Ohm Diff ----------------------
+(rule "(85Diff_inner"
 	(layer inner)
-	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
+	(condition "(A.NetClass == '85Ohm-diff')")
 	(constraint track_width (opt 0.1525mm))
 	(constraint diff_pair_gap  (opt 0.11mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
-(rule "(usb_2.0_outer"
+(rule "(85Diff_outer"
 	(layer outer)
-	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
+	(condition "(A.NetClass == '85Ohm-diff')")
 	(constraint track_width (opt 0.155mm))
 	(constraint diff_pair_gap  (opt 0.144mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
-
-#--------------------- HDMI/DP ----------------------
-(rule "hdmi_inner"
+(rule "85Diff_clearance"
 	(layer inner)
-	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+	(condition "A.NetClass == '85Ohm-diff' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.2mm))
+)
+#--------------------- 100 Ohm Diff ----------------------
+(rule "100Diff_inner"
+	(layer inner)
+	(condition "(A.NetClass == '100Ohm-diff')")
 	(constraint track_width (opt 0.12mm))
 	(constraint diff_pair_gap  (opt 0.15mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
-(rule "hdmi_outer"
+(rule "100Diff_outer"
 	(layer outer)
-	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+	(condition "(A.NetClass == '100Ohm-diff')")
 	(constraint track_width (opt 0.125mm))
 	(constraint diff_pair_gap  (opt 0.125mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 
-(rule "hdmi_clearance"
-	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+(rule "100Diff_clearance"
+	(condition "A.NetClass == '100Ohm-diff' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.2mm))
 )
 
-#--------------------- ETHERNET MDI ----------------------
-(rule "mdi_inner"
+#--------------------- 50Ohm SE ----------------------
+(rule "50SE_inner"
 	(layer inner)
-	(condition "(A.NetClass == '100Ohm-diff_MDI')")
-	(constraint track_width (opt 0.12mm))
-	(constraint diff_pair_gap  (opt 0.15mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
+	(condition "(A.NetClass == '50Ohm-se')")
+	(constraint track_width (opt 0.154mm))
 )
-(rule "mdi_outer"
+(rule "50SE_outer"
 	(layer outer)
-	(condition "(A.NetClass == '100Ohm-diff_MDI')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.125mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
+	(condition "(A.NetClass == '50Ohm-se')")
+	(constraint track_width (opt 0.215mm))
 )
-
-(rule "mdi_clearance"
-	(condition "A.NetClass == '100Ohm-diff_MDI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.2mm))
+(rule "50SE_clearance"
+	(condition "A.NetClass == '50Ohm-se' && A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.18mm) (opt 0.4mm))
 )
-
-
-#-------------------- D-PHY CSI ---------------------
-(rule "csi_inner"
-	(layer inner)
-	(condition "(A.NetClass == '85Ohm-diff_CSI')")
-	(constraint track_width (opt 0.1525mm))
-	(constraint diff_pair_gap  (opt 0.11mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
+(rule "RGMII_skew_TX"
+	(condition "(A.NetClass == 'RGMII-TX')")
+	(constraint skew (max 0.1mm))
+	(constraint length (opt 24mm))
 )
-(rule "csi_outer"
-	(layer outer)
-	(condition "(A.NetClass == '85Ohm-diff_CSI')")
-	(constraint track_width (opt 0.155mm))
-	(constraint diff_pair_gap  (opt 0.144mm) )
-#	(constraint diff_pair_uncoupled (max 2mm))
+(rule "RGMII_skew_RX"
+	(condition "(A.NetClass == 'RGMII-RX')")
+	(constraint skew (max 0.1mm))
 )
-
-(rule "csi_clearance"
-	(layer inner)
-	(condition "A.NetClass == '85Ohm-diff_CSI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.2mm))
-)
-
-#---------------------- USB SS ----------------------
-(rule "usb_ss_inner"
-	(layer inner)
-	(condition "(A.NetClass == '85Ohm-diff_USB_SS')")
-	(constraint track_width (opt 0.1525mm))
-	(constraint diff_pair_gap  (opt 0.11mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
-)
-(rule "usb_ss_outer"
-	(layer outer)
-	(condition "(A.NetClass == '85Ohm-diff_USB_SS')")
-	(constraint track_width (opt 0.155mm))
-	(constraint diff_pair_gap  (opt 0.144mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
-)
-
-(rule "usb_ss_clearance"
-	(condition "A.NetClass == '85Ohm-diff_USB_SS' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.2mm))
-)
-
-
-#----------------------- PCIe -----------------------
-(rule "pcie_inner"
-	(layer inner)
-	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
-	(constraint track_width (opt 0.1525mm))
-	(constraint diff_pair_gap  (opt 0.11mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
-)
-(rule "pcie_outer"
-	(layer outer)
-	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
-	(constraint track_width (opt 0.155mm))
-	(constraint diff_pair_gap  (opt 0.144mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
-)
-
-(rule "pcie_clearance"
-	(condition "A.NetClass == '85Ohm-diff_PCIE' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-#	(constraint clearance (min 0.8mm))
-)
-
 #---------------------------------------------
 
 (rule "allow_overlap" 
