@@ -1,4 +1,4 @@
-# DC-SCM card for OSM-L SoMs
+# DC-SCM Carrier Card for OSM-L SoMs
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
