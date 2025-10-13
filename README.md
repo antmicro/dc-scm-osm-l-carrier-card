@@ -1,4 +1,4 @@
-# DC-SCM card for OSM-L SoM
+# DC-SCM card for OSM-L SoMs
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
@@ -6,18 +6,18 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project includes open hardware design files for a DC-SCM compliant PCB that supports System on Modules in [OSM-L](https://sget.org/standards/osm/) standard specified by the SGet group.
-The DC-SCM follows the interface and mechanical outline specified in the revision 2.1 of the [DC-SCM standard](https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view?usp=sharing) specified by the Open Compute Project community.
-Apart from establishing a base DC-SCM compliant platform the design includes a series of breakout connectors, jumpers and other supplementary circuitry for developing BMC software features for security, reliability, commissioning and benchmarking.  
+This project includes open hardware design files for a DC-SCM compliant PCB that supports System on Modules following the [OSM-L](https://sget.org/standards/osm/) standard specified by the SGet group.
+The DC-SCM follows the interface and mechanical outline described in the 2.1 revision of the [DC-SCM standard](https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view?usp=sharing) specified by the Open Compute Project community.
+Apart from establishing a base DC-SCM compliant platform, the design includes a series of breakout connectors, jumpers and other supplementary circuitry for developing BMC software features for security, reliability, commissioning and benchmarking.
 
-This DC-SCM card has been designed as a carrier board to an L-sized OSM design that combines Lattice FPGA and NXP i.MX943 series Application Processor (AP).  
+This DC-SCM card has been designed as a carrier board to an L-sized OSM design that combines a Lattice FPGA and an NXP i.MX943 series Application Processor (AP).
 
 The PCB design files were prepared in [KiCad](kicad.org/download) 9.x
 
-## Key Features
+## Key features
 
 * Landing pad for OSM-L type of SoM
-* Realtek 1Gb Ethernet PHY (Realtek XX) 
+* Realtek 1Gb Ethernet PHY (Realtek [RTL8211FDI-CG](https://openhardware.antmicro.com/components/realtek-rtl8211fdi-cg/?view=front-iso&tab=footprint))
 * ITE LVDS-DisplayPort bridge
 * USB-C port with FTDI FT4232 for SoM debug and software integration 
 * USB-C port connected to the OSM-L SoM pads 
