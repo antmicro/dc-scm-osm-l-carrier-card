@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "8949227b-99b8-4456-8722-cc01a9db1417")
-	(paper "A2")
+	(paper "A3")
 	(title_block
 		(title "BMC Reference Carrier Board")
-		(date "2025-08-14")
-		(rev "1.0.0")
+		(date "2025-10-13")
+		(rev "1.1.0")
 	)
 	(lib_symbols
 		(symbol "OSM-L_Carrier-side_2"
