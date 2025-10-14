@@ -4,15 +4,15 @@
 (rule "(85Diff_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff')")
-	(constraint track_width (opt 0.1525mm))
-	(constraint diff_pair_gap  (opt 0.11mm))
+	(constraint track_width (opt 0.17mm))
+	(constraint diff_pair_gap  (opt 0.22mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(85Diff_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-diff')")
-	(constraint track_width (opt 0.155mm))
-	(constraint diff_pair_gap  (opt 0.144mm))
+	(constraint track_width (opt 0.202mm))
+	(constraint diff_pair_gap  (opt 0.187mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "85Diff_clearance"
@@ -20,19 +20,34 @@
 	(condition "A.NetClass == '85Ohm-diff' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.2mm))
 )
+#---------------------- 90 Ohm Diff ----------------------
+(rule "(90Diff_inner"
+	(layer inner)
+	(condition "(A.NetClass == '90Ohm-diff')")
+	(constraint track_width (opt 0.15mm))
+	(constraint diff_pair_gap  (opt 0.24mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(90Diff_outer"
+	(layer outer)
+	(condition "(A.NetClass == '90Ohm-diff')")
+	(constraint track_width (opt 0.185mm))
+	(constraint diff_pair_gap  (opt 0.195mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
 #--------------------- 100 Ohm Diff ----------------------
 (rule "100Diff_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff')")
-	(constraint track_width (opt 0.12mm))
-	(constraint diff_pair_gap  (opt 0.15mm))
+	(constraint track_width (opt 0.1mm))
+	(constraint diff_pair_gap  (opt 0.25mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "100Diff_outer"
 	(layer outer)
 	(condition "(A.NetClass == '100Ohm-diff')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.125mm))
+	(constraint track_width (opt 0.15mm))
+	(constraint diff_pair_gap  (opt 0.2mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 
@@ -45,7 +60,7 @@
 (rule "50SE_inner"
 	(layer inner)
 	(condition "(A.NetClass == '50Ohm-se')")
-	(constraint track_width (opt 0.154mm))
+	(constraint track_width (opt 0.14mm))
 )
 (rule "50SE_outer"
 	(layer outer)
@@ -53,15 +68,6 @@
 	(constraint track_width (opt 0.215mm))
 )
 
-(rule "RGMII_skew_TX"
-	(condition "(A.NetClass == 'RGMII-TX')")
-	(constraint skew (max 0.1mm))
-	(constraint length (opt 24mm))
-)
-(rule "RGMII_skew_RX"
-	(condition "(A.NetClass == 'RGMII-RX')")
-	(constraint skew (max 0.1mm))
-)
 #---------------------------------------------
 
 (rule "allow_overlap" 
