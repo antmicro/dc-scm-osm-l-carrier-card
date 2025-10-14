@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.125
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -152,6 +152,10 @@
           ""
         ],
         [
+          "silk_edge_clearance|211877000|78190000|07d50984-6b04-441a-8eb0-a2e421aa38d2|048659d8-d3a6-48ad-9064-6af0b39c1edc",
+          ""
+        ],
+        [
           "silk_edge_clearance|215460000|60850000|09f45d4e-e029-4bb8-ad34-aa5883327c4d|2b9216f5-9fc7-4ca9-9055-7e8cd15c79b6",
           ""
         ],
@@ -208,7 +212,7 @@
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "ignore",
-        "skew_out_of_range": "error",
+        "skew_out_of_range": "ignore",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",

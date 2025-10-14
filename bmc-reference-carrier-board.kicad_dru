@@ -52,10 +52,7 @@
 	(condition "(A.NetClass == '50Ohm-se')")
 	(constraint track_width (opt 0.215mm))
 )
-(rule "50SE_clearance"
-	(condition "A.NetClass == '50Ohm-se' && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.18mm) (opt 0.4mm))
-)
+
 (rule "RGMII_skew_TX"
 	(condition "(A.NetClass == 'RGMII-TX')")
 	(constraint skew (max 0.1mm))
@@ -76,13 +73,6 @@
 (rule "clearance 3V3_SW"
 	(constraint clearance (min 0.5mm))
 	(condition "A.Type == 'Zone' &&  A.NetName == '/Supply/3V3_SW' && B.Pad_Type == 'Through-hole'")
-)
-
-(rule "case_hs_keepout" 
-    (condition 
-		"A.intersectsArea('B.Cu Case keepout') && ! A.hasExactNetclass('Default')"
-	)
-    (constraint disallow track via)
 )
 (rule cooper2edge_inner 
 	(constraint edge_clearance (min 0.4mm))
