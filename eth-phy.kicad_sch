@@ -5,8 +5,8 @@
 	(uuid "2166977c-22d5-4060-8bf1-ef5fd24f096c")
 	(paper "A3")
 	(title_block
-		(title "BMC Reference Carrier Board")
-		(date "2025-10-13")
+		(title "DC-SCM Carrier Card for OSM-L SoMs")
+		(date "2025-10-14")
 		(rev "1.1.0")
 	)
 	(lib_symbols
@@ -8159,7 +8159,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 182.88) (xy 168.91 182.88) (xy 168.91 200.66) (xy 166.37 200.66)
+				(xy 166.37 162.56) (xy 168.91 162.56) (xy 168.91 180.34) (xy 166.37 180.34)
 			)
 			(stroke
 				(width 0)
@@ -8168,22 +8168,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4b72934d-1c8b-4fbc-a5f3-ac437fa96dfa)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 246.38 148.59) (xy 248.92 148.59) (xy 248.92 171.45) (xy 246.38 171.45)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 599a1581-0be2-45b8-9b88-75829cc42991)
+			(uuid 2699602c-80d3-4c88-b45d-dbce212eac81)
 		)
 	)
 	(rule_area
@@ -8198,13 +8183,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 65569f3c-4460-4680-a6fb-3c47d65f4992)
+			(uuid 6ede0258-ad20-49b7-be73-241b735554a5)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 162.56) (xy 168.91 162.56) (xy 168.91 180.34) (xy 166.37 180.34)
+				(xy 166.37 182.88) (xy 168.91 182.88) (xy 168.91 200.66) (xy 166.37 200.66)
 			)
 			(stroke
 				(width 0)
@@ -8213,7 +8198,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 93dbde7f-a950-4bfd-82f5-19f1589acf63)
+			(uuid de94e103-f472-4b13-b354-81f5fdc2f822)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 246.38 148.59) (xy 248.92 148.59) (xy 248.92 171.45) (xy 246.38 171.45)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ef13b921-c476-47fc-b826-51ff7e58d0a8)
 		)
 	)
 	(netclass_flag ""

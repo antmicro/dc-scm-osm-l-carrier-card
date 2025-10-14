@@ -5,8 +5,8 @@
 	(uuid "6ef1a07c-cc31-481e-882a-ba31fdf83f94")
 	(paper "A3")
 	(title_block
-		(title "BMC Reference Carrier Board")
-		(date "2025-10-13")
+		(title "DC-SCM Carrier Card for OSM-L SoMs")
+		(date "2025-10-14")
 		(rev "1.1.0")
 	)
 	(lib_symbols
@@ -4477,7 +4477,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 42e4eddd-f99b-4129-bf18-a9eeda2b3f68)
+			(uuid adc75d84-98b6-43a5-9469-ff53ce8c96c6)
 		)
 	)
 	(netclass_flag ""
