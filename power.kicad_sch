@@ -2624,7 +2624,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroFixedInductors:L_1u_20A_Bourns-SRP6050CA"
+		(symbol "antmicroFixedInductors:L_1u_15.75A_WE-XHMI-6030"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2644,7 +2644,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "L_1u_20A_Bourns-SRP6050CA"
+			(property "Value" "L_1u_15.75A_WE-XHMI-6030"
 				(at 13.97 -2.54 0)
 				(effects
 					(font
@@ -2655,7 +2655,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:L_Bourns-SRP6050CA"
+			(property "Footprint" "antmicro-footprints:L_WE-XHMI6030"
 				(at 13.97 -7.62 0)
 				(effects
 					(font
@@ -2666,7 +2666,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP6050CA.pdf"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74439344010.pdf"
 				(at 13.97 -10.16 0)
 				(effects
 					(font
@@ -2677,16 +2677,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power Inductor (SMT), 1 µH, 20 A, Shielded, 23 A, SRP6050CA"
-				(at 0 0 0)
+			(property "Description" "Power Inductors - SMD WE-XHMI SMD 6030 1uH 12A 5.5mOhms AEC-Q200"
+				(at 13.97 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Val" "1u/20A"
+			(property "Val" "1u0/15.75A"
 				(at 13.97 -5.08 0)
 				(effects
 					(font
@@ -2696,7 +2697,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Bourns"
+			(property "Manufacturer" "Würth Elektronik"
 				(at 13.97 -12.7 0)
 				(effects
 					(font
@@ -2707,7 +2708,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SRP6050CA-1R0M"
+			(property "MPN" "74439344010"
 				(at 13.97 -15.24 0)
 				(effects
 					(font
@@ -2718,8 +2719,8 @@
 					(hide yes)
 				)
 			)
-			(property "ISat" "23 A"
-				(at 13.97 -16.51 0)
+			(property "ISat" "24.95 A"
+				(at 13.97 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2728,7 +2729,7 @@
 					(hide yes)
 				)
 			)
-			(property "IMax" "20 A"
+			(property "IMax" "15.75 A"
 				(at 13.97 -20.32 0)
 				(effects
 					(font
@@ -2739,7 +2740,7 @@
 					(hide yes)
 				)
 			)
-			(property "Size" "6.6x6.4"
+			(property "Size" "6.65x6.45"
 				(at 13.97 -22.86 0)
 				(effects
 					(font
@@ -2781,7 +2782,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_1u_20A_Bourns-SRP6050CA_0_1"
+			(symbol "L_1u_15.75A_WE-XHMI-6030_0_1"
 				(arc
 					(start 0.508 0)
 					(mid 1.016 0.5058)
@@ -2831,7 +2832,7 @@
 					)
 				)
 			)
-			(symbol "L_1u_20A_Bourns-SRP6050CA_1_1"
+			(symbol "L_1u_15.75A_WE-XHMI-6030_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.508)
@@ -20421,6 +20422,168 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFixedInductors:L_1u_15.75A_WE-XHMI-6030")
+		(at 146.05 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a503d0-cc0e-4907-85a5-895342898bc0")
+		(property "Reference" "L4"
+			(at 148.59 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_1u_15.75A_WE-XHMI-6030"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:L_WE-XHMI6030"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74439344010.pdf"
+			(at 160.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductors - SMD WE-XHMI SMD 6030 1uH 12A 5.5mOhms AEC-Q200"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u0/15.75A"
+			(at 148.59 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74439344010"
+			(at 160.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "24.95 A"
+			(at 160.02 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IMax" "15.75 A"
+			(at 160.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "6.65x6.45"
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 160.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62423c73-7fc6-4be1-bed1-5915697dbbf4")
+		)
+		(pin "1"
+			(uuid "81fe24fd-b910-431d-9634-274c4f574741")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
 		(at 173.99 149.86 90)
 		(unit 1)
@@ -20993,167 +21156,6 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
 					(reference "C137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroFixedInductors:L_1u_20A_Bourns-SRP6050CA")
-		(at 146.05 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "739772e3-9ee9-48d1-8fde-2a94dca6da15")
-		(property "Reference" "L4"
-			(at 148.59 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_1u_20A_Bourns-SRP6050CA"
-			(at 160.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:L_Bourns-SRP6050CA"
-			(at 160.02 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP6050CA.pdf"
-			(at 160.02 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u/20A"
-			(at 148.59 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 160.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SRP6050CA-1R0M"
-			(at 160.02 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ISat" "23 A"
-			(at 160.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "IMax" "20 A"
-			(at 160.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Size" "6.6x6.4"
-			(at 160.02 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 160.02 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 160.02 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1807f30b-a99e-4470-bf6b-1b91e6021ed5")
-		)
-		(pin "1"
-			(uuid "360ddbeb-d50e-438c-9215-a37f3a8bbfe0")
-		)
-		(instances
-			(project "bmc-reference-carrier-board"
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/3d29c412-58cb-45c0-928a-e05b1352002d"
-					(reference "L4")
 					(unit 1)
 				)
 			)
