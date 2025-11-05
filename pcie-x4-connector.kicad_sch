@@ -670,12 +670,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 22.86 -2.54 0)
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -684,18 +684,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
-				(at 22.86 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H2.5mm_9774025151R"
-				(at 22.86 -7.62 0)
+			(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
+				(at 15.24 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -705,8 +695,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
-				(at 22.86 -10.16 0)
+			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -716,17 +706,29 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 2.5 mm, M2.5 Thread, WA-SMSI Series"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
+				(at 15.24 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Würth Elektronik"
-				(at 22.86 -12.7 0)
+				(at 15.24 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -736,19 +738,18 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "9774025151R"
-				(at 22.86 -15.24 0)
+			(property "MPN" "9774065151R"
+				(at 15.24 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 22.86 -17.78 0)
+				(at 15.24 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -759,7 +760,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 22.86 -20.32 0)
+				(at 15.24 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -769,7 +770,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "MECHANICAL, SPACER"
+			(property "ki_keywords" "SPACER"
 				(at 0 0 0)
 				(effects
 					(font
@@ -778,7 +779,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Spacer_Drill3.7mm_H2.5mm_9774025151R_1_1"
+			(symbol "Spacer_Drill3.7mm_H6.5mm_9774065151R_1_1"
 				(rectangle
 					(start 2.54 -2.54)
 					(end 7.62 2.54)
@@ -1040,12 +1041,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroPciConnectors:Bus_M.2_1-2199230-6"
+		(symbol "antmicroPciConnectors:Bus_M.2_10131758-005RLF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 45.72 -2.54 0)
+				(at 45.72 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1054,19 +1055,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Bus_M.2_1-2199230-6"
-				(at 45.72 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Bus_M.2_Socket_Key_M_TE_1-2199230-6"
-				(at 45.72 -10.16 0)
+			(property "Value" "Bus_M.2_10131758-005RLF"
+				(at 45.72 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1076,8 +1066,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199230&DocType=Customer+Drawing&DocLang=English"
-				(at 45.72 -12.7 0)
+			(property "Footprint" "antmicro-footprints:Bus_M.2_Socket_Key_M_Amphenol_10131758-005RLF"
+				(at 45.72 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1087,17 +1077,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Key M Card Edge Connector, 0, Dual Side, 67 Contacts, Surface Mount, Right Angle, Solder"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TE Connectivity"
-				(at 45.72 -15.24 0)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_m2.pdf"
+				(at 45.72 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1107,18 +1088,39 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "1-2199230-6"
-				(at 45.72 -5.08 0)
+			(property "Description" "Card Edge Connector, 0, Dual Side, 67 Contacts, Surface Mount, Right Angle, Solder"
+				(at 45.72 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "10131758-005RLF"
+				(at 45.72 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Amphenol"
+				(at 45.72 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 45.72 -17.78 0)
+				(at 45.72 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1129,7 +1131,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 45.72 -20.32 0)
+				(at 45.72 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1148,18 +1150,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Bus_M.2_1-2199230-6_0_0"
-				(text "KEY M"
-					(at 15.24 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(bold yes)
-						)
-					)
-				)
-			)
-			(symbol "Bus_M.2_1-2199230-6_1_1"
+			(symbol "Bus_M.2_10131758-005RLF_1_1"
 				(rectangle
 					(start 3.81 2.54)
 					(end 26.67 -80.01)
@@ -1169,6 +1160,16 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "KEY-M"
+					(at 11.43 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.15)
+						)
+						(justify left bottom)
 					)
 				)
 				(pin input line
@@ -5077,123 +5078,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
-		(at 208.28 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31e31ba4-d4ab-45e9-8c91-66f1473366d4")
-		(property "Reference" "H3"
-			(at 217.17 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
-			(at 217.17 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H2.5mm_9774025151R"
-			(at 231.14 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
-			(at 231.14 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 2.5 mm, M2.5 Thread, WA-SMSI Series"
-			(at 208.28 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 231.14 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774025151R"
-			(at 231.14 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 231.14 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 231.14 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ae517d5-27a2-4076-b381-4c084d8fe70e")
-		)
-		(instances
-			(project ""
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroOscillators:Oscillator_32.768kHz_ECS_2520MV")
 		(at 256.54 111.76 0)
 		(mirror y)
@@ -5862,6 +5746,326 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPciConnectors:Bus_M.2_10131758-005RLF")
+		(at 193.04 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92fba0b1-96be-4724-a298-845c01495f19")
+		(property "Reference" "J10"
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Bus_M.2_10131758-005RLF"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Bus_M.2_Socket_Key_M_Amphenol_10131758-005RLF"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_m2.pdf"
+			(at 238.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Card Edge Connector, 0, Dual Side, 67 Contacts, Surface Mount, Right Angle, Solder"
+			(at 238.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "10131758-005RLF"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 238.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "72"
+			(uuid "dfcc38a5-cd26-4af5-83d5-c1c687b5d6e7")
+		)
+		(pin "8"
+			(uuid "c47ddc91-416e-420c-a770-12670d3eba1a")
+		)
+		(pin "57"
+			(uuid "507bad6c-549a-428e-8061-eef99944d5c4")
+		)
+		(pin "71"
+			(uuid "db9767b0-7866-4f83-80c7-e26d6646b161")
+		)
+		(pin "25"
+			(uuid "16c4df8b-f2dd-4a05-8748-151a2b1056be")
+		)
+		(pin "13"
+			(uuid "7a4a400a-6d06-4a03-9d54-c7ef0566ebb6")
+		)
+		(pin "38"
+			(uuid "3a5adc19-f2c8-4ec8-9915-ec05d24e24e7")
+		)
+		(pin "24"
+			(uuid "51f74aae-6857-441a-bce4-8ec9089b0f90")
+		)
+		(pin "35"
+			(uuid "b3af6e31-5a8d-45a4-81be-3bf5e8e53454")
+		)
+		(pin "5"
+			(uuid "1335762c-371c-47e4-9238-d2a3a639b90b")
+		)
+		(pin "43"
+			(uuid "29ddfa4d-d039-4efe-85c6-86f00cdc0a30")
+		)
+		(pin "23"
+			(uuid "0b9fc73a-2882-4d4c-aca7-63c868d2d3eb")
+		)
+		(pin "14"
+			(uuid "dec12c7e-3514-452b-b6f8-c8016b249d44")
+		)
+		(pin "1"
+			(uuid "7eea08e3-3466-4709-8588-e19f66bd4933")
+		)
+		(pin "19"
+			(uuid "c0ce0527-4fd2-41eb-806a-39fd63744719")
+		)
+		(pin "67"
+			(uuid "b3b5f613-83a8-4fe0-86b2-454da8321dac")
+		)
+		(pin "68"
+			(uuid "3b815200-66a9-4f75-af17-c2836289572d")
+		)
+		(pin "51"
+			(uuid "a4ae3bf8-462f-4354-982c-17ddb5ae9c03")
+		)
+		(pin "32"
+			(uuid "e278d41e-d617-49ca-8719-f2b933d43311")
+		)
+		(pin "36"
+			(uuid "10246cb7-4cc2-4d7d-8a6e-59289c685220")
+		)
+		(pin "47"
+			(uuid "55a20f8c-db78-46a6-9818-a049fa86b601")
+		)
+		(pin "39"
+			(uuid "82d73aec-a43c-4ea1-a3ea-79fa06452e9f")
+		)
+		(pin "49"
+			(uuid "45913f15-3bbb-4e79-a3f2-1d2136e84cd9")
+		)
+		(pin "33"
+			(uuid "e655ca05-0a1d-4766-b10a-b7821a9717fc")
+		)
+		(pin "69"
+			(uuid "18dd3cf6-f4b9-42cf-821a-89290933d0d5")
+		)
+		(pin "29"
+			(uuid "97b6f721-3e4c-42b5-9856-0b01bcee5194")
+		)
+		(pin "73"
+			(uuid "fd444d41-88d7-4d00-a6a0-891ce7b13226")
+		)
+		(pin "34"
+			(uuid "7e50e376-44db-4771-a28b-978039205037")
+		)
+		(pin "50"
+			(uuid "a5cbb42f-7577-4074-a074-cee885bf294b")
+		)
+		(pin "16"
+			(uuid "698df786-2ea6-463a-950e-8c59b28c1790")
+		)
+		(pin "42"
+			(uuid "db4aadc2-92af-485e-946c-5b1f27424916")
+		)
+		(pin "46"
+			(uuid "0b578b99-b2fb-4960-85d8-1eb58c1fd54e")
+		)
+		(pin "45"
+			(uuid "759854ae-cf85-4328-9855-c2137ff70353")
+		)
+		(pin "MP2"
+			(uuid "e7a0df52-a167-4234-98a6-736fc613e6ea")
+		)
+		(pin "58"
+			(uuid "cf101372-31d1-4a5c-8cce-a493c70f230f")
+		)
+		(pin "4"
+			(uuid "699b4abc-2b28-4f56-adb3-ee89f1aaf6e2")
+		)
+		(pin "40"
+			(uuid "ce73a2ef-703f-439f-932d-4c7e831c8a2b")
+		)
+		(pin "2"
+			(uuid "03729e6d-0b23-44df-b2d7-6373043ce5fc")
+		)
+		(pin "7"
+			(uuid "49f1d0da-aa9e-4f23-bd29-7dda136de1a2")
+		)
+		(pin "31"
+			(uuid "c4229085-d125-455d-8be7-d6b6b09c98ea")
+		)
+		(pin "10"
+			(uuid "a8fc7d08-17d3-4d01-9401-31ea4900174c")
+		)
+		(pin "17"
+			(uuid "8351c4da-e6f3-413f-94ff-86d42f64cac7")
+		)
+		(pin "74"
+			(uuid "82a628c3-a645-4da1-ac55-aadce07b5e09")
+		)
+		(pin "75"
+			(uuid "72bd993b-fedc-4ef8-9527-34e2b8fd0a2b")
+		)
+		(pin "53"
+			(uuid "75f37657-ca7b-4f21-a86c-5312408ed492")
+		)
+		(pin "27"
+			(uuid "691c3793-3da0-4d79-8b91-5c3b4ccc996c")
+		)
+		(pin "15"
+			(uuid "910dbc10-dcd7-4e94-ac8d-ddd8c3ece5dc")
+		)
+		(pin "30"
+			(uuid "9aac66df-adcf-4f7f-ab31-c19f9526c77f")
+		)
+		(pin "56"
+			(uuid "398d2718-ed40-4e05-bd6d-0e8915d1f2d1")
+		)
+		(pin "MP1"
+			(uuid "c7e81113-6a58-4fef-8640-26090e94dbc2")
+		)
+		(pin "12"
+			(uuid "f05c1a04-596c-4f5a-a09d-2c35b74c8fb6")
+		)
+		(pin "44"
+			(uuid "3f588952-3e1d-4963-8698-31c8534883c5")
+		)
+		(pin "21"
+			(uuid "720658f6-e0e5-407b-bb35-03f67d1b2635")
+		)
+		(pin "28"
+			(uuid "d9380d72-6434-4938-a32e-2c07c9305767")
+		)
+		(pin "9"
+			(uuid "0b24db98-d850-48de-8439-f59bb0b45d61")
+		)
+		(pin "48"
+			(uuid "07c5fcd4-7835-4a94-9404-5b93b043ce66")
+		)
+		(pin "11"
+			(uuid "76458c0b-4fe9-489e-8f12-d043fc00c0b4")
+		)
+		(pin "26"
+			(uuid "9248a46b-4c85-4b29-9970-6bd5cebce0c8")
+		)
+		(pin "18"
+			(uuid "f6f9f480-f9c3-4418-a020-fe3501b55761")
+		)
+		(pin "6"
+			(uuid "9efa7a32-32f7-4b29-b1ad-995a91f7b55a")
+		)
+		(pin "41"
+			(uuid "9efce96e-2376-47a5-9c42-3c1a360b0c30")
+		)
+		(pin "70"
+			(uuid "f011f82a-27d9-491e-81a2-a145bc7ded41")
+		)
+		(pin "20"
+			(uuid "e0e729e1-ab53-4955-af69-e0d751a713c2")
+		)
+		(pin "37"
+			(uuid "0c99bad1-0b27-459e-9e72-3fc71db8ee1e")
+		)
+		(pin "22"
+			(uuid "563ebab8-cc35-4468-a4ee-3b5029f2a49e")
+		)
+		(pin "52"
+			(uuid "84edd198-4d2e-47b1-bc1b-2ccc176dcfd2")
+		)
+		(pin "54"
+			(uuid "4c7073b6-2c80-4bab-b441-cab9d599fb77")
+		)
+		(pin "55"
+			(uuid "f02218ec-7a5c-4748-84d0-6609fbd4782e")
+		)
+		(pin "3"
+			(uuid "36825663-8cd4-4496-bbdf-6130575ed996")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 190.5 88.9 0)
 		(unit 1)
@@ -6325,6 +6529,124 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
 					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
+		(at 208.28 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac5d9e3d-e992-40e1-9c23-09c1fd0a906e")
+		(property "Reference" "H3"
+			(at 217.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
+			(at 223.52 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
+			(at 223.52 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
+			(at 223.52 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
+			(at 223.52 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 223.52 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774065151R"
+			(at 217.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 223.52 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 223.52 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b496d165-56ad-49cc-9967-34cfd50343e6")
+		)
+		(instances
+			(project ""
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6945,325 +7267,6 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
 					(reference "#PWR0247")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroPciConnectors:Bus_M.2_1-2199230-6")
-		(at 193.04 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8972ab5-800a-41e4-af4f-402d5830cfa7")
-		(property "Reference" "J10"
-			(at 208.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Bus_M.2_1-2199230-6"
-			(at 238.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Bus_M.2_Socket_Key_M_TE_1-2199230-6"
-			(at 238.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199230&DocType=Customer+Drawing&DocLang=English"
-			(at 238.76 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Key M Card Edge Connector, 0, Dual Side, 67 Contacts, Surface Mount, Right Angle, Solder"
-			(at 193.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1-2199230-6"
-			(at 208.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 238.76 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99c1f961-5b89-4896-b4c7-a485beb7e1e0")
-		)
-		(pin "72"
-			(uuid "79dbd0bc-ff9b-4c8d-be18-7f5955f4e0d0")
-		)
-		(pin "68"
-			(uuid "194d88bc-3b5f-48b3-9ce6-8ec83a7e3eea")
-		)
-		(pin "14"
-			(uuid "88a04eae-f66c-4670-86d6-cc5bf110a9c0")
-		)
-		(pin "57"
-			(uuid "d63e6b4d-6ac7-4968-8790-86343caed0e9")
-		)
-		(pin "44"
-			(uuid "66394d6c-6fdf-4474-a2ef-b97a56882601")
-		)
-		(pin "18"
-			(uuid "4790ba11-6cba-418b-bb77-369adad9a302")
-		)
-		(pin "16"
-			(uuid "f2d2f13e-3268-4ee0-a05c-ac5419e311c3")
-		)
-		(pin "37"
-			(uuid "5b4d630d-8494-4200-9a92-c8a3b4a5bd4c")
-		)
-		(pin "71"
-			(uuid "4982dcf4-6cf6-4bc6-9eb8-7683ba609822")
-		)
-		(pin "31"
-			(uuid "0a84e55a-4c37-4372-943f-7cee906c57ac")
-		)
-		(pin "MP1"
-			(uuid "ea71ef0c-03c6-4930-8fc0-faa5858e9674")
-		)
-		(pin "70"
-			(uuid "49b8d67b-80c4-40e4-92bf-a81fc9aa9f8d")
-		)
-		(pin "2"
-			(uuid "b4a80338-bbc8-45dd-a75d-07105d027dac")
-		)
-		(pin "42"
-			(uuid "21f39a69-2ec7-40c3-93f2-2c96c8ab9444")
-		)
-		(pin "56"
-			(uuid "794e8498-b11d-4d94-bad5-253e1ec29090")
-		)
-		(pin "30"
-			(uuid "82cc75d2-6b75-4307-a37f-a1c8ba189ac9")
-		)
-		(pin "73"
-			(uuid "d37a5026-70d1-4d81-b2b3-691e65e264d7")
-		)
-		(pin "28"
-			(uuid "67906e41-bacd-4ff1-aeeb-d0a281837412")
-		)
-		(pin "51"
-			(uuid "88936ef1-7ee7-4cc6-a974-f0c54d092ccc")
-		)
-		(pin "75"
-			(uuid "2ad04daa-76ab-4200-a9c3-e11765c89175")
-		)
-		(pin "15"
-			(uuid "d9886972-01a5-465e-81b3-2a14008c607e")
-		)
-		(pin "69"
-			(uuid "f6494663-42dd-4242-bd54-42fea95fe4aa")
-		)
-		(pin "67"
-			(uuid "a1eca5e3-cb24-4e6a-bd52-9e505ebe7ec6")
-		)
-		(pin "6"
-			(uuid "da84ac3a-ae3c-4a37-afce-a7634e2ed30c")
-		)
-		(pin "53"
-			(uuid "98a1201d-2e9d-43cd-9d15-f75c6c924268")
-		)
-		(pin "9"
-			(uuid "3dae773f-636a-440e-889b-7904b75d03c2")
-		)
-		(pin "55"
-			(uuid "6cc7da07-e11f-4469-a6a9-19acb9dc8cc6")
-		)
-		(pin "34"
-			(uuid "b68bafdb-25e0-43fb-a3fc-e48d1511ac20")
-		)
-		(pin "MP2"
-			(uuid "61dfbd99-9d1c-4b90-9216-cd5ccb9f543d")
-		)
-		(pin "54"
-			(uuid "d56a8593-f054-41e9-9e05-15d36d5c03a1")
-		)
-		(pin "52"
-			(uuid "55ec8e84-9f2c-471f-a681-b434c4c994a0")
-		)
-		(pin "50"
-			(uuid "3fbcc5c2-36d4-42c1-8b2e-def9e7fa1648")
-		)
-		(pin "33"
-			(uuid "1195a024-7a46-490b-80c5-62da29597cbc")
-		)
-		(pin "24"
-			(uuid "a0823899-4f55-4086-9d2f-c4b1dccae6aa")
-		)
-		(pin "23"
-			(uuid "d4d0b3c1-a534-4932-9c52-17b4f07f1eed")
-		)
-		(pin "8"
-			(uuid "ca55ecff-34f4-49d3-bb27-072f5fb92cc9")
-		)
-		(pin "35"
-			(uuid "7690926e-eb7b-47e6-8773-151cf18e1c30")
-		)
-		(pin "43"
-			(uuid "addae668-1098-4cf7-8d56-007f6bda9fbe")
-		)
-		(pin "29"
-			(uuid "0c812d65-dce7-4217-981b-0a415fa4f0fa")
-		)
-		(pin "58"
-			(uuid "707bad69-61db-455f-86af-4a61b64f3139")
-		)
-		(pin "46"
-			(uuid "bfa784d6-c054-4635-917c-e6cd3ef64600")
-		)
-		(pin "47"
-			(uuid "8a1f10e5-db26-4ec8-a50b-eedfd60960b7")
-		)
-		(pin "20"
-			(uuid "5f1bac82-e091-40b1-9c4d-7f91d5716583")
-		)
-		(pin "17"
-			(uuid "7a1aa747-08ce-4f1b-a71a-87e3a54fdeb3")
-		)
-		(pin "12"
-			(uuid "8b08148d-b26b-4d8b-94ae-95ecefe71b9c")
-		)
-		(pin "38"
-			(uuid "47b2d9a4-7304-4a3e-9e4f-71ed4c6e2230")
-		)
-		(pin "25"
-			(uuid "23ddb01b-fdf1-4322-93cf-296a370a7d64")
-		)
-		(pin "19"
-			(uuid "35dc142d-adbb-436d-ba98-6fada7411d1f")
-		)
-		(pin "45"
-			(uuid "febe98b0-9cf4-44a5-a3bb-c36e90e70143")
-		)
-		(pin "13"
-			(uuid "af2d11f5-dd75-43f9-b072-b45391277eff")
-		)
-		(pin "11"
-			(uuid "3c14ce6a-110f-4348-b843-40a388c4ea35")
-		)
-		(pin "49"
-			(uuid "b6aef4e6-ef4a-413c-8806-af4130f53d49")
-		)
-		(pin "32"
-			(uuid "e94fc686-68f8-4df3-83b4-57e61dfe8ade")
-		)
-		(pin "21"
-			(uuid "0b4363c8-2440-4852-b11f-fb1fd8cf0d9c")
-		)
-		(pin "7"
-			(uuid "3b555120-fcec-42af-ba6c-c92314c516df")
-		)
-		(pin "22"
-			(uuid "d1049846-417c-4ac5-b331-ee0e513de0e6")
-		)
-		(pin "5"
-			(uuid "b488cac1-e099-4601-9e0c-56c60e0b3f1a")
-		)
-		(pin "41"
-			(uuid "4ab25dce-f9f3-4ff9-a2d5-8a19584d1522")
-		)
-		(pin "36"
-			(uuid "65b28714-c8be-4933-94fb-de57ff398863")
-		)
-		(pin "26"
-			(uuid "a6a1076d-28bb-4f70-b57b-66f56055286d")
-		)
-		(pin "4"
-			(uuid "6afa867e-3d96-4ee0-a12b-f1ced6077af5")
-		)
-		(pin "3"
-			(uuid "1a61bb3c-cf6e-43f7-9184-ea9c2cfab513")
-		)
-		(pin "40"
-			(uuid "1a7e0ed2-7061-4656-859e-909bb3677ee9")
-		)
-		(pin "10"
-			(uuid "a90f9ab6-6307-4364-bf1b-9a8a0eddfc20")
-		)
-		(pin "39"
-			(uuid "283bd34d-136c-49fd-903f-2d313b00fa93")
-		)
-		(pin "74"
-			(uuid "68f8eef5-7c3f-4d9b-8b67-5baae9d5e5e2")
-		)
-		(pin "27"
-			(uuid "6376a850-3a82-4471-ae48-83279eb682b0")
-		)
-		(pin "48"
-			(uuid "e952d787-eb2f-4892-99c4-7dc14c0bbc4b")
-		)
-		(instances
-			(project ""
-				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4/945730c0-5d04-4966-88eb-4ee840f8c440"
-					(reference "J10")
 					(unit 1)
 				)
 			)
