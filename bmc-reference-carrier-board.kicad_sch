@@ -1152,6 +1152,16 @@
 	)
 	(bus
 		(pts
+			(xy 340.36 210.82) (xy 354.33 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baba4a84-8dea-486d-9037-7558edf531d9")
+	)
+	(bus
+		(pts
 			(xy 58.42 148.59) (xy 74.93 148.59)
 		)
 		(stroke
@@ -1529,6 +1539,16 @@
 			(justify left bottom)
 		)
 		(uuid "2e7f86c8-d593-4bd5-8703-f423a9b422cd")
+	)
+	(label "I2C_12{I2C}"
+		(at 340.36 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "452b6788-5b26-4b7b-8a01-a955fcbdefac")
 	)
 	(label "OSM_I2C_A{I2C}"
 		(at 127 59.69 180)
@@ -2382,6 +2402,58 @@
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
 					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 354.33 207.01)
+		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b34d6df-fce5-41dd-9b98-303724c9a3f7")
+		(property "Sheetname" "I2C Connector"
+			(at 354.33 206.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c_conn.kicad_sch"
+			(at 354.33 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 354.33 210.82 180)
+			(uuid "43fb1db1-3c7c-4e45-a0ac-70a71723becd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmc-reference-carrier-board"
+				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
+					(page "19")
 				)
 			)
 		)
@@ -4223,7 +4295,7 @@
 		(instances
 			(project "bmc-reference-carrier-board"
 				(path "/5f636c45-3c15-4731-8931-4625e0dab7e4"
-					(page "26")
+					(page "23")
 				)
 			)
 		)

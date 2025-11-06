@@ -2127,6 +2127,10 @@
       "LTPI bias"
     ],
     [
+      "4b34d6df-fce5-41dd-9b98-303724c9a3f7",
+      "I2C Connector"
+    ],
+    [
       "1ae89ab2-a757-4731-85b8-826e038b4e67",
       "I2C Level Shifters"
     ],
