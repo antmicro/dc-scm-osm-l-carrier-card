@@ -551,8 +551,8 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -1127,55 +1127,43 @@
         "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII.TXD0": [
-        "50Ohm-se",
-        "RGMII-TX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII.TXD1": [
-        "50Ohm-se",
-        "RGMII-TX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII.TXD2": [
-        "50Ohm-se",
-        "RGMII-TX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII.TXD3": [
-        "50Ohm-se",
-        "RGMII-TX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII.TX_CLK": [
-        "50Ohm-se",
-        "RGMII-TX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII.TX_CTL": [
-        "50Ohm-se",
-        "RGMII-TX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RGMII{RGMII}": [
         "50Ohm-se"
       ],
       "/Ethernet PHY/RXC": [
-        "50Ohm-se",
-        "RGMII-RX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RXCTL": [
-        "50Ohm-se",
-        "RGMII-RX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RXD0": [
-        "50Ohm-se",
-        "RGMII-RX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RXD1": [
-        "50Ohm-se",
-        "RGMII-RX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RXD2": [
-        "50Ohm-se",
-        "RGMII-RX"
+        "50Ohm-se"
       ],
       "/Ethernet PHY/RXD3": [
-        "50Ohm-se",
-        "RGMII-RX"
+        "50Ohm-se"
       ],
       "/FPGA devkit conn/DC_SCM_LTPI_FMC.RXCK+": [
         "100Ohm-diff"

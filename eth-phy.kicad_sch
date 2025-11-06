@@ -8159,21 +8159,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 162.56) (xy 168.91 162.56) (xy 168.91 180.34) (xy 166.37 180.34)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 2699602c-80d3-4c88-b45d-dbce212eac81)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 170.18 154.94) (xy 172.72 154.94) (xy 172.72 201.93) (xy 170.18 201.93)
 			)
 			(stroke
@@ -8189,21 +8174,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 182.88) (xy 168.91 182.88) (xy 168.91 200.66) (xy 166.37 200.66)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid de94e103-f472-4b13-b354-81f5fdc2f822)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 246.38 148.59) (xy 248.92 148.59) (xy 248.92 171.45) (xy 246.38 171.45)
 			)
 			(stroke
@@ -8214,68 +8184,6 @@
 				(type none)
 			)
 			(uuid ef13b921-c476-47fc-b826-51ff7e58d0a8)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 166.37 180.34 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b0b0e43-75d4-4f65-944d-d22f05c39fea")
-		(property "Netclass" "RGMII-TX"
-			(at 162.56 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at -33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 166.37 182.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60409b08-d61c-4ed2-a600-37df0999dcd0")
-		(property "Netclass" "RGMII-RX"
-			(at 162.56 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at -33.02 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
 		)
 	)
 	(netclass_flag ""
