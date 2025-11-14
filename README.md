@@ -22,18 +22,19 @@ The PCB design files were prepared in [KiCad](kicad.org/download) 9.x
 * Landing pad for OSM-L type of SoM
 * Realtek 1Gb Ethernet PHY (Realtek [RTL8211FDI-CG](https://openhardware.antmicro.com/components/realtek-rtl8211fdi-cg))
 * ITE [IT6251](https://openhardware.antmicro.com/components/ite-tech-it6251) LVDS-DisplayPort bridge
-* USB-C port with FTDI [FT4232H](https://openhardware.antmicro.com/components/ftdi-chip-ft4232h-56q-reel/) for SoM debug and software integration 
-* USB-C port connected to the OSM-L SoM pads 
+* USB-C port with FTDI [FT4232H](https://openhardware.antmicro.com/components/ftdi-chip-ft4232h-56q-reel/) for SoM debug and software integration
+* USB-C port connected to the OSM-L SoM pads
 * USB-C port connected to the HPM
-* M.2 (key-M) expansion slot connected to the HPM 
+* M.2 (key-M) expansion slot connected to the HPM
 * Slot for removable BIOS memories connected directly to the HPM
-* Optional on-board TPM connector 
+* Optional on-board TPM connector
 
-## Project structure 
+## Project structure
 
 The main directory contains KiCad PCB project files, a LICENSE and a README.
-The remaining files are stored in the following directories: 
+The remaining files are stored in the following directories:
 
+* `doc` - contains board schematic
 * `img` contains graphics for this README
 
 ## Licensing
